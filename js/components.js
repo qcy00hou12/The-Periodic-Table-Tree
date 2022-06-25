@@ -554,6 +554,14 @@ function loadVue() {
 	})
 
 
+	Vue.component('strict-text-input', {
+		props: ['layer', 'data', 'defaultValue'],
+		template: `
+			<input class="instant" :id="'input-' + layer + '-' + data" :value="player[layer][data].toString()" v-on:focus="focused(true)" v-on:blur="focused(false)"
+			v-on:change="player[layer][data] = document.getElementById('input-' + layer + '-' + data).value">
+		`
+	})
+	
 	// Updates the value in player[layer][data]
 	Vue.component('text-input', {
 		props: ['layer', 'data'],
@@ -562,6 +570,14 @@ function loadVue() {
 			v-on:change="player[layer][data] = toValue(document.getElementById('input-' + layer + '-' + data).value, player[layer][data])">
 		`
 	})
+
+	Vue.component('strict-text-input', {
+		props: ['layer', 'data', 'defaultValue'],
+		template: `
+			<input class="instant" :id="'input-' + layer + '-' + data" :value="player[layer][data].toString()" v-on:focus="focused(true)" v-on:blur="focused(false)"
+			v-on:change="player[layer][data] = document.getElementById('input-' + layer + '-' + data).value">
+		`
+	  })
 
 	// Updates the value in player[layer][data][0]
 	Vue.component('slider', {
