@@ -383,7 +383,7 @@ addLayer("p", {
     upgrades: {
         11: {
             title: "Hydrogen's Gassed Up",
-            description: "Hydrogen Gas gain is multiplied to the power of 2.",
+            description: "Hydrogen Gas gain is raised to the power of 2.",
             cost() { if (hasUpgrade('p', 12)) return new Decimal(5)
         else return new Decimal(2)},
             unlocked() { 
@@ -419,7 +419,7 @@ addLayer("p", {
         15: {
             title: "Hydrogen's Powering Up",
             description: "Hydrogen Power boosts Hydrogen Gas.",
-            effectDisplay() { return format(effect2)+"x" },
+            effectDisplay() { return "+" + format(effect2)},
             cost: new Decimal(15),
             unlocked() { 
                 if (hasUpgrade('p', 14)) return true
@@ -498,9 +498,11 @@ addLayer("p", {
             display() {
                 return "Produce Hydrogen Gas on hold."
             },
+            style: {"background-color" : "#0000ff"},
             canClick() {
                return true
             },
+            style: {"color" : "#ededed"},
             effect(){
                 let effect = new Decimal(0.9)
                 effect2 = new Decimal(1)
@@ -526,8 +528,9 @@ addLayer("p", {
                 if (hasUpgrade('p', 15)) effect2 = effect2.add(player.p.HydrogenPower.pow(0.8)) 
                 if (effect2 > 2.99) effect2 = 3
                 if (hasUpgrade('p', 15)) effect = effect.add(effect2)
-                if (hasMilestone('p', 4)) effect = effect.add(player.He.points.add(1).pow(effect3).times(effect4))
-                effect = effect.times(player.He.points.add(1).pow(2))
+                if (hasMilestone('p', 4)) effect = effect.add(effect = effect.times(player.p.points.add(1).pow(0.2)))
+                player.He.points.add(1).pow(effect3).times(effect4)
+                
                 if (player.p.HydrogenGas > prog) player.p.HydroResets = player.p.HydroResets.add(1), player.p.HydrogenPower = player.p.HydrogenPower.times(effectMult2).add(1).add(player.p.points.add(player.p.points).times(player.He.points.add(1).pow(effect3).times(effect4))), player.p.HydrogenGas = player.p.HydrogenGas.times(0)
                 return effect
             },
@@ -547,6 +550,7 @@ addLayer("p", {
             display() {
                 return "Multiply Hydrogen Gas gain on hold."
             },
+            style: {"color" : "#ededed"},
             unlocked() { 
                 if (hasMilestone('He', 3) && hasUpgrade('He', 22) == false) return true
                 else return false},
@@ -644,7 +648,7 @@ addLayer("He", {
     position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
     startData() { return {
         unlocked: true,
-        total: true,
+        total: new Decimal(0),
 		points: new Decimal(0),
         HeliumExpunged: new Decimal(0),
         resets: new Decimal(0),
@@ -656,7 +660,7 @@ addLayer("He", {
        }},
 
     layerShown() {
-        if (hasUpgrade('p', 17)) return true
+        if (hasUpgrade('p', 21)) return true
         if (player.He.total > 0) return true
 else return false},
 
@@ -697,6 +701,9 @@ else return false},
                if (player.He.State > 0) return "On"
                 else return "Off"
             },
+            unlocked() { 
+                if (hasUpgrade('p', 26)) return true
+                else return false},
             canClick() {
                return true},
                effect() { 
@@ -729,6 +736,9 @@ else return false},
                    if (player.He.State < 1) return "On"
                     else return "Off"
                 },
+                unlocked() { 
+                    if (hasUpgrade('p', 26)) return true
+                    else return false},
                 effect() {
                     BalMult = new Decimal(1)
                     if (hasUpgrade('He', 21)) BalMult = BalMult.add((player.He.points).pow(1.1))
@@ -937,15 +947,15 @@ else return false},
         "upgrades",
         "blank",
         ["display-text",
-        function() { if(player.p.Node < 1) return 'You have ' + format(player.He.HeliumExpunged) + 'L Helium Gas Expunged'}],
+        function() { if(hasUpgrade('p', 26) && player.p.Node < 1) return 'You have ' + format(player.He.HeliumExpunged) + 'L Helium Gas Expunged'}],
         ["display-text",
-        function() { if(player.p.Node < 1) return 'You have ' + format(player.He.Inflate) + 'L Helium Gas'}],
+        function() { if(hasUpgrade('p', 26) && player.p.Node < 1) return 'You have ' + format(player.He.Inflate) + 'L Helium Gas'}],
         ["display-image",
-        function() { if (player.He.Inflate > 3) return 'https://i.postimg.cc/tR1vQzt7/d43opezd7zfz-2494814611-1-prev-ui-1.png'
-    if (player.He.Inflate < 4) return 'https://i.postimg.cc/fy4chYD0/balloon-pop-hi-794366064-prev-ui-1.png'}],
+        function() { if(hasUpgrade('p', 26) && player.He.Inflate > 3) return 'https://i.postimg.cc/tR1vQzt7/d43opezd7zfz-2494814611-1-prev-ui-1.png'
+    if (hasUpgrade('p', 26) && player.He.Inflate < 4) return 'https://i.postimg.cc/fy4chYD0/balloon-pop-hi-794366064-prev-ui-1.png'}],
         "clickables",
         "blank",
-        () => (hasUpgrade('p', 26) && player.p.Node < 1) ? "" : ["strict-text-input", "IText"],
+        () => (hasUpgrade('p', 26) && player.p.Node < 1) ? ["strict-text-input", "IText"] : ""
     ],
 
     componentStyles: {
