@@ -447,9 +447,8 @@ addLayer("p", {
         21: {
             style: {"color" : "#ededed"},
             title: "Hydrogen's Hilarity",
-            description: "Unlock Helium. Keep cost.",
-            cost: new Decimal(100),
-            onPurchase() { return player.p.points.add(100)},
+            description: "Unlock Helium.",
+            cost: new Decimal(0),
             unlocked() { 
                 if (hasUpgrade('p', 16)) return true
                 else return false}, 
@@ -727,7 +726,7 @@ else return false},
                 BalMult = new Decimal(1)
                 InRate = new Decimal(1)
                 cap2 = new Decimal(49)
-                cap2 = 49
+                if (hasUpgrade('p', 26)) cap2 = 49
                 player.He.BalDiv = player.He.Inflate
                 player.He.BalDiv1 = player.He.Inflate
                 if (hasUpgrade('He', 16)) player.He.BalDiv = player.He.BalDiv.times(0.3)
@@ -949,12 +948,11 @@ else return false},
         26: {
             style: {"color" : "#ededed"},
             title: "Naw man, come on. Don't leave now!",
-            description: "Unlock Lithium. Keep cost.",
+            description: "Unlock Lithium.",
             currencyDisplayName: "Helium Gas Expunged",
             currencyInternalName: "HeliumExpunged", 
             currencyLocation() { return player.He},
             cost() {return new Decimal(69420)},
-            onPurchase() { return player.He.HeliumExpunged.add(69420)},
             unlocked() { 
             if (hasUpgrade('He', 25)) return true
             else return false},
@@ -992,7 +990,7 @@ else return false},
     if (hasUpgrade('p', 26) && player.He.Inflate < 4) return 'https://i.postimg.cc/fy4chYD0/balloon-pop-hi-794366064-prev-ui-1.png'}],
         "clickables",
         "blank",
-        () => (hasUpgrade('p', 26) && player.p.Node < 1) ? "" : ["strict-text-input", "IText"]
+        () => (hasUpgrade('p', 26)) ? ["strict-text-input", "IText"] : ""
     ],
 
     componentStyles: {
