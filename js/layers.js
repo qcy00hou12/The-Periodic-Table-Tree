@@ -128,7 +128,7 @@ addLayer("A", {
             textStyle: {"color" : "#000000"},
             style: { "background-size": "100% 100%" },
            tooltip: "Decode with Base64 for answer: U3BhbSBjbGljayBvbiBob2xkIGJ1dHRvbiB3ZWlyZG8u",
-           done() {if (hasUpgrade('p', 14)) return player.p.Clic > 100},
+           done() {if (hasUpgrade('p', 14)) return player.p.Clic.gte(101)},
            image() {if (hasAchievement('A', 14)) return "https://i.postimg.cc/0yddvF2j/527535f7-7dc4-43a5-b57a-a75afda3029b-1.png"}
         },
         15: {
@@ -352,12 +352,14 @@ addLayer("p", {
 
     milestones: {
         1: {
+            style: {"color" : "#ededed"},
             requirementDescription: "1 Hydrogen",
             effectDescription: "2x Hydogen Gas.",
             done() { return player.p.points.gte(1) },
             onComplete() {player.E.points = player.E.points.add(1)},
         },
         2: {
+            style: {"color" : "#ededed"},
             requirementDescription: "2 Hydrogen",
             effectDescription: "2x Hydrogen Tank Capacity. Also unlock upgrades.",
             done() { return player.p.points.gte(2) },
@@ -365,6 +367,7 @@ addLayer("p", {
                 if (hasMilestone('p', 1)) return true},
             },
         3: {
+            style: {"color" : "#ededed"},
             requirementDescription: "3 Hydrogen",
             effectDescription: "Buy max Hydrogen.",
             done() { return player.p.points.gte(3) },
@@ -372,6 +375,7 @@ addLayer("p", {
                 if (hasMilestone('p', 2)) return true},
             },
         4: {
+            style: {"color" : "#ededed"},
             requirementDescription: "20 Hydrogen",
             effectDescription: "Hydrogen Gas boosts Hydrogen Gas. (Must have 6 Hydrogen Upgrades.)",
             done() { if(hasUpgrade('p', 16)) return player.p.points.gte(20) },
@@ -382,6 +386,7 @@ addLayer("p", {
 
     upgrades: {
         11: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Gassed Up",
             description: "Hydrogen Gas gain is raised to the power of 2.",
             cost() { if (hasUpgrade('p', 12)) return new Decimal(5)
@@ -391,6 +396,7 @@ addLayer("p", {
                 else return false},
         },
         12: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Based",
             description: "Gain 1 to Hydrogen Gas base",
             cost() { if (hasUpgrade('p', 11)) return new Decimal(5)
@@ -400,6 +406,7 @@ addLayer("p", {
                 else return false},
         },
         13: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Bonding",
             description: "Add 2 more to base of Hydrogen Gas.",
             cost: new Decimal(8),
@@ -409,6 +416,7 @@ addLayer("p", {
                 else return false},
         },
         14: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Expanding",
             description: "Get a 2nd Hydrogen tank.",
             cost: new Decimal(16),
@@ -417,6 +425,7 @@ addLayer("p", {
                 else return false},
         },
         15: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Powering Up",
             description: "Hydrogen Power boosts Hydrogen Gas.",
             effectDisplay() { return "+" + format(effect2)},
@@ -426,6 +435,7 @@ addLayer("p", {
                 else return false},
         },
         16: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Half Lifed",
             description: "Hydrogen upgrades on this row cut Hydrogen cost, but Hydrogen Tank capcity 2x.",
             cost: new Decimal(18),
@@ -435,14 +445,17 @@ addLayer("p", {
                 else return false},      
         },
         21: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Hilarity",
-            description: "Unlock Helium",
+            description: "Unlock Helium. Keep cost.",
             cost: new Decimal(100),
+            onPurchase() { return player.p.points.add(100)},
             unlocked() { 
                 if (hasUpgrade('p', 16)) return true
                 else return false}, 
         },
         22: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Lightness",
             description: "Hydrogen Multiplier falls slower but increase tank capacity by 1 million times",
             cost: new Decimal(400),
@@ -452,39 +465,43 @@ addLayer("p", {
                 else return false}, 
         },
         23: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Embrittled",
             description: "Hydrogen Tank capacity is much lower but so is the Hydrogen Multiplier cap.",
-            cost: new Decimal(20),
+            cost: new Decimal(15),
             onPurchase() { return player.p.HydrogenMult = player.p.HydrogenMult.times(0.1), player.p.HydrogenPower = player.p.HydrogenPower.times(0)},
             unlocked() { 
                 if (hasUpgrade('p', 22)) return true
                 else return false}, 
         },
         24: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Enthalpy Of Combustion",
-            description: "Increase Hydrogen Multiplier cap but Hydrogen Gas gain is divided on an exponent of how large the multiplier is.",
+            description: "Increase Hydrogen Multiplier cap but Hydrogen Gas gain is divided on an exponent of how large the multiplier is. The middle has a sweet spot.",
             currencyDisplayName: "Hydrogen Power",
             currencyInternalName: "HydrogenPower",
             currencyLocation() { return player.p},
-            cost: new Decimal(3),
+            cost: new Decimal(2),
             onPurchase() { return player.p.HydrogenMult = player.p.HydrogenMult.times(0.1), player.p.HydrogenPower = player.p.HydrogenPower.times(0)},
             unlocked() { 
                 if (hasUpgrade('p', 23)) return true
                 else return false}, 
         },
         25: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Detonation",
             description: "Helium hardcap is removed.",
-            cost: new Decimal(20),
+            cost: new Decimal(15),
             onPurchase() { return player.p.HydrogenMult = player.p.HydrogenMult.times(0.1), player.p.HydrogenPower = player.p.HydrogenPower.times(0)},
             unlocked() { 
                 if (hasUpgrade('p', 24)) return true
                 else return false}, 
         },
         26: {
+            style: {"color" : "#ededed"},
             title: "Hydrogen's Tritium",
             description: "Unlock balloons. Remove Hydrogen Multiplier Division. Multiplier also boosts Hydrogen Power. Hydrogen Multiplier falls much slower.",
-            cost: new Decimal(1850),
+            cost: new Decimal(1600),
             unlocked() { 
                 if (hasUpgrade('p', 25)) return true
                 else return false}, 
@@ -526,11 +543,10 @@ addLayer("p", {
                 if (hasMilestone('p', 1)) effect = effect.times(2)
                 if (hasUpgrade('p', 11)) effect = effect.pow(2) 
                 if (hasUpgrade('p', 15)) effect2 = effect2.add(player.p.HydrogenPower.pow(0.8)) 
-                if (effect2 > 2.99) effect2 = 3
+                if (effect2 > 99.99) effect2 = 100
                 if (hasUpgrade('p', 15)) effect = effect.add(effect2)
-                if (hasMilestone('p', 4)) effect = effect.add(effect = effect.times(player.p.points.add(1).pow(0.2)))
-                player.He.points.add(1).pow(effect3).times(effect4)
-                
+                if (hasMilestone('p', 4)) effect = effect.add(effect.times(player.p.points.add(1).pow(0.2)))
+                effect = effect.times(player.He.points.pow(effect3).times(effect4).add(1))
                 if (player.p.HydrogenGas > prog) player.p.HydroResets = player.p.HydroResets.add(1), player.p.HydrogenPower = player.p.HydrogenPower.times(effectMult2).add(1).add(player.p.points.add(player.p.points).times(player.He.points.add(1).pow(effect3).times(effect4))), player.p.HydrogenGas = player.p.HydrogenGas.times(0)
                 return effect
             },
@@ -575,7 +591,7 @@ addLayer("p", {
                 if (hasUpgrade('p', 24)) Equa = 2
                 if (hasMilestone('He', 3)) Equa = 0.1
                 if (hasMilestone('He', 4)) Equa = 0
-                if (hasUpgrade('p', 24)) Equa = 2
+                if (hasUpgrade('He', 16)) Equa = 0
                 if (player.p.HydrogenMult > Equa) player.p.HydrogenMult = player.p.HydrogenMult.add(lightfall)
                 if (player.p.HydrogenMult < Equa) player.p.HydrogenMult = player.p.HydrogenMult.add(-lightfall)
                 return effectM},
@@ -587,6 +603,7 @@ addLayer("p", {
 
     infoboxes: {
         lore: {
+            titleStyle: {"color" : "#ededed"},
             title: "Hydrogen",
             body() { return "This is a periodic table tree and it all starts with hydrogen because of its- well, its atomic properties technically. Anyway, start producing some hydrogen gas so we can convert it into energy or something." },
         },
@@ -710,6 +727,7 @@ else return false},
                 BalMult = new Decimal(1)
                 InRate = new Decimal(1)
                 cap2 = new Decimal(49)
+                cap2 = 49
                 player.He.BalDiv = player.He.Inflate
                 player.He.BalDiv1 = player.He.Inflate
                 if (hasUpgrade('He', 16)) player.He.BalDiv = player.He.BalDiv.times(0.3)
@@ -756,12 +774,14 @@ else return false},
 
     milestones: {
         1: {
+            style: {"color" : "#ededed"},
             requirementDescription: "1 Total Helium",
             effectDescription: "Keep 1 Hydrogen milestone per reset.",
             done() { return player.He.total.gte(1)},
             onComplete() {player.E.points = player.E.points.add(1)},
         },
         2: {
+            style: {"color" : "#ededed"},
             requirementDescription: "2 Total Helium",
             effectDescription: "Keep 1 Hydrogen upgrade per reset.",
             done() { return player.He.total.gte(2)},
@@ -769,6 +789,7 @@ else return false},
                 if (hasMilestone('He', 1)) return true},
         },
         3: {
+            style: {"color" : "#ededed"},
             requirementDescription: "7 Total Helium",
             effectDescription: "Unlock a multiplier tank but 10x tank capacity. Hydrogen Multiplier starts at 0.1.",
             done() { return player.He.total.gte(7)},
@@ -776,6 +797,7 @@ else return false},
                 if (hasMilestone('He', 2)) return true},
         },
         4: {
+            style: {"color" : "#ededed"},
             requirementDescription: "20 Helium",
             effectDescription: "Hydrogen Mutiplier now starts at 0.",
             done() { return player.He.points.gte(20)},
@@ -783,6 +805,7 @@ else return false},
                 if (hasMilestone('He', 3)) return true},
         },
         5: {
+            style: {"color" : "#ededed"},
             requirementDescription: `Have Upgrade "Hydrogen's Lightness"`,
             effectDescription: "Helium Mutiplier is now 0, same with Helium.",
             done() { return hasUpgrade('p', 22)},
@@ -791,6 +814,7 @@ else return false},
                 if (hasMilestone('He', 4)) return true},
             },
         6: {
+            style: {"color" : "#ededed"},
             requirementDescription: "500 Helium",
             effectDescription: "Softcap Helium boost to Hydrogen Exponged gain starting at 500 Helium.",
             done() { if (hasUpgrade('He', 21)) return player.He.points.gte(500)},
@@ -801,6 +825,7 @@ else return false},
 
     upgrades: {
         11: {
+            style: {"color" : "#ededed"},
             title: "Knock Knock",
             description: "Unlock Hydrogen button automation. Gain 1 Helium from Jules Janssen.",
             cost() {return new Decimal(5)},
@@ -810,6 +835,7 @@ else return false},
                 else return false},
         },
         12: {
+            style: {"color" : "#ededed"},
             title: "Who's There?",
             description: "Unlock Hydrogen tank automation.",
             cost() {return new Decimal(10)},
@@ -818,6 +844,7 @@ else return false},
                 else return false},
         },
         13: {
+            style: {"color" : "#ededed"},
             title: "Helium Hydride Corrosion!",
             description: "Remove exponent of Helium effect but unlock more Hydrogen upgrades.",
             cost() {return new Decimal(100)},
@@ -827,6 +854,7 @@ else return false},
                 else return false},
         },
         14: {
+            style: {"color" : "#ededed"},
             title: "Natural Gas Extraction. (This is a fart joke).",
             description: "Increase Balloon capcity and Helium Gas Expunged rate.",
             currencyDisplayName: "Helium Gas Expunged",
@@ -838,6 +866,7 @@ else return false},
                 else return false},
         },
         15: {
+            style: {"color" : "#ededed"},
             title: "Feel That Superfluidity.",
             description: "Increase Helium Gas Inflate and Deflate gain.",
             currencyDisplayName: "Helium Gas Expunged",
@@ -849,6 +878,7 @@ else return false},
                 else return false},
         },
         16: {
+            style: {"color" : "#ededed"},
             title: "Haha, That Last Upgrade Only Made Things Harder!",
             description: "Reduce image scaling.",
             currencyDisplayName: "Helium Gas Expunged",
@@ -860,14 +890,16 @@ else return false},
                  else return false},
         },
         21: {
+            style: {"color" : "#ededed"},
             title: `Helium "Leak Detection"`,
             description: "Greatly reduce the Helium requirement exponent. Helium now multiplies Helium expunged gain. Helium Gas no longer has gas constantly decreasing",
-            cost() {return new Decimal(1000)},
+            cost() {return new Decimal(500)},
             unlocked() { 
                     if (hasUpgrade('He', 16)) return true
                     else return false},
         },
         22: {
+            style: {"color" : "#ededed"},
             title: "Aww man, no narcotic properties?",
             description: "Automate multiplier button and resetting Hydrogen resets nothing.",
             currencyDisplayName: "Helium Gas Expunged",
@@ -879,45 +911,50 @@ else return false},
             else return false},
         },
         23: {
+            style: {"color" : "#ededed"},
             title: "Dude, I think I'm getting progressively Higher.",
             description: "Increase Ballon Capacity and reduce image scaling.",
             currencyDisplayName: "Helium Gas Expunged",
             currencyInternalName: "HeliumExpunged", 
             currencyLocation() { return player.He},
-            cost() {return new Decimal(1000000)},
+            cost() {return new Decimal(500000)},
             unlocked() { 
             if (hasUpgrade('He', 22)) return true
             else return false},
         },
         24: {
+            style: {"color" : "#ededed"},
             title: "I'm Floatingggg.",
             description: "Float.",
             currencyDisplayName: "Helium Gas Expunged",
             currencyInternalName: "HeliumExpunged", 
             currencyLocation() { return player.He},
-            cost() {return new Decimal(2500000)},
+            cost() {return new Decimal(500000)},
             unlocked() { 
             if (hasUpgrade('He', 23)) return true
             else return false},
         },
         25: {
+            style: {"color" : "#ededed"},
             title: "Going 1355.633077 miles an hour.",
             description: "Gas Gas Gas.",
             currencyDisplayName: "Helium Gas Expunged",
             currencyInternalName: "HeliumExpunged", 
             currencyLocation() { return player.He},
-            cost() {return new Decimal(3000000)},
+            cost() {return new Decimal(1000000)},
             unlocked() { 
             if (hasUpgrade('He', 24)) return true
             else return false},
         },
         26: {
+            style: {"color" : "#ededed"},
             title: "Naw man, come on. Don't leave now!",
-            description: "Unlock Lithium.",
+            description: "Unlock Lithium. Keep cost.",
             currencyDisplayName: "Helium Gas Expunged",
             currencyInternalName: "HeliumExpunged", 
             currencyLocation() { return player.He},
             cost() {return new Decimal(69420)},
+            onPurchase() { return player.He.HeliumExpunged.add(69420)},
             unlocked() { 
             if (hasUpgrade('He', 25)) return true
             else return false},
@@ -955,7 +992,7 @@ else return false},
     if (hasUpgrade('p', 26) && player.He.Inflate < 4) return 'https://i.postimg.cc/fy4chYD0/balloon-pop-hi-794366064-prev-ui-1.png'}],
         "clickables",
         "blank",
-        () => (hasUpgrade('p', 26) && player.p.Node < 1) ? ["strict-text-input", "IText"] : ""
+        () => (hasUpgrade('p', 26) && player.p.Node < 1) ? "" : ["strict-text-input", "IText"]
     ],
 
     componentStyles: {

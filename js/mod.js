@@ -2,7 +2,7 @@ let modInfo = {
 	name: "The Periodic Table Tree",
 	id: "118",
 	author: "Bilboy",
-	pointsName: "Elements",
+	pointsName: "Element(s)",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
@@ -13,11 +13,13 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "1.0",
+	num: "1.1",
 	name: "The Fresh Basics",
 }
 
-let changelog = `<h1>Changelog:</h1><br>
+let changelog = `<h1>Changelog:</h1><br><br>
+	<h3>v1.1</h3><br>
+		- REBALANCING.<br><br>
 	<h3>v1.0</h3><br>
 		- Added new layers.<br>
 		- Fixed some performance and visual issues.`
