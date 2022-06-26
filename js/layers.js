@@ -1,4 +1,4 @@
-addLayer("E", {
+ addLayer("E", {
     startData() { return {
         unlocked:  false,
 		points: new Decimal(0),
@@ -535,6 +535,7 @@ addLayer("p", {
                 if (hasUpgrade('p', 16)) prog = 3999.99
                 if (hasMilestone('He', 3)) prog = 39999.99
                 if (hasUpgrade('p', 22)) prog = 39999999999.99
+                if (hasUpgrade('p', 23)) prog = 1999999.99
                 if (hasUpgrade('p', 23)) prog = 39999.99
                 if (hasMilestone('p', 1)) effect = effect.times(2)
                 if (hasUpgrade('p', 11)) effect = effect.pow(2) 
@@ -553,7 +554,7 @@ addLayer("p", {
             onHold(){ 
                 player.p.GasTicks = player.p.GasTicks.add(1)
             if (player.p.Node < 1) player.p.HydroGain =  player.p.HydroGain.add(1)
-            player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult + 1))
+            player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)))
             player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)
             },
         },
@@ -571,15 +572,15 @@ addLayer("p", {
             effect() {
                 effectM = new Decimal(0.2)
                 effectMult = new Decimal(0)
-                effectMult = effectMult.add(player.p.HydrogenMult)
+                effectMult = effectMult.add(player.p.HydrogenMult.add(1))
                 effectD = new Decimal(5)
                 lightfall = new Decimal(-0.1)
                 Equa = new Decimal(0)
                 cap = new Decimal(3)
                 if (hasUpgrade('p', 24)) effectD = effectMult
                 if (hasUpgrade('p', 26)) effectD = 5
-                if (effectD > 5) effectMult = 0.1 / effectMult
-                if (effectD < 4) effectMult = 0.1 / effectMult
+                if (effectD > 5) effectMult = new Decimal(0.1).div(effectMult)
+                if (effectD < 4) effectMult = new Decimal(0.1).div(effectMult)
                 if (hasUpgrade('p', 23)) cap = 1.11
                 if (hasUpgrade('p', 24)) cap = 10
                 if (hasUpgrade('p', 22)) lightfall = -0.05 
@@ -651,7 +652,7 @@ if (hasUpgrade('He', 22)) player.p.HydrogenMult = player.p.HydrogenMult.add(temp
 if (hasUpgrade('He', 22) && player.p.HydrogenMult > cap) player.p.HydrogenMult = player.p.HydrogenMult.add(effectM.times(-1))
 if (hasUpgrade('He', 12)) player.p.GasTicks = player.p.GasTicks.add(1),
 player.p.HydroGain =  player.p.HydroGain.add(1),
-player.p.HydrogenGas = player.p.HydrogenGas.add(temp['p'].clickables[11].effect).times(effectMult + 1),
+player.p.HydrogenGas = player.p.HydrogenGas.add(temp['p'].clickables[11].effect).times(effectMult.add(1)),
 player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)},
 })
 
