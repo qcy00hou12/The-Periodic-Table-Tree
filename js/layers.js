@@ -305,7 +305,7 @@ addLayer("p", {
                 if (hasUpgrade('p', 16)) prog1 = 1999.99
                 if (hasMilestone('He', 3)) prog1 = 19999.99
                 if (hasUpgrade('p', 22)) prog1 = 19999999999.99
-                if (hasUpgrade('p', 23)) prog1 = 7999999.99
+                if (hasUpgrade('p', 23)) prog1 = 999999.99
                 if (hasUpgrade('He', 22)) return 1
                 return player.p.HydrogenGas / prog1},
             display() {return "Hydrogen Tank"},     
@@ -323,7 +323,7 @@ addLayer("p", {
                 if (hasUpgrade('p', 16)) prog2 = 1999.99
                 if (hasMilestone('He', 3)) prog2 = 19999.99
                 if (hasUpgrade('p', 22)) prog2 = 19999999999.99
-                if (hasUpgrade('p', 23)) prog2 = 7999999.99
+                if (hasUpgrade('p', 23)) prog2 = 999999.99
                 if (hasUpgrade('He', 22)) return 1
                 if ( player.p.HydrogenGas > prog2) P2 = player.p.HydrogenGas.add(-prog2) / prog2
             return P2 },
@@ -535,7 +535,7 @@ addLayer("p", {
                 if (hasUpgrade('p', 16)) prog = 3999.99
                 if (hasMilestone('He', 3)) prog = 39999.99
                 if (hasUpgrade('p', 22)) prog = 39999999999.99
-                if (hasUpgrade('p', 23)) prog = 16340999.99
+                if (hasUpgrade('p', 23)) prog = 1999999.99
                 if (hasMilestone('p', 1)) effect = effect.times(2)
                 if (hasUpgrade('p', 11)) effect = effect.pow(2) 
                 if (hasUpgrade('p', 15)) effect2 = effect2.add(player.p.HydrogenPower.pow(0.8)) 
