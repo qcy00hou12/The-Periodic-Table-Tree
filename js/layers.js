@@ -135,9 +135,9 @@ addLayer("A", {
             name: '"Shut Up Bitch"',
             textStyle: {"color" : "#000000"},
             style: { "background-size": "100% 100%" },
-            goalTooltip: "Spend over 10k ticks with extra text on.",
+            goalTooltip: "Spend over 100 ticks with extra text on.",
            doneTooltip: "Unlocks button to shut off some text.",
-           done() { return player.p.GasTicks.gte(10001)},
+           done() { return player.p.GasTicks.gte(101)},
            image() {if (hasAchievement('A', 15)) return "https://i.postimg.cc/gkJ2mBys/84ae5647-37db-4c73-a6c3-7e50154d00bf-1.png"}
         },
         21: {
@@ -477,10 +477,7 @@ addLayer("p", {
             style: {"color" : "#ededed"},
             title: "Hydrogen's Enthalpy Of Combustion",
             description: "Increase Hydrogen Multiplier cap but Hydrogen Gas gain is divided on an exponent of how large the multiplier is. The middle has a sweet spot.",
-            currencyDisplayName: "Hydrogen Power",
-            currencyInternalName: "HydrogenPower",
-            currencyLocation() { return player.p},
-            cost: new Decimal(2),
+            cost: new Decimal(1),
             onPurchase() { return player.p.HydrogenMult = player.p.HydrogenMult.times(0.1), player.p.HydrogenPower = player.p.HydrogenPower.times(0)},
             unlocked() { 
                 if (hasUpgrade('p', 23)) return true
@@ -797,9 +794,9 @@ else return false},
         },
         4: {
             style: {"color" : "#ededed"},
-            requirementDescription: "20 Helium",
+            requirementDescription: "10 Helium",
             effectDescription: "Hydrogen Mutiplier now starts at 0.",
-            done() { return player.He.points.gte(20)},
+            done() { return player.He.points.gte(10)},
             unlocked() {
                 if (hasMilestone('He', 3)) return true},
         },
