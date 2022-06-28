@@ -13,11 +13,14 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "1.1",
+	num: "1.2",
 	name: "The Fresh Basics",
 }
 
 let changelog = `<h1>Changelog:</h1><br><br>
+	<h3>v1.2</h3><br>
+		- MEGA REBALANCING. <br>
+		- Added new layer. <br><br>
 	<h3>v1.1</h3><br>
 		- REBALANCING.<br><br>
 	<h3>v1.0</h3><br>
@@ -59,7 +62,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return hasUpgrade('He', 26)
+	
 }
 
 
