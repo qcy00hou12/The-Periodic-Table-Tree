@@ -1953,6 +1953,9 @@ addLayer("Li", {
     },
 
     automate() {
+        if (getBuyableAmount('Li', 15) == 25) player.Li.StoreSped = player.Li.Sped
+        if (getBuyableAmount('Li', 16) == 2) player.Li.Punlock = player.Li.Punlock.times(0).add(1)
+        if (hasMilestone('Li', 5)) player.Li.noKey = player.Li.noKey.times(0).add(1)
         if (getBuyableAmount('Li', 11) == 50 && getBuyableAmount('Li', 12) == 25 && getBuyableAmount('Li', 13) == 100 && getBuyableAmount('Li', 14) == 20 && getBuyableAmount('Li', 15) == 25 && getBuyableAmount('Li', 16) == 2) player.Li.All = player.Li.All.add(1)
         else player.Li.All = player.Li.All.times(0)
         if (player.Li.Deg < 280) player.Li.State = 1
