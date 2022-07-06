@@ -86,16 +86,16 @@ addLayer("Per", {
         ["display-text",
             function () { return 'Save files:' }],
         ["display-text",
-            function () { return 'Start of Hydrogen: https://www.udrop.com/file/6Mem/Start_of_Hydrogen.txt' }],
+            function () { return 'Start of Hydrogen: https://www.mediafire.com/file/zvllklnqa3eri29/Start_of_Hydrogen.txt/file' }],
         "blank",
         ["display-text",
-            function () { return 'Start of Helium: https://www.udrop.com/file/6Meu/Start_of_Helium.txt' }],
+            function () { return 'Start of Helium: https://www.mediafire.com/file/4iwro9j1n7o4naa/Start_of_Helium.txt/file' }],
         "blank",
         ["display-text",
-            function () { return 'Start of Lithium: https://www.udrop.com/file/6MGQ/Start_of_Lithium.txt' }],
+            function () { return 'Start of Lithium: https://www.mediafire.com/file/c5i57pirt5wbogx/Start_of_Lithium.txt/file' }],
         "blank",
         ["display-text",
-            function () { return 'Start of Beryllium: https://www.udrop.com/file/6P0X/Start_of_Beryllium.txt' }],
+            function () { return 'Start of Beryllium: https://www.mediafire.com/file/skf3ypdxt0wu9l4/Start_of_Beryllium.txt/file' }],
         "blank",
         ["display-text",
             function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer.' }],
@@ -2027,3 +2027,4 @@ addLayer("Li", {
         if (player.Li.State3 < 10 && temp.Li.Inv >= 1 && player.tab == this.layer) player.Li.State3 = player.Li.State3.add(1)
     },
 })
+
