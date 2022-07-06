@@ -1,1 +1,2022 @@
-var _0x9fb5=["\x45","\x45\x78","\x73\x69\x64\x65","\x23\x46\x46\x46\x46\x46\x46","\x41","\x4E\x6F\x64\x65","\x70","\x4F\x4E","\x4F\x46\x46","\x61\x64\x64","\x74\x69\x6D\x65\x73","\x43\x68","\x23\x30\x30\x30\x30\x30\x30","\x23\x66\x66\x66\x66\x66\x66","\x49\x54\x65\x78\x74","\x48\x65","\x48\x65\x69\x73\x65\x6E\x62\x75\x72\x67","\x49\x20\x6E\x65\x65\x64\x20\x61\x20\x6E\x65\x77\x20\x64\x75\x73\x74\x20\x66\x69\x6C\x74\x65\x72\x20\x66\x6F\x72\x20\x6D\x79\x20\x48\x6F\x6F\x76\x65\x72\x20\x4D\x61\x78\x20\x45\x78\x74\x72\x61\x63\x74\x20\x50\x72\x65\x73\x73\x75\x72\x65\x20\x50\x72\x6F\x20\x6D\x6F\x64\x65\x6C\x20\x36\x30","\x4C\x61\x62\x20\x4E\x6F\x74\x65\x73","\x4E\x6F\x74\x65\x20\x23\x31","\x20\x2D\x6A\x75\x73\x74\x20\x74\x68\x65\x20\x6F\x74\x68\x65\x72\x20\x64\x61\x79\x2C\x20\x68\x65\x20\x74\x6F\x6C\x64\x20\x6D\x65\x20\x69\x74\x20\x77\x61\x73\x20\x68\x69\x73\x20\x62\x69\x72\x74\x68\x64\x61\x79\x2E\x20\x49\x20\x6D\x65\x61\x6E\x2C\x20\x77\x68\x6F\x20\x63\x61\x72\x65\x73\x3F\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x27\x73\x20\x67\x6F\x69\x6E\x67\x20\x74\x6F\x20\x67\x65\x74\x20\x68\x69\x6D\x20\x61\x6E\x79\x74\x68\x69\x6E\x67\x20\x61\x6E\x79\x77\x61\x79\x2E\x20\x4E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x2E\x20\x54\x68\x65\x20\x64\x75\x64\x65\x73\x20\x61\x20\x77\x65\x69\x72\x64\x6F\x2C\x20\x79\x6F\x75\x20\x73\x68\x6F\x75\x6C\x64\x20\x73\x74\x61\x79\x20\x61\x77\x61\x79\x20\x66\x72\x6F\x6D\x20\x27\x65\x6D\x2E\x20\x41\x6E\x79\x77\x61\x79\x20\x67\x6F\x74\x74\x61\x20\x67\x6F\x2C\x20\x67\x6F\x74\x20\x61\x20\x63\x6C\x69\x65\x6E\x74\x20\x77\x68\x6F\x27\x73\x20\x70\x72\x6F\x62\x61\x62\x6C\x79\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x61\x74\x20\x4C\x69\x74\x68\x69\x75\x6D\x21","\x4E\x6F\x74\x65\x20\x23\x32","\x43\x6F\x63\x65\x6E\x74\x72\x61\x74\x65\x20\x74\x68\x65\x20\x70\x65\x72\x63\x69\x70\x69\x74\x61\x74\x65\x2E\x20\x46\x69\x6C\x74\x65\x72\x20\x6F\x75\x74\x20\x74\x6F\x20\x70\x75\x72\x69\x66\x79\x2E\x20\x42\x61\x64\x61\x20\x62\x69\x6E\x67\x20\x62\x61\x64\x61\x20\x62\x6F\x6F\x6D\x2C\x20\x74\x68\x65\x72\x65\x20\x79\x6F\x75\x20\x67\x6F\x2E\x20\x41\x6C\x74\x68\x6F\x75\x67\x68\x2C\x20\x49\x20\x63\x61\x6E\x27\x74\x20\x6B\x65\x65\x70\x20\x64\x6F\x69\x6E\x67\x20\x74\x68\x69\x73\x20\x69\x66\x20\x49\x20\x64\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x61\x20\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x73\x75\x70\x70\x6C\x79\x2E\x20\x47\x6F\x6F\x64\x20\x74\x68\x69\x2D","\x69\x6E\x66\x6F\x62\x6F\x78","\x6C\x6F\x72\x65","\x6C\x6F\x72\x65\x31","\x50\x65\x72","","\x57\x65\x6C\x63\x6F\x6D\x65\x20\x54\x6F\x20\x54\x68\x65\x20\x50\x65\x72\x69\x6F\x64\x69\x63\x20\x54\x61\x62\x6C\x65\x20\x54\x72\x65\x65","\x48\x65\x72\x65\x20\x79\x6F\x75\x20\x77\x69\x6C\x6C\x20\x61\x64\x76\x61\x6E\x63\x65\x20\x66\x72\x6F\x6D\x20\x65\x6C\x65\x6D\x65\x6E\x74\x20\x74\x6F\x20\x65\x6C\x65\x6D\x65\x6E\x74\x20\x75\x6E\x74\x69\x6C\x20\x49\x20\x64\x65\x63\x69\x64\x65\x20\x74\x6F\x20\x73\x74\x6F\x70\x2E\x20\x54\x68\x61\x74\x27\x73\x20\x61\x62\x6F\x75\x74\x20\x69\x74\x2C\x20\x6E\x6F\x74\x20\x6F\x6E\x65\x20\x66\x6F\x72\x20\x6C\x6F\x72\x65\x20\x49\x20\x67\x75\x65\x73\x73\x2E\x2E\x2E\x20\x53\x61\x76\x65\x20\x66\x69\x6C\x65\x73\x20\x69\x66\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x73\x6B\x69\x70\x20\x61\x20\x73\x65\x63\x74\x69\x6F\x6E\x20\x6F\x72\x20\x79\x6F\x75\x72\x20\x73\x61\x76\x65\x66\x69\x6C\x65\x20\x67\x65\x74\x73\x20\x63\x6F\x72\x72\x75\x70\x74\x65\x64\x2E","\x64\x69\x73\x70\x6C\x61\x79\x2D\x74\x65\x78\x74","\x41\x20\x66\x75\x6E\x20\x6C\x69\x74\x74\x6C\x65\x20\x70\x65\x72\x69\x6F\x64\x69\x63\x20\x74\x61\x62\x6C\x65\x3A","\x62\x6C\x61\x6E\x6B","\x64\x69\x73\x70\x6C\x61\x79\x2D\x69\x6D\x61\x67\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x35\x39\x44\x58\x4B\x48\x6E\x6E\x2F\x36\x63\x65\x36\x32\x31\x63\x31\x2D\x33\x37\x64\x37\x2D\x34\x61\x61\x31\x2D\x38\x30\x36\x38\x2D\x31\x38\x61\x38\x35\x36\x64\x36\x63\x35\x32\x33\x2E\x6A\x70\x67","\x53\x61\x76\x65\x20\x66\x69\x6C\x65\x73\x3A","\x53\x74\x61\x72\x74\x20\x6F\x66\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x3A\x20\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x75\x64\x72\x6F\x70\x2E\x63\x6F\x6D\x2F\x66\x69\x6C\x65\x2F\x36\x4D\x65\x6D\x2F\x53\x74\x61\x72\x74\x5F\x6F\x66\x5F\x48\x79\x64\x72\x6F\x67\x65\x6E\x2E\x74\x78\x74","\x53\x74\x61\x72\x74\x20\x6F\x66\x20\x48\x65\x6C\x69\x75\x6D\x3A\x20\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x75\x64\x72\x6F\x70\x2E\x63\x6F\x6D\x2F\x66\x69\x6C\x65\x2F\x36\x4D\x65\x75\x2F\x53\x74\x61\x72\x74\x5F\x6F\x66\x5F\x48\x65\x6C\x69\x75\x6D\x2E\x74\x78\x74","\x53\x74\x61\x72\x74\x20\x6F\x66\x20\x4C\x69\x74\x68\x69\x75\x6D\x3A\x20\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x75\x64\x72\x6F\x70\x2E\x63\x6F\x6D\x2F\x66\x69\x6C\x65\x2F\x36\x4D\x47\x51\x2F\x53\x74\x61\x72\x74\x5F\x6F\x66\x5F\x4C\x69\x74\x68\x69\x75\x6D\x2E\x74\x78\x74","\x43\x72\x65\x64\x69\x74\x73\x3A\x20\x3C\x64\x69\x76\x3E\x20\x45\x73\x63\x61\x70\x65\x65\x2C\x20\x3C\x64\x69\x76\x3E\x20\x73\x6D\x69\x6C\x65\x79\x2C\x20\x3C\x64\x69\x76\x3E\x20\x4A\x61\x6B\x75\x62\x2C\x20\x3C\x64\x69\x76\x3E\x20\x67\uD83C\uDD8E\x70\x6C\x65\x73\x32\x2E","\x23\x66\x66\x30\x30\x30\x30","\x41\x63\x68\x69\x65\x76\x65\x6D\x65\x6E\x74\x73","\x59\x6F\x75\x72\x20\x46\x69\x72\x73\x74\x20\x45\x6C\x65\x6D\x65\x6E\x74\x21","\x4E\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x4F\x20\x57\x41\x41\x41\x41\x41\x41\x41\x41\x59\x21\x3F\x21\x40\x40\x23\x40\x23","\x31\x30\x30\x25\x20\x31\x30\x30\x25","\x67\x74\x65","\x70\x6F\x69\x6E\x74\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x4D\x70\x62\x5A\x70\x43\x48\x66\x2F\x32\x33\x32\x35\x33\x39\x62\x34\x2D\x64\x39\x64\x64\x2D\x34\x34\x38\x31\x2D\x38\x62\x35\x63\x2D\x38\x65\x37\x30\x63\x31\x31\x66\x33\x65\x35\x32\x2D\x70\x72\x65\x76\x2D\x75\x69\x2D\x31\x2E\x70\x6E\x67","\x47\x61\x73\x73\x65\x64\x20\x55\x70","\x50\x72\x6F\x64\x75\x63\x65\x20\x31\x30\x6B\x20\x54\x6F\x74\x61\x6C\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x2E","\x47\x61\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x57\x62\x53\x54\x52\x4D\x48\x30\x2F\x31\x38\x33\x64\x65\x66\x37\x30\x2D\x35\x65\x65\x35\x2D\x34\x38\x33\x64\x2D\x61\x63\x65\x66\x2D\x38\x37\x62\x62\x38\x30\x38\x37\x37\x37\x63\x66\x2D\x70\x72\x65\x76\x2D\x75\x69\x2D\x31\x2E\x70\x6E\x67","\x22\x47\x6F\x74\x74\x61\x20\x45\x6D\x70\x74\x79\x20\x54\x68\x65\x20\x54\x61\x6E\x6B\x22","\x48\x6F\x6C\x64\x20\x6F\x76\x65\x72\x20\x31\x6B\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x47\x61\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x76\x48\x56\x70\x51\x35\x54\x34\x2F\x70\x69\x78\x69\x6C\x2D\x66\x72\x61\x6D\x65\x2D\x30\x2E\x70\x6E\x67","\x53\x6F\x6E\x20\x6F\x66\x20\x61\x20\x47\x4C\x49\x54\x43\x48","\x44\x65\x63\x6F\x64\x65\x20\x77\x69\x74\x68\x20\x42\x61\x73\x65\x36\x34\x20\x66\x6F\x72\x20\x61\x6E\x73\x77\x65\x72\x3A\x20\x55\x33\x42\x68\x62\x53\x42\x6A\x62\x47\x6C\x6A\x61\x79\x42\x76\x62\x69\x42\x6F\x62\x32\x78\x6B\x49\x47\x4A\x31\x64\x48\x52\x76\x62\x69\x42\x33\x5A\x57\x6C\x79\x5A\x47\x38\x75","\x43\x6C\x69\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x30\x79\x64\x64\x76\x46\x32\x6A\x2F\x35\x32\x37\x35\x33\x35\x66\x37\x2D\x37\x64\x63\x34\x2D\x34\x33\x61\x35\x2D\x62\x35\x37\x61\x2D\x61\x37\x35\x61\x66\x64\x61\x33\x30\x32\x39\x62\x2D\x31\x2E\x70\x6E\x67","\x22\x53\x68\x75\x74\x20\x55\x70\x20\x42\x69\x74\x63\x68\x22","\x53\x70\x65\x6E\x64\x20\x6F\x76\x65\x72\x20\x32\x30\x31\x20\x74\x69\x63\x6B\x73\x20\x77\x69\x74\x68\x20\x65\x78\x74\x72\x61\x20\x74\x65\x78\x74\x20\x6F\x6E\x2E","\x55\x6E\x6C\x6F\x63\x6B\x73\x20\x62\x75\x74\x74\x6F\x6E\x20\x74\x6F\x20\x73\x68\x75\x74\x20\x6F\x66\x66\x20\x73\x6F\x6D\x65\x20\x74\x65\x78\x74\x2E","\x47\x61\x73\x54\x69\x63\x6B\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x67\x6B\x4A\x32\x6D\x42\x79\x73\x2F\x38\x34\x61\x65\x35\x36\x34\x37\x2D\x33\x37\x64\x62\x2D\x34\x63\x37\x33\x2D\x61\x36\x63\x33\x2D\x37\x65\x35\x30\x31\x35\x34\x64\x30\x30\x62\x66\x2D\x31\x2E\x70\x6E\x67","\x4E\x6F\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x3F","\x47\x65\x74\x20\x74\x68\x65\x20\x73\x65\x63\x6F\x6E\x64\x20\x65\x6C\x65\x6D\x65\x6E\x74\x2E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x62\x76\x6E\x72\x4A\x79\x4B\x31\x2F\x66\x36\x37\x65\x65\x35\x34\x64\x2D\x66\x61\x34\x66\x2D\x34\x39\x37\x39\x2D\x62\x63\x36\x30\x2D\x37\x39\x30\x37\x30\x33\x34\x35\x66\x36\x32\x38\x2D\x32\x2E\x70\x6E\x67","\x22\x43\x61\x6E\x27\x74\x20\x45\x6D\x70\x74\x79\x20\x54\x68\x65\x20\x54\x61\x6E\x6B\x22","\x42\x72\x65\x61\x6B\x20\x74\x68\x65\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x6D\x61\x78\x20\x63\x61\x70\x61\x63\x69\x74\x79\x2E","\x65\x66\x66\x65\x63\x74","\x63\x6C\x69\x63\x6B\x61\x62\x6C\x65\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x37\x36\x38\x4C\x44\x30\x36\x67\x2F\x62\x33\x61\x35\x31\x65\x34\x62\x2D\x63\x35\x62\x31\x2D\x34\x30\x31\x33\x2D\x39\x62\x34\x61\x2D\x38\x31\x61\x35\x39\x34\x65\x62\x33\x65\x33\x66\x2E\x70\x6E\x67","\x22\x54\x68\x65\x20\x50\x65\x72\x66\x65\x63\x74\x20\x43\x6F\x6E\x63\x65\x6E\x74\x72\x61\x74\x69\x6F\x6E\x22","\x46\x69\x6C\x6C\x20\x74\x68\x65\x20\x62\x61\x72\x20\x33\x20\x74\x69\x6D\x65\x73\x20\x77\x69\x74\x68\x6F\x75\x74\x20\x74\x68\x65\x20\x6D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x64\x72\x6F\x70\x70\x69\x6E\x67\x20\x74\x6F\x20\x30\x2E\x32\x2E","\x48\x79\x64\x72\x6F\x52\x65\x73\x65\x74\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x51\x74\x71\x54\x38\x39\x58\x79\x2F\x64\x61\x33\x63\x66\x34\x33\x36\x2D\x39\x66\x34\x32\x2D\x34\x61\x63\x62\x2D\x62\x62\x30\x38\x2D\x33\x65\x66\x64\x38\x61\x62\x65\x61\x65\x62\x65\x2D\x32\x2E\x70\x6E\x67","\x4E\x45\x45\x54","\x46\x69\x6C\x6C\x20\x75\x70\x20\x74\x68\x65\x20\x62\x61\x72\x20\x61\x72\x6F\x75\x6E\x64\x20\x35\x20\x74\x69\x6D\x65\x73\x20\x77\x69\x74\x68\x20\x61\x20\x31\x2E\x31\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x2E\x20\x4E\x6F\x77\x20\x67\x6F\x20\x74\x6F\x20\x74\x68\x65\x20\x67\x79\x6D\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x50\x6F\x77\x65\x72","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x6E\x56\x51\x33\x66\x6D\x50\x68\x2F\x63\x66\x66\x64\x39\x62\x35\x64\x35\x31\x36\x34\x32\x64\x35\x38\x31\x31\x38\x64\x65\x31\x61\x39\x34\x38\x63\x65\x66\x64\x35\x33\x2D\x32\x39\x33\x34\x36\x31\x31\x38\x39\x36\x2D\x70\x72\x65\x76\x2D\x75\x69\x2D\x31\x2E\x70\x6E\x67","\x53\x75\x66\x66\x65\x72","\x49\x74\x27\x73\x20\x41\x6C\x77\x61\x79\x73\x20\x42\x65\x65\x6E\x20\x4F\x6E\x65\x20\x53\x74\x65\x70\x20\x46\x6F\x72\x77\x61\x72\x64\x20\x41\x6E\x64\x20\x54\x77\x6F\x20\x53\x74\x65\x70\x73\x20\x42\x61\x63\x6B\x2E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x4B\x6A\x67\x73\x6E\x66\x48\x6A\x2F\x68\x71\x64\x65\x66\x61\x75\x6C\x74\x2D\x36\x39\x32\x37\x34\x34\x39\x37\x37\x2D\x70\x72\x65\x76\x2D\x75\x69\x2D\x31\x2E\x70\x6E\x67","\x41\x76\x6F\x67\x61\x64\x72\x6F\x27\x73\x20\x43\x6F\x6E\x73\x74\x61\x6E\x74","\x47\x65\x74\x20\x36\x2E\x30\x32\x32\x65\x32\x33\x2E\x20\x4E\x6F\x74\x68\x69\x6E\x67\x20\x65\x6C\x73\x65\x20\x69\x73\x20\x69\x6D\x70\x6F\x72\x74\x61\x6E\x74\x2E\x20\x4E\x6F\x70\x65\x2E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x66\x52\x54\x78\x74\x4E\x52\x4C\x2F\x31\x32\x30\x30\x70\x78\x2D\x54\x61\x6C\x70\x61\x2D\x65\x75\x72\x6F\x70\x61\x65\x61\x2D\x4D\x48\x4E\x54\x2D\x6F\x6E\x2D\x74\x72\x61\x6E\x73\x70\x61\x72\x65\x6E\x74\x2D\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x32\x35\x34\x39\x30\x34\x34\x33\x35\x37\x2D\x31\x2D\x70\x72\x65\x76\x2D\x75\x69\x2D\x31\x2E\x70\x6E\x67","\x48\x69\x67\x68\x2D\x50\x69\x74\x63\x68\x65\x64\x20\x46\x72\x65\x71\x75\x65\x6E\x63\x79","\x43\x6C\x69\x63\x6B\x20\x44\x65\x66\x6C\x61\x74\x65\x20\x61\x74\x20\x34\x39\x37\x4C\x20\x6F\x66\x20\x48\x65\x6C\x69\x75\x6D\x20\x47\x61\x73\x20\x6F\x72\x20\x68\x69\x67\x68\x65\x72\x2E","\x53\x74\x61\x74\x65","\x49\x6E\x66\x6C\x61\x74\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x43\x35\x42\x51\x54\x37\x4E\x67\x2F\x73\x6C\x61\x7A\x7A\x65\x72\x2D\x65\x64\x69\x74\x2D\x69\x6D\x61\x67\x65\x2E\x70\x6E\x67","\x53\x43\x52\x4F\x4C\x4C\x5F\x57\x48\x45\x45\x4C","\x54\x65\x64\x69\x6F\x75\x73\x20\x77\x6F\x72\x6B\x20\x65\x68\x3F\x2E","\x48\x65\x6C\x69\x75\x6D\x45\x78\x70\x75\x6E\x67\x65\x64","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x38\x7A\x51\x32\x4E\x68\x76\x42\x2F\x73\x74\x65\x65\x6C\x2D\x6D\x61\x67\x73\x70\x65\x65\x64\x2D\x65\x6C\x65\x63\x74\x72\x6F\x6D\x61\x67\x6E\x65\x74\x69\x63\x2D\x73\x63\x72\x6F\x6C\x6C\x2D\x77\x68\x65\x65\x6C\x2D\x74\x68\x65\x72\x65\x73\x2D\x6E\x6F\x74\x68\x69\x6E\x67\x2D\x6C\x69\x6B\x65\x2D\x69\x74\x2D\x32\x32\x36\x34\x39\x35\x35\x38\x32\x32\x2D\x70\x72\x65\x76\x2D\x75\x69\x2D\x32\x2E\x70\x6E\x67","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x41\x75\x74\x6F\x6D\x61\x74\x6F\x6E","\x47\x65\x74\x20\x66\x75\x6C\x6C\x20\x61\x75\x74\x6F\x6D\x61\x74\x69\x6F\x6E\x20\x6F\x66\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x6C\x61\x79\x65\x72\x2E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x30\x51\x35\x70\x52\x48\x5A\x4D\x2F\x63\x61\x72\x74\x6F\x6F\x6E\x2D\x72\x6F\x62\x6F\x74\x2D\x66\x72\x65\x65\x2D\x32\x31\x38\x35\x39\x31\x39\x32\x31\x32\x2D\x70\x72\x65\x76\x2D\x75\x69\x2E\x70\x6E\x67","\x77\x69\x64\x65\x70\x65\x65\x70\x6F\x48\x61\x70\x70\x79","\x31\x31\x30\x25\x20\x31\x30\x30\x25","\x3A\x77\x69\x64\x65\x70\x65\x65\x70\x6F\x48\x61\x70\x70\x79\x3A","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x4D\x48\x77\x46\x6E\x33\x67\x6D\x2F\x33\x62\x67\x72\x76\x68\x6A\x6B\x62\x6B\x74\x32\x31\x2D\x31\x32\x37\x32\x35\x37\x34\x35\x34\x32\x2D\x31\x2D\x70\x72\x65\x76\x2D\x75\x69\x2E\x70\x6E\x67","\x41\x68\x20\x73\x68\x69\x74\x2C\x20\x68\x65\x72\x65\x20\x77\x65\x20\x67\x6F\x20\x61\x67\x61\x69\x6E\x2E","\x55\x6E\x6C\x6F\x63\x6B\x20\x74\x68\x65\x20\x74\x68\x69\x72\x64\x20\x65\x6C\x65\x6D\x65\x6E\x74\x2E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x73\x58\x31\x51\x38\x4E\x43\x44\x2F\x32\x79\x78\x70\x76\x38\x2E\x70\x6E\x67","\x54\x68\x61\x63\x6B\x65\x72\x20\x50\x61\x73\x73\x20\x6C\x69\x74\x68\x69\x75\x6D\x20\x6D\x69\x6E\x65\x2E","\x4D\x6F\x6E\x65\x79\x20\x74\x61\x6C\x6B\x73\x2E","\x72\x65\x73\x65\x74\x73","\x4C\x69","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x74\x67\x68\x39\x74\x51\x46\x63\x2F\x73\x6C\x61\x7A\x7A\x65\x72\x2D\x65\x64\x69\x74\x2D\x69\x6D\x61\x67\x65\x2D\x33\x2E\x70\x6E\x67","\x4D\x69\x6E\x69\x6E\x67\x20\x77\x61\x73\x74\x65\x20\x69\x6E\x74\x6F\x20\x74\x68\x65\x20\x6F\x63\x65\x61\x6E\x2E","\x53\x75\x72\x66\x20\x73\x75\x72\x66\x2C\x20\x73\x75\x72\x66\x20\x73\x75\x72\x66\x20\x63\x72\x61\x7A\x79\x2E","\x52\x75\x6E\x6C\x6F\x63\x6B","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x52\x5A\x37\x59\x67\x4D\x62\x77\x2F\x73\x65\x77\x61\x67\x65\x2D\x69\x6E\x2D\x42\x61\x6E\x67\x6B\x6F\x6B\x2D\x70\x72\x65\x76\x2D\x75\x69\x2E\x70\x6E\x67","\x52\x65\x73\x74\x70\x72\x69\x74\x6F\x72\x79\x20\x64\x61\x6D\x61\x67\x65\x2E","\x42\x6C\x61\x63\x6B\x20\x6C\x75\x6E\x67\x2E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x70\x64\x6E\x4A\x73\x6B\x64\x34\x2F\x62\x6C\x61\x63\x6B\x2D\x6C\x75\x6E\x67\x2D\x6C\x61\x77\x73\x75\x69\x74\x2D\x31\x30\x32\x34\x78\x36\x37\x35\x2D\x70\x72\x65\x76\x2D\x75\x69\x2E\x70\x6E\x67","\x44\x6F\x63\x74\x6F\x72\x20\x57\x68\x6F\x3F\x3F\x3F","\x4D\x61\x79\x62\x65\x20\x79\x6F\x75\x27\x6C\x6C\x20\x66\x69\x78\x20\x79\x6F\x75\x72\x20\x70\x61\x73\x74\x20\x6D\x69\x73\x74\x61\x6B\x65\x73\x2E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x76\x6D\x63\x62\x6B\x78\x52\x70\x2F\x73\x6C\x61\x7A\x7A\x65\x72\x2D\x65\x64\x69\x74\x2D\x69\x6D\x61\x67\x65\x2E\x70\x6E\x67","\x47\x65\x74\x20\x41\x63\x68\x69\x65\x76\x65\x6D\x65\x6E\x74\x20\x34","\x49\x66\x20\x79\x6F\x75\x20\x63\x61\x6E\x27\x74\x20\x67\x65\x74\x20\x69\x74\x20\x6E\x6F\x72\x6D\x61\x6C\x6C\x79\x20\x61\x6E\x79\x6D\x6F\x72\x65\x20\x6F\x72\x20\x64\x6F\x6E\x27\x74\x20\x75\x6E\x64\x65\x72\x73\x74\x61\x6E\x64\x20\x68\x6F\x77\x20\x74\x6F\x20\x67\x65\x74\x20\x69\x74\x2E","\x23\x30\x30\x30\x30\x66\x66","\x23\x65\x64\x65\x64\x65\x64","\x4E\x6F\x20\x77\x69\x64\x65\x6E\x65\x73\x73\x20\x66\x6F\x72\x20\x75\x2E","\x49\x66\x20\x79\x6F\x75\x20\x63\x61\x6E\x27\x74\x20\x70\x72\x65\x73\x73\x20\x74\x68\x65\x20\x49\x6E\x66\x6C\x61\x74\x65\x20\x61\x6E\x64\x20\x44\x65\x66\x6C\x61\x74\x65\x64\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x72\x61\x70\x69\x64\x20\x77\x69\x64\x65\x6E\x65\x73\x73\x2C\x20\x70\x72\x65\x73\x73\x20\x74\x68\x69\x73\x20\x62\x75\x74\x74\x6F\x6E\x2E\x20\x43\x6C\x69\x63\x6B\x20\x61\x67\x61\x69\x6E\x20\x69\x66\x20\x79\x6F\x75\x20\x63\x68\x61\x6E\x67\x65\x20\x79\x6F\x75\x72\x20\x6D\x69\x6E\x64\x2E","\x57\x69\x64\x65\x6E\x65\x73\x73\x78","\x50\x61\x72\x74\x69\x63\x6C\x65\x73\x20\x61\x72\x65\x20\x73\x70\x6F\x6F\x6B\x79\x2E","\x49\x66\x20\x79\x6F\x75\x20\x68\x61\x74\x65\x20\x70\x61\x72\x74\x69\x63\x6C\x65\x73\x2C\x20\x70\x72\x65\x73\x73\x20\x74\x68\x69\x73\x20\x62\x75\x74\x74\x6F\x6E\x2E\x20\x43\x6C\x69\x63\x6B\x20\x61\x67\x61\x69\x6E\x20\x69\x66\x20\x79\x6F\x75\x20\x63\x68\x61\x6E\x67\x65\x20\x79\x6F\x75\x72\x20\x6D\x69\x6E\x64\x2E","\x50\x61\x72\x74\x69\x63\x6C\x65\x73\x78","\x59\x6F\x75\x20\x68\x61\x76\x65\x20","\x20\x61\x63\x68\x69\x65\x76\x65\x6D\x65\x6E\x74\x73","\x61\x63\x68\x69\x65\x76\x65\x6D\x65\x6E\x74\x73","\x45\x78\x70\x75\x6C\x72\x61\x74\x65","\x48\x79\x64\x72\x6F\x47\x61\x69\x6E","\x6C\x65\x6E\x67\x74\x68","\x48\x79\x64\x72\x6F\x67\x65\x6E\x4D\x75\x6C\x74","\x48\x79\x64\x72\x6F\x67\x65\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x73\x78\x54\x70\x59\x5A\x30\x37\x2F\x61\x31\x66\x34\x38\x32\x36\x65\x2D\x65\x31\x64\x32\x2D\x34\x30\x61\x33\x2D\x38\x30\x32\x37\x2D\x65\x32\x34\x33\x65\x33\x33\x63\x61\x36\x37\x62\x2D\x50\x68\x6F\x74\x6F\x2D\x52\x6F\x6F\x6D\x2D\x31\x2E\x70\x6E\x67","\x70\x6F\x77","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x50\x6F\x77\x65\x72","\x73\x74\x61\x74\x69\x63","\x75\x70\x67\x72\x61\x64\x65\x73","\x68","\x48\x3A\x20\x52\x65\x73\x65\x74\x20\x66\x6F\x72\x20\x48\x79\x64\x72\x6F\x67\x65\x6E","\x6C\x61\x79\x65\x72","\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x61\x6E\x64\x20","\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x50\x6F\x77\x65\x72","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x54\x61\x6E\x6B","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x54\x61\x6E\x6B\x20\x3C\x64\x69\x76\x3E\x20\x43\x75\x72\x72\x65\x6E\x74\x6C\x79\x3A\x20","\x78","\x31\x20\x48\x79\x64\x72\x6F\x67\x65\x6E","\x32\x78\x20\x48\x79\x64\x6F\x67\x65\x6E\x20\x47\x61\x73\x2E","\x32\x20\x48\x79\x64\x72\x6F\x67\x65\x6E","\x32\x78\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x54\x61\x6E\x6B\x20\x43\x61\x70\x61\x63\x69\x74\x79\x2E\x20\x41\x6C\x73\x6F\x20\x75\x6E\x6C\x6F\x63\x6B\x20\x75\x70\x67\x72\x61\x64\x65\x73\x2E","\x33\x20\x48\x79\x64\x72\x6F\x67\x65\x6E","\x42\x75\x79\x20\x6D\x61\x78\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x2E","\x32\x30\x20\x48\x79\x64\x72\x6F\x67\x65\x6E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x20\x62\x6F\x6F\x73\x74\x73\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x2E\x20\x28\x4D\x75\x73\x74\x20\x68\x61\x76\x65\x20\x36\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x55\x70\x67\x72\x61\x64\x65\x73\x2E\x29","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x47\x61\x73\x73\x65\x64\x20\x55\x70","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x20\x67\x61\x69\x6E\x20\x69\x73\x20\x72\x61\x69\x73\x65\x64\x20\x74\x6F\x20\x74\x68\x65\x20\x70\x6F\x77\x65\x72\x20\x6F\x66\x20\x32\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x42\x61\x73\x65\x64","\x47\x61\x69\x6E\x20\x31\x20\x74\x6F\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x20\x62\x61\x73\x65","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x42\x6F\x6E\x64\x69\x6E\x67","\x41\x64\x64\x20\x32\x20\x6D\x6F\x72\x65\x20\x74\x6F\x20\x62\x61\x73\x65\x20\x6F\x66\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x45\x78\x70\x61\x6E\x64\x69\x6E\x67","\x47\x65\x74\x20\x61\x20\x32\x6E\x64\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x74\x61\x6E\x6B\x2E\x20\x4B\x65\x65\x70\x20\x63\x6F\x73\x74\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x50\x6F\x77\x65\x72\x69\x6E\x67\x20\x55\x70","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x50\x6F\x77\x65\x72\x20\x62\x6F\x6F\x73\x74\x73\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x2E","\x2B","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x48\x61\x6C\x66\x20\x4C\x69\x66\x65\x64","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x75\x70\x67\x72\x61\x64\x65\x73\x20\x6F\x6E\x20\x74\x68\x69\x73\x20\x72\x6F\x77\x20\x63\x75\x74\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x63\x6F\x73\x74\x2C\x20\x62\x75\x74\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x54\x61\x6E\x6B\x20\x63\x61\x70\x63\x69\x74\x79\x20\x32\x78\x2E","\x2F","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x48\x69\x6C\x61\x72\x69\x74\x79","\x55\x6E\x6C\x6F\x63\x6B\x20\x48\x65\x6C\x69\x75\x6D\x2E\x20\x4B\x65\x65\x70\x20\x63\x6F\x73\x74\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x4C\x69\x67\x68\x74\x6E\x65\x73\x73","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x66\x61\x6C\x6C\x73\x20\x73\x6C\x6F\x77\x65\x72\x20\x62\x75\x74\x20\x69\x6E\x63\x72\x65\x61\x73\x65\x20\x74\x61\x6E\x6B\x20\x63\x61\x70\x61\x63\x69\x74\x79\x20\x62\x79\x20\x31\x20\x6D\x69\x6C\x6C\x69\x6F\x6E\x20\x74\x69\x6D\x65\x73\x2E\x20\x4C\x6F\x73\x65\x20\x61\x6C\x6C\x20\x79\x6F\x75\x72\x20\x48\x65\x6C\x69\x75\x6D","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x45\x6D\x62\x72\x69\x74\x74\x6C\x65\x64","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x54\x61\x6E\x6B\x20\x63\x61\x70\x61\x63\x69\x74\x79\x20\x69\x73\x20\x6D\x75\x63\x68\x20\x6C\x6F\x77\x65\x72\x20\x62\x75\x74\x20\x73\x6F\x20\x69\x73\x20\x74\x68\x65\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x63\x61\x70\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x45\x6E\x74\x68\x61\x6C\x70\x79\x20\x4F\x66\x20\x43\x6F\x6D\x62\x75\x73\x74\x69\x6F\x6E","\x49\x6E\x63\x72\x65\x61\x73\x65\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x63\x61\x70\x20\x62\x75\x74\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x20\x67\x61\x69\x6E\x20\x69\x73\x20\x64\x69\x76\x69\x64\x65\x64\x20\x6F\x6E\x20\x61\x6E\x20\x65\x78\x70\x6F\x6E\x65\x6E\x74\x20\x6F\x66\x20\x68\x6F\x77\x20\x6C\x61\x72\x67\x65\x20\x74\x68\x65\x20\x6D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x69\x73\x2E\x20\x54\x68\x65\x20\x6D\x69\x64\x64\x6C\x65\x20\x68\x61\x73\x20\x61\x20\x73\x77\x65\x65\x74\x20\x73\x70\x6F\x74\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x44\x65\x74\x6F\x6E\x61\x74\x69\x6F\x6E","\x48\x65\x6C\x69\x75\x6D\x20\x68\x61\x72\x64\x63\x61\x70\x20\x69\x73\x20\x72\x65\x6D\x6F\x76\x65\x64\x2E\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x54\x61\x6E\x6B\x20\x63\x61\x70\x20\x69\x73\x20\x64\x65\x63\x72\x65\x61\x73\x65\x64\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x54\x72\x69\x74\x69\x75\x6D","\x55\x6E\x6C\x6F\x63\x6B\x20\x62\x61\x6C\x6C\x6F\x6F\x6E\x73\x2E\x20\x52\x65\x6D\x6F\x76\x65\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x44\x69\x76\x69\x73\x69\x6F\x6E\x2E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x61\x6C\x73\x6F\x20\x62\x6F\x6F\x73\x74\x73\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x50\x6F\x77\x65\x72\x2E\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x66\x61\x6C\x6C\x73\x20\x6D\x75\x63\x68\x20\x73\x6C\x6F\x77\x65\x72\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73","\x50\x72\x6F\x64\x75\x63\x65\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x20\x6F\x6E\x20\x68\x6F\x6C\x64\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72","\x4D\x75\x6C\x74\x69\x70\x6C\x79\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x20\x67\x61\x69\x6E\x20\x6F\x6E\x20\x68\x6F\x6C\x64\x2E","\x64\x69\x76","\x54\x68\x69\x73\x20\x69\x73\x20\x61\x20\x70\x65\x72\x69\x6F\x64\x69\x63\x20\x74\x61\x62\x6C\x65\x20\x74\x72\x65\x65\x20\x61\x6E\x64\x20\x69\x74\x20\x61\x6C\x6C\x20\x73\x74\x61\x72\x74\x73\x20\x77\x69\x74\x68\x20\x68\x79\x64\x72\x6F\x67\x65\x6E\x20\x62\x65\x63\x61\x75\x73\x65\x20\x6F\x66\x20\x69\x74\x73\x2D\x20\x77\x65\x6C\x6C\x2C\x20\x69\x74\x73\x20\x61\x74\x6F\x6D\x69\x63\x20\x70\x72\x6F\x70\x65\x72\x74\x69\x65\x73\x20\x74\x65\x63\x68\x6E\x69\x63\x61\x6C\x6C\x79\x2E\x20\x41\x6E\x79\x77\x61\x79\x2C\x20\x73\x74\x61\x72\x74\x20\x70\x72\x6F\x64\x75\x63\x69\x6E\x67\x20\x73\x6F\x6D\x65\x20\x68\x79\x64\x72\x6F\x67\x65\x6E\x20\x67\x61\x73\x20\x73\x6F\x20\x77\x65\x20\x63\x61\x6E\x20\x63\x6F\x6E\x76\x65\x72\x74\x20\x69\x74\x20\x69\x6E\x74\x6F\x20\x65\x6E\x65\x72\x67\x79\x20\x6F\x72\x20\x73\x6F\x6D\x65\x74\x68\x69\x6E\x67\x2E","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x69\x6E\x63\x72\x65\x61\x73\x65\x73\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x50\x6F\x77\x65\x72\x20\x67\x61\x69\x6E\x20\x62\x79\x20","\x6D\x61\x69\x6E\x2D\x64\x69\x73\x70\x6C\x61\x79","\x70\x72\x65\x73\x74\x69\x67\x65\x2D\x62\x75\x74\x74\x6F\x6E","\x6D\x69\x6C\x65\x73\x74\x6F\x6E\x65\x73","\x4C\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73","\x59\x6F\x75\x20\x61\x72\x65\x20\x6D\x61\x6B\x69\x6E\x67\x20","\x4C\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x20\x70\x65\x72\x20\x74\x69\x63\x6B","\x72\x6F\x77","\x62\x61\x72","\x48\x79\x64\x72\x6F\x67\x65\x6E\x42\x61\x72","\x48\x79\x64\x72\x6F\x67\x65\x6E\x42\x61\x72\x31","\x48\x79\x64\x72\x6F\x67\x65\x6E\x42\x61\x72\x32","\x73\x6C\x69\x63\x65","\x70\x75\x73\x68","\x48\x65\x6C\x69\x75\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x52\x5A\x4D\x63\x6D\x58\x76\x6D\x2F\x31\x37\x36\x34\x62\x32\x30\x31\x2D\x61\x62\x34\x35\x2D\x34\x31\x31\x31\x2D\x39\x63\x38\x61\x2D\x36\x34\x36\x36\x32\x38\x65\x36\x34\x64\x35\x63\x2E\x70\x6E\x67","\x48\x65\x6C\x6C\x6F","\x46\x69\x6E\x64\x50\x6C\x61\x79\x65\x72","\x74\x6F\x74\x61\x6C","\x23\x30\x30\x66\x66\x66\x66\x20","\x6E\x6F\x72\x6D\x61\x6C","\x65","\x45\x3A\x20\x52\x65\x73\x65\x74\x20\x66\x6F\x72\x20\x48\x65\x6C\x69\x75\x6D","\x20\x48\x65\x6C\x69\x75\x6D","\x4F\x6E","\x4F\x66\x66","\x42\x61\x6C\x44\x69\x76","\x42\x61\x6C\x44\x69\x76\x31","\x44\x65\x66\x6C\x61\x74\x65","\x31\x20\x54\x6F\x74\x61\x6C\x20\x48\x65\x6C\x69\x75\x6D","\x4B\x65\x65\x70\x20\x31\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x6D\x69\x6C\x65\x73\x74\x6F\x6E\x65\x20\x70\x65\x72\x20\x72\x65\x73\x65\x74\x2E","\x32\x20\x54\x6F\x74\x61\x6C\x20\x48\x65\x6C\x69\x75\x6D","\x4B\x65\x65\x70\x20\x31\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x75\x70\x67\x72\x61\x64\x65\x20\x70\x65\x72\x20\x72\x65\x73\x65\x74\x2E","\x37\x20\x54\x6F\x74\x61\x6C\x20\x48\x65\x6C\x69\x75\x6D","\x55\x6E\x6C\x6F\x63\x6B\x20\x61\x20\x6D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x74\x61\x6E\x6B\x20\x62\x75\x74\x20\x31\x30\x78\x20\x74\x61\x6E\x6B\x20\x63\x61\x70\x61\x63\x69\x74\x79\x2E\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x73\x74\x61\x72\x74\x73\x20\x61\x74\x20\x30\x2E\x31\x2E","\x31\x30\x20\x48\x65\x6C\x69\x75\x6D","\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x4D\x75\x74\x69\x70\x6C\x69\x65\x72\x20\x6E\x6F\x77\x20\x73\x74\x61\x72\x74\x73\x20\x61\x74\x20\x30\x2E","\x48\x61\x76\x65\x20\x55\x70\x67\x72\x61\x64\x65\x20\x22\x48\x79\x64\x72\x6F\x67\x65\x6E\x27\x73\x20\x4C\x69\x67\x68\x74\x6E\x65\x73\x73\x22","\x48\x65\x6C\x69\x75\x6D\x20\x4D\x75\x74\x69\x70\x6C\x69\x65\x72\x20\x69\x73\x20\x6E\x6F\x77\x20\x30\x2C\x20\x73\x61\x6D\x65\x20\x77\x69\x74\x68\x20\x48\x65\x6C\x69\x75\x6D\x2E","\x35\x30\x30\x20\x48\x65\x6C\x69\x75\x6D","\x53\x6F\x66\x74\x63\x61\x70\x20\x48\x65\x6C\x69\x75\x6D\x20\x62\x6F\x6F\x73\x74\x20\x74\x6F\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x45\x78\x70\x6F\x6E\x67\x65\x64\x20\x67\x61\x69\x6E\x20\x73\x74\x61\x72\x74\x69\x6E\x67\x20\x61\x74\x20\x35\x30\x30\x20\x48\x65\x6C\x69\x75\x6D\x2E","\x4B\x6E\x6F\x63\x6B\x20\x4B\x6E\x6F\x63\x6B","\x55\x6E\x6C\x6F\x63\x6B\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x62\x75\x74\x74\x6F\x6E\x20\x61\x75\x74\x6F\x6D\x61\x74\x69\x6F\x6E\x2E\x20\x47\x61\x69\x6E\x20\x31\x20\x48\x65\x6C\x69\x75\x6D\x20\x66\x72\x6F\x6D\x20\x4A\x75\x6C\x65\x73\x20\x4A\x61\x6E\x73\x73\x65\x6E\x2E","\x57\x68\x6F\x27\x73\x20\x54\x68\x65\x72\x65\x3F","\x55\x6E\x6C\x6F\x63\x6B\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x74\x61\x6E\x6B\x20\x61\x75\x74\x6F\x6D\x61\x74\x69\x6F\x6E\x2E","\x48\x65\x6C\x69\x75\x6D\x20\x48\x79\x64\x72\x69\x64\x65\x20\x43\x6F\x72\x72\x6F\x73\x69\x6F\x6E\x21","\x52\x65\x6D\x6F\x76\x65\x20\x65\x78\x70\x6F\x6E\x65\x6E\x74\x20\x6F\x66\x20\x48\x65\x6C\x69\x75\x6D\x20\x65\x66\x66\x65\x63\x74\x20\x62\x75\x74\x20\x75\x6E\x6C\x6F\x63\x6B\x20\x6D\x6F\x72\x65\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x75\x70\x67\x72\x61\x64\x65\x73\x2E\x20\x4B\x65\x65\x70\x20\x43\x6F\x73\x74\x2E","\x4E\x61\x74\x75\x72\x61\x6C\x20\x47\x61\x73\x20\x45\x78\x74\x72\x61\x63\x74\x69\x6F\x6E\x2E\x20\x28\x54\x68\x69\x73\x20\x69\x73\x20\x61\x20\x66\x61\x72\x74\x20\x6A\x6F\x6B\x65\x29\x2E","\x49\x6E\x63\x72\x65\x61\x73\x65\x20\x42\x61\x6C\x6C\x6F\x6F\x6E\x20\x63\x61\x70\x63\x69\x74\x79\x20\x61\x6E\x64\x20\x48\x65\x6C\x69\x75\x6D\x20\x47\x61\x73\x20\x45\x78\x70\x75\x6E\x67\x65\x64\x20\x72\x61\x74\x65\x2E","\x48\x65\x6C\x69\x75\x6D\x20\x47\x61\x73\x20\x45\x78\x70\x75\x6E\x67\x65\x64","\x46\x65\x65\x6C\x20\x54\x68\x61\x74\x20\x53\x75\x70\x65\x72\x66\x6C\x75\x69\x64\x69\x74\x79\x2E","\x49\x6E\x63\x72\x65\x61\x73\x65\x20\x48\x65\x6C\x69\x75\x6D\x20\x47\x61\x73\x20\x49\x6E\x66\x6C\x61\x74\x65\x20\x61\x6E\x64\x20\x44\x65\x66\x6C\x61\x74\x65\x20\x67\x61\x69\x6E\x2E","\x48\x61\x68\x61\x2C\x20\x54\x68\x61\x74\x20\x4C\x61\x73\x74\x20\x55\x70\x67\x72\x61\x64\x65\x20\x4F\x6E\x6C\x79\x20\x4D\x61\x64\x65\x20\x54\x68\x69\x6E\x67\x73\x20\x48\x61\x72\x64\x65\x72\x21","\x52\x65\x64\x75\x63\x65\x20\x69\x6D\x61\x67\x65\x20\x73\x63\x61\x6C\x69\x6E\x67\x2E","\x48\x65\x6C\x69\x75\x6D\x20\x22\x4C\x65\x61\x6B\x20\x44\x65\x74\x65\x63\x74\x69\x6F\x6E\x22","\x47\x72\x65\x61\x74\x6C\x79\x20\x72\x65\x64\x75\x63\x65\x20\x74\x68\x65\x20\x48\x65\x6C\x69\x75\x6D\x20\x72\x65\x71\x75\x69\x72\x65\x6D\x65\x6E\x74\x20\x65\x78\x70\x6F\x6E\x65\x6E\x74\x2E\x20\x48\x65\x6C\x69\x75\x6D\x20\x6E\x6F\x77\x20\x6D\x75\x6C\x74\x69\x70\x6C\x69\x65\x73\x20\x48\x65\x6C\x69\x75\x6D\x20\x65\x78\x70\x75\x6E\x67\x65\x64\x20\x67\x61\x69\x6E\x2E\x20\x48\x65\x6C\x69\x75\x6D\x20\x47\x61\x73\x20\x6E\x6F\x20\x6C\x6F\x6E\x67\x65\x72\x20\x68\x61\x73\x20\x67\x61\x73\x20\x63\x6F\x6E\x73\x74\x61\x6E\x74\x6C\x79\x20\x64\x65\x63\x72\x65\x61\x73\x69\x6E\x67\x2E\x20\x4B\x65\x65\x70\x20\x35\x30\x25\x20\x6F\x66\x20\x63\x6F\x73\x74\x2E","\x41\x77\x77\x20\x6D\x61\x6E\x2C\x20\x6E\x6F\x20\x6E\x61\x72\x63\x6F\x74\x69\x63\x20\x70\x72\x6F\x70\x65\x72\x74\x69\x65\x73\x3F","\x41\x75\x74\x6F\x6D\x61\x74\x65\x20\x6D\x75\x6C\x74\x69\x70\x6C\x69\x65\x72\x20\x62\x75\x74\x74\x6F\x6E\x20\x61\x6E\x64\x20\x72\x65\x73\x65\x74\x74\x69\x6E\x67\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x72\x65\x73\x65\x74\x73\x20\x6E\x6F\x74\x68\x69\x6E\x67\x2E\x20\x49\x6E\x63\x72\x65\x61\x73\x65\x20\x49\x6E\x66\x6C\x61\x74\x69\x6F\x6E\x20\x61\x6E\x64\x20\x44\x65\x66\x6C\x61\x74\x69\x6F\x6E\x20\x72\x61\x74\x65\x2E","\x44\x75\x64\x65\x2C\x20\x49\x20\x74\x68\x69\x6E\x6B\x20\x49\x27\x6D\x20\x67\x65\x74\x74\x69\x6E\x67\x20\x70\x72\x6F\x67\x72\x65\x73\x73\x69\x76\x65\x6C\x79\x20\x48\x69\x67\x68\x65\x72\x2E","\x49\x6E\x63\x72\x65\x61\x73\x65\x20\x42\x61\x6C\x6C\x6F\x6E\x20\x43\x61\x70\x61\x63\x69\x74\x79\x20\x61\x6E\x64\x20\x72\x65\x64\x75\x63\x65\x20\x69\x6D\x61\x67\x65\x20\x73\x63\x61\x6C\x69\x6E\x67\x2E","\x49\x27\x6D\x20\x46\x6C\x6F\x61\x74\x69\x6E\x67\x67\x67\x67\x2E","\x46\x6C\x6F\x61\x74\x2E","\x47\x6F\x69\x6E\x67\x20\x31\x33\x35\x35\x2E\x36\x33\x33\x30\x37\x37\x20\x6D\x69\x6C\x65\x73\x20\x61\x6E\x20\x68\x6F\x75\x72\x2E","\x47\x61\x73\x20\x47\x61\x73\x20\x47\x61\x73\x2E","\x4E\x61\x77\x20\x6D\x61\x6E\x2C\x20\x63\x6F\x6D\x65\x20\x6F\x6E\x2E\x20\x44\x6F\x6E\x27\x74\x20\x6C\x65\x61\x76\x65\x20\x6E\x6F\x77\x21","\x55\x6E\x6C\x6F\x63\x6B\x20\x4C\x69\x74\x68\x69\x75\x6D\x2E\x20\x4B\x65\x65\x70\x20\x63\x6F\x73\x74\x2E","\x41\x6E\x6F\x74\x68\x65\x72\x20\x67\x61\x73\x20\x61\x74\x20\x53\x41\x54\x50\x2E\x20\x49\x27\x76\x65\x20\x67\x6F\x74\x20\x75\x68\x2C\x20\x75\x6D\x2C\x20\x73\x6F\x6D\x65\x20\x62\x61\x6C\x6C\x6F\x6F\x6E\x73\x20\x66\x6F\x72\x20\x75\x68\x2C\x20\x75\x6D\x2C\x20\x66\x6F\x72\x20\x61\x20\x70\x61\x72\x74\x79\x2E\x20\x4A\x75\x73\x74\x20\x67\x6F\x20\x61\x68\x65\x61\x64\x20\x61\x6E\x64\x20\x73\x74\x61\x72\x74\x20\x69\x6E\x66\x6C\x61\x74\x69\x6E\x67\x20\x74\x68\x65\x6D\x20\x6F\x6E\x63\x65\x20\x79\x6F\x75\x20\x63\x61\x6E\x2E","\x48\x65\x6C\x69\x75\x6D\x20\x62\x6F\x6F\x73\x74\x73\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x50\x6F\x77\x65\x72\x20\x61\x6E\x64\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x20\x67\x61\x69\x6E\x20\x62\x79\x20","\x48\x65\x6C\x69\x75\x6D\x20\x61\x6C\x73\x6F\x20\x62\x6F\x6F\x73\x74\x73\x20\x48\x65\x6C\x69\x75\x6D\x20\x45\x78\x70\x75\x6E\x67\x65\x64\x20\x67\x61\x69\x6E\x20\x62\x79\x20\x61\x64\x64\x69\x6E\x67\x20","\x59\x6F\x75\x20\x68\x61\x76\x65\x20\x64\x6F\x6E\x65\x20","\x20\x72\x65\x73\x65\x74\x73","\x4C\x20\x48\x65\x6C\x69\x75\x6D\x20\x47\x61\x73\x20\x45\x78\x70\x75\x6E\x67\x65\x64","\x4C\x20\x48\x65\x6C\x69\x75\x6D\x20\x47\x61\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x74\x52\x31\x76\x51\x7A\x74\x37\x2F\x64\x34\x33\x6F\x70\x65\x7A\x64\x37\x7A\x66\x7A\x2D\x32\x34\x39\x34\x38\x31\x34\x36\x31\x31\x2D\x31\x2D\x70\x72\x65\x76\x2D\x75\x69\x2D\x31\x2E\x70\x6E\x67","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x66\x79\x34\x63\x68\x59\x44\x30\x2F\x62\x61\x6C\x6C\x6F\x6F\x6E\x2D\x70\x6F\x70\x2D\x68\x69\x2D\x37\x39\x34\x33\x36\x36\x30\x36\x34\x2D\x70\x72\x65\x76\x2D\x75\x69\x2D\x31\x2E\x70\x6E\x67","\x73\x74\x72\x69\x63\x74\x2D\x74\x65\x78\x74\x2D\x69\x6E\x70\x75\x74","\x70\x78","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x71\x52\x30\x78\x48\x67\x46\x31\x2F\x34\x39\x66\x34\x39\x65\x31\x38\x2D\x62\x34\x35\x62\x2D\x34\x62\x34\x30\x2D\x61\x65\x66\x33\x2D\x33\x31\x38\x62\x38\x62\x34\x36\x33\x37\x36\x64\x2E\x70\x6E\x67","\x23\x61\x39\x61\x39\x61\x39","\x4C\x69\x74\x68\x69\x75\x6D","\x48\x65\x6C\x69\x75\x6D\x20\x45\x78\x70\x75\x6E\x67\x65\x64","\x6C","\x4C\x3A\x20\x52\x65\x73\x65\x74\x20\x66\x6F\x72\x20\x4C\x69\x74\x68\x69\x75\x6D","\x20\x4C\x69\x74\x68\x69\x75\x6D","\x31\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x52\x65\x73\x65\x74","\x4B\x65\x65\x70\x20\x31\x20\x48\x65\x6C\x69\x75\x6D\x20\x6D\x69\x6C\x65\x73\x74\x6F\x6E\x65\x20\x70\x65\x72\x20\x72\x65\x73\x65\x74\x2E\x20\x47\x65\x74\x20\x72\x69\x64\x20\x6F\x66\x20\x77\x69\x64\x65\x6E\x65\x73\x73\x20\x73\x74\x75\x66\x66\x2E","\x32\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x52\x65\x73\x65\x74\x73","\x4B\x65\x65\x70\x20\x31\x20\x48\x65\x6C\x69\x75\x6D\x20\x75\x70\x67\x72\x61\x64\x65\x20\x70\x65\x72\x20\x72\x65\x73\x65\x74\x2E\x20\x41\x6C\x73\x6F\x20\x75\x6E\x6C\x6F\x63\x6B\x20\x48\x65\x6C\x69\x75\x6D\x20\x61\x75\x74\x6F\x20\x67\x65\x6E\x65\x72\x61\x74\x69\x6F\x6E\x2E\x20\x54\x68\x69\x6E\x20\x62\x61\x6C\x6C\x6F\x6F\x6E\x20\x28\x3A\x3C\x2E","\x33\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x52\x65\x73\x65\x74\x73","\x44\x6F\x75\x62\x6C\x65\x20\x48\x65\x6C\x69\x75\x6D\x20\x67\x65\x6E\x65\x72\x61\x74\x69\x6F\x6E\x2E","\x34\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x52\x65\x73\x65\x74\x73","\x4B\x65\x65\x70\x20\x32\x30\x20\x72\x65\x73\x65\x74\x73\x2E","\x31\x32\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x52\x65\x73\x65\x74\x73","\x41\x75\x74\x6F\x6D\x61\x74\x65\x20\x48\x65\x6C\x69\x75\x6D\x20\x49\x6E\x66\x6C\x61\x74\x65\x20\x61\x6E\x64\x20\x44\x65\x66\x6C\x61\x74\x65\x2E\x20\x41\x6C\x73\x6F\x20\x75\x6E\x6C\x6F\x63\x6B\x20\x74\x68\x65\x20\x73\x74\x6F\x6E\x65\x2E\x20\x52\x65\x73\x65\x74\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x61\x6E\x64\x20\x72\x65\x6D\x6F\x76\x65\x20\x62\x75\x74\x74\x6F\x6E\x2E","\x57\x65\x27\x76\x65\x20\x73\x74\x72\x75\x63\x6B\x20\x4C\x69\x74\x68\x69\x75\x6D\x21\x20\x49\x27\x6C\x6C\x2D\x20\x57\x65\x27\x6C\x6C\x20\x62\x65\x20\x61\x62\x6C\x65\x20\x74\x6F\x20\x6D\x61\x6B\x65\x20\x70\x68\x6F\x6E\x65\x73\x20\x61\x6E\x64\x20\x65\x6C\x65\x63\x74\x72\x69\x63\x20\x63\x61\x72\x73\x20\x77\x69\x74\x68\x20\x74\x68\x65\x6D\x2E\x20\x41\x6C\x6C\x20\x79\x61\x20\x67\x6F\x74\x74\x61\x20\x64\x6F\x20\x69\x73\x20\x6D\x69\x6E\x65\x20\x74\x68\x61\x74\x20\x4C\x65\x70\x6F\x69\x64\x6F\x6C\x69\x74\x65\x20\x6F\x76\x65\x72\x20\x74\x68\x65\x72\x65\x20\x28\x6F\x6E\x63\x65\x20\x79\x6F\x75\x20\x63\x61\x6E\x29\x2E","\x6D\x75\x6C","\x46\x69\x6E\x64\x20\x6D\x6F\x72\x65\x20\x6F\x72\x65\x2E\x3C\x64\x69\x76\x3E\x20\x49\x6E\x63\x72\x65\x61\x73\x65\x73\x20\x74\x68\x65\x20\x63\x68\x61\x6E\x63\x65\x20\x6F\x66\x20\x67\x65\x74\x74\x69\x6E\x67\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x62\x79\x20\x31\x25\x20\x70\x65\x72\x20\x61\x6D\x6F\x75\x6E\x74\x2E\x3C\x64\x69\x76\x3E\x20\x43\x6F\x73\x74\x3A\x20","\x63\x6F\x73\x74","\x67\x20\x6F\x66\x20\x4C\x69\x74\x68\x69\x75\x6D\x3C\x64\x69\x76\x3E\x20\x41\x6D\x6F\x75\x6E\x74\x3A\x20","\x69\x64","\x20\x2F\x20","\x70\x75\x72\x63\x68\x61\x73\x65\x4C\x69\x6D\x69\x74","\x3C\x64\x69\x76\x3E\x20\x43\x6F\x6D\x70\x6C\x65\x74\x69\x6F\x6E\x20\x72\x65\x77\x61\x72\x64\x3A\x20\x55\x6E\x6C\x6F\x63\x6B\x20\x6E\x65\x77\x20\x6F\x72\x65\x2E","\x73\x75\x62","\x4C\x69\x31","\x48\x31","\x52\x4D","\x48\x32","\x48\x69\x72\x65\x20\x61\x20\x77\x6F\x72\x6B\x65\x72\x2E\x3C\x64\x69\x76\x3E\x20\x49\x6E\x63\x72\x65\x61\x73\x65\x73\x20\x6D\x69\x6E\x69\x6E\x67\x20\x73\x70\x65\x65\x64\x20\x62\x79\x20\x31\x25\x20\x70\x65\x72\x20\x61\x6D\x6F\x75\x6E\x74\x2E\x3C\x64\x69\x76\x3E\x20\x43\x6F\x73\x74\x3A\x20","\x3C\x64\x69\x76\x3E\x20\x43\x6F\x6D\x70\x6C\x65\x74\x69\x6F\x6E\x20\x72\x65\x77\x61\x72\x64\x3A\x20\x44\x6F\x75\x62\x6C\x65\x20\x6D\x69\x6E\x69\x6E\x67\x20\x73\x70\x65\x65\x64\x2E","\x53\x70\x65\x64","\x55\x73\x65\x20\x62\x65\x74\x74\x65\x72\x20\x65\x71\x75\x69\x70\x6D\x65\x6E\x74\x2E\x3C\x64\x69\x76\x3E\x20\x49\x6E\x63\x72\x65\x61\x73\x65\x73\x20\x74\x68\x65\x20\x61\x6D\x6F\x75\x6E\x74\x20\x6F\x66\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x66\x72\x6F\x6D\x20\x6D\x69\x6E\x65\x72\x61\x6C\x20\x62\x79\x20\x31\x30\x25\x20\x70\x65\x72\x20\x61\x6D\x6F\x75\x6E\x74\x2E\x3C\x64\x69\x76\x3E\x20\x43\x6F\x73\x74\x3A\x20","\x3C\x64\x69\x76\x3E\x20\x43\x6F\x6D\x70\x6C\x65\x74\x69\x6F\x6E\x20\x72\x65\x77\x61\x72\x64\x3A\x20\x44\x6F\x75\x62\x6C\x65\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x69\x6E\x2E","\x48","\x42\x75\x79\x20\x61\x20\x66\x61\x63\x74\x6F\x72\x79\x2E\x3C\x64\x69\x76\x3E\x20\x49\x6E\x63\x72\x65\x61\x73\x65\x73\x20\x74\x68\x65\x20\x63\x68\x61\x6E\x63\x65\x20\x6F\x66\x20\x67\x65\x74\x74\x69\x6E\x67\x20\x52\x75\x62\x69\x64\x69\x75\x6D\x20\x62\x79\x20\x31\x25\x20\x70\x65\x72\x20\x61\x6D\x6F\x75\x6E\x74\x2E\x3C\x64\x69\x76\x3E\x20\x43\x6F\x73\x74\x3A\x20","\x3C\x64\x69\x76\x3E\x20\x43\x6F\x6D\x70\x6C\x65\x74\x69\x6F\x6E\x20\x72\x65\x77\x61\x72\x64\x3A\x20\x44\x6F\x75\x62\x6C\x65\x20\x52\x75\x62\x69\x64\x69\x75\x6D\x20\x67\x61\x69\x6E\x2E","\x52\x31","\x52","\x49\x6E\x63\x72\x65\x61\x73\x65\x20\x73\x74\x6F\x63\x6B\x20\x6D\x61\x72\x6B\x65\x74\x20\x73\x68\x61\x72\x65\x73\x2E\x3C\x64\x69\x76\x3E\x20\x49\x6E\x63\x72\x65\x61\x73\x65\x73\x20\x6D\x69\x6E\x69\x6E\x67\x20\x73\x70\x65\x65\x64\x20\x62\x79\x20\x31\x25\x20\x70\x65\x72\x20\x61\x6D\x6F\x75\x6E\x74\x2E\x3C\x64\x69\x76\x3E\x20\x43\x6F\x73\x74\x3A\x20","\x46\x69\x6E\x64\x20\x61\x20\x70\x6F\x72\x74\x61\x6C\x3F\x20\x3C\x64\x69\x76\x3E\x20\x55\x6E\x6C\x6F\x63\x6B\x73\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x63\x68\x61\x6C\x6C\x65\x6E\x67\x65\x73\x20\x28\x57\x2E\x49\x2E\x50\x29\x2E\x3C\x64\x69\x76\x3E\x20\x43\x6F\x73\x74\x3A\x20","\x3C\x64\x69\x76\x3E\x20\x43\x6F\x6D\x70\x6C\x65\x74\x69\x6F\x6E\x20\x72\x65\x77\x61\x72\x64\x3A\x20\x55\x6E\x6C\x6F\x63\x6B\x20\x63\x68\x61\x6C\x6C\x65\x6E\x67\x65\x73\x2E","\x4C\x69\x74\x68\x69\x75\x6D\x20\x62\x6F\x6F\x73\x74\x73\x20\x48\x65\x6C\x69\x75\x6D\x20\x45\x78\x70\x75\x6E\x67\x65\x64\x20\x61\x6E\x64\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x47\x61\x73\x20\x2B\x20\x50\x6F\x77\x65\x72\x20\x67\x61\x69\x6E\x20\x62\x79\x20","\x67\x20\x6F\x66\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x66\x72\x6F\x6D\x20\x4C\x65\x70\x6F\x69\x64\x6F\x6C\x69\x74\x65\x20\x28\x43\x75\x72\x72\x65\x6E\x63\x79\x29\x2E\x3C\x64\x69\x76\x3E\x20\x43\x75\x72\x72\x65\x6E\x74\x20\x63\x68\x61\x6E\x63\x65\x3A\x20","\x20\x69\x6E\x20\x31\x30\x30\x2E","\x4C\x20\x6F\x66\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x66\x72\x6F\x6D\x20\x4C\x65\x70\x6F\x69\x64\x6F\x6C\x69\x74\x65\x20\x28\x31\x30\x25\x20\x6D\x6F\x72\x65\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x70\x65\x72\x20\x4C\x29\x2E\x20\x3C\x64\x69\x76\x3E\x20\x43\x75\x72\x72\x65\x6E\x74\x20\x63\x68\x61\x6E\x63\x65\x3A\x20","\x67\x20\x6F\x66\x20\x52\x75\x62\x69\x64\x69\x75\x6D\x20\x66\x72\x6F\x6D\x20\x4C\x65\x70\x6F\x69\x64\x6F\x6C\x69\x74\x65\x20\x28\x32\x30\x25\x20\x6D\x6F\x72\x65\x20\x4C\x69\x74\x68\x69\x75\x6D\x20\x61\x6E\x64\x20\x48\x79\x64\x72\x6F\x67\x65\x6E\x20\x70\x65\x72\x20\x67\x29\x2E\x20\x3C\x64\x69\x76\x3E\x20\x43\x75\x72\x72\x65\x6E\x74\x20\x63\x68\x61\x6E\x63\x65\x3A\x20","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x4C\x58\x5A\x71\x6A\x62\x7A\x47\x2F\x6C\x65\x70\x69\x64\x6F\x6C\x69\x74\x65\x2D\x72\x6F\x75\x67\x68\x2D\x32\x39\x37\x38\x31\x31\x31\x30\x36\x33\x2D\x31\x2D\x70\x72\x65\x76\x2D\x75\x69\x2E\x70\x6E\x67","\x53\x69\x7A\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x7A\x76\x56\x78\x77\x35\x64\x38\x2F\x70\x64\x70\x2D\x73\x71\x2D\x32\x39\x31\x30\x37\x33\x33\x32\x38\x31\x2D\x70\x72\x65\x76\x2D\x75\x69\x2E\x70\x6E\x67","\x72\x6F\x74\x61\x74\x65\x28","\x44\x65\x67","\x64\x65\x67\x29","\x72\x65\x6C\x61\x74\x69\x76\x65","\x34\x30\x70\x78","\x62\x75\x79\x61\x62\x6C\x65\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x44\x66\x43\x46\x76\x7A\x78\x35\x2F\x50\x6F\x6C\x6C\x75\x63\x69\x74\x65\x2E\x70\x6E\x67","\x72\x61\x6E\x64\x6F\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x46\x4B\x76\x56\x6E\x68\x58\x58\x2F\x42\x6C\x75\x65\x2D\x53\x6D\x6F\x6B\x65\x2D\x54\x72\x61\x6E\x73\x70\x61\x72\x65\x6E\x74\x2D\x49\x6D\x61\x67\x65\x73\x2E\x70\x6E\x67","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x52\x30\x43\x58\x5A\x76\x73\x51\x2F\x6A\x65\x72\x6F\x6E\x69\x6D\x6F\x2D\x6D\x61\x72\x74\x69\x6E\x73\x2D\x6C\x69\x74\x68\x69\x75\x6D\x2D\x74\x72\x61\x6E\x73\x70\x61\x72\x65\x6E\x74\x2E\x70\x6E\x67","\x48\x70","\x4C\x70","\x48\x4D","\x52\x70","\x47\x61\x69\x6E","\x66\x6C\x6F\x6F\x72","\x6C\x74\x65","\x52\x75\x62\x69\x64\x69\x75\x6D","\x74\x61\x62"];addLayer(_0x9fb5[0],{startData:function(){return {unlocked:false,points: new Decimal(0)}}});addNode(_0x9fb5[1],{row:_0x9fb5[2],color:_0x9fb5[3],layerShown:function(){if(hasAchievement(_0x9fb5[4],15)){return true}else {return false}},tooltip:function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[7]}else {return _0x9fb5[8]}},canClick:function(){return true},onClick:function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){player[_0x9fb5[6]][_0x9fb5[5]]= player[_0x9fb5[6]][_0x9fb5[5]][_0x9fb5[9]](1)}else {player[_0x9fb5[6]][_0x9fb5[5]]= player[_0x9fb5[6]][_0x9fb5[5]][_0x9fb5[10]](0)}}});addLayer(_0x9fb5[11],{row:_0x9fb5[2],color:_0x9fb5[12],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[13]},layerShown:function(){if(player[_0x9fb5[15]][_0x9fb5[14]]== _0x9fb5[16]){return true};if(player[_0x9fb5[15]][_0x9fb5[14]]== _0x9fb5[17]){return true}else {return false}},tooltip:function(){return _0x9fb5[18]},infoboxes:{lore:{title:_0x9fb5[19],body:function(){return _0x9fb5[20]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[13]}},lore1:{unlocked:function(){if(player[_0x9fb5[15]][_0x9fb5[14]]== _0x9fb5[17]){return true}},title:_0x9fb5[21],body:function(){return _0x9fb5[22]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[13]}}},tabFormat:[[_0x9fb5[23],_0x9fb5[24]],[_0x9fb5[23],_0x9fb5[25]]]});addLayer(_0x9fb5[26],{row:1,color:_0x9fb5[3],tooltip:function(){return _0x9fb5[27]},infoboxes:{lore:{title:_0x9fb5[28],body:function(){return _0x9fb5[29]}}},tabFormat:[[_0x9fb5[23],_0x9fb5[24]],[_0x9fb5[30],function(){return _0x9fb5[31]}],_0x9fb5[32],[_0x9fb5[33],function(){return _0x9fb5[34]}],_0x9fb5[32],[_0x9fb5[30],function(){return _0x9fb5[35]}],[_0x9fb5[30],function(){return _0x9fb5[36]}],_0x9fb5[32],[_0x9fb5[30],function(){return _0x9fb5[37]}],_0x9fb5[32],[_0x9fb5[30],function(){return _0x9fb5[38]}],_0x9fb5[32],[_0x9fb5[30],function(){return _0x9fb5[39]}]]});addLayer(_0x9fb5[4],{startData:function(){return {unlocked:true,points: new Decimal(0),Expulrate: new Decimal(0.4),Expulrate2: new Decimal(1),Widenessx: new Decimal(0),Particlesx: new Decimal(0)}},color:_0x9fb5[40],symbol:_0x9fb5[4],row:_0x9fb5[2],resource:_0x9fb5[41],achievements:{11:{name:_0x9fb5[42],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},tooltip:_0x9fb5[43],style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},done:function(){return player[_0x9fb5[0]][_0x9fb5[46]][_0x9fb5[45]](1)},image:function(){if(hasAchievement(_0x9fb5[4],11)){return _0x9fb5[47]}}},12:{name:_0x9fb5[48],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},tooltip:_0x9fb5[49],style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},done:function(){return player[_0x9fb5[6]][_0x9fb5[50]][_0x9fb5[45]](10000)},image:function(){if(hasAchievement(_0x9fb5[4],12)){return _0x9fb5[51]}}},13:{name:`${_0x9fb5[52]}`,textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},tooltip:_0x9fb5[53],style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},done:function(){return player[_0x9fb5[6]][_0x9fb5[54]][_0x9fb5[45]](1100)},image:function(){if(hasAchievement(_0x9fb5[4],13)){return _0x9fb5[55]}}},14:{name:_0x9fb5[56],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[57],done:function(){return player[_0x9fb5[6]][_0x9fb5[58]][_0x9fb5[45]](101)},image:function(){if(hasAchievement(_0x9fb5[4],14)){return _0x9fb5[59]}}},15:{name:_0x9fb5[60],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},goalTooltip:_0x9fb5[61],doneTooltip:_0x9fb5[62],done:function(){return player[_0x9fb5[6]][_0x9fb5[63]][_0x9fb5[45]](201)},image:function(){if(hasAchievement(_0x9fb5[4],15)){return _0x9fb5[64]}}},21:{name:_0x9fb5[65],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},tooltip:_0x9fb5[66],style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},done:function(){return player[_0x9fb5[0]][_0x9fb5[46]][_0x9fb5[45]](2)},image:function(){if(hasAchievement(_0x9fb5[4],21)){return _0x9fb5[67]}}},22:{name:`${_0x9fb5[68]}`,textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[69],done:function(){return temp[_0x9fb5[6]][_0x9fb5[71]][11][_0x9fb5[70]][_0x9fb5[45]](2801)},image:function(){if(hasAchievement(_0x9fb5[4],22)){return _0x9fb5[72]}}},23:{name:`${_0x9fb5[73]}`,textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[74],done:function(){return player[_0x9fb5[6]][_0x9fb5[75]][_0x9fb5[45]](3)},image:function(){if(hasAchievement(_0x9fb5[4],23)){return _0x9fb5[76]}}},24:{name:_0x9fb5[77],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[78],done:function(){if(hasUpgrade(_0x9fb5[6],23)){return player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[45]](5)}},image:function(){if(hasAchievement(_0x9fb5[4],24)){return _0x9fb5[80]}}},25:{name:_0x9fb5[81],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[82],done:function(){if(hasUpgrade(_0x9fb5[6],24)){return player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[45]](55)}},image:function(){if(hasAchievement(_0x9fb5[4],25)){return _0x9fb5[83]}}},31:{name:_0x9fb5[84],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[85],done:function(){return player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[45]](6.022e23)},image:function(){if(hasAchievement(_0x9fb5[4],31)){return _0x9fb5[86]}}},32:{name:_0x9fb5[87],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[88],done:function(){if(player[_0x9fb5[15]][_0x9fb5[89]]< 1){return player[_0x9fb5[15]][_0x9fb5[90]][_0x9fb5[45]](497)}},image:function(){if(hasAchievement(_0x9fb5[4],32)){return _0x9fb5[91]}}},33:{name:_0x9fb5[92],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[93],done:function(){if(hasUpgrade(_0x9fb5[15],16)){return player[_0x9fb5[15]][_0x9fb5[94]][_0x9fb5[45]](0.1)}},image:function(){if(hasAchievement(_0x9fb5[4],33)){return _0x9fb5[95]}}},34:{name:_0x9fb5[96],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[97],done:function(){if(hasUpgrade(_0x9fb5[15],22)){return player[_0x9fb5[15]][_0x9fb5[94]][_0x9fb5[45]](0.1)}},image:function(){if(hasAchievement(_0x9fb5[4],34)){return _0x9fb5[98]}}},35:{name:_0x9fb5[99],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[100]},tooltip:_0x9fb5[101],done:function(){if(hasUpgrade(_0x9fb5[15],25)){return player[_0x9fb5[15]][_0x9fb5[94]][_0x9fb5[45]](0.1)}},image:function(){if(hasAchievement(_0x9fb5[4],35)){return _0x9fb5[102]}}},41:{name:_0x9fb5[103],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[100]},tooltip:_0x9fb5[104],done:function(){return player[_0x9fb5[0]][_0x9fb5[46]][_0x9fb5[45]](3)},image:function(){if(hasAchievement(_0x9fb5[4],41)){return _0x9fb5[105]}}},42:{name:_0x9fb5[106],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[107],done:function(){return player[_0x9fb5[109]][_0x9fb5[108]][_0x9fb5[45]](12)},image:function(){if(hasAchievement(_0x9fb5[4],42)){return _0x9fb5[110]}}},43:{name:_0x9fb5[111],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[112],done:function(){return player[_0x9fb5[109]][_0x9fb5[113]][_0x9fb5[45]](1)},image:function(){if(hasAchievement(_0x9fb5[4],43)){return _0x9fb5[114]}}},44:{name:_0x9fb5[115],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[116],done:function(){return player[_0x9fb5[109]][_0x9fb5[113]][_0x9fb5[45]](2)},image:function(){if(hasAchievement(_0x9fb5[4],44)){return _0x9fb5[117]}}},45:{name:_0x9fb5[118],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[12]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},tooltip:_0x9fb5[119],done:function(){return player[_0x9fb5[109]][_0x9fb5[113]][_0x9fb5[45]](2)},image:function(){if(hasAchievement(_0x9fb5[4],45)){return _0x9fb5[120]}}}},clickables:{11:{title:_0x9fb5[121],display:function(){return _0x9fb5[122]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72":_0x9fb5[123]},canClick:function(){return true},style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},onClick:function(){return player[_0x9fb5[6]][_0x9fb5[58]]= player[_0x9fb5[6]][_0x9fb5[58]][_0x9fb5[9]](101)}},12:{unlocked:function(){if(hasUpgrade(_0x9fb5[15],24)){return true}},title:_0x9fb5[125],display:function(){return _0x9fb5[126]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72":_0x9fb5[123]},canClick:function(){return true},style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},onClick:function(){if(player[_0x9fb5[4]][_0x9fb5[127]][_0x9fb5[45]](1)){return player[_0x9fb5[4]][_0x9fb5[127]]= player[_0x9fb5[4]][_0x9fb5[127]][_0x9fb5[10]](0)}else {return player[_0x9fb5[4]][_0x9fb5[127]]= player[_0x9fb5[4]][_0x9fb5[127]][_0x9fb5[9]](1)}}},13:{unlocked:function(){if(hasMilestone(_0x9fb5[109],5)){return true}},title:_0x9fb5[128],display:function(){return _0x9fb5[129]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72":_0x9fb5[123]},canClick:function(){return true},style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},onClick:function(){if(player[_0x9fb5[4]][_0x9fb5[130]][_0x9fb5[45]](1)){return player[_0x9fb5[4]][_0x9fb5[130]]= player[_0x9fb5[4]][_0x9fb5[130]][_0x9fb5[10]](0)}else {return player[_0x9fb5[4]][_0x9fb5[130]]= player[_0x9fb5[4]][_0x9fb5[130]][_0x9fb5[9]](1)}}}},tabFormat:[[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[131]+ formatWhole(player[_0x9fb5[4]][_0x9fb5[46]])+ _0x9fb5[132]}else {return _0x9fb5[16]}}],_0x9fb5[32],_0x9fb5[133],_0x9fb5[71]],update:function(){if(player[_0x9fb5[15]][_0x9fb5[94]]> 1&& hasUpgrade(_0x9fb5[15],21)== false&& hasMilestone(_0x9fb5[109],1)== false){player[_0x9fb5[15]][_0x9fb5[94]]= player[_0x9fb5[15]][_0x9fb5[94]][_0x9fb5[9]](-player[_0x9fb5[4]][_0x9fb5[134]])};if(player[_0x9fb5[15]][_0x9fb5[94]]< 0.1&& hasUpgrade(_0x9fb5[15],21)== false&& hasMilestone(_0x9fb5[109],1)== false){player[_0x9fb5[15]][_0x9fb5[94]]= player[_0x9fb5[15]][_0x9fb5[94]][_0x9fb5[9]](player[_0x9fb5[4]].Expulrate2)};player[_0x9fb5[6]][_0x9fb5[135]]= player[_0x9fb5[6]][_0x9fb5[135]][_0x9fb5[10]](0),player[_0x9fb5[4]][_0x9fb5[46]]=  new Decimal(player[_0x9fb5[4]][_0x9fb5[133]][_0x9fb5[136]]);if(player[_0x9fb5[6]][_0x9fb5[137]]< 0.2){player[_0x9fb5[6]][_0x9fb5[75]]= player[_0x9fb5[6]][_0x9fb5[75]][_0x9fb5[10]](0)}}});addLayer(_0x9fb5[6],{name:_0x9fb5[138],image:_0x9fb5[139],position:0,startData:function(){return {unlocked:true,points: new Decimal(0),HydrogenGas: new Decimal(0),HydrogenPower: new Decimal(0),HydrogenMult: new Decimal(0),Gas: new Decimal(0),GasTicks: new Decimal(0),HydroGain: new Decimal(0),Node: new Decimal(0),Clic: new Decimal(0),HydroResets: new Decimal(0),FindPlayer: new Decimal(0)}},branches:[_0x9fb5[15]],color:_0x9fb5[123],requires:function(){return player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[9]](1)[_0x9fb5[140]](2)},resource:_0x9fb5[138],baseResource:_0x9fb5[141],baseAmount:function(){return player[_0x9fb5[6]][_0x9fb5[79]]},requires: new Decimal(1),type:_0x9fb5[142],exponent:function(){exp=  new Decimal(0.8);upgra=  new Decimal(player[_0x9fb5[6]][_0x9fb5[143]][_0x9fb5[136]]);if(hasUpgrade(_0x9fb5[6],16)){return exp[_0x9fb5[10]](upgra[_0x9fb5[140]](-0.22))}else {return exp}},gainMult:function(){mult=  new Decimal(1);return mult},gainExp:function(){return  new Decimal(1)},row:0,hotkeys:[{key:_0x9fb5[144],description:_0x9fb5[145],onPress:function(){if(canReset(this[_0x9fb5[146]])){doReset(this[_0x9fb5[146]])}}}],layerShown:function(){return true},onPrestige:function(){if(hasUpgrade(_0x9fb5[15],22)){return _0x9fb5[27]};player[_0x9fb5[6]][_0x9fb5[79]]= player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[10]](0)},autoPrestige:function(){if(hasUpgrade(_0x9fb5[15],11)){return true}},canBuyMax:function(){return (hasMilestone(_0x9fb5[6],3))},tooltip:function(){return player[_0x9fb5[6]][_0x9fb5[46]]+ _0x9fb5[147]+ formatWhole(player[_0x9fb5[6]].HydrogenPower)+ _0x9fb5[148]},bars:{HydrogenBar:{direction:UP,width:200,height:function(){if(hasUpgrade(_0x9fb5[6],16)){return 600}else {return 400}},progress:function(){prog1= 499.99;if(hasMilestone(_0x9fb5[6],2)){prog1= 999.99};if(hasUpgrade(_0x9fb5[6],16)){prog1= 1999.99};if(hasMilestone(_0x9fb5[15],3)){prog1= 19999.99};if(hasUpgrade(_0x9fb5[6],22)){prog1= 19999999999.99};if(hasUpgrade(_0x9fb5[6],23)){prog1= 7999999.99};if(hasUpgrade(_0x9fb5[6],25)){prog1= 19999.99};if(hasUpgrade(_0x9fb5[15],22)){return 1};return player[_0x9fb5[6]][_0x9fb5[54]]/ prog1},display:function(){return _0x9fb5[149]},fillStyle:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72":_0x9fb5[123]}},HydrogenBar1:{direction:UP,width:200,height:function(){if(hasUpgrade(_0x9fb5[6],16)){return 600}else {return 400}},progress:function(){let _0xd5c2x1= new Decimal(0);prog2= 999.99;if(hasUpgrade(_0x9fb5[6],16)){prog2= 1999.99};if(hasMilestone(_0x9fb5[15],3)){prog2= 19999.99};if(hasUpgrade(_0x9fb5[6],22)){prog2= 19999999999.99};if(hasUpgrade(_0x9fb5[6],23)){prog2= 7999999.99};if(hasUpgrade(_0x9fb5[6],25)){prog2= 19999.99};if(hasUpgrade(_0x9fb5[15],22)){return 1};if(player[_0x9fb5[6]][_0x9fb5[54]]> prog2){_0xd5c2x1= player[_0x9fb5[6]][_0x9fb5[54]][_0x9fb5[9]](-prog2) / prog2};return _0xd5c2x1},display:function(){return _0x9fb5[149]},fillStyle:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72":_0x9fb5[123]},unlocked:function(){if(hasUpgrade(_0x9fb5[6],14)){return true}else {return false}}},HydrogenBar2:{direction:UP,width:200,height:function(){if(hasUpgrade(_0x9fb5[6],16)){return 600}else {return 400}},progress:function(){prog3= 3;if(hasUpgrade(_0x9fb5[6],23)){prog3= 1.11};if(hasUpgrade(_0x9fb5[6],24)){prog3= 10};return player[_0x9fb5[6]][_0x9fb5[137]]/ prog3},display:function(){return _0x9fb5[150]+ format(player[_0x9fb5[6]].HydrogenMult)+ _0x9fb5[151]},fillStyle:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72":_0x9fb5[40]},unlocked:function(){if(hasMilestone(_0x9fb5[15],3)){return true}else {return false}}}},milestones:{1:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[152],effectDescription:_0x9fb5[153],done:function(){return player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[45]](1)},onComplete:function(){player[_0x9fb5[0]][_0x9fb5[46]]= player[_0x9fb5[0]][_0x9fb5[46]][_0x9fb5[9]](1)}},2:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[154],effectDescription:_0x9fb5[155],done:function(){return player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[45]](2)},unlocked:function(){if(hasMilestone(_0x9fb5[6],1)){return true}}},3:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[156],effectDescription:_0x9fb5[157],done:function(){return player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[45]](3)},unlocked:function(){if(hasMilestone(_0x9fb5[6],2)){return true}}},4:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[158],effectDescription:_0x9fb5[159],done:function(){if(hasUpgrade(_0x9fb5[6],16)){return player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[45]](20)}},unlocked:function(){if(hasMilestone(_0x9fb5[6],3)){return true}}}},upgrades:{11:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[160],description:_0x9fb5[161],cost:function(){if(hasUpgrade(_0x9fb5[6],12)){return  new Decimal(3)}else {return  new Decimal(2)}},unlocked:function(){if(hasMilestone(_0x9fb5[6],2)){return true}else {return false}}},12:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[162],description:_0x9fb5[163],cost:function(){if(hasUpgrade(_0x9fb5[6],11)){return  new Decimal(3)}else {return  new Decimal(2)}},unlocked:function(){if(hasMilestone(_0x9fb5[6],2)){return true}else {return false}}},13:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[164],description:_0x9fb5[165],cost: new Decimal(8),unlocked:function(){if(hasUpgrade(_0x9fb5[6],11)){return true};if(hasUpgrade(_0x9fb5[6],12)){return true}else {return false}}},14:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[166],description:_0x9fb5[167],cost: new Decimal(16),onPurchase:function(){return player[_0x9fb5[6]][_0x9fb5[46]]= player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[9]](16)},unlocked:function(){if(hasUpgrade(_0x9fb5[6],13)){return true}else {return false}}},15:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[168],description:_0x9fb5[169],effectDisplay:function(){return _0x9fb5[170]+ format(effect2)},cost: new Decimal(18),unlocked:function(){if(hasUpgrade(_0x9fb5[6],14)){return true}else {return false}}},16:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[171],description:_0x9fb5[172],cost: new Decimal(20),effectDisplay:function(){return _0x9fb5[173]+ format(upgra[_0x9fb5[140]](-0.22))},unlocked:function(){if(hasUpgrade(_0x9fb5[6],15)){return true}else {return false}}},21:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[174],description:_0x9fb5[175],cost: new Decimal(100),onPurchase:function(){return player[_0x9fb5[6]][_0x9fb5[46]]= player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[9]](100)},unlocked:function(){if(hasUpgrade(_0x9fb5[6],16)){return true}else {return false}}},22:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[176],description:_0x9fb5[177],cost: new Decimal(400),onPurchase:function(){return player[_0x9fb5[6]][_0x9fb5[46]]= player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[10]](0),player[_0x9fb5[6]][_0x9fb5[79]]= player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[10]](0),player[_0x9fb5[6]][_0x9fb5[54]]= player[_0x9fb5[6]][_0x9fb5[54]][_0x9fb5[10]](0)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],13)){return true}else {return false}}},23:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[178],description:_0x9fb5[179],cost: new Decimal(12),onPurchase:function(){return player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[10]](0.1),player[_0x9fb5[6]][_0x9fb5[79]]= player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[10]](0)},unlocked:function(){if(hasUpgrade(_0x9fb5[6],22)){return true}else {return false}}},24:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[180],description:_0x9fb5[181],cost: new Decimal(10),onPurchase:function(){return player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[10]](0.1),player[_0x9fb5[6]][_0x9fb5[79]]= player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[10]](0)},unlocked:function(){if(hasUpgrade(_0x9fb5[6],23)){return true}else {return false}}},25:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[182],description:_0x9fb5[183],cost: new Decimal(15),onPurchase:function(){return player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[10]](0.1),player[_0x9fb5[6]][_0x9fb5[79]]= player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[10]](0)},unlocked:function(){if(hasUpgrade(_0x9fb5[6],24)){return true}else {return false}}},26:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[184],description:_0x9fb5[185],cost: new Decimal(1600),unlocked:function(){if(hasUpgrade(_0x9fb5[6],25)){return true}else {return false}}}},clickables:{11:{title:_0x9fb5[186],display:function(){return _0x9fb5[187]},style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72":_0x9fb5[123]},canClick:function(){return true},style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},effect:function(){let _0xd5c2x2= new Decimal(0.9);effect2=  new Decimal(1);effect3=  new Decimal(2);effect4=  new Decimal(1);effect5=  new Decimal(2);effect6=  new Decimal(1);effectMult2=  new Decimal(1);prog= 499.99;if(player[_0x9fb5[109]][_0x9fb5[108]]> 0){effect5= 4,effect6= 2};if(hasUpgrade(_0x9fb5[6],26)){effectMult2= effectMult2[_0x9fb5[9]](player[_0x9fb5[6]].HydrogenMult)};if(hasMilestone(_0x9fb5[15],5)){effect4= 0};if(hasUpgrade(_0x9fb5[15],13)){effect3= 1};if(hasUpgrade(_0x9fb5[6],25)){effect4= 1};if(hasUpgrade(_0x9fb5[6],25)){effect3= 2};if(hasUpgrade(_0x9fb5[6],12)){_0xd5c2x2= _0xd5c2x2[_0x9fb5[9]](1)};if(hasUpgrade(_0x9fb5[6],13)){_0xd5c2x2= _0xd5c2x2[_0x9fb5[9]](2)};if(hasMilestone(_0x9fb5[6],2)){prog= 999.99};if(hasUpgrade(_0x9fb5[6],14)){prog= 1999.99};if(hasUpgrade(_0x9fb5[6],16)){prog= 3999.99};if(hasMilestone(_0x9fb5[15],3)){prog= 39999.99};if(hasUpgrade(_0x9fb5[6],22)){prog= 39999999999.99};if(hasUpgrade(_0x9fb5[6],23)){prog= 16340999.99};if(hasUpgrade(_0x9fb5[6],25)){prog= 39999.99};if(hasMilestone(_0x9fb5[6],1)){_0xd5c2x2= _0xd5c2x2[_0x9fb5[10]](2)};if(hasUpgrade(_0x9fb5[6],11)){_0xd5c2x2= _0xd5c2x2[_0x9fb5[140]](2)};if(hasUpgrade(_0x9fb5[6],15)){effect2= effect2[_0x9fb5[9]](player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[140]](0.8))};if(effect2> 99.99){effect2= 100};if(hasUpgrade(_0x9fb5[6],15)){_0xd5c2x2= _0xd5c2x2[_0x9fb5[9]](effect2)};if(hasMilestone(_0x9fb5[6],4)){_0xd5c2x2= _0xd5c2x2[_0x9fb5[9]](_0xd5c2x2[_0x9fb5[10]](player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[9]](1)[_0x9fb5[140]](0.2)))};_0xd5c2x2= _0xd5c2x2[_0x9fb5[10]](player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[140]](effect3)[_0x9fb5[10]](effect4)[_0x9fb5[9]](1));if(player[_0x9fb5[6]][_0x9fb5[54]]> prog){player[_0x9fb5[6]][_0x9fb5[75]]= player[_0x9fb5[6]][_0x9fb5[75]][_0x9fb5[9]](1),player[_0x9fb5[6]][_0x9fb5[79]]= player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[10]](effectMult2)[_0x9fb5[9]](1)[_0x9fb5[9]](player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[9]](player[_0x9fb5[6]][_0x9fb5[46]])[_0x9fb5[10]](player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[9]](1)[_0x9fb5[140]](effect3)[_0x9fb5[10]](effect4)[_0x9fb5[10]](player[_0x9fb5[109]][_0x9fb5[46]][_0x9fb5[9]](1)[_0x9fb5[140]](effect5)[_0x9fb5[10]](effect6)))),player[_0x9fb5[6]][_0x9fb5[54]]= player[_0x9fb5[6]][_0x9fb5[54]][_0x9fb5[10]](0)};return _0xd5c2x2},unlocked:function(){if(hasUpgrade(_0x9fb5[15],12)){return false}else {return true}},onClick:function(){if(hasUpgrade(_0x9fb5[6],14)){player[_0x9fb5[6]][_0x9fb5[58]]= player[_0x9fb5[6]][_0x9fb5[58]][_0x9fb5[9]](1)}},onHold:function(){player[_0x9fb5[6]][_0x9fb5[63]]= player[_0x9fb5[6]][_0x9fb5[63]][_0x9fb5[9]](1);if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){player[_0x9fb5[6]][_0x9fb5[135]]= player[_0x9fb5[6]][_0x9fb5[135]][_0x9fb5[9]](1)};player[_0x9fb5[6]][_0x9fb5[54]]= player[_0x9fb5[6]][_0x9fb5[54]][_0x9fb5[9]]((temp[_0x9fb5[6]][_0x9fb5[71]][11][_0x9fb5[70]])[_0x9fb5[10]](player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[9]](1))[_0x9fb5[10]](player[_0x9fb5[109]][_0x9fb5[46]][_0x9fb5[9]](1)[_0x9fb5[140]](effect5)[_0x9fb5[10]](effect6)));player[_0x9fb5[6]][_0x9fb5[50]]= player[_0x9fb5[6]][_0x9fb5[50]][_0x9fb5[9]](temp[_0x9fb5[6]][_0x9fb5[71]][11][_0x9fb5[70]])}},12:{title:_0x9fb5[188],display:function(){return _0x9fb5[189]},style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},unlocked:function(){if(hasMilestone(_0x9fb5[15],3)&& hasUpgrade(_0x9fb5[15],22)== false){return true}else {return false}},canClick:function(){return true},effect:function(){effectM=  new Decimal(0.2);effectMult=  new Decimal(0);effectMult= effectMult[_0x9fb5[9]](player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[9]](1));effectD=  new Decimal(5);lightfall=  new Decimal(-0.1);Equa=  new Decimal(0);cap=  new Decimal(3);if(hasUpgrade(_0x9fb5[6],24)){effectD= effectMult};if(hasUpgrade(_0x9fb5[6],26)){effectD= 5};if(effectD> 5){effectMult=  new Decimal(0.1)[_0x9fb5[190]](effectMult)};if(effectD< 4){effectMult=  new Decimal(0.1)[_0x9fb5[190]](effectMult)};if(hasUpgrade(_0x9fb5[6],23)){cap= 1.11};if(hasUpgrade(_0x9fb5[6],24)){cap= 10};if(hasUpgrade(_0x9fb5[6],22)){lightfall=  -0.05};if(hasUpgrade(_0x9fb5[6],26)){lightfall=  -0.005};if(hasUpgrade(_0x9fb5[6],24)){Equa= 2};if(hasMilestone(_0x9fb5[15],3)){Equa= 0.1};if(hasMilestone(_0x9fb5[15],4)){Equa= 0};if(hasUpgrade(_0x9fb5[15],16)){Equa= 0};if(player[_0x9fb5[6]][_0x9fb5[137]]> Equa){player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[9]](lightfall)};if(player[_0x9fb5[6]][_0x9fb5[137]]< Equa){player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[9]](-lightfall)};return effectM},onHold:function(){player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[9]](temp[_0x9fb5[6]][_0x9fb5[71]][12][_0x9fb5[70]]);if(player[_0x9fb5[6]][_0x9fb5[137]]> cap){player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[9]](effectM[_0x9fb5[10]](-1))}}}},infoboxes:{lore:{titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[138],body:function(){return _0x9fb5[191]}}},tabFormat:[[_0x9fb5[23],_0x9fb5[24]],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[192]+ formatWhole(player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[9]](player[_0x9fb5[6]][_0x9fb5[46]]))}}],_0x9fb5[32],_0x9fb5[193],()=>{return (hasUpgrade(_0x9fb5[15],11))?_0x9fb5[27]:_0x9fb5[194]},[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[131]+ formatWhole(player[_0x9fb5[6]].HydrogenPower)+ _0x9fb5[148]}}],_0x9fb5[32],_0x9fb5[195],_0x9fb5[32],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[131]+ format(player[_0x9fb5[6]].HydrogenGas)+ _0x9fb5[196]}}],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[135]]> 0){return _0x9fb5[197]+ format(temp[_0x9fb5[6]][_0x9fb5[71]][11][_0x9fb5[70]])+ _0x9fb5[198]}}],[_0x9fb5[199],[[_0x9fb5[200],_0x9fb5[201]],_0x9fb5[32],[_0x9fb5[200],_0x9fb5[202]],_0x9fb5[32],_0x9fb5[32],[_0x9fb5[200],_0x9fb5[203]]]],_0x9fb5[32],_0x9fb5[71],_0x9fb5[32],_0x9fb5[143]],doReset:function(_0xd5c2x3){if(layers[this[_0x9fb5[146]]][_0x9fb5[199]]>= layers[_0xd5c2x3][_0x9fb5[199]]){return};let _0xd5c2x4=[];let _0xd5c2x5=[];if(player[_0x9fb5[15]][_0x9fb5[108]]> 0){_0xd5c2x4[_0x9fb5[205]](...player[_0x9fb5[6]][_0x9fb5[195]][_0x9fb5[204]](0,player[_0x9fb5[15]][_0x9fb5[108]]))};if(player[_0x9fb5[15]][_0x9fb5[108]]> 1){_0xd5c2x5[_0x9fb5[205]](...player[_0x9fb5[6]][_0x9fb5[143]][_0x9fb5[204]](0,player[_0x9fb5[15]][_0x9fb5[108]]))};layerDataReset(this[_0x9fb5[146]]);player[_0x9fb5[6]][_0x9fb5[143]][_0x9fb5[205]](..._0xd5c2x5);player[_0x9fb5[6]][_0x9fb5[195]][_0x9fb5[205]](..._0xd5c2x4)},automate:function(){if(hasUpgrade(_0x9fb5[15],22)){player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[9]](temp[_0x9fb5[6]][_0x9fb5[71]][12][_0x9fb5[70]])};if(hasUpgrade(_0x9fb5[15],22)&& player[_0x9fb5[6]][_0x9fb5[137]]> cap){player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[9]](effectM[_0x9fb5[10]](-1))};if(hasUpgrade(_0x9fb5[15],12)){player[_0x9fb5[6]][_0x9fb5[63]]= player[_0x9fb5[6]][_0x9fb5[63]][_0x9fb5[9]](1),player[_0x9fb5[6]][_0x9fb5[135]]= player[_0x9fb5[6]][_0x9fb5[135]][_0x9fb5[9]](1),player[_0x9fb5[6]][_0x9fb5[54]]= player[_0x9fb5[6]][_0x9fb5[54]][_0x9fb5[9]](temp[_0x9fb5[6]][_0x9fb5[71]][11][_0x9fb5[70]])[_0x9fb5[10]](effectMult[_0x9fb5[9]](1)),player[_0x9fb5[6]][_0x9fb5[50]]= player[_0x9fb5[6]][_0x9fb5[50]][_0x9fb5[9]](temp[_0x9fb5[6]][_0x9fb5[71]][11][_0x9fb5[70]])}}});addLayer(_0x9fb5[15],{name:_0x9fb5[206],image:_0x9fb5[207],position:1,startData:function(){return {unlocked:true,total: new Decimal(0),points: new Decimal(0),HeliumExpunged: new Decimal(0),resets: new Decimal(0),State: new Decimal(1),Inflate: new Decimal(1),IText:_0x9fb5[208],BalDiv: new Decimal(0),BalDiv1: new Decimal(0)}},onClick:function(){player[_0x9fb5[6]][_0x9fb5[209]]= player[_0x9fb5[6]][_0x9fb5[209]][_0x9fb5[9]](5)},layerShown:function(){if(hasUpgrade(_0x9fb5[6],21)){return true};if(player[_0x9fb5[15]][_0x9fb5[210]]> 0){return true};if(player[_0x9fb5[109]][_0x9fb5[210]]> 0){return true}else {return false}},branches:[_0x9fb5[109]],color:_0x9fb5[211],requires: new Decimal(1),resource:_0x9fb5[206],baseResource:_0x9fb5[138],baseAmount:function(){return player[_0x9fb5[6]][_0x9fb5[46]]},requires: new Decimal(100),type:_0x9fb5[212],exponent:function(){if(hasUpgrade(_0x9fb5[15],21)){return 0.5}else {return 0.1}},gainMult:function(){mult=  new Decimal(1);return mult},gainExp:function(){return  new Decimal(1)},row:1,displayRow:0,hotkeys:[{key:_0x9fb5[213],description:_0x9fb5[214],onPress:function(){if(canReset(this[_0x9fb5[146]])){doReset(this[_0x9fb5[146]])}}}],onPrestige:function(){player[_0x9fb5[15]][_0x9fb5[108]]= player[_0x9fb5[15]][_0x9fb5[108]][_0x9fb5[9]](1)},tooltip:function(){return formatWhole(player[_0x9fb5[15]][_0x9fb5[46]])+ _0x9fb5[215]},tooltipLocked:function(){return formatWhole(player[_0x9fb5[15]][_0x9fb5[46]])+ _0x9fb5[215]},clickables:{11:{title:_0x9fb5[90],display:function(){if(player[_0x9fb5[15]][_0x9fb5[89]]> 0){return _0x9fb5[216]}else {return _0x9fb5[217]}},unlocked:function(){if(hasMilestone(_0x9fb5[109],5)){return false};if(hasUpgrade(_0x9fb5[6],26)){return true}else {return false}},canClick:function(){return true},effect:function(){BalMult=  new Decimal(1);InRate=  new Decimal(1);cap2=  new Decimal(49);cap3=  new Decimal(49);cap3= cap2;cap3= cap3[_0x9fb5[9]](-10);if(hasUpgrade(_0x9fb5[6],26)){cap2= 49};player[_0x9fb5[15]][_0x9fb5[218]]= player[_0x9fb5[15]][_0x9fb5[90]];player[_0x9fb5[15]][_0x9fb5[219]]= player[_0x9fb5[15]][_0x9fb5[90]];if(hasUpgrade(_0x9fb5[15],16)){player[_0x9fb5[15]][_0x9fb5[218]]= player[_0x9fb5[15]][_0x9fb5[218]][_0x9fb5[10]](0.3)};if(hasUpgrade(_0x9fb5[15],23)){player[_0x9fb5[15]][_0x9fb5[218]]= player[_0x9fb5[15]][_0x9fb5[218]][_0x9fb5[10]](0.1)};if(hasUpgrade(_0x9fb5[15],16)){player[_0x9fb5[15]][_0x9fb5[219]]= player[_0x9fb5[15]][_0x9fb5[219]][_0x9fb5[10]](0.3)};if(hasUpgrade(_0x9fb5[15],23)){player[_0x9fb5[15]][_0x9fb5[219]]= player[_0x9fb5[15]][_0x9fb5[219]][_0x9fb5[10]](0.1)};if(hasUpgrade(_0x9fb5[15],24)){player[_0x9fb5[15]][_0x9fb5[219]]= player[_0x9fb5[15]][_0x9fb5[219]][_0x9fb5[9]](player[_0x9fb5[15]][_0x9fb5[90]][_0x9fb5[140]](0.7))};if(hasUpgrade(_0x9fb5[15],25)){player[_0x9fb5[15]][_0x9fb5[219]]= player[_0x9fb5[15]][_0x9fb5[219]][_0x9fb5[9]](player[_0x9fb5[15]].Inflate)};if(hasMilestone(_0x9fb5[109],1)){player[_0x9fb5[15]][_0x9fb5[219]]= player[_0x9fb5[15]][_0x9fb5[219]][_0x9fb5[10]](0)};if(player[_0x9fb5[4]][_0x9fb5[127]][_0x9fb5[45]](1)){player[_0x9fb5[15]][_0x9fb5[219]]= player[_0x9fb5[15]][_0x9fb5[219]][_0x9fb5[10]](0)};if(hasUpgrade(_0x9fb5[15],15)){InRate= 10};if(hasUpgrade(_0x9fb5[15],24)){InRate= 20};if(hasUpgrade(_0x9fb5[15],14)){cap2= 499};if(hasUpgrade(_0x9fb5[15],23)){cap2= 4999};if(player[_0x9fb5[15]][_0x9fb5[90]]> cap2){player[_0x9fb5[15]][_0x9fb5[90]]= player[_0x9fb5[15]][_0x9fb5[90]][_0x9fb5[10]](0)};if(player[_0x9fb5[15]][_0x9fb5[89]]> 0){player[_0x9fb5[15]][_0x9fb5[90]]= player[_0x9fb5[15]][_0x9fb5[90]][_0x9fb5[9]](InRate)};return cap2},onClick:function(){player[_0x9fb5[15]][_0x9fb5[89]]= player[_0x9fb5[15]][_0x9fb5[89]][_0x9fb5[9]](1)}},12:{title:_0x9fb5[220],display:function(){if(player[_0x9fb5[15]][_0x9fb5[89]]< 1){return _0x9fb5[216]}else {return _0x9fb5[217]}},unlocked:function(){if(hasMilestone(_0x9fb5[109],5)){return false};if(hasUpgrade(_0x9fb5[6],26)){return true}else {return false}},effect:function(){BalMult=  new Decimal(1);if(hasUpgrade(_0x9fb5[15],21)){BalMult= BalMult[_0x9fb5[9]]((player[_0x9fb5[15]][_0x9fb5[46]])[_0x9fb5[140]](1.1))};if(hasMilestone(_0x9fb5[15],6)){BalMult= softcap(BalMult, new Decimal(500),0.1)};if(player[_0x9fb5[15]][_0x9fb5[89]]> 0){return _0x9fb5[27]};if(player[_0x9fb5[15]][_0x9fb5[90]]> 0){player[_0x9fb5[15]][_0x9fb5[90]]= player[_0x9fb5[15]][_0x9fb5[90]][_0x9fb5[9]](-InRate),player[_0x9fb5[15]][_0x9fb5[94]]= player[_0x9fb5[15]][_0x9fb5[94]][_0x9fb5[9]](1)[_0x9fb5[9]](player[_0x9fb5[15]][_0x9fb5[90]][_0x9fb5[140]](0.1))[_0x9fb5[9]](BalMult[_0x9fb5[10]](player[_0x9fb5[109]][_0x9fb5[46]][_0x9fb5[9]](1)[_0x9fb5[140]](effect5)[_0x9fb5[10]](effect6)))}},canClick:function(){return true},onClick:function(){player[_0x9fb5[15]][_0x9fb5[89]]= player[_0x9fb5[15]][_0x9fb5[89]][_0x9fb5[10]](0)}}},automate:function(){if(hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[15]][_0x9fb5[90]]<= 0){player[_0x9fb5[15]][_0x9fb5[89]]= player[_0x9fb5[15]][_0x9fb5[89]][_0x9fb5[9]](1)};if(hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[15]][_0x9fb5[90]]>= cap3){player[_0x9fb5[15]][_0x9fb5[89]]= player[_0x9fb5[15]][_0x9fb5[89]][_0x9fb5[10]](0)}},milestones:{1:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[221],effectDescription:_0x9fb5[222],done:function(){return player[_0x9fb5[15]][_0x9fb5[210]][_0x9fb5[45]](1)},onComplete:function(){player[_0x9fb5[0]][_0x9fb5[46]]= player[_0x9fb5[0]][_0x9fb5[46]][_0x9fb5[9]](1)}},2:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[223],effectDescription:_0x9fb5[224],done:function(){return player[_0x9fb5[15]][_0x9fb5[210]][_0x9fb5[45]](2)},unlocked:function(){if(hasMilestone(_0x9fb5[15],1)){return true}}},3:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[225],effectDescription:_0x9fb5[226],done:function(){return player[_0x9fb5[15]][_0x9fb5[210]][_0x9fb5[45]](7)},unlocked:function(){if(hasMilestone(_0x9fb5[15],2)){return true}}},4:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[227],effectDescription:_0x9fb5[228],done:function(){return player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[45]](10)},unlocked:function(){if(hasMilestone(_0x9fb5[15],3)){return true}}},5:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:`${_0x9fb5[229]}`,effectDescription:_0x9fb5[230],done:function(){return hasUpgrade(_0x9fb5[6],22)},onComplete:function(){return player[_0x9fb5[15]][_0x9fb5[46]]= player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[10]](0)},unlocked:function(){if(hasMilestone(_0x9fb5[15],4)){return true}}},6:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[231],effectDescription:_0x9fb5[232],done:function(){if(hasUpgrade(_0x9fb5[15],21)){return player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[45]](500)}},unlocked:function(){if(hasUpgrade(_0x9fb5[15],21)){return true}}}},upgrades:{11:{title:_0x9fb5[233],description:_0x9fb5[234],cost:function(){return  new Decimal(5)},onPurchase:function(){return player[_0x9fb5[15]][_0x9fb5[46]]= player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[9]](1)},unlocked:function(){if(hasMilestone(_0x9fb5[15],2)){return true}else {return false}}},12:{title:_0x9fb5[235],description:_0x9fb5[236],cost:function(){return  new Decimal(10)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],11)){return true}else {return false}}},13:{title:_0x9fb5[237],description:_0x9fb5[238],cost:function(){return  new Decimal(100)},onPurchase:function(){return player[_0x9fb5[15]][_0x9fb5[46]]= player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[9]](100),player[_0x9fb5[6]][_0x9fb5[137]]= player[_0x9fb5[6]][_0x9fb5[137]][_0x9fb5[10]](0.1),player[_0x9fb5[6]][_0x9fb5[79]]= player[_0x9fb5[6]][_0x9fb5[79]][_0x9fb5[10]](0),player[_0x9fb5[6]][_0x9fb5[46]]= player[_0x9fb5[6]][_0x9fb5[46]][_0x9fb5[10]](0)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],12)){return true}else {return false}}},14:{title:_0x9fb5[239],description:_0x9fb5[240],currencyDisplayName:_0x9fb5[241],currencyInternalName:_0x9fb5[94],currencyLocation:function(){return player[_0x9fb5[15]]},cost:function(){return  new Decimal(500)},unlocked:function(){if(hasUpgrade(_0x9fb5[6],26)){return true}else {return false}}},15:{title:_0x9fb5[242],description:_0x9fb5[243],currencyDisplayName:_0x9fb5[241],currencyInternalName:_0x9fb5[94],currencyLocation:function(){return player[_0x9fb5[15]]},cost:function(){return  new Decimal(2500)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],14)){return true}else {return false}}},16:{title:_0x9fb5[244],description:_0x9fb5[245],currencyDisplayName:_0x9fb5[241],currencyInternalName:_0x9fb5[94],currencyLocation:function(){return player[_0x9fb5[15]]},cost:function(){return  new Decimal(1000)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],15)){return true}else {return false}}},21:{title:`${_0x9fb5[246]}`,description:_0x9fb5[247],cost:function(){return  new Decimal(500)},onPurchase:function(){return player[_0x9fb5[15]][_0x9fb5[46]]= player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[9]](250)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],16)){return true}else {return false}}},22:{title:_0x9fb5[248],description:_0x9fb5[249],currencyDisplayName:_0x9fb5[241],currencyInternalName:_0x9fb5[94],currencyLocation:function(){return player[_0x9fb5[15]]},cost:function(){return  new Decimal(250000)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],21)){return true}else {return false}}},23:{title:_0x9fb5[250],description:_0x9fb5[251],currencyDisplayName:_0x9fb5[241],currencyInternalName:_0x9fb5[94],currencyLocation:function(){return player[_0x9fb5[15]]},cost:function(){return  new Decimal(500000)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],22)){return true}else {return false}}},24:{title:_0x9fb5[252],description:_0x9fb5[253],currencyDisplayName:_0x9fb5[241],currencyInternalName:_0x9fb5[94],currencyLocation:function(){return player[_0x9fb5[15]]},cost:function(){return  new Decimal(500000)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],23)){return true}else {return false}}},25:{title:_0x9fb5[254],description:_0x9fb5[255],currencyDisplayName:_0x9fb5[241],currencyInternalName:_0x9fb5[94],currencyLocation:function(){return player[_0x9fb5[15]]},cost:function(){return  new Decimal(1000000)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],24)){return true}else {return false}}},26:{title:_0x9fb5[256],description:_0x9fb5[257],currencyDisplayName:_0x9fb5[241],currencyInternalName:_0x9fb5[94],currencyLocation:function(){return player[_0x9fb5[15]]},cost:function(){return  new Decimal(69420)},onPurchase:function(){return player[_0x9fb5[15]][_0x9fb5[94]]= player[_0x9fb5[15]][_0x9fb5[94]][_0x9fb5[9]](69420)},unlocked:function(){if(hasUpgrade(_0x9fb5[15],25)){return true}else {return false}}}},infoboxes:{lore:{title:_0x9fb5[206],body:function(){return _0x9fb5[258]}}},tabFormat:[[_0x9fb5[23],_0x9fb5[24]],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[259]+ formatWhole(player[_0x9fb5[15]][_0x9fb5[46]][_0x9fb5[9]](1)[_0x9fb5[140]](effect3)[_0x9fb5[10]](effect4))}}],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1&& hasUpgrade(_0x9fb5[15],21)){return _0x9fb5[260]+ format((BalMult))}}],_0x9fb5[32],_0x9fb5[193],()=>{return (hasMilestone(_0x9fb5[109],2))?_0x9fb5[27]:_0x9fb5[194]},_0x9fb5[32],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[261]+ formatWhole(player[_0x9fb5[15]][_0x9fb5[108]])+ _0x9fb5[262]}}],_0x9fb5[195],_0x9fb5[143],_0x9fb5[32],[_0x9fb5[30],function(){if(hasUpgrade(_0x9fb5[6],26)&& player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[131]+ format(player[_0x9fb5[15]].HeliumExpunged)+ _0x9fb5[263]}}],[_0x9fb5[30],function(){if(hasUpgrade(_0x9fb5[6],26)&& player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[131]+ format(player[_0x9fb5[15]].Inflate)+ _0x9fb5[264]}}],[_0x9fb5[33],function(){if(hasUpgrade(_0x9fb5[6],26)&& player[_0x9fb5[15]][_0x9fb5[90]]> 3){return _0x9fb5[265]};if(hasUpgrade(_0x9fb5[6],26)&& player[_0x9fb5[15]][_0x9fb5[90]]< 4){return _0x9fb5[266]}}],_0x9fb5[71],_0x9fb5[32],()=>{return (player[_0x9fb5[6]][_0x9fb5[5]]< 1)?_0x9fb5[27]:[_0x9fb5[267],_0x9fb5[14]]}],componentStyles:{"\x64\x69\x73\x70\x6C\x61\x79\x2D\x69\x6D\x61\x67\x65":function(){return {'\x68\x65\x69\x67\x68\x74':`${_0x9fb5[27]}${player[_0x9fb5[15]][_0x9fb5[218]][_0x9fb5[9]](50)}${_0x9fb5[268]}`,'\x77\x69\x64\x74\x68':`${_0x9fb5[27]}${player[_0x9fb5[15]][_0x9fb5[219]][_0x9fb5[9]](50)}${_0x9fb5[268]}`}}},passiveGeneration:function(){if(hasMilestone(_0x9fb5[109],3)){return 8};if(hasMilestone(_0x9fb5[109],2)){return 4}},doReset:function(_0xd5c2x3){if(layers[this[_0x9fb5[146]]][_0x9fb5[199]]>= layers[_0xd5c2x3][_0x9fb5[199]]){return};let _0xd5c2x4=[];let _0xd5c2x5=[];if(player[_0x9fb5[109]][_0x9fb5[108]]> 0){_0xd5c2x4[_0x9fb5[205]](...player[_0x9fb5[15]][_0x9fb5[195]][_0x9fb5[204]](0,player[_0x9fb5[109]][_0x9fb5[108]]))};if(player[_0x9fb5[109]][_0x9fb5[108]]> 1){_0xd5c2x5[_0x9fb5[205]](...player[_0x9fb5[15]][_0x9fb5[143]][_0x9fb5[204]](0,player[_0x9fb5[109]][_0x9fb5[108]]))};layerDataReset(this[_0x9fb5[146]]);if(player[_0x9fb5[109]][_0x9fb5[108]]> 0){player[_0x9fb5[15]][_0x9fb5[108]]= player[_0x9fb5[15]][_0x9fb5[108]][_0x9fb5[9]](player[_0x9fb5[109]][_0x9fb5[108]])};if(player[_0x9fb5[109]][_0x9fb5[108]]> 3){player[_0x9fb5[15]][_0x9fb5[108]]= player[_0x9fb5[15]][_0x9fb5[108]][_0x9fb5[9]](20)};player[_0x9fb5[15]][_0x9fb5[143]][_0x9fb5[205]](..._0xd5c2x5);player[_0x9fb5[15]][_0x9fb5[195]][_0x9fb5[205]](..._0xd5c2x4)}});addLayer(_0x9fb5[109],{name:_0x9fb5[109],image:_0x9fb5[269],position:2,startData:function(){return {unlocked:true,points: new Decimal(0),resets: new Decimal(0),Deg: new Decimal(0),Size: new Decimal(0),State: new Decimal(0),Gain: new Decimal(0),Hydrogen: new Decimal(0),H1: new Decimal(2),H2: new Decimal(100),Li1: new Decimal(1),Sped: new Decimal(10),HM: new Decimal(1),H: new Decimal(1),Runlock: new Decimal(0),Rubidium: new Decimal(1),R: new Decimal(1),R1: new Decimal(100),RM: new Decimal(0),Hp: new Decimal(1),Rp: new Decimal(1),Lp: new Decimal(1)}},layerShown:function(){if(hasUpgrade(_0x9fb5[15],26)){return true};if(player[_0x9fb5[109]][_0x9fb5[108]]> 0){return true}else {return false}},color:_0x9fb5[270],requires: new Decimal(1),resource:_0x9fb5[271],baseResource:_0x9fb5[272],baseAmount:function(){return player[_0x9fb5[15]][_0x9fb5[94]]},requires: new Decimal(100000),type:_0x9fb5[212],exponent:0.3,gainMult:function(){mult=  new Decimal(1);return mult},gainExp:function(){return  new Decimal(1)},row:2,displayRow:0,hotkeys:[{key:_0x9fb5[273],description:_0x9fb5[274],onPress:function(){if(canReset(this[_0x9fb5[146]])){doReset(this[_0x9fb5[146]])}}}],onPrestige:function(){player[_0x9fb5[109]][_0x9fb5[108]]= player[_0x9fb5[109]][_0x9fb5[108]][_0x9fb5[9]](1)},tooltip:function(){return formatWhole(player[_0x9fb5[109]][_0x9fb5[46]])+ _0x9fb5[275]},tooltipLocked:function(){return formatWhole(player[_0x9fb5[109]][_0x9fb5[46]])+ _0x9fb5[275]},milestones:{1:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[276],effectDescription:_0x9fb5[277],done:function(){return player[_0x9fb5[109]][_0x9fb5[108]][_0x9fb5[45]](1)},onComplete:function(){player[_0x9fb5[0]][_0x9fb5[46]]= player[_0x9fb5[0]][_0x9fb5[46]][_0x9fb5[9]](1)}},2:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[278],effectDescription:_0x9fb5[279],done:function(){return player[_0x9fb5[109]][_0x9fb5[108]][_0x9fb5[45]](2)},unlocked:function(){if(hasMilestone(_0x9fb5[109],1)){return true}}},3:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[280],effectDescription:_0x9fb5[281],done:function(){return player[_0x9fb5[109]][_0x9fb5[108]][_0x9fb5[45]](3)},unlocked:function(){if(hasMilestone(_0x9fb5[109],2)){return true}}},4:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[282],effectDescription:_0x9fb5[283],done:function(){return player[_0x9fb5[109]][_0x9fb5[108]][_0x9fb5[45]](4)},unlocked:function(){if(hasMilestone(_0x9fb5[109],3)){return true}}},5:{style:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},requirementDescription:_0x9fb5[284],effectDescription:_0x9fb5[285],done:function(){return player[_0x9fb5[109]][_0x9fb5[108]][_0x9fb5[45]](12)},onComplete:function(){return player[_0x9fb5[109]][_0x9fb5[46]]= player[_0x9fb5[109]][_0x9fb5[46]][_0x9fb5[10]](0)},unlocked:function(){if(hasMilestone(_0x9fb5[109],4)){return true}}}},infoboxes:{lore:{titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[271],body:function(){return _0x9fb5[286]}},lore1:{titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x9fb5[124]},title:_0x9fb5[27],body:function(){return _0x9fb5[17]}}},buyables:{11:{unlocked:function(){if(hasMilestone(_0x9fb5[109],5)){return true}},cost:function(_0xd5c2x6){return  new Decimal(10)[_0x9fb5[287]](_0xd5c2x6)[_0x9fb5[140]](1.9)},display:function(){return _0x9fb5[288]+ format(this[_0x9fb5[289]]())+ _0x9fb5[290]+ format(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]]))+ _0x9fb5[292]+ format((this[_0x9fb5[293]]))+ _0x9fb5[294]},canAfford:function(){return player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[45]](this[_0x9fb5[289]]())},purchaseLimit:50,buy:function(){player[this[_0x9fb5[146]]][_0x9fb5[46]]= player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[295]](this[_0x9fb5[289]]());setBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]],getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])[_0x9fb5[9]](1));player[_0x9fb5[109]][_0x9fb5[296]]= player[_0x9fb5[109]][_0x9fb5[296]][_0x9fb5[9]](1),player[_0x9fb5[109]][_0x9fb5[297]]= player[_0x9fb5[109]][_0x9fb5[297]][_0x9fb5[9]](1);if(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])== 50){player[_0x9fb5[109]][_0x9fb5[113]]= player[_0x9fb5[109]][_0x9fb5[113]][_0x9fb5[9]](1),player[_0x9fb5[109]][_0x9fb5[298]]= player[_0x9fb5[109]][_0x9fb5[298]][_0x9fb5[9]](1),player[_0x9fb5[109]][_0x9fb5[299]]= player[_0x9fb5[109]][_0x9fb5[299]][_0x9fb5[295]](1)}}},12:{unlocked:function(){if(hasMilestone(_0x9fb5[109],5)){return true}},cost:function(_0xd5c2x6){return  new Decimal(10)[_0x9fb5[287]](_0xd5c2x6)[_0x9fb5[140]](1.8)},display:function(){return _0x9fb5[300]+ format(this[_0x9fb5[289]]())+ _0x9fb5[290]+ format(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]]))+ _0x9fb5[292]+ format((this[_0x9fb5[293]]))+ _0x9fb5[301]},canAfford:function(){return player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[45]](this[_0x9fb5[289]]())},buy:function(){player[this[_0x9fb5[146]]][_0x9fb5[46]]= player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[295]](this[_0x9fb5[289]]());setBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]],getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])[_0x9fb5[9]](1));player[_0x9fb5[109]][_0x9fb5[302]]= player[_0x9fb5[109]][_0x9fb5[302]][_0x9fb5[9]]( new Decimal(0.01)[_0x9fb5[10]](x));if(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])== 25){player[_0x9fb5[109]][_0x9fb5[302]]= player[_0x9fb5[109]][_0x9fb5[302]][_0x9fb5[10]](2)}},purchaseLimit:25},13:{unlocked:function(){if(hasMilestone(_0x9fb5[109],5)){return true}},cost:function(_0xd5c2x6){return  new Decimal(1)[_0x9fb5[287]](_0xd5c2x6)[_0x9fb5[140]](1.5)},display:function(){return _0x9fb5[303]+ format(this[_0x9fb5[289]]())+ _0x9fb5[290]+ format(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]]))+ _0x9fb5[292]+ format((this[_0x9fb5[293]]))+ _0x9fb5[304]},canAfford:function(){return player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[45]](this[_0x9fb5[289]]())},buy:function(){player[this[_0x9fb5[146]]][_0x9fb5[46]]= player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[295]](this[_0x9fb5[289]]());setBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]],getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])[_0x9fb5[9]](1));player[_0x9fb5[109]][_0x9fb5[305]]= player[_0x9fb5[109]][_0x9fb5[305]][_0x9fb5[9]]( new Decimal(0.1)[_0x9fb5[10]](x));if(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])== 100){player[_0x9fb5[109]][_0x9fb5[305]]= player[_0x9fb5[109]][_0x9fb5[305]][_0x9fb5[10]](2)}},purchaseLimit:100},14:{unlocked:function(){if(hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[109]][_0x9fb5[113]]> 0){return true}},cost:function(_0xd5c2x6){return  new Decimal(100000)[_0x9fb5[287]](_0xd5c2x6)[_0x9fb5[140]](1.02)},display:function(){return _0x9fb5[306]+ format(this[_0x9fb5[289]]())+ _0x9fb5[290]+ format(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]]))+ _0x9fb5[292]+ format((this[_0x9fb5[293]]))+ _0x9fb5[307]},canAfford:function(){return player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[45]](this[_0x9fb5[289]]())},purchaseLimit:20,buy:function(){player[this[_0x9fb5[146]]][_0x9fb5[46]]= player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[295]](this[_0x9fb5[289]]());setBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]],getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])[_0x9fb5[9]](1));player[_0x9fb5[109]][_0x9fb5[308]]= player[_0x9fb5[109]][_0x9fb5[308]][_0x9fb5[295]](1),player[_0x9fb5[109]][_0x9fb5[299]]= player[_0x9fb5[109]][_0x9fb5[299]][_0x9fb5[295]](1);if(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])== 20){player[_0x9fb5[109]][_0x9fb5[309]]= player[_0x9fb5[109]][_0x9fb5[309]][_0x9fb5[10]](2)}}},15:{unlocked:function(){if(hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[109]][_0x9fb5[113]]> 0){return true}},cost:function(_0xd5c2x6){return  new Decimal(100000)[_0x9fb5[287]](_0xd5c2x6)[_0x9fb5[140]](1.01)},display:function(){return _0x9fb5[310]+ format(this[_0x9fb5[289]]())+ _0x9fb5[290]+ format(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]]))+ _0x9fb5[292]+ format((this[_0x9fb5[293]]))+ _0x9fb5[301]},canAfford:function(){return player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[45]](this[_0x9fb5[289]]())},buy:function(){player[this[_0x9fb5[146]]][_0x9fb5[46]]= player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[295]](this[_0x9fb5[289]]());setBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]],getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])[_0x9fb5[9]](1));player[_0x9fb5[109]][_0x9fb5[302]]= player[_0x9fb5[109]][_0x9fb5[302]][_0x9fb5[9]]( new Decimal(0.01)[_0x9fb5[10]](x));if(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])== 25){player[_0x9fb5[109]][_0x9fb5[302]]= player[_0x9fb5[109]][_0x9fb5[302]][_0x9fb5[10]](2)}},purchaseLimit:25},16:{unlocked:function(){if(hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[109]][_0x9fb5[113]]> 0){return true}},cost:function(_0xd5c2x6){return  new Decimal(10)[_0x9fb5[287]](_0xd5c2x6)[_0x9fb5[140]](30)},display:function(){return _0x9fb5[311]+ format(this[_0x9fb5[289]]())+ _0x9fb5[290]+ format(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]]))+ _0x9fb5[292]+ format((this[_0x9fb5[293]]))+ _0x9fb5[312]},canAfford:function(){return player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[45]](this[_0x9fb5[289]]())},buy:function(){player[this[_0x9fb5[146]]][_0x9fb5[46]]= player[this[_0x9fb5[146]]][_0x9fb5[46]][_0x9fb5[295]](this[_0x9fb5[289]]());setBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]],getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])[_0x9fb5[9]](1));if(getBuyableAmount(this[_0x9fb5[146]],this[_0x9fb5[291]])== 2){player[_0x9fb5[109]][_0x9fb5[113]]= player[_0x9fb5[109]][_0x9fb5[113]][_0x9fb5[9]](1)}},purchaseLimit:2}},tabFormat:[()=>{return (player[_0x9fb5[6]][_0x9fb5[5]]< 1)?[_0x9fb5[23],_0x9fb5[24]]:[_0x9fb5[23],_0x9fb5[25]]},[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[313]+ formatWhole(player[_0x9fb5[109]][_0x9fb5[46]][_0x9fb5[9]](1)[_0x9fb5[140]](effect5)[_0x9fb5[10]](effect6))}}],_0x9fb5[32],_0x9fb5[193],()=>{return (hasMilestone(_0x9fb5[109],5))?_0x9fb5[27]:_0x9fb5[194]},_0x9fb5[32],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1){return _0x9fb5[261]+ formatWhole(player[_0x9fb5[109]][_0x9fb5[108]])+ _0x9fb5[262]}}],_0x9fb5[195],_0x9fb5[32],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1&& hasMilestone(_0x9fb5[109],5)){return _0x9fb5[131]+ format(player[_0x9fb5[109]][_0x9fb5[46]])+ _0x9fb5[314]+ formatWhole(player[_0x9fb5[109]][_0x9fb5[296]][_0x9fb5[9]](1))+ _0x9fb5[315]}}],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1&& hasMilestone(_0x9fb5[109],5)){return _0x9fb5[131]+ format(player[_0x9fb5[109]].Hydrogen)+ _0x9fb5[316]+ formatWhole(player[_0x9fb5[109]][_0x9fb5[299]][_0x9fb5[295]](player[_0x9fb5[109]].H1))+ _0x9fb5[315]}}],[_0x9fb5[30],function(){if(player[_0x9fb5[6]][_0x9fb5[5]]< 1&& hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[109]][_0x9fb5[113]]> 0){return _0x9fb5[131]+ format(player[_0x9fb5[109]].Rubidium)+ _0x9fb5[317]+ formatWhole( new Decimal(100)[_0x9fb5[295]](player[_0x9fb5[109]].R1)[_0x9fb5[9]](1))+ _0x9fb5[315]}}],_0x9fb5[32],[_0x9fb5[199],function(){if(hasMilestone(_0x9fb5[109],5)){return [[_0x9fb5[33],_0x9fb5[318],{'\x68\x65\x69\x67\x68\x74':`${_0x9fb5[27]}${player[_0x9fb5[109]][_0x9fb5[319]][_0x9fb5[9]](340)}${_0x9fb5[268]}`,'\x77\x69\x64\x74\x68':`${_0x9fb5[27]}${player[_0x9fb5[109]][_0x9fb5[319]][_0x9fb5[9]](340)}${_0x9fb5[268]}`}],[_0x9fb5[33],_0x9fb5[320],{height:`${_0x9fb5[27]}${230}${_0x9fb5[268]}`,width:`${_0x9fb5[27]}${230}${_0x9fb5[268]}`,transform:`${_0x9fb5[321]}${player[_0x9fb5[109]][_0x9fb5[322]]}${_0x9fb5[323]}`,position:_0x9fb5[324],right:_0x9fb5[325]}]]}}],_0x9fb5[32],_0x9fb5[326]],const:myParticle= {image:_0x9fb5[327],style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},gravity:2,time:1,speed:function(){return (Math[_0x9fb5[328]]()+ 1.2)* 8}},const:myParticle1= {image:_0x9fb5[329],style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},gravity:2,time:1,speed:function(){return (Math[_0x9fb5[328]]()+ 1.2)* 8}},const:myParticle2= {image:_0x9fb5[330],style:{"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x73\x69\x7A\x65":_0x9fb5[44]},gravity:2,time:1,speed:function(){return (Math[_0x9fb5[328]]()+ 1.2)* 8}},automate:function(){if(player[_0x9fb5[109]][_0x9fb5[322]]< 280){player[_0x9fb5[109]][_0x9fb5[89]]= 1};if(player[_0x9fb5[109]][_0x9fb5[322]]> 360){player[_0x9fb5[109]][_0x9fb5[89]]= 0};if(player[_0x9fb5[109]][_0x9fb5[89]]== 1){player[_0x9fb5[109]][_0x9fb5[322]]= player[_0x9fb5[109]][_0x9fb5[322]][_0x9fb5[9]](player[_0x9fb5[109]].Sped)};if(player[_0x9fb5[109]][_0x9fb5[89]]== 0){player[_0x9fb5[109]][_0x9fb5[322]]= player[_0x9fb5[109]][_0x9fb5[322]][_0x9fb5[9]](-player[_0x9fb5[109]][_0x9fb5[302]])};if(player[_0x9fb5[109]][_0x9fb5[322]]<= 280){player[_0x9fb5[109]][_0x9fb5[319]]= player[_0x9fb5[109]][_0x9fb5[319]][_0x9fb5[9]](4)};if(player[_0x9fb5[109]][_0x9fb5[319]]>= 1){player[_0x9fb5[109]][_0x9fb5[319]]= player[_0x9fb5[109]][_0x9fb5[319]][_0x9fb5[9]](-1)};player[_0x9fb5[109]][_0x9fb5[331]]= player[_0x9fb5[109]][_0x9fb5[305]][_0x9fb5[9]](player[_0x9fb5[109]].RM);if(player[_0x9fb5[109]][_0x9fb5[331]]> 10){player[_0x9fb5[109]][_0x9fb5[331]]= player[_0x9fb5[109]][_0x9fb5[331]][_0x9fb5[10]](0)[_0x9fb5[9]](10)};player[_0x9fb5[109]][_0x9fb5[332]]= player[_0x9fb5[109]][_0x9fb5[333]][_0x9fb5[9]](player[_0x9fb5[109]].RM);if(player[_0x9fb5[109]][_0x9fb5[332]]> 10){player[_0x9fb5[109]][_0x9fb5[332]]= player[_0x9fb5[109]][_0x9fb5[332]][_0x9fb5[10]](0)[_0x9fb5[9]](10)};player[_0x9fb5[109]][_0x9fb5[334]]= player[_0x9fb5[109]][_0x9fb5[309]];if(player[_0x9fb5[109]][_0x9fb5[334]]> 10){player[_0x9fb5[109]][_0x9fb5[334]]= player[_0x9fb5[109]][_0x9fb5[334]][_0x9fb5[10]](0)[_0x9fb5[9]](10)};if(player[_0x9fb5[4]][_0x9fb5[130]][_0x9fb5[45]](1)){player[_0x9fb5[109]][_0x9fb5[334]]= player[_0x9fb5[109]][_0x9fb5[334]][_0x9fb5[10]](0),player[_0x9fb5[109]][_0x9fb5[332]]= player[_0x9fb5[109]][_0x9fb5[332]][_0x9fb5[10]](0),player[_0x9fb5[109]][_0x9fb5[331]]= player[_0x9fb5[109]][_0x9fb5[331]][_0x9fb5[10]](0)};if(hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[109]][_0x9fb5[319]]== 2){player[_0x9fb5[109]][_0x9fb5[335]]=  new Decimal(Math[_0x9fb5[336]](Math[_0x9fb5[328]]()* 100)+ 1)};if(player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[45]](player[_0x9fb5[109]].H1)&& player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[337]](player[_0x9fb5[109]].H2)&& player[_0x9fb5[109]][_0x9fb5[319]]== 2&& hasMilestone(_0x9fb5[109],5)){player[_0x9fb5[109]][_0x9fb5[333]]= player[_0x9fb5[109]][_0x9fb5[138]][_0x9fb5[10]](1.1),player[_0x9fb5[109]][_0x9fb5[138]]= player[_0x9fb5[109]][_0x9fb5[138]][_0x9fb5[9]](player[_0x9fb5[109]].H)[_0x9fb5[9]](player[_0x9fb5[109]].RM)};if(player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[45]](1)&& player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[337]](player[_0x9fb5[109]].Li1)&& player[_0x9fb5[109]][_0x9fb5[319]]== 2&& hasMilestone(_0x9fb5[109],5)){player[_0x9fb5[109]][_0x9fb5[46]]= player[_0x9fb5[109]][_0x9fb5[46]][_0x9fb5[9]](player[_0x9fb5[109]].HM)[_0x9fb5[9]](player[_0x9fb5[109]].RM)};if(player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[45]](player[_0x9fb5[109]].R1)&& player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[337]](100)&& player[_0x9fb5[109]][_0x9fb5[319]]== 2&& hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[109]][_0x9fb5[113]]> 0){player[_0x9fb5[109]][_0x9fb5[338]]= player[_0x9fb5[109]][_0x9fb5[338]][_0x9fb5[9]](player[_0x9fb5[109]].R),player[_0x9fb5[109]][_0x9fb5[298]]= player[_0x9fb5[109]][_0x9fb5[298]][_0x9fb5[10]](1.2)};if(player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[45]](player[_0x9fb5[109]].H1)&& player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[337]](player[_0x9fb5[109]].H2)&& player[_0x9fb5[109]][_0x9fb5[319]]== 2&& hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[339]]== this[_0x9fb5[146]]){makeParticles(myParticle1,player[_0x9fb5[109]].Hp)};if(player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[45]](1)&& player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[337]](player[_0x9fb5[109]].Li1)&& player[_0x9fb5[109]][_0x9fb5[319]]== 2&& hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[339]]== this[_0x9fb5[146]]){makeParticles(myParticle2,player[_0x9fb5[109]].Lp)};if(player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[45]](player[_0x9fb5[109]].R1)&& player[_0x9fb5[109]][_0x9fb5[335]][_0x9fb5[337]](100)&& player[_0x9fb5[109]][_0x9fb5[319]]== 2&& hasMilestone(_0x9fb5[109],5)&& player[_0x9fb5[109]][_0x9fb5[113]]> 0&& player[_0x9fb5[339]]== this[_0x9fb5[146]]){makeParticles(myParticle,player[_0x9fb5[109]].Rp)}}})
+addLayer("E", {
+    startData() {
+        return {
+            unlocked: false,
+            points: new Decimal(0),
+        }
+    }
+})
+
+addNode("Ex", {
+    row: "side",
+    color: "#FFFFFF",
+
+    layerShown() {
+        if (hasAchievement('A', 15)) return true
+        else return false
+    },
+
+    tooltip() {
+        if (player.p.Node < 1) return "ON"
+        else return "OFF"
+    },
+
+    canClick() { return true },
+
+    onClick() {
+        if (player.p.Node < 1) player.p.Node = player.p.Node.add(1)
+        else player.p.Node = player.p.Node.times(0)
+    },
+})
+
+addLayer("Ch", {
+    row: "side",
+    color: "#000000",
+    textStyle: { "color": "#ffffff" },
+    layerShown() {
+        if (player.He.IText == "Heisenburg") return true
+        if (player.He.IText == "I need a new dust filter for my Hoover Max Extract Pressure Pro model 60") return true
+        else return false
+    },
+
+    tooltip() { return "Lab Notes" },
+
+    infoboxes: {
+        lore: {
+            title: "Note #1",
+            body() { return " -just the other day, he told me it was his birthday. I mean, who cares? It's not like anyone's going to get him anything anyway. Not like anyone could. The dudes a weirdo, you should stay away from 'em. Anyway gotta go, got a client who's probably already at Lithium!" },
+            titleStyle: { "color": "#ffffff" },
+
+        },
+        lore1: {
+            unlocked() { if (player.He.IText == "I need a new dust filter for my Hoover Max Extract Pressure Pro model 60") return true },
+            title: "Note #2",
+            body() { return "Cocentrate the percipitate. Filter out to purify. Bada bing bada boom, there you go. Although, I can't keep doing this if I don't have a sufficient supply. Good thi-" },
+            titleStyle: { "color": "#ffffff" },
+
+        }
+    },
+
+    tabFormat: [
+        ["infobox", "lore"],
+        ["infobox", "lore1"],
+    ],
+})
+addLayer("Per", {
+    branches: ['p', 'He', 'Li'],
+    row: 1,
+    color: "#FFFFFF",
+    tooltip() { return "" },
+
+    infoboxes: {
+        lore: {
+            title: "Welcome To The Periodic Table Tree",
+            body() { return "Here you will advance from element to element until I decide to stop. That's about it, not one for lore I guess... Save files if you want to skip a section or your savefile gets corrupted." },
+        },
+    },
+
+    tabFormat: [
+        ["infobox", "lore"],
+        ["display-text",
+            function () { return 'A fun little periodic table:' }],
+        "blank",
+        ["display-image",
+            function () { return 'https://i.postimg.cc/59DXKHnn/6ce621c1-37d7-4aa1-8068-18a856d6c523.jpg' }],
+        "blank",
+        ["display-text",
+            function () { return 'Save files:' }],
+        ["display-text",
+            function () { return 'Start of Hydrogen: https://www.udrop.com/file/6Mem/Start_of_Hydrogen.txt' }],
+        "blank",
+        ["display-text",
+            function () { return 'Start of Helium: https://www.udrop.com/file/6Meu/Start_of_Helium.txt' }],
+        "blank",
+        ["display-text",
+            function () { return 'Start of Lithium: https://www.udrop.com/file/6MGQ/Start_of_Lithium.txt' }],
+        "blank",
+        ["display-text",
+            function () { return 'Start of Beryllium: https://www.udrop.com/file/6P0X/Start_of_Beryllium.txt' }],
+        "blank",
+        ["display-text",
+            function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer.' }],
+    ]
+})
+
+addLayer("A", {
+
+    startData() {
+        return {
+            unlocked: true,
+            points: new Decimal(0),
+            Expulrate: new Decimal(0.4),
+            Expulrate2: new Decimal(1),
+            Widenessx: new Decimal(0),
+            Particlesx: new Decimal(0),
+        }
+    },
+
+    color: "#ff0000",
+    symbol: "A",
+    row: "side",
+    resource: "Achievements",
+
+    achievements: {
+        11: {
+            name: "Your First Element!",
+            textStyle: { "color": "#000000" },
+            tooltip: "NOOOOOOOOOOOOOOOOOOOOO WAAAAAAAAY!?!@@#@#",
+            style: { "background-size": "100% 100%" },
+            done() { return player.E.points.gte(1) },
+            image() { if (hasAchievement('A', 11)) return "https://i.postimg.cc/MpbZpCHf/232539b4-d9dd-4481-8b5c-8e70c11f3e52-prev-ui-1.png" }
+        },
+        12: {
+            name: "Gassed Up",
+            textStyle: { "color": "#000000" },
+            tooltip: "Produce 10k Total Hydrogen Gas.",
+            style: { "background-size": "100% 100%" },
+            done() { return player.p.Gas.gte(10000) },
+            image() { if (hasAchievement('A', 12)) return "https://i.postimg.cc/WbSTRMH0/183def70-5ee5-483d-acef-87bb808777cf-prev-ui-1.png" }
+        },
+        13: {
+            name: `"Gotta Empty The Tank"`,
+            textStyle: { "color": "#000000" },
+            tooltip: "Hold over 1k Hydrogen Gas.",
+            style: { "background-size": "100% 100%" },
+            done() { return player.p.HydrogenGas.gte(1100) },
+            image() { if (hasAchievement('A', 13)) return "https://i.postimg.cc/vHVpQ5T4/pixil-frame-0.png" }
+        },
+        14: {
+            name: "Son of a GLITCH",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Decode with Base64 for answer: U3BhbSBjbGljayBvbiBob2xkIGJ1dHRvbiB3ZWlyZG8u",
+            done() { return player.p.Clic.gte(101) },
+            image() { if (hasAchievement('A', 14)) return "https://i.postimg.cc/0yddvF2j/527535f7-7dc4-43a5-b57a-a75afda3029b-1.png" }
+        },
+        15: {
+            name: '"Shut Up Bitch"',
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            goalTooltip: "Spend over 201 ticks with extra text on.",
+            doneTooltip: "Unlocks button to shut off some text.",
+            done() { return player.p.GasTicks.gte(201) },
+            image() { if (hasAchievement('A', 15)) return "https://i.postimg.cc/gkJ2mBys/84ae5647-37db-4c73-a6c3-7e50154d00bf-1.png" }
+        },
+        21: {
+            name: "No Hydrogen?",
+            textStyle: { "color": "#000000" },
+            tooltip: "Get the second element.",
+            style: { "background-size": "100% 100%" },
+            done() { return player.E.points.gte(2) },
+            image() { if (hasAchievement('A', 21)) return "https://i.postimg.cc/bvnrJyK1/f67ee54d-fa4f-4979-bc60-79070345f628-2.png" }
+        },
+        22: {
+            name: `"Can't Empty The Tank"`,
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Break the current max capacity.",
+            done() { return temp['p'].clickables[11].effect.gte(2801) },
+            image() { if (hasAchievement('A', 22)) return "https://i.postimg.cc/768LD06g/b3a51e4b-c5b1-4013-9b4a-81a594eb3e3f.png" }
+        },
+        23: {
+            name: `"The Perfect Concentration"`,
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Fill the bar 3 times without the multiplier dropping to 0.2.",
+            done() { return player.p.HydroResets.gte(3) },
+            image() { if (hasAchievement('A', 23)) return "https://i.postimg.cc/QtqT89Xy/da3cf436-9f42-4acb-bb08-3efd8abeaebe-2.png" }
+        },
+        24: {
+            name: "NEET",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Fill up the bar around 5 times with a 1.1 Hydrogen Multiplier. Now go to the gym.",
+            done() { if (hasUpgrade('p', 23)) return player.p.HydrogenPower.gte(5) },
+            image() { if (hasAchievement('A', 24)) return "https://i.postimg.cc/nVQ3fmPh/cffd9b5d51642d58118de1a948cefd53-2934611896-prev-ui-1.png" }
+        },
+        25: {
+            name: "Suffer",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "It's Always Been One Step Forward And Two Steps Back.",
+            done() { if (hasUpgrade('p', 24)) return player.p.points.gte(55) },
+            image() { if (hasAchievement('A', 25)) return "https://i.postimg.cc/KjgsnfHj/hqdefault-692744977-prev-ui-1.png" }
+        },
+        31: {
+            name: "Avogadro's Constant",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Get 6.022e23. Nothing else is important. Nope.",
+            done() { return player.p.HydrogenPower.gte(6.022e23) },
+            image() { if (hasAchievement('A', 31)) return "https://i.postimg.cc/fRTxtNRL/1200px-Talpa-europaea-MHNT-on-transparent-background-2549044357-1-prev-ui-1.png" }
+        },
+        32: {
+            name: "High-Pitched Frequency",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Click Deflate at 497L of Helium Gas or higher.",
+            done() { if (player.He.State < 1) return player.He.Inflate.gte(497) },
+            image() { if (hasAchievement('A', 32)) return "https://i.postimg.cc/C5BQT7Ng/slazzer-edit-image.png" }
+        },
+        33: {
+            name: "SCROLL_WHEEL",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Tedious work eh?.",
+            done() { if (hasUpgrade('He', 16)) return player.He.HeliumExpunged.gte(0.1) },
+            image() { if (hasAchievement('A', 33)) return "https://i.postimg.cc/8zQ2NhvB/steel-magspeed-electromagnetic-scroll-wheel-theres-nothing-like-it-2264955822-prev-ui-2.png" }
+        },
+        34: {
+            name: "Hydrogen Automaton",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Get full automation of Hydrogen layer.",
+            done() { if (hasUpgrade('He', 22)) return player.He.HeliumExpunged.gte(0.1) },
+            image() { if (hasAchievement('A', 34)) return "https://i.postimg.cc/0Q5pRHZM/cartoon-robot-free-2185919212-prev-ui.png" }
+        },
+        35: {
+            name: "widepeepoHappy",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "110% 100%" },
+            tooltip: ":widepeepoHappy:",
+            done() { if (hasUpgrade('He', 25)) return player.He.HeliumExpunged.gte(0.1) },
+            image() { if (hasAchievement('A', 35)) return "https://i.postimg.cc/MHwFn3gm/3bgrvhjkbkt21-1272574542-1-prev-ui.png" }
+        },
+        41: {
+            name: "Ah shit, here we go again.",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "110% 100%" },
+            tooltip: "Unlock the third element.",
+            done() { return player.E.points.gte(3) },
+            image() { if (hasAchievement('A', 41)) return "https://i.postimg.cc/sX1Q8NCD/2yxpv8.png" }
+        },
+        42: {
+            name: "Thacker Pass lithium mine.",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Money talks.",
+            done() { return player.Li.resets.gte(12) },
+            image() { if (hasAchievement('A', 42)) return "https://i.postimg.cc/tgh9tQFc/slazzer-edit-image-3.png" }
+        },
+        43: {
+            name: "Mining waste into the ocean.",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Surf surf, surf surf crazy.",
+            done() { return player.Li.Runlock.gte(1) },
+            image() { if (hasAchievement('A', 43)) return "https://i.postimg.cc/RZ7YgMbw/sewage-in-Bangkok-prev-ui.png" }
+        },
+        44: {
+            name: "Restpritory damage.",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Black lung.",
+            done() { return player.Li.Runlock.gte(2) },
+            image() { if (hasAchievement('A', 44)) return "https://i.postimg.cc/pdnJskd4/black-lung-lawsuit-1024x675-prev-ui.png" }
+        },
+        45: {
+            name: "Doctor Who???",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "Maybe you'll fix your past mistakes.",
+            done() { return player.Li.Runlock.gte(2) },
+            image() { if (hasAchievement('A', 45)) return "https://i.postimg.cc/vmcbkxRp/slazzer-edit-image.png" }
+        },
+        51: {
+            unlocked() { if (hasAchievement('A', 45)) return true},
+            name: "Goodbye Small Businesses",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "You increase your yearly income.",
+            done() { return hasChallenge('Li', 11)},
+            image() { if (hasAchievement('A', 51)) return "https://i.postimg.cc/vBVqKnfr/slazzer-edit-image.png" }
+        },
+        52: {
+            unlocked() { if (hasAchievement('A', 52)) return true},
+            name: "Goodbye Safety Goggles",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "You increase your yearly income.",
+            done() { return hasChallenge('Li', 12)},
+            image() { if (hasAchievement('A', 45)) return "https://i.postimg.cc/sDkNpwWV/brokenglasses1-prev-ui.png" }
+        },
+        53: {
+            unlocked() { if (hasAchievement('A', 53)) return true},
+            name: "Goodbye Safety Nets",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "You increase your yearly income.",
+            done() { return hasChallenge('Li', 13)},
+            image() { if (hasAchievement('A', 45)) return "https://i.postimg.cc/mDZXLrcq/main-qimg-02df11ec0c5652239094af55ebaff030-c-prev-ui.png" }
+        },
+        54: {
+            unlocked() { if (hasAchievement('A', 54)) return true},
+            name: "Goodbye Fair Prices",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "You increase your yearly income.",
+            done() { return hasChallenge('Li', 14)},
+            image() { if (hasAchievement('A', 45)) return "https://i.postimg.cc/DwyP4NfJ/slazzer-edit-image-1.png" }
+        },
+        55: {
+            unlocked() { if (hasAchievement('A', 55)) return true},
+            name: "Become A Monster",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%" },
+            tooltip: "You've made life hell for others.",
+            done() { return hasChallenge('Li', 15)},
+            image() { if (hasAchievement('A', 45)) return "https://i.postimg.cc/SN0ys0rd/th-1543333648.jpg" }
+        },
+    },
+
+    clickables: {
+        11: {
+            title: "Get Achievement 4",
+            display() {
+                return "If you can't get it normally anymore or don't understand how to get it."
+            },
+            style: { "background-color": "#0000ff" },
+            canClick() {
+                return true
+            },
+            style: { "color": "#ededed" },
+            onClick() { return player.p.Clic = player.p.Clic.add(101) },
+        },
+        12: {
+            unlocked() { if (hasUpgrade('He', 15)) return true},
+            title: "Bab- Mobile Mode.",
+            display() {
+                return "If you can't press the Inflate and Deflated with the rapid movement, press this button. Click again if you change your mind."
+            },
+            style: { "background-color": "#0000ff" },
+            canClick() {
+                return true
+            },
+            style: { "color": "#ededed" },
+            onClick() { if (player.A.Widenessx.gte(1)) return player.A.Widenessx = player.A.Widenessx.times(0)
+              else return  player.A.Widenessx = player.A.Widenessx.add(1)
+            },
+        },
+        13: {
+            unlocked() { if (hasMilestone('Li', 5)) return true},
+            title: "Particles are spooky.",
+            display() {
+                return "If you hate particles, press this button. Click again if you change your mind."
+            },
+            style: { "background-color": "#0000ff" },
+            canClick() {
+                return true
+            },
+            style: { "color": "#ededed" },
+            onClick() { 
+                if (player.A.Particlesx.gte(1)) return player.A.Particlesx = player.A.Particlesx.times(0)
+                else return  player.A.Particlesx = player.A.Particlesx.add(1)
+            },
+        },
+    },
+
+    tabFormat: [
+        ["display-text",
+            function () {
+                if (player.p.Node < 1) return 'You have ' + formatWhole(player.A.points) + ' achievements'
+                else return 'Heisenburg'
+            }],
+        "blank",
+        "achievements",
+        "clickables",
+    ],
+
+    update() {
+       
+        if (player.He.HeliumExpunged > 1 && hasUpgrade('He', 21) == false && hasMilestone('Li', 1) == false) player.He.HeliumExpunged = player.He.HeliumExpunged.add(-player.A.Expulrate)
+        if (player.He.HeliumExpunged < 0.1 && hasUpgrade('He', 21) == false && hasMilestone('Li', 1) == false) player.He.HeliumExpunged = player.He.HeliumExpunged.add(player.A.Expulrate2)
+        player.p.HydroGain = player.p.HydroGain.times(0),
+            player.A.points = new Decimal(player.A.achievements.length)
+        if (player.p.HydrogenMult < 0.2) player.p.HydroResets = player.p.HydroResets.times(0)
+    }
+})
+
+addLayer("p", {
+    name: "Hydrogen", // This is optional, only used in a few places, If absent it just uses the layer id.
+    image: "https://i.postimg.cc/sxTpYZ07/a1f4826e-e1d2-40a3-8027-e243e33ca67b-Photo-Room-1.png", // This appears on the layer's node. Default is the id with the first letter capitalized
+    position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
+    startData() {
+        return {
+            unlocked: true,
+            points: new Decimal(0),
+            HydrogenGas: new Decimal(0),
+            HydrogenPower: new Decimal(0),
+            HydrogenMult: new Decimal(0),
+            Gas: new Decimal(0),
+            GasTicks: new Decimal(0),
+            HydroGain: new Decimal(0),
+            Node: new Decimal(0),
+            Clic: new Decimal(0),
+            HydroResets: new Decimal(0),
+        }
+    },
+
+    color: "#0000ff",
+    requires() { return player.He.points.add(1).pow(2) }, // Can be a function that takes requirement increases into account
+    resource: "Hydrogen", // Name of prestige currency
+    baseResource: "Hydrogen Power", // Name of resource prestige is based on
+    baseAmount() { return player.p.HydrogenPower }, // Get the current amount of baseResource
+    requires: new Decimal(1),
+    type: "static", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
+    exponent() {
+        exp = new Decimal(0.8)
+        upgra = new Decimal(player.p.upgrades.length)
+        if (hasUpgrade('p', 16)) return exp.times(upgra.pow(-0.22))
+        else return exp
+    }, // Prestige currency exponent
+    gainMult() { // Calculate the multiplier for main currency from bonuses
+        mult = new Decimal(1)
+        return mult
+    },
+    gainExp() { // Calculate the exponent on main currency from bonuses
+        return new Decimal(1)
+    },
+    row: 0, // Row the layer is in on the tree (0 is the first row)
+    hotkeys: [
+        { key: "h", description: "H: Reset for Hydrogen", onPress() { if (canReset(this.layer)) doReset(this.layer) } },
+    ],
+
+    layerShown() { return true },
+
+    onPrestige() {
+        if (hasUpgrade('He', 22)) return ""
+        player.p.HydrogenPower = player.p.HydrogenPower.times(0)
+    },
+
+    autoPrestige() { if (hasUpgrade('He', 11)) return true },
+
+    canBuyMax() { return (hasMilestone('p', 3)) },
+
+    tooltip() { return player.p.points + " Hydrogen and " + formatWhole(player.p.HydrogenPower) + " Hydrogen Power" },
+
+    bars: {
+        HydrogenBar: {
+            direction: UP,
+            width: 200,
+            height() {
+                if (hasUpgrade('p', 16)) return 600
+                else return 400
+            },
+            progress() {
+                prog1 = 499.99
+                if (hasMilestone('p', 2)) prog1 = 999.99
+                if (hasUpgrade('p', 16)) prog1 = 1999.99
+                if (hasMilestone('He', 3)) prog1 = 19999.99
+                if (hasUpgrade('p', 22)) prog1 = 19999999999.99
+                if (hasUpgrade('p', 23)) prog1 = 7999999.99
+                if (hasUpgrade('p', 25)) prog1 = 19999.99
+                if (hasUpgrade('He', 22)) return 1
+                return player.p.HydrogenGas / prog1
+            },
+            display() { return "Hydrogen Tank" },
+            fillStyle: { "background-color": "#0000ff" }
+        },
+
+        HydrogenBar1: {
+            direction: UP,
+            width: 200,
+            height() {
+                if (hasUpgrade('p', 16)) return 600
+                else return 400
+            },
+            progress() {
+                let P2 = new Decimal(0)
+                prog2 = 999.99
+                if (hasUpgrade('p', 16)) prog2 = 1999.99
+                if (hasMilestone('He', 3)) prog2 = 19999.99
+                if (hasUpgrade('p', 22)) prog2 = 19999999999.99
+                if (hasUpgrade('p', 23)) prog2 = 7999999.99
+                if (hasUpgrade('p', 25)) prog2 = 19999.99
+                if (hasUpgrade('He', 22)) return 1
+                if (player.p.HydrogenGas > prog2) P2 = player.p.HydrogenGas.add(-prog2) / prog2
+                return P2
+            },
+            display() { return "Hydrogen Tank" },
+            fillStyle: { "background-color": "#0000ff" },
+            unlocked() {
+                if (hasUpgrade('p', 14)) return true
+                else return false
+            }
+        },
+
+        HydrogenBar2: {
+            direction: UP,
+            width: 200,
+            height() {
+                if (hasUpgrade('p', 16)) return 600
+                else return 400
+            },
+            progress() {
+                prog3 = 3
+                if (hasUpgrade('p', 23)) prog3 = 1.11
+                if (hasUpgrade('p', 24)) prog3 = 10
+                return player.p.HydrogenMult / prog3
+            },
+            display() { return "Hydrogen Multiplier Tank <div> Currently: " + format(player.p.HydrogenMult) + "x" },
+            fillStyle: { "background-color": "#ff0000" },
+            unlocked() {
+                if (hasMilestone('He', 3)) return true
+                else return false
+            }
+        }
+    },
+
+    milestones: {
+        1: {
+            style: { "color": "#ededed" },
+            requirementDescription: "1 Hydrogen",
+            effectDescription: "2x Hydogen Gas.",
+            done() { return player.p.points.gte(1) },
+            onComplete() { player.E.points = player.E.points.add(1) },
+        },
+        2: {
+            style: { "color": "#ededed" },
+            requirementDescription: "2 Hydrogen",
+            effectDescription: "2x Hydrogen Tank Capacity. Also unlock upgrades.",
+            done() { return player.p.points.gte(2) },
+            unlocked() {
+                if (hasMilestone('p', 1)) return true
+            },
+        },
+        3: {
+            style: { "color": "#ededed" },
+            requirementDescription: "3 Hydrogen",
+            effectDescription: "Buy max Hydrogen.",
+            done() { return player.p.points.gte(3) },
+            unlocked() {
+                if (hasMilestone('p', 2)) return true
+            },
+        },
+        4: {
+            style: { "color": "#ededed" },
+            requirementDescription: "20 Hydrogen",
+            effectDescription: "Hydrogen Gas boosts Hydrogen Gas. (Must have 6 Hydrogen Upgrades.)",
+            done() { if (hasUpgrade('p', 16)) return player.p.points.gte(20) },
+            unlocked() {
+                if (hasMilestone('p', 3)) return true
+            },
+        },
+    },
+
+    upgrades: {
+        11: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Gassed Up",
+            description: "Hydrogen Gas gain is raised to the power of 2.",
+            cost() {
+                if (hasUpgrade('p', 12)) return new Decimal(3)
+                else return new Decimal(2)
+            },
+            unlocked() {
+                if (hasMilestone('p', 2)) return true
+                else return false
+            },
+        },
+        12: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Based",
+            description: "Gain 1 to Hydrogen Gas base",
+            cost() {
+                if (hasUpgrade('p', 11)) return new Decimal(3)
+                else return new Decimal(2)
+            },
+            unlocked() {
+                if (hasMilestone('p', 2)) return true
+                else return false
+            },
+        },
+        13: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Bonding",
+            description: "Add 2 more to base of Hydrogen Gas.",
+            cost: new Decimal(8),
+            unlocked() {
+                if (hasUpgrade('p', 11)) return true
+                if (hasUpgrade('p', 12)) return true
+                else return false
+            },
+        },
+        14: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Expanding",
+            description: "Get a 2nd Hydrogen tank. Keep cost.",
+            cost: new Decimal(16),
+            onPurchase() { return player.p.points = player.p.points.add(16) },
+            unlocked() {
+                if (hasUpgrade('p', 13)) return true
+                else return false
+            },
+        },
+        15: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Powering Up",
+            description: "Hydrogen Power boosts Hydrogen Gas.",
+            effectDisplay() { return "+" + format(effect2) },
+            cost: new Decimal(18),
+            unlocked() {
+                if (hasUpgrade('p', 14)) return true
+                else return false
+            },
+        },
+        16: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Half Lifed",
+            description: "Hydrogen upgrades on this row cut Hydrogen cost, but Hydrogen Tank capcity 2x.",
+            cost: new Decimal(20),
+            effectDisplay() { return "/" + format(upgra.pow(-0.22)) },
+            unlocked() {
+                if (hasUpgrade('p', 15)) return true
+                else return false
+            },
+        },
+        21: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Hilarity",
+            description: "Unlock Helium. Keep cost.",
+            cost: new Decimal(100),
+            onPurchase() { return player.p.points = player.p.points.add(100) },
+            unlocked() {
+                if (hasUpgrade('p', 16)) return true
+                else return false
+            },
+        },
+        22: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Lightness",
+            description: "Hydrogen Multiplier falls slower but increase tank capacity by 1 million times. Lose all your Helium",
+            cost: new Decimal(400),
+            onPurchase() { return player.p.points = player.p.points.times(0), player.p.HydrogenPower = player.p.HydrogenPower.times(0), player.p.HydrogenGas = player.p.HydrogenGas.times(0) },
+            unlocked() {
+                if (hasUpgrade('He', 13)) return true
+                else return false
+            },
+        },
+        23: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Embrittled",
+            description: "Hydrogen Tank capacity is much lower but so is the Hydrogen Multiplier cap.",
+            cost: new Decimal(12),
+            onPurchase() { return player.p.HydrogenMult = player.p.HydrogenMult.times(0.1), player.p.HydrogenPower = player.p.HydrogenPower.times(0) },
+            unlocked() {
+                if (hasUpgrade('p', 22)) return true
+                else return false
+            },
+        },
+        24: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Enthalpy Of Combustion",
+            description: "Increase Hydrogen Multiplier cap but Hydrogen Gas gain is divided on an exponent of how large the multiplier is. The middle has a sweet spot.",
+            cost: new Decimal(10),
+            onPurchase() { return player.p.HydrogenMult = player.p.HydrogenMult.times(0.1), player.p.HydrogenPower = player.p.HydrogenPower.times(0) },
+            unlocked() {
+                if (hasUpgrade('p', 23)) return true
+                else return false
+            },
+        },
+        25: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Detonation",
+            description: "Helium hardcap is removed. Hydrogen Tank cap is decreased.",
+            cost: new Decimal(15),
+            onPurchase() { return player.p.HydrogenMult = player.p.HydrogenMult.times(0.1), player.p.HydrogenPower = player.p.HydrogenPower.times(0) },
+            unlocked() {
+                if (hasUpgrade('p', 24)) return true
+                else return false
+            },
+        },
+        26: {
+            style: { "color": "#ededed" },
+            title: "Hydrogen's Tritium",
+            description: "Unlock balloons. Remove Hydrogen Multiplier Division. Multiplier also boosts Hydrogen Power. Hydrogen Multiplier falls much slower.",
+            cost: new Decimal(1600),
+            unlocked() {
+                if (hasUpgrade('p', 25)) return true
+                else return false
+            },
+        }
+    },
+
+
+    clickables: {
+        11: {
+            title: "Hydrogen Gas",
+            display() {
+                return "Produce Hydrogen Gas on hold."
+            },
+            style: { "background-color": "#0000ff" },
+            canClick() {
+                return true
+            },
+            style: { "color": "#ededed" },
+            effect() {
+                let effect = new Decimal(0.9)
+                effect2 = new Decimal(1)
+                effect3 = new Decimal(2)
+                effect4 = new Decimal(1)
+                effect5 = new Decimal(2)
+                effect6 = new Decimal(1)
+                effectMult2 = new Decimal(1)
+                prog = 499.99
+                if (player.Li.resets > 0) effect5 = 4, effect6 = 2
+                if (hasUpgrade('p', 26)) effectMult2 = effectMult2.add(player.p.HydrogenMult)
+                if (hasMilestone('He', 5)) effect4 = 0
+                if (hasUpgrade('He', 13)) effect3 = 1
+                if (hasUpgrade('p', 25)) effect4 = 1
+                if (hasUpgrade('p', 25)) effect3 = 2
+                if (hasUpgrade('p', 12)) effect = effect.add(1)
+                if (hasUpgrade('p', 13)) effect = effect.add(2)
+                if (hasMilestone('p', 2)) prog = 999.99
+                if (hasUpgrade('p', 14)) prog = 1999.99
+                if (hasUpgrade('p', 16)) prog = 3999.99
+                if (hasMilestone('He', 3)) prog = 39999.99
+                if (hasUpgrade('p', 22)) prog = 39999999999.99
+                if (hasUpgrade('p', 23)) prog = 16340999.99
+                if (hasUpgrade('p', 25)) prog = 39999.99
+                if (hasMilestone('p', 1)) effect = effect.times(2)
+                if (hasUpgrade('p', 11)) effect = effect.pow(2)
+                if (hasUpgrade('p', 15)) effect2 = effect2.add(player.p.HydrogenPower.pow(0.8))
+                if (effect2 > 99.99) effect2 = 100
+                if (hasUpgrade('p', 15)) effect = effect.add(effect2)
+                if (hasMilestone('p', 4)) effect = effect.add(effect.times(player.p.points.add(1).pow(0.2)))
+                effect = effect.times(player.He.points.pow(effect3).times(effect4).add(1))
+                if (player.p.HydrogenGas > prog) player.p.HydroResets = player.p.HydroResets.add(1), player.p.HydrogenPower = player.p.HydrogenPower.times(effectMult2).add(1).add(player.p.points.add(player.p.points).times(player.He.points.add(1).pow(effect3).times(effect4).times(player.Li.points.add(1).pow(effect5).times(effect6)))), player.p.HydrogenGas = player.p.HydrogenGas.times(0)
+                return effect
+            },
+            unlocked() {
+                if (hasUpgrade('He', 12)) return false
+                else return true
+            },
+            onClick() {
+                if (hasUpgrade('p', 14)) player.p.Clic = player.p.Clic.add(1)
+            },
+            onHold() {
+                player.p.GasTicks = player.p.GasTicks.add(1)
+                if (player.p.Node < 1) player.p.HydroGain = player.p.HydroGain.add(1)
+                player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)).times(player.Li.points.add(1).pow(effect5).times(effect6)))
+                player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)
+            },
+        },
+        12: {
+            title: "Hydrogen Multiplier",
+            display() {
+                return "Multiply Hydrogen Gas gain on hold."
+            },
+            style: { "color": "#ededed" },
+            unlocked() {
+                if (hasMilestone('He', 3) && hasUpgrade('He', 22) == false) return true
+                else return false
+            },
+            canClick() {
+                return true
+            },
+            effect() {
+                effectM = new Decimal(0.2)
+                effectMult = new Decimal(0)
+                effectMult = effectMult.add(player.p.HydrogenMult.add(1))
+                effectD = new Decimal(5)
+                lightfall = new Decimal(-0.1)
+                Equa = new Decimal(0)
+                cap = new Decimal(3)
+                if (hasUpgrade('p', 24)) effectD = effectMult
+                if (hasUpgrade('p', 26)) effectD = 5
+                if (effectD > 5) effectMult = new Decimal(0.1).div(effectMult)
+                if (effectD < 4) effectMult = new Decimal(0.1).div(effectMult)
+                if (hasUpgrade('p', 23)) cap = 1.11
+                if (hasUpgrade('p', 24)) cap = 10
+                if (hasUpgrade('p', 22)) lightfall = -0.05
+                if (hasUpgrade('p', 26)) lightfall = -0.005
+                if (hasUpgrade('p', 24)) Equa = 2
+                if (hasMilestone('He', 3)) Equa = 0.1
+                if (hasMilestone('He', 4)) Equa = 0
+                if (hasUpgrade('He', 16)) Equa = 0
+                if (player.p.HydrogenMult > Equa) player.p.HydrogenMult = player.p.HydrogenMult.add(lightfall)
+                if (player.p.HydrogenMult < Equa) player.p.HydrogenMult = player.p.HydrogenMult.add(-lightfall)
+                return effectM
+            },
+            onHold() {
+                player.p.HydrogenMult = player.p.HydrogenMult.add(temp['p'].clickables[12].effect)
+                if (player.p.HydrogenMult > cap) player.p.HydrogenMult = player.p.HydrogenMult.add(effectM.times(-1))
+            }
+        }
+    },
+
+    infoboxes: {
+        lore: {
+            titleStyle: { "color": "#ededed" },
+            title: "Hydrogen",
+            body() { return "This is a periodic table tree and it all starts with hydrogen because of its- well, its atomic properties technically. Anyway, start producing some hydrogen gas so we can convert it into energy or something." },
+        },
+    },
+
+    tabFormat: [
+        ["infobox", "lore"],
+        ["display-text",
+            function () { if (player.p.Node < 1) return 'Hydrogen increases Hydrogen Power gain by ' + formatWhole(player.p.points.add(player.p.points)) }],
+        "blank",
+        "main-display",
+        () => (hasUpgrade('He', 11)) ? "" : "prestige-button",
+        ["display-text",
+            function () { if (player.p.Node < 1) return 'You have ' + formatWhole(player.p.HydrogenPower) + ' Hydrogen Power' }],
+        "blank",
+        "milestones",
+        "blank",
+        ["display-text",
+            function () { if (player.p.Node < 1) return 'You have ' + format(player.p.HydrogenGas) + 'L Hydrogen Gas' }],
+        ["display-text",
+            function () { if (player.p.HydroGain > 0) return 'You are making ' + format(temp['p'].clickables[11].effect) + 'L Hydrogen Gas per tick' }],
+        ["row", [//Hydro
+            ["bar", "HydrogenBar"],
+            "blank",
+            ["bar", "HydrogenBar1"],
+            "blank",
+            "blank",
+            ["bar", "HydrogenBar2"],
+        ]],
+        "blank",
+        "clickables",
+        "blank",
+        "upgrades",
+    ],
+
+    doReset(resettingLayer) {
+        if (layers[this.layer].row >= layers[resettingLayer].row) return
+        let keptMilestones = []
+        let keptUpgrades = []
+        if (player.He.resets > 0) keptMilestones.push(...player.p.milestones.slice(0, player.He.resets))
+        if (player.He.resets > 1) keptUpgrades.push(...player.p.upgrades.slice(0, player.He.resets))
+        layerDataReset(this.layer)
+        player.p.upgrades.push(...keptUpgrades)
+        player.p.milestones.push(...keptMilestones)
+    },
+
+    automate() {
+        if (hasUpgrade('He', 22)) player.p.HydrogenMult = player.p.HydrogenMult.add(temp['p'].clickables[12].effect)
+        if (hasUpgrade('He', 22) && player.p.HydrogenMult > cap) player.p.HydrogenMult = player.p.HydrogenMult.add(effectM.times(-1))
+        if (hasUpgrade('He', 12)) player.p.GasTicks = player.p.GasTicks.add(1),
+            player.p.HydroGain = player.p.HydroGain.add(1),
+            player.p.HydrogenGas = player.p.HydrogenGas.add(temp['p'].clickables[11].effect).times(effectMult.add(1)),
+            player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)
+    },
+})
+
+addLayer("He", {
+    name: "Helium", // This is optional, only used in a few places, If absent it just uses the layer id.
+    image: "https://i.postimg.cc/RZMcmXvm/1764b201-ab45-4111-9c8a-646628e64d5c.png", // This appears on the layer's node. Default is the id with the first letter capitalized
+    position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
+    startData() {
+        return {
+            unlocked: true,
+            total: new Decimal(0),
+            points: new Decimal(0),
+            HeliumExpunged: new Decimal(0),
+            resets: new Decimal(0),
+            State: new Decimal(1),
+            Inflate: new Decimal(1),
+            IText: "Hello",
+            BalDiv: new Decimal(0),
+            BalDiv1: new Decimal(0),
+        }
+    },
+
+    layerShown() {
+        if (hasUpgrade('p', 21)) return true
+        if (player.He.total > 0) return true
+        if (player.Li.total > 0) return true
+        else return false
+    },
+
+    color: "#00ffff ",
+    requires: new Decimal(1), // Can be a function that takes requirement increases into account
+    resource: "Helium", // Name of prestige currency
+    baseResource: "Hydrogen", // Name of resource prestige is based on
+    baseAmount() { return player.p.points }, // Get the current amount of baseResource
+    requires: new Decimal(100),
+    type: "normal", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
+    exponent() {
+        if (hasUpgrade('He', 21)) return 0.5
+        else return 0.1
+    }, // Prestige currency exponent
+    gainMult() { // Calculate the multiplier for main currency from bonuses
+        mult = new Decimal(1)
+        return mult
+    },
+    gainExp() { // Calculate the exponent on main currency from bonuses
+        return new Decimal(1)
+    },
+    row: 1, // Row the layer is in on the tree (0 is the first row)
+    displayRow: 0,
+
+    hotkeys: [
+        { key: "e", description: "E: Reset for Helium", onPress() { if (canReset(this.layer)) doReset(this.layer) } },
+    ],
+
+    onPrestige() {
+        player.He.resets = player.He.resets.add(1)
+    },
+
+    tooltip() { return formatWhole(player.He.points) + " Helium" },
+    tooltipLocked() { return formatWhole(player.He.points) + " Helium" },
+
+    clickables: {
+        11: {
+            title: "Inflate",
+            display() {
+                if (player.He.State > 0) return "On"
+                else return "Off"
+            },
+            unlocked() {
+                if (hasMilestone('Li', 5)) return false
+                if (hasUpgrade('p', 26)) return true
+                else return false
+            },
+            canClick() {
+                return true
+            },
+            effect() {
+                BalMult = new Decimal(1)
+                InRate = new Decimal(1)
+                cap2 = new Decimal(49)
+                cap3 = new Decimal(49)
+                cap3 = cap2
+                cap3 = cap3.add(-10)
+                if (hasUpgrade('p', 26)) cap2 = 49
+                player.He.BalDiv = player.He.Inflate
+                player.He.BalDiv1 = player.He.Inflate
+                if (hasUpgrade('He', 16)) player.He.BalDiv = player.He.BalDiv.times(0.3)
+                if (hasUpgrade('He', 23)) player.He.BalDiv = player.He.BalDiv.times(0.1)
+                if (hasUpgrade('He', 16)) player.He.BalDiv1 = player.He.BalDiv1.times(0.3)
+                if (hasUpgrade('He', 23)) player.He.BalDiv1 = player.He.BalDiv1.times(0.1)
+                if (hasUpgrade('He', 24)) player.He.BalDiv1 = player.He.BalDiv1.add(player.He.Inflate.pow(0.7))
+                if (hasUpgrade('He', 25)) player.He.BalDiv1 = player.He.BalDiv1.add(player.He.Inflate)
+                if (hasMilestone('Li', 1)) player.He.BalDiv1 = player.He.BalDiv1.times(0)
+                if (player.A.Widenessx.gte(1)) player.He.BalDiv1 = player.He.BalDiv1.times(0)
+                if (hasUpgrade('He', 15) && player.A.Widenessx.gte(1)) InRate = 10
+                if (hasUpgrade('He', 24)) InRate = 20
+                if (hasUpgrade('He', 14)) cap2 = 499
+                if (hasUpgrade('He', 23)) cap2 = 4999
+                if (player.He.Inflate > cap2) player.He.Inflate = player.He.Inflate.times(0)
+                if (player.He.State > 0) player.He.Inflate = player.He.Inflate.add(InRate)
+                return cap2
+            },
+            onClick() {
+                player.He.State = player.He.State.add(1)
+            }
+
+        },
+        12: {
+            title: "Deflate",
+            display() {
+                if (player.He.State < 1) return "On"
+                else return "Off"
+            },
+            unlocked() {
+                if (hasMilestone('Li', 5)) return false
+                if (hasUpgrade('p', 26)) return true
+                else return false
+            },
+            effect() {
+                BalMult = new Decimal(1)
+                if (hasUpgrade('He', 21)) BalMult = BalMult.add((player.He.points).pow(1.1))
+                if (hasMilestone('He', 6)) BalMult = softcap(BalMult, new Decimal(500), 0.1)
+                if (player.He.State > 0) return ""
+                if (player.He.Inflate > 0) player.He.Inflate = player.He.Inflate.add(-InRate), player.He.HeliumExpunged = player.He.HeliumExpunged.add(1).add(player.He.Inflate.pow(0.1)).add(BalMult.times(player.Li.points.add(1).pow(effect5).times(effect6)))
+            },
+            canClick() {
+                return true
+            },
+            onClick() {
+                player.He.State = player.He.State.times(0)
+            }
+        }
+    },
+
+    automate() {
+        if (hasMilestone('Li', 5) && player.He.Inflate <= 0) player.He.State = player.He.State.add(1)
+        if (hasMilestone('Li', 5) && player.He.Inflate >= cap3) player.He.State = player.He.State.times(0)
+    },
+
+    milestones: {
+        1: {
+            style: { "color": "#ededed" },
+            requirementDescription: "1 Total Helium",
+            effectDescription: "Keep 1 Hydrogen milestone per reset.",
+            done() { return player.He.total.gte(1) },
+            onComplete() { player.E.points = player.E.points.add(1) },
+        },
+        2: {
+            style: { "color": "#ededed" },
+            requirementDescription: "2 Total Helium",
+            effectDescription: "Keep 1 Hydrogen upgrade per reset.",
+            done() { return player.He.total.gte(2) },
+            unlocked() {
+                if (hasMilestone('He', 1)) return true
+            },
+        },
+        3: {
+            style: { "color": "#ededed" },
+            requirementDescription: "7 Total Helium",
+            effectDescription: "Unlock a multiplier tank but 10x tank capacity. Hydrogen Multiplier starts at 0.1.",
+            done() { return player.He.total.gte(7) },
+            unlocked() {
+                if (hasMilestone('He', 2)) return true
+            },
+        },
+        4: {
+            style: { "color": "#ededed" },
+            requirementDescription: "10 Helium",
+            effectDescription: "Hydrogen Mutiplier now starts at 0.",
+            done() { return player.He.points.gte(10) },
+            unlocked() {
+                if (hasMilestone('He', 3)) return true
+            },
+        },
+        5: {
+            style: { "color": "#ededed" },
+            requirementDescription: `Have Upgrade "Hydrogen's Lightness"`,
+            effectDescription: "Helium Mutiplier is now 0, same with Helium.",
+            done() { return hasUpgrade('p', 22) },
+            onComplete() { return player.He.points = player.He.points.times(0) },
+            unlocked() {
+                if (hasMilestone('He', 4)) return true
+            },
+        },
+        6: {
+            style: { "color": "#ededed" },
+            requirementDescription: "500 Helium",
+            effectDescription: "Softcap Helium boost to Hydrogen Exponged gain starting at 500 Helium.",
+            done() { if (hasUpgrade('He', 21)) return player.He.points.gte(500) },
+            unlocked() {
+                if (hasUpgrade('He', 21)) return true
+            },
+        },
+    },
+
+    upgrades: {
+        11: {
+            title: "Knock Knock",
+            description: "Unlock Hydrogen button automation. Gain 1 Helium from Jules Janssen.",
+            cost() { return new Decimal(5) },
+            onPurchase() { return player.He.points = player.He.points.add(1) },
+            unlocked() {
+                if (hasMilestone('He', 2)) return true
+                else return false
+            },
+        },
+        12: {
+            title: "Who's There?",
+            description: "Unlock Hydrogen tank automation.",
+            cost() { return new Decimal(10) },
+            unlocked() {
+                if (hasUpgrade('He', 11)) return true
+                else return false
+            },
+        },
+        13: {
+            title: "Helium Hydride Corrosion!",
+            description: "Remove exponent of Helium effect but unlock more Hydrogen upgrades. Keep Cost.",
+            cost() { return new Decimal(100) },
+            onPurchase() { return player.He.points = player.He.points.add(100), player.p.HydrogenMult = player.p.HydrogenMult.times(0.1), player.p.HydrogenPower = player.p.HydrogenPower.times(0), player.p.points = player.p.points.times(0) },
+            unlocked() {
+                if (hasUpgrade('He', 12)) return true
+                else return false
+            },
+        },
+        14: {
+            title: "Natural Gas Extraction. (This is a fart joke).",
+            description: "Increase Balloon capcity and Helium Gas Expunged rate.",
+            currencyDisplayName: "Helium Gas Expunged",
+            currencyInternalName: "HeliumExpunged",
+            currencyLocation() { return player.He },
+            cost() { return new Decimal(500) },
+            unlocked() {
+                if (hasUpgrade('p', 26)) return true
+                else return false
+            },
+        },
+        15: {
+            title: "Feel That Superfluidity.",
+            description: "Increase Helium Gas Inflate and Deflate gain.",
+            currencyDisplayName: "Helium Gas Expunged",
+            currencyInternalName: "HeliumExpunged",
+            currencyLocation() { return player.He },
+            cost() { return new Decimal(2500) },
+            unlocked() {
+                if (hasUpgrade('He', 14)) return true
+                else return false
+            },
+        },
+        16: {
+            title: "Haha, That Last Upgrade Only Made Things Harder!",
+            description: "Reduce image scaling.",
+            currencyDisplayName: "Helium Gas Expunged",
+            currencyInternalName: "HeliumExpunged",
+            currencyLocation() { return player.He },
+            cost() { return new Decimal(1000) },
+            unlocked() {
+                if (hasUpgrade('He', 15)) return true
+                else return false
+            },
+        },
+        21: {
+            title: `Helium "Leak Detection"`,
+            description: "Greatly reduce the Helium requirement exponent. Helium now multiplies Helium expunged gain. Helium Gas no longer has gas constantly decreasing. Keep 50% of cost.",
+            cost() { return new Decimal(500) },
+            onPurchase() { return player.He.points = player.He.points.add(250) },
+            unlocked() {
+                if (hasUpgrade('He', 16)) return true
+                else return false
+            },
+        },
+        22: {
+            title: "Aww man, no narcotic properties?",
+            description: "Automate multiplier button and resetting Hydrogen resets nothing. Increase Inflation and Deflation rate.",
+            currencyDisplayName: "Helium Gas Expunged",
+            currencyInternalName: "HeliumExpunged",
+            currencyLocation() { return player.He },
+            cost() { return new Decimal(250000) },
+            unlocked() {
+                if (hasUpgrade('He', 21)) return true
+                else return false
+            },
+        },
+        23: {
+            title: "Dude, I think I'm getting progressively Higher.",
+            description: "Increase Ballon Capacity and reduce image scaling.",
+            currencyDisplayName: "Helium Gas Expunged",
+            currencyInternalName: "HeliumExpunged",
+            currencyLocation() { return player.He },
+            cost() { return new Decimal(500000) },
+            unlocked() {
+                if (hasUpgrade('He', 22)) return true
+                else return false
+            },
+        },
+        24: {
+            title: "I'm Floatingggg.",
+            description: "Float.",
+            currencyDisplayName: "Helium Gas Expunged",
+            currencyInternalName: "HeliumExpunged",
+            currencyLocation() { return player.He },
+            cost() { return new Decimal(500000) },
+            unlocked() {
+                if (hasUpgrade('He', 23)) return true
+                else return false
+            },
+        },
+        25: {
+            title: "Going 1355.633077 miles an hour.",
+            description: "Gas Gas Gas.",
+            currencyDisplayName: "Helium Gas Expunged",
+            currencyInternalName: "HeliumExpunged",
+            currencyLocation() { return player.He },
+            cost() { return new Decimal(1000000) },
+            unlocked() {
+                if (hasUpgrade('He', 24)) return true
+                else return false
+            },
+        },
+        26: {
+            title: "Naw man, come on. Don't leave now!",
+            description: "Unlock Lithium. Keep cost.",
+            currencyDisplayName: "Helium Gas Expunged",
+            currencyInternalName: "HeliumExpunged",
+            currencyLocation() { return player.He },
+            cost() { return new Decimal(69420) },
+            onPurchase() { return player.He.HeliumExpunged = player.He.HeliumExpunged.add(69420) },
+            unlocked() {
+                if (hasUpgrade('He', 25)) return true
+                else return false
+            },
+        },
+    },
+
+    infoboxes: {
+        lore: {
+            title: "Helium",
+            body() { return "Another gas at SATP. I've got uh, um, some balloons for uh, um, for a party. Just go ahead and start inflating them once you can." },
+        },
+    },
+
+    tabFormat: [
+        ['infobox', 'lore'],
+        ["display-text",
+            function () { if (player.p.Node < 1) return 'Helium boosts Hydrogen Power and Hydrogen Gas gain by ' + formatWhole(player.He.points.add(1).pow(effect3).times(effect4)) }],
+        ["display-text",
+            function () { if (player.p.Node < 1 && hasUpgrade('He', 21)) return 'Helium also boosts Helium Expunged gain by adding ' + format((BalMult)) }],
+        "blank",
+        "main-display",
+        () => (hasMilestone('Li', 2)) ? "" : "prestige-button",
+        "blank",
+        ["display-text",
+            function () { if (player.p.Node < 1) return 'You have done ' + formatWhole(player.He.resets) + ' resets' }],
+        "milestones",
+        "upgrades",
+        "blank",
+        ["display-text",
+            function () { if (hasUpgrade('p', 26) && player.p.Node < 1) return 'You have ' + format(player.He.HeliumExpunged) + 'L Helium Gas Expunged' }],
+        ["display-text",
+            function () { if (hasUpgrade('p', 26) && player.p.Node < 1) return 'You have ' + format(player.He.Inflate) + 'L Helium Gas' }],
+        ["display-image",
+            function () {
+                if (hasUpgrade('p', 26) && player.He.Inflate > 3) return 'https://i.postimg.cc/tR1vQzt7/d43opezd7zfz-2494814611-1-prev-ui-1.png'
+                if (hasUpgrade('p', 26) && player.He.Inflate < 4) return 'https://i.postimg.cc/fy4chYD0/balloon-pop-hi-794366064-prev-ui-1.png'
+            }],
+        "clickables",
+        "blank",
+        () => (player.p.Node < 1) ? "" : ["strict-text-input", "IText"]
+    ],
+
+    componentStyles: {
+        "display-image"() { return { 'height': `${player.He.BalDiv.add(50)}px`, 'width': `${player.He.BalDiv1.add(50)}px` } },
+    },
+
+
+    passiveGeneration() {
+        if (hasMilestone('Li', 3)) return 8
+        if (hasMilestone('Li', 2)) return 4
+    },
+
+    doReset(resettingLayer) {
+        if (layers[this.layer].row >= layers[resettingLayer].row) return
+        let keptMilestones = []
+        let keptUpgrades = []
+        if (player.Li.resets > 0) keptMilestones.push(...player.He.milestones.slice(0, player.Li.resets))
+        if (player.Li.resets > 1) keptUpgrades.push(...player.He.upgrades.slice(0, player.Li.resets))
+        layerDataReset(this.layer)
+        if (player.Li.resets > 0) player.He.resets = player.He.resets.add(player.Li.resets)
+        if (player.Li.resets > 3) player.He.resets = player.He.resets.add(20)
+        player.He.upgrades.push(...keptUpgrades)
+        player.He.milestones.push(...keptMilestones)
+    },
+})
+
+addLayer("Li", {
+    name: "Li", // This is optional, only used in a few places, If absent it just uses the layer id.
+    image: "https://i.postimg.cc/qR0xHgF1/49f49e18-b45b-4b40-aef3-318b8b46376d.png", // This appears on the layer's node. Default is the id with the first letter capitalized
+    position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
+    startData() {
+        return {
+            unlocked: true,
+            points: new Decimal(0),
+            resets: new Decimal(0),
+            Deg: new Decimal(0),
+            Size: new Decimal(0),
+            State: new Decimal(0),
+            Gain: new Decimal(0),
+            Gain2: new Decimal(0),
+            Gain3: new Decimal(0),
+            Gain4: new Decimal(0),
+            Gain5: new Decimal(0),
+            Gain6: new Decimal(0),
+            Gain7: new Decimal(0),
+            Hydrogen: new Decimal(0),
+            H1: new Decimal(2),
+            H2: new Decimal(100),
+            H3: new Decimal(10),
+            Li1: new Decimal(1),
+            Sped: new Decimal(10),
+            HM: new Decimal(1),
+            H: new Decimal(1),
+            Runlock: new Decimal(0),
+            Punlock: new Decimal(0),
+            Rubidium: new Decimal(0),
+            R: new Decimal(1),
+            R1: new Decimal(100),
+            RM: new Decimal(1),
+            HD: new Decimal(1),
+            PM: new Decimal(1),
+            AlM: new Decimal(1),
+            Hp: new Decimal(1),
+            Rp: new Decimal(1),
+            Lp: new Decimal(1),
+            HDp: new Decimal(1),
+            Kp: new Decimal(1),
+            Alp: new Decimal(1),
+            StoreSped: new Decimal(0),
+            StoreHydro: new Decimal(0),
+            Hydroxide: new Decimal(0),
+            Potassium: new Decimal(0),
+            Aluminum: new Decimal(0),
+            Fluorine: new Decimal(0),
+            Silicon: new Decimal(0),
+            Francium: new Decimal(0),
+            noKey: new Decimal(0),
+            InText: "Input ore name here",
+            State2: new Decimal(0),
+            State3: new Decimal(0),
+            All: new Decimal(0),
+            UltraLithium: new Decimal(0),
+        }
+    },
+
+    UrO: new Decimal(0),
+    Inv: new Decimal(0),
+
+    layerShown() {
+        if (hasUpgrade('He', 26)) return true
+        if (player.Li.resets > 0) return true
+        else return false
+    },
+
+    color: "#a9a9a9",
+    requires: new Decimal(1), // Can be a function that takes requirement increases into account
+    resource: "Lithium", // Name of prestige currency
+    baseResource: "Helium Expunged", // Name of resource prestige is based on
+    baseAmount() { return player.He.HeliumExpunged }, // Get the current amount of baseResource
+    requires: new Decimal(100000),
+    type: "normal", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
+    exponent: 0.3, // Prestige currency exponent
+    gainMult() { // Calculate the multiplier for main currency from bonuses
+        mult = new Decimal(1)
+        return mult
+    },
+    gainExp() { // Calculate the exponent on main currency from bonuses
+        return new Decimal(1)
+    },
+    row: 2, // Row the layer is in on the tree (0 is the first row)
+    displayRow: 0,
+
+    hotkeys: [
+        { key: "l", description: "L: Reset for Lithium", onPress() { if (canReset(this.layer) && player.Li.noKey == 0) doReset(this.layer) } },
+    ],
+
+    onPrestige() {
+        player.Li.resets = player.Li.resets.add(1)
+    },
+
+    tooltip() { return formatWhole(player.Li.points) + " Lithium" },
+    tooltipLocked() { return formatWhole(player.Li.points) + " Lithium" },
+
+    milestones: {
+        1: {
+            style: { "color": "#ededed" },
+            requirementDescription: "1 Lithium Reset",
+            effectDescription: "Keep 1 Helium milestone per reset. Get rid of wideness stuff.",
+            done() { return player.Li.resets.gte(1) },
+            onComplete() { player.E.points = player.E.points.add(1) },
+        },
+        2: {
+            style: { "color": "#ededed" },
+            requirementDescription: "2 Lithium Resets",
+            effectDescription: "Keep 1 Helium upgrade per reset. Also unlock Helium auto generation. Thin balloon (:<.",
+            done() { return player.Li.resets.gte(2) },
+            unlocked() {
+                if (hasMilestone('Li', 1)) return true
+            },
+        },
+        3: {
+            style: { "color": "#ededed" },
+            requirementDescription: "3 Lithium Resets",
+            effectDescription: "Double Helium generation.",
+            done() { return player.Li.resets.gte(3) },
+            unlocked() {
+                if (hasMilestone('Li', 2)) return true
+            },
+        },
+        4: {
+            style: { "color": "#ededed" },
+            requirementDescription: "4 Lithium Resets",
+            effectDescription: "Keep 20 resets.",
+            done() { return player.Li.resets.gte(4) },
+            unlocked() {
+                if (hasMilestone('Li', 3)) return true
+            },
+        },
+        5: {
+            style: { "color": "#ededed" },
+            requirementDescription: "12 Lithium Resets",
+            effectDescription: "Automate Helium Inflate and Deflate. Also unlock a Lepoidolite. Reset Lithium and remove button.",
+            done() { return player.Li.resets.gte(12) },
+            onComplete() { return player.Li.points = player.Li.points.times(0), player.Li.noKey = player.Li.noKey.add(1), player.Li.RM = player.Li.RM.times(0)},
+            unlocked() {
+                if (hasMilestone('Li', 4)) return true
+            },
+        },
+    },
+
+    infoboxes: {
+        lore: {
+            titleStyle: { "color": "#ededed" },
+            title: "Lithium",
+            body() { return "We've struck Lithium! I'll- We'll be able to make phones and electric cars with them. All ya gotta do is mine that Lepoidolite over there (once you can)." },
+        },
+        lore1: {
+            titleStyle: { "color": "#ededed" },
+            title: "",
+            body() { return "I need a new dust filter for my Hoover Max Extract Pressure Pro model 60" }
+        },
+    },
+
+
+    buyables: {
+        11: {
+            unlocked() {
+                if (hasMilestone('Li', 5)) return true
+            },
+            cost(x) {
+                if (inChallenge('Li', 15)) return new Decimal(10).mul(x).pow(2.9)
+                if (inChallenge('Li', 13)) return new Decimal(10).mul(x).pow(4.9)
+                else return  new Decimal(10).mul(x).pow(1.9)},
+            display() { return "Find more ore.<div> Increases the chance of getting Lithium by 1% per amount.<div> Cost: " + format(this.cost()) + "g of Lithium<div> Amount: " + format(getBuyableAmount(this.layer, this.id)) + " / " + format((this.purchaseLimit)) + "<div> Completion reward: Unlock new ore." },
+            canAfford() { return player[this.layer].points.gte(this.cost()) },
+            purchaseLimit: 50,
+            buy() {
+                player[this.layer].points = player[this.layer].points.sub(this.cost())
+                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                player.Li.Li1 = player.Li.Li1.add(1), player.Li.H1 = player.Li.H1.add(1)
+                if (getBuyableAmount(this.layer, this.id) == 50) player.Li.Runlock = player.Li.Runlock.add(1), player.Li.RM = player.Li.RM.add(1), player.Li.H2 = player.Li.H2.sub(1)
+            },
+
+        },
+        12: {
+            unlocked() {
+                if (hasMilestone('Li', 5)) return true
+            },
+            cost(x) { 
+                if (inChallenge('Li', 15)) return new Decimal(10).mul(x).pow(2.8)
+                if (inChallenge('Li', 13)) return new Decimal(10).mul(x).pow(4.8)
+                else return new Decimal(10).mul(x).pow(1.8) },
+            display() { return "Hire a worker.<div> Increases mining speed by 1% per amount.<div> Cost: " + format(this.cost()) + "g of Lithium<div> Amount: " + format(getBuyableAmount(this.layer, this.id)) + " / " + format((this.purchaseLimit)) + "<div> Completion reward: Double mining speed." },
+            canAfford() { return player[this.layer].points.gte(this.cost()) },
+            buy() {
+                player[this.layer].points = player[this.layer].points.sub(this.cost())
+                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                player.Li.Sped = player.Li.Sped.add(new Decimal(0.01).times(x))
+                if (getBuyableAmount(this.layer, this.id) == 25) player.Li.Sped = player.Li.Sped.times(2)
+            },
+            purchaseLimit: 25,
+        },
+        13: {
+            unlocked() {
+                if (hasMilestone('Li', 5)) return true
+            },
+            cost(x) { 
+                if (inChallenge('Li', 15)) return new Decimal(10).mul(x).pow(2.5)
+                if (inChallenge('Li', 13)) return new Decimal(10).mul(x).pow(4.5)
+                else return new Decimal(1).mul(x).pow(1.5) },
+            display() { return "Use better equipment.<div> Increases the amount of Hydrogen from mineral by 10% per amount.<div> Cost: " + format(this.cost()) + "g of Lithium<div> Amount: " + format(getBuyableAmount(this.layer, this.id)) + " / " + format((this.purchaseLimit)) + "<div> Completion reward: Double Hydrogen Gain." },
+            canAfford() { return player[this.layer].points.gte(this.cost()) },
+            buy() {
+                player[this.layer].points = player[this.layer].points.sub(this.cost())
+                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                player.Li.H = player.Li.H.add(new Decimal(0.1).times(x))
+                if (getBuyableAmount(this.layer, this.id) == 100) player.Li.H = player.Li.H.times(2)
+            },
+            purchaseLimit: 100,
+        },
+        14: {
+            unlocked() {
+                if (hasMilestone('Li', 5) && player.Li.Runlock > 0) return true
+            },
+            cost(x) { 
+                if (inChallenge('Li', 15)) return new Decimal(30000).mul(x).pow(2.52)
+                if (inChallenge('Li', 13)) return new Decimal(30000).mul(x).pow(2.52)
+                else return new Decimal(30000).mul(x).pow(1.02) },
+            display() { return "Buy a factory.<div> Increases the chance of getting Rubidium by 1% per amount.<div> Cost: " + format(this.cost()) + "g of Lithium<div> Amount: " + format(getBuyableAmount(this.layer, this.id)) + " / " + format((this.purchaseLimit)) + "<div> Completion reward: Double Rubidium gain." },
+            canAfford() { return player[this.layer].points.gte(this.cost()) },
+            purchaseLimit: 20,
+            buy() {
+                player[this.layer].points = player[this.layer].points.sub(this.cost())
+                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                player.Li.R1 = player.Li.R1.sub(1), player.Li.H2 = player.Li.H2.sub(1)
+                if (getBuyableAmount(this.layer, this.id) == 20) player.Li.R = player.Li.R.times(2)
+            },
+        },
+        15: {
+            unlocked() {
+                if (hasMilestone('Li', 5) && player.Li.Runlock > 0) return true
+            },
+            cost(x) { 
+                if (inChallenge('Li', 15)) return new Decimal(30000).mul(x).pow(2.51)
+                if (inChallenge('Li', 13)) return new Decimal(30000).mul(x).pow(2.51)
+                else return new Decimal(30000).mul(x).pow(1.01) },
+            display() { return "Increase stock market shares.<div> Increases mining speed by 1% per amount.<div> Cost: " + format(this.cost()) + "g of Lithium<div> Amount: " + format(getBuyableAmount(this.layer, this.id)) + " / " + format((this.purchaseLimit)) + "<div> Completion reward: Double mining speed." },
+            canAfford() { return player[this.layer].points.gte(this.cost()) },
+            buy() {
+                player[this.layer].points = player[this.layer].points.sub(this.cost())
+                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                player.Li.Sped = player.Li.Sped.add(new Decimal(0.01).times(x))
+               
+                if (getBuyableAmount(this.layer, this.id) == 25) player.Li.Sped = player.Li.Sped.times(2)
+                if (getBuyableAmount(this.layer, this.id) == 25) player.Li.StoreSped = player.Li.Sped
+            },
+            purchaseLimit: 25,
+        },
+        16: {
+            unlocked() {
+                if (hasMilestone('Li', 5) && player.Li.Runlock > 0) return true
+            },
+            cost(x) { 
+                if (inChallenge('Li', 15)) return new Decimal(1e15).mul(x)
+                if (inChallenge('Li', 13)) return new Decimal(1e15).mul(x)
+                else return new Decimal(10000000).mul(x)},
+            display() { return "Find a portal? <div> Unlocks Lithium challenges.<div> Cost: " + format(this.cost()) + "g of Lithium<div> Amount: " + format(getBuyableAmount(this.layer, this.id)) + " / " + format((this.purchaseLimit)) + "<div> Completion reward: Unlock challenges." },
+            canAfford() { return player[this.layer].points.gte(this.cost()) },
+            buy() {
+                player[this.layer].points = player[this.layer].points.sub(this.cost())
+                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                if (getBuyableAmount(this.layer, this.id) == 2) player.Li.Runlock = player.Li.Runlock.add(1), player.Li.Punlock = player.Li.Punlock.add(1) //End of game for now
+            },
+            purchaseLimit: 2,
+        },
+    },
+
+    challenges: {
+        11: {
+            name: "Buy Out The <div> Competition",
+            challengeDescription: "Hydrogen boosts nothing. Keep Rubidium.",
+            goalDescription: "Use the best equipment.",
+            rewardDescription: "Unlock a new location.",
+            canComplete: function() {return getBuyableAmount('Li', 13) == 100},
+            style() { if (inChallenge('Li', 11)) return {"background-color" : "#a9a9a9"}},
+            onEnter() { return player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.StoreSped = player.Li.Sped,  player.Li.StoreHydro = player.Li.H, player.Li.Runlock = player.Li.Runlock.times(0), player.Li.Hydrogen = player.Li.Hydrogen.times(0), player.Li.points = player.Li.points.times(0), setBuyableAmount('Li', 11, new Decimal(0)), setBuyableAmount('Li', 12, new Decimal(0)), setBuyableAmount('Li', 13, new Decimal(0)), setBuyableAmount('Li', 14, new Decimal(0)), setBuyableAmount('Li', 15, new Decimal(0)), setBuyableAmount('Li', 16, new Decimal(0)), player.Li.Sped = player.Li.Sped.times(0).add(10), player.Li.H = player.Li.H.times(0).add(1), player.Li.H1 = player.Li.H1.times(0).add(2), player.Li.H2 = player.Li.H2.times(0).add(100), player.Li.Li1 = player.Li.Li1.times(0).add(1), player.Li.R1 = player.Li.R1.times(0).add(100), player.Li.H3 = player.Li.H3.times(0)},
+            onExit() { return player.Li.Runlock = player.Li.Runlock.add(2), setBuyableAmount('Li', 11, new Decimal(50)), setBuyableAmount('Li', 12, new Decimal(25)), setBuyableAmount('Li', 13, new Decimal(100)), setBuyableAmount('Li', 14, new Decimal(20)), setBuyableAmount('Li', 15, new Decimal(25)), setBuyableAmount('Li', 16, new Decimal(2)), player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.H1 = player.Li.H1.times(0).add(53), player.Li.H2 = player.Li.H2.times(0).add(80), player.Li.Li1 = player.Li.Li1.times(0).add(51), player.Li.R1 = player.Li.R1.times(0).add(80), player.Li.H3 = player.Li.H3.add(10)}
+        },
+        12: {
+            unlocked() { if (hasChallenge('Li', 11)) return true},
+            name: "Lobby For Lower <div> Workplace Safety Measures",
+            challengeDescription: "Hydrogen boosts nothing. Keep row 1 of buyables, Potassium and Hydroxide.",
+            goalDescription: "Have the richest investors.",
+            rewardDescription: "Unlock a new ore and Lepoidolite.",
+            canComplete: function() {return getBuyableAmount('Li', 15) == 25},
+            style() { if (inChallenge('Li', 12)) return {"background-color" : "#a9a9a9"}},
+            onEnter() { return player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.RM = player.Li.RM.times(0).add(1), player.Li.StoreSped = player.Li.Sped, player.Li.Runlock = player.Li.Runlock.times(0), player.Li.Hydrogen = player.Li.Hydrogen.times(0), player.Li.Rubidium = player.Li.Rubidium.times(0), player.Li.points = player.Li.points.times(0), setBuyableAmount('Li', 11, new Decimal(50)), setBuyableAmount('Li', 12, new Decimal(25)), setBuyableAmount('Li', 13, new Decimal(100)), setBuyableAmount('Li', 14, new Decimal(0)), setBuyableAmount('Li', 15, new Decimal(0)), setBuyableAmount('Li', 16, new Decimal(0)), player.Li.Sped = player.Li.Sped.times(0).add(35), player.Li.R1 = player.Li.R1.times(0).add(100), player.Li.H2 = player.Li.H2.times(0).add(99), player.Li.Runlock = player.Li.Runlock.times(0).add(1)},
+            onExit() { return player.Li.Runlock = player.Li.Runlock.add(2), setBuyableAmount('Li', 11, new Decimal(50)), setBuyableAmount('Li', 12, new Decimal(25)), setBuyableAmount('Li', 13, new Decimal(100)), setBuyableAmount('Li', 14, new Decimal(20)), setBuyableAmount('Li', 15, new Decimal(25)), setBuyableAmount('Li', 16, new Decimal(2)), player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.H1 = player.Li.H1.times(0).add(53), player.Li.H2 = player.Li.H2.times(0).add(80), player.Li.Li1 = player.Li.Li1.times(0).add(51), player.Li.R1 = player.Li.R1.times(0).add(80), player.Li.H3 = player.Li.H3.add(10)}
+        },
+        13: {
+            unlocked() { if (hasChallenge('Li', 12)) return true},
+            name: "Lower The <div> Minimum Wage",
+            challengeDescription: "Keep most things except buyables. Their cost scales much higher",
+            goalDescription: "Make it back to the portal.",
+            rewardDescription: "Unlock a new location (purely aesthetical) and another Lepoidolite.",
+            canComplete: function() {return getBuyableAmount('Li', 16) == 2},
+            style() { if (inChallenge('Li', 13)) return {"background-color" : "#a9a9a9"}},
+            onEnter() { return player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.StoreSped = player.Li.Sped,  player.Li.StoreHydro = player.Li.H, player.Li.Runlock = player.Li.Runlock.times(0), player.Li.points = player.Li.points.times(0), setBuyableAmount('Li', 11, new Decimal(0)), setBuyableAmount('Li', 12, new Decimal(0)), setBuyableAmount('Li', 13, new Decimal(0)), setBuyableAmount('Li', 14, new Decimal(0)), setBuyableAmount('Li', 15, new Decimal(0)), setBuyableAmount('Li', 16, new Decimal(0)), player.Li.Sped = player.Li.Sped.times(0).add(10), player.Li.H = player.Li.H.times(0).add(1), player.Li.H1 = player.Li.H1.times(0).add(2), player.Li.H2 = player.Li.H2.times(0).add(100), player.Li.Li1 = player.Li.Li1.times(0).add(1), player.Li.R1 = player.Li.R1.times(0).add(100), player.Li.H3 = player.Li.H3.times(0)},
+            onExit() { return player.Li.Runlock = player.Li.Runlock.add(2), setBuyableAmount('Li', 11, new Decimal(50)), setBuyableAmount('Li', 12, new Decimal(25)), setBuyableAmount('Li', 13, new Decimal(100)), setBuyableAmount('Li', 14, new Decimal(20)), setBuyableAmount('Li', 15, new Decimal(25)), setBuyableAmount('Li', 16, new Decimal(2)), player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.H1 = player.Li.H1.times(0).add(53), player.Li.H2 = player.Li.H2.times(0).add(80), player.Li.Li1 = player.Li.Li1.times(0).add(51), player.Li.R1 = player.Li.R1.times(0).add(80), player.Li.H3 = player.Li.H3.add(10)}
+        },
+        14: {
+            unlocked() { if (hasChallenge('Li', 13)) return true},
+            name: "Withold <div> Valuable Resources",
+            challengeDescription: "Lose most things. Potassium boosts nothing.",
+            goalDescription: "Get 1e11 Lithium.",
+            rewardDescription: "Double mining speed and unlock another Lepoidolite (purely aesthetical).",
+            canComplete: function() {return player.Li.points.gte(1e11)},
+            onComplete: function() { if (hasChallenge('Li', 14)) return ""
+                else return player.Li.Sped = player.Li.Sped.times(2)},
+            style() { if (inChallenge('Li', 14)) return {"background-color" : "#a9a9a9"}},
+            onEnter() { return player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.StoreSped = player.Li.Sped,  player.Li.StoreHydro = player.Li.H, player.Li.Runlock = player.Li.Runlock.times(0), player.Li.Hydrogen = player.Li.Hydrogen.times(0), player.Li.points = player.Li.points.times(0), player.Li.Rubidium = player.Li.Rubidium.times(0), setBuyableAmount('Li', 11, new Decimal(0)), setBuyableAmount('Li', 12, new Decimal(0)), setBuyableAmount('Li', 13, new Decimal(0)), setBuyableAmount('Li', 14, new Decimal(0)), setBuyableAmount('Li', 15, new Decimal(0)), setBuyableAmount('Li', 16, new Decimal(0)), player.Li.Sped = player.Li.Sped.times(0).add(10), player.Li.H = player.Li.H.times(0).add(1), player.Li.H1 = player.Li.H1.times(0).add(2), player.Li.H2 = player.Li.H2.times(0).add(100), player.Li.Li1 = player.Li.Li1.times(0).add(1), player.Li.R1 = player.Li.R1.times(0).add(100), player.Li.H3 = player.Li.H3.times(0), player.Li.RM = player.Li.RM.times(0)},
+            onExit() { return player.Li.Runlock = player.Li.Runlock.add(2), setBuyableAmount('Li', 11, new Decimal(50)), setBuyableAmount('Li', 12, new Decimal(25)), setBuyableAmount('Li', 13, new Decimal(100)), setBuyableAmount('Li', 14, new Decimal(20)), setBuyableAmount('Li', 15, new Decimal(25)), setBuyableAmount('Li', 16, new Decimal(2)), player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.H1 = player.Li.H1.times(0).add(53), player.Li.H2 = player.Li.H2.times(0).add(80), player.Li.Li1 = player.Li.Li1.times(0).add(51), player.Li.R1 = player.Li.R1.times(0).add(80), player.Li.H3 = player.Li.H3.add(10)}
+        },
+        15: {
+            unlocked() { if (hasChallenge('Li', 14)) return true},
+            name: "Become <div> A Monopoly",
+            challengeDescription: "Keep most things except buyables. Their cost scales much higher",
+            goalDescription: "Fully max out all buyables.",
+            rewardDescription: "Unlock Beryllium and another Lepoidolite (purely aesthetical).",
+            canComplete: function() {return player.Li.All.gte(1)},
+            style() { if (inChallenge('Li', 15)) return {"background-color" : "#a9a9a9"}},
+            onEnter() { return player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.StoreSped = player.Li.Sped,  player.Li.StoreHydro = player.Li.H, player.Li.Runlock = player.Li.Runlock.times(0), player.Li.points = player.Li.points.times(0), player.Li.Rubidium = player.Li.Rubidium.times(0), player.Li.Hydrogen = player.Li.Hydrogen.times(0), setBuyableAmount('Li', 11, new Decimal(0)), setBuyableAmount('Li', 12, new Decimal(0)), setBuyableAmount('Li', 13, new Decimal(0)), setBuyableAmount('Li', 14, new Decimal(0)), setBuyableAmount('Li', 15, new Decimal(0)), setBuyableAmount('Li', 16, new Decimal(0)), player.Li.Sped = player.Li.Sped.times(0).add(10), player.Li.H = player.Li.H.times(0).add(1), player.Li.H1 = player.Li.H1.times(0).add(2), player.Li.H2 = player.Li.H2.times(0).add(100), player.Li.Li1 = player.Li.Li1.times(0).add(1), player.Li.R1 = player.Li.R1.times(0).add(100), player.Li.H3 = player.Li.H3.times(0), player.Li.RM = player.Li.RM.times(0)},
+            onExit() { return player.Li.Runlock = player.Li.Runlock.add(2), setBuyableAmount('Li', 11, new Decimal(50)), setBuyableAmount('Li', 12, new Decimal(25)), setBuyableAmount('Li', 13, new Decimal(100)), setBuyableAmount('Li', 14, new Decimal(20)), setBuyableAmount('Li', 15, new Decimal(25)), setBuyableAmount('Li', 16, new Decimal(2)), player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.H1 = player.Li.H1.times(0).add(53), player.Li.H2 = player.Li.H2.times(0).add(80), player.Li.Li1 = player.Li.Li1.times(0).add(51), player.Li.R1 = player.Li.R1.times(0).add(80), player.Li.H3 = player.Li.H3.add(10)}
+        },
+    },
+
+
+    
+    tabFormat: {
+        "MainTab": {
+            content: [
+        () => (player.p.Node < 1) ? ['infobox', 'lore'] : ['infobox', 'lore1'],
+        ["display-text",
+            function () { if (player.p.Node < 1) return 'Lithium boosts Helium Expunged and Hydrogen Gas + Power gain by ' + formatWhole(player.Li.points.add(1).pow(effect5).times(effect6)) }],
+        "blank",
+        "main-display",
+        () => (hasMilestone('Li', 5)) ? "" : "prestige-button",
+        "blank",
+        ["display-text",
+            function () { if (player.p.Node < 1) return 'You have done ' + formatWhole(player.Li.resets) + ' resets' }],
+        ['display-text', 
+            function() { return temp.Li.Inv = temp.Li.Inv * 0, ''}],
+        "milestones",
+        "blank",
+        ["display-text",
+            function () { if (player.p.Node < 1 && hasMilestone('Li', 5) && player.Li.Punlock < 1) return 'You have ' + format(player.Li.points) + 'g of Lithium from Lepoidolite (Currency).<div> Current chance: ' + formatWhole(player.Li.Li1.add(1)) + ' in 100.' }],
+        ["display-text",
+            function () { if (player.p.Node < 1 && hasMilestone('Li', 5) && player.Li.Punlock < 1) return 'You have ' + format(player.Li.Hydrogen) + 'L of Hydrogen from Lepoidolite (10% more Lithium per L). <div> Current chance: ' + formatWhole(player.Li.H2.sub(player.Li.H1)) + ' in 100.' }],
+        ["display-text",
+            function () { if (player.p.Node < 1 && hasMilestone('Li', 5) && player.Li.Punlock < 1 && player.Li.Runlock > 0) return 'You have ' + format(player.Li.Rubidium) + 'g of Rubidium from Lepoidolite (20% more Lithium and Hydrogen per g). <div> Current chance: ' + formatWhole(new Decimal(100).sub(player.Li.R1).add(1)) + ' in 100.' }],
+        "blank",
+        ["row", function () {
+            if (hasMilestone('Li', 5) && player.Li.Punlock < 1) return [
+                ["display-image", 'https://i.postimg.cc/LXZqjbzG/lepidolite-rough-2978111063-1-prev-ui.png', { 'height': `${player.Li.Size.add(340)}px`, 'width': `${player.Li.Size.add(340)}px` }],
+                ["display-image", 'https://i.postimg.cc/zvVxw5d8/pdp-sq-2910733281-prev-ui.png', { height: `230px`, width: `230px`, transform: `rotate(${player.Li.Deg}deg)`, position: 'relative', right: '40px' }]
+            ]}],
+        "blank",
+        "buyables",
+        ]},
+        "Mines": {
+            content: [
+                ["display-text",
+                function () { if (player.p.Node < 1) return '<u><b>______________________________Thacker Pass______________________________'}],
+                'blank',
+                ['display-text', 
+                function() { return temp.Li.Inv = temp.Li.Inv * 0, ''}],
+                ["display-text",
+                function () { if (player.p.Node < 1) return 'You have ' + format(player.Li.points) + 'g of Lithium from Lepoidolite (Currency).<div> Current chance: ' + formatWhole(player.Li.Li1.add(1)) + ' in 100.' }],
+            ["display-text",
+                function () { if (player.p.Node < 1) return 'You have ' + format(player.Li.Hydrogen) + 'L of Hydrogen from Lepoidolite (10% more Lithium per L). <div> Current chance: ' + formatWhole(player.Li.H2.sub(player.Li.H1)) + ' in 100.'}],
+            ["display-text",
+                function () { if (player.p.Node < 1) return 'You have ' + format(player.Li.Rubidium) + 'g of Rubidium from Lepoidolite (20% more Lithium and Hydrogen per g).'}],
+            ["display-text",
+                function () { if (player.p.Node < 1 && player.Li.Runlock > 0) return 'Current chance: ' + formatWhole(new Decimal(100).sub(player.Li.R1).add(1)) + ' in 100.' }],
+            ["row", function () {
+                if (player.Li.Punlock > 0) return [
+                    ["display-image", 'https://i.postimg.cc/KzRjzdXH/101848.jpg', { 'height': `400px`, 'width': `1000px`, position: 'absolute', right: '10px', top: '250px', id: 'under'}],
+                  ["display-image", 'https://i.postimg.cc/LXZqjbzG/lepidolite-rough-2978111063-1-prev-ui.png', { height: `${player.Li.Size.add(100)}px`, width: `${player.Li.Size.add(100)}px`, position: 'absolute',  right: '650px', top: "400px", id: 'top'}],
+                    ["display-image", 'https://i.postimg.cc/zvVxw5d8/pdp-sq-2910733281-prev-ui.png', { height: `83px`, width: `83px`, transform: `rotate(${player.Li.Deg}deg)`,  position: 'absolute', right: '600px', top: '410px', id: 'top'}],
+                ]}],
+                "blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank",
+                ["display-text",
+                function () { if (player.p.Node < 1 && hasChallenge('Li', 11)) return '<u><b>______________________________Gaston County______________________________'}],
+                'blank',
+                ["display-text",
+                function () { if (player.p.Node < 1 && hasChallenge('Li', 11)) return 'You have ' + format(player.Li.Hydroxide) + 'L of Hydroxide from Lepoidolite (2x Rubidium per L).<div> Current chance: 1 in 200 per Gaston County Lepoidolite.' }],
+                ["display-text",
+                function () { if (player.p.Node < 1 && hasChallenge('Li', 11)) return 'You have ' + format(player.Li.Potassium) + 'g of Potassium from Lepoidolite (2x Lithium per g).<div> Current chance: 1 in 200 per Gaston County Lepoidolite.' }],
+                ["display-text",
+                function () { if (player.p.Node < 1 && hasChallenge('Li', 12)) return 'You have ' + format(player.Li.Aluminum) + 'g of Aluminum from Lepoidolite (10x Potassium and Hydroxide per g).<div> Current chance: 1 in 500.' }],
+                "blank",
+            ["row", function () {
+                if (hasChallenge('Li', 11)) return [
+                    ["display-image", 'https://i.postimg.cc/J0zHCPM1/pC6PQx.jpg', { 'height': `400px`, 'width': `1000px`, position: 'absolute', right: '10px', top: '800px', id: 'under'}],
+                    ["display-image", 'https://i.postimg.cc/LXZqjbzG/lepidolite-rough-2978111063-1-prev-ui.png', { height: `${player.Li.Size.add(130)}px`, width: `${player.Li.Size.add(130)}px`, position: 'absolute',  right: '450px', top: "1050px", id: 'top'}],
+                    ["display-image", 'https://i.postimg.cc/zvVxw5d8/pdp-sq-2910733281-prev-ui.png', { height: `83px`, width: `83px`, transform: `rotate(${player.Li.Deg}deg)`,  position: 'absolute', right: '400px', top: '1060px', id: 'top'}],
+                ]
+            }],
+            ["row", function () {
+            if (hasChallenge('Li', 12)) return [
+                ["display-image", 'https://i.postimg.cc/LXZqjbzG/lepidolite-rough-2978111063-1-prev-ui.png', { height: `${player.Li.Size.add(60)}px`, width: `${player.Li.Size.add(60)}px`, position: 'absolute',  right: '100px', top: "1050px", id: 'top'}],
+                ["display-image", 'https://i.postimg.cc/zvVxw5d8/pdp-sq-2910733281-prev-ui.png', { height: `43px`, width: `43px`, transform: `rotate(${-player.Li.Deg}deg)`,  position: 'absolute', right: '110px', top: '1020px', id: 'top'}],
+            ]
+        }],
+        ["row", function () {
+            if (hasChallenge('Li', 13)) return [
+                ["display-image", 'https://i.postimg.cc/LXZqjbzG/lepidolite-rough-2978111063-1-prev-ui.png', { height: `${player.Li.Size.add(40)}px`, width: `${player.Li.Size.add(40)}px`, position: 'absolute',  right: '350px', top: "1020px", id: 'top'}],
+                ["display-image", 'https://i.postimg.cc/zvVxw5d8/pdp-sq-2910733281-prev-ui.png', { height: `33px`, width: `33px`, transform: `rotate(${-player.Li.Deg.add(100)}deg)`,  position: 'absolute', right: '380px', top: '1020px', id: 'top'}],
+            ]
+        }],
+        "blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank","blank",
+        ["display-text",
+        function () { if (player.p.Node < 1  && hasChallenge('Li', 13)) return '<u><b>______________________________Luna County______________________________'}],
+        'blank',
+        ["display-text",
+        function () { if (player.p.Node < 1 && hasChallenge('Li', 13)) return 'You have ' + format(player.Li.Fluorine) + 'L of Fluorine from Lepoidolite.<div> Current chance: 1 in 1000.' }],
+        ["display-text",
+        function () { if (player.p.Node < 1 && hasChallenge('Li', 13)) return 'You have ' + format(player.Li.Silicon) + 'g of Silicon from Lepoidolite. <div> Current chance: 1 in 10000.'}],
+        ["display-text",
+        function () { if (player.p.Node < 1 && hasChallenge('Li', 14)) return 'You have ' + format(player.Li.Francium) + 'g of Francium from Lepoidolite. <div> Current chance: 1 in 124653.'}],
+        ["display-text", 
+        function () { if (player.p.Node < 1 && hasChallenge('Li', 15)) return 'You have ' + format(player.Li.UltraLithium) + 'g of Ultra Lithium from Lepoidolite. <div> Current chance: 1 in 1000000.'}],
+        "blank",
+        ["row", function () {
+            if (hasChallenge('Li', 13)) return [
+                ["display-image", 'https://i.postimg.cc/zBL39mSg/157380-nature-cave-sunlight-ice-frost-glaciers-icicle-snow.jpg', { 'height': `400px`, 'width': `1000px`, position: 'absolute', right: '10px', top: '1380px', id: 'under'}],
+                ["display-image", 'https://i.postimg.cc/LXZqjbzG/lepidolite-rough-2978111063-1-prev-ui.png', { height: `${player.Li.Size.add(130)}px`, width: `${player.Li.Size.add(130)}px`, position: 'absolute',  right: '650px', top: "1630px", id: 'top'}],
+                ["display-image", 'https://i.postimg.cc/zvVxw5d8/pdp-sq-2910733281-prev-ui.png', { height: `83px`, width: `83px`, transform: `rotate(${player.Li.Deg}deg)`,  position: 'absolute', right: '600px', top: '1640px', id: 'top'}],
+            ]
+        }],
+        ["row", function () {
+            if (hasChallenge('Li', 14)) return [
+                ["display-image", 'https://i.postimg.cc/LXZqjbzG/lepidolite-rough-2978111063-1-prev-ui.png', { height: `${player.Li.Size.add(130)}px`, width: `${player.Li.Size.add(130)}px`, position: 'absolute',  right: '250px', top: "1630px", id: 'top'}],
+                ["display-image", 'https://i.postimg.cc/zvVxw5d8/pdp-sq-2910733281-prev-ui.png', { height: `83px`, width: `83px`, transform: `rotate(${-player.Li.Deg.add(90)}deg)`,  position: 'absolute', right: '350px', top: '1640px', id: 'top'}],
+            ]
+        }],
+        ["row", function () {
+            if (hasChallenge('Li', 15)) return [
+                ["display-image", 'https://i.postimg.cc/LXZqjbzG/lepidolite-rough-2978111063-1-prev-ui.png', { height: `${player.Li.Size.add(20)}px`, width: `${player.Li.Size.add(20)}px`, position: 'absolute',  right: '650px', top: "1600px", id: 'top'}],
+                ["display-image", 'https://i.postimg.cc/zvVxw5d8/pdp-sq-2910733281-prev-ui.png', { height: `17px`, width: `17px`, transform: `rotate(${-player.Li.Deg.add(90)}deg)`,  position: 'absolute', right: '660px', top: '1600px', id: 'top'}],
+            ]
+        }],
+            ],
+            unlocked() { if (player.Li.Punlock > 0) return true
+            else return false},
+        },
+        "Portal": {
+            content: [
+                ['display-text', 
+                function() { return temp.Li.Inv = temp.Li.Inv * 0, ''}],
+                "challenges"
+            ],
+            unlocked() { if (player.Li.Punlock > 0) return true
+            else return false},
+        },
+        "Inventory": {
+            content: [
+                ["strict-text-input", "InText"],
+                "blank",
+                ['row', [
+                    ["display-text",
+                    function () { if (player.Li.Hydrogen.gte(1) && player.Li.InText == "Hydrogen") return 'Hydrogen' }],
+                    ["display-text",
+                function () { if (player.Li.points.gte(1) && player.Li.InText == "Lithium") return 'Lithium' }],
+                ["display-text",
+                function () { if (player.Li.Rubidium.gte(1) && player.Li.InText == "Rubidium") return 'Rubidium' }],
+                ["display-text",
+                function () { if (player.Li.Hydroxide.gte(1) && player.Li.InText == "Hydroxide") return 'Hydroxide' }],
+                ["display-text",
+                function () { if (player.Li.Potassium.gte(1) && player.Li.InText == "Potassium") return 'Potassium' }],
+                ["display-text",
+                function () { if (player.Li.Aluminum.gte(1) && player.Li.InText == "Aluminum") return 'Aluminum' }],
+                ["display-text",
+                function () { if (player.Li.Fluorine.gte(1) && player.Li.InText == "Fluorine") return 'Fluorine' }],
+                ["display-text",
+                function () { if (player.Li.Silicon.gte(1) && player.Li.InText == "Silicon") return 'Silicon' }],
+                ["display-text",
+                function () { if (player.Li.Francium.gte(1) && player.Li.InText == "Francium") return 'Francium' }],
+                ["display-text",
+                function () { if (player.Li.UltraLithium.gte(1) && player.Li.InText == "Ultra Lithium") return makeShinies(ShinyL), makeShinies(ShinyL1), makeShinies(ShinyL2), 'Ultra Lithium' }],
+                    ]],
+                ['row', [
+                ["display-image", 
+                function() { if (player.Li.Hydrogen.gte(1) && player.Li.InText == "Hydrogen") return 'https://i.postimg.cc/FKvVnhXX/Blue-Smoke-Transparent-Images.png'}],
+                ["display-image", 
+                function() { if (player.Li.points.gte(1) && player.Li.InText == "Lithium") return 'https://i.postimg.cc/R0CXZvsQ/jeronimo-martins-lithium-transparent.png'}],
+                ["display-image", 
+                function() { if (player.Li.Rubidium.gte(1) && player.Li.InText == "Rubiduium") return 'https://i.postimg.cc/DfCFvzx5/Pollucite.png'}],
+                ["display-image", 
+                function() { if (player.Li.Hydroxide.gte(1) && player.Li.InText == "Hydroxide") return 'https://i.postimg.cc/SK1f6hx2/slazzer-edit-image-prev-ui.png'}], 
+                ["display-image", 
+                function() { if (player.Li.Potassium.gte(1) && player.Li.InText == "Potassium") return 'https://i.postimg.cc/ryDnttbP/Potassium-metal-pieces.png'}],
+                ["display-image", 
+                function() { if (player.Li.Aluminum.gte(1) && player.Li.InText == "Aluminum") return 'https://i.postimg.cc/k49vkhPn/46690-30-prev-ui.png'}],
+                ["display-image", 
+                function() { if (player.Li.Fluorine.gte(1) && player.Li.InText == "Fluorine") return makeShinies(ShinyF), 'https://i.postimg.cc/gcyPGzcH/slazzer-edit-image-prev-ui.png'}],
+                ["display-image", 
+                function() { if (player.Li.Silicon.gte(1) && player.Li.InText == "Silicon") return temp.Li.Inv = temp.Li.Inv + 1, 'https://i.postimg.cc/VkffxSjt/583f68fde02ba760658b5f40-prev-ui.png'
+                else return temp.Li.Inv = temp.Li.Inv * 0, ''}],
+                ["row", function () {
+                    if (player.Li.UltraLithium.gte(1) && player.Li.InText == "Ultra Lithium") return [
+                        ["display-image", 'https://i.postimg.cc/NFxV4sfc/C29-BCJ-1-prev-ui.png', {position: 'absolute', right: '200px', top: '150px', id: 'under'}],
+                        ["display-image", 'https://i.postimg.cc/qRCYSf4N/image-3.png', {opacity: temp.Li.UrO, position: 'absolute', right: '200px', top: '150px', id: 'top'}],
+                        "blank",
+                        ]}],
+                ["row", function () {
+            if (player.Li.Francium.gte(1) && player.Li.InText == "Francium") return [
+                ["display-image", 'https://i.postimg.cc/nzJRR3cx/s13-prev-ui.png', {position: 'absolute', right: '200px', top: '100px', id: 'under'}],
+                ["display-image", 'https://i.postimg.cc/kXKbWHJM/image.png', {opacity: temp.Li.UrO, position: 'absolute', right: '200px', top: '100px', id: 'top'}],
+                "blank",
+                ]}]]],
+        ],
+        unlocked() { if (hasMilestone('Li', 5)) return true
+    else return false}
+    }, 
+    },
+
+    const: ShinyL2 = {
+        image() { 
+            if (player.Li.State2 == 0) return 'https://i.postimg.cc/5tkypz2x/image-4.png'
+            if (player.Li.State2 == 1) return 'https://i.postimg.cc/DZ9Z3KGH/image-5.png'},
+        style: { "background-size": "100% 100%" },
+        gravity: 0.1,
+        time: 1,
+        x: 945,
+        y: 1170,
+        dir() { return (Math.random() + 1) * 9},
+        offset: () => Math.random() + 1.2 * 700,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8  
+        },
+    },
+
+    const: ShinyL1 = {
+        image() { 
+            if (player.Li.State2 == 0) return 'https://i.postimg.cc/5tkypz2x/image-4.png'
+            if (player.Li.State2 == 1) return 'https://i.postimg.cc/DZ9Z3KGH/image-5.png'},
+        style: { "background-size": "100% 100%" },
+        gravity: 1,
+        time: 2,
+        x: 1150,
+        y: 150,
+        dir() { return (Math.random() + 4) * -10},
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8  
+        },
+    },
+
+    const: ShinyL = {
+        image() { 
+            if (player.Li.State2 == 0) return 'https://i.postimg.cc/5tkypz2x/image-4.png'
+            if (player.Li.State2 == 1) return 'https://i.postimg.cc/DZ9Z3KGH/image-5.png'},
+        style: { "background-size": "100% 100%" },
+        gravity: 1,
+        time: 2,
+        x: 1150,
+        y: 150,
+        dir() { return (Math.random() + 4) * 10},
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8  
+        },
+    },
+
+    const: ShinyS = {
+        image: 'https://i.postimg.cc/X7ktVhQG/image-2.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 0.01,
+        time: 1,
+        x: 575,
+        y: 850,
+        dir() { return (Math.random() + 4) * 10},
+        offset: () => Math.random() + 1.2 * 700,
+        speed() { // Randomize speed a bit
+            return (0.1) 
+        },
+    },
+
+    const: ShinyF = {
+        image: 'https://i.postimg.cc/D0rsV1Qs/image-1.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 0.1,
+        time: 0.8,
+        spread: 10,
+        x: 875,
+        y: 1050,
+        offset: () => Math.random() + 1.2 * 700,
+        dir() {return (Math.random() + 1.2) * 8},
+        speed() { // Randomize speed a bit
+            return (0.1) 
+        },
+    },
+
+    const: myParticle = {
+        image: 'https://i.postimg.cc/DfCFvzx5/Pollucite.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    const: myParticle1 = {
+        image: 'https://i.postimg.cc/FKvVnhXX/Blue-Smoke-Transparent-Images.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    const: myParticle2 = {
+        image: 'https://i.postimg.cc/R0CXZvsQ/jeronimo-martins-lithium-transparent.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    const: HydroxideP = {
+        image: 'https://i.postimg.cc/SK1f6hx2/slazzer-edit-image-prev-ui.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    const: PottasiumP = {
+        image: 'https://i.postimg.cc/ryDnttbP/Potassium-metal-pieces.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    
+    const: AluminumP = {
+        image: 'https://i.postimg.cc/k49vkhPn/46690-30-prev-ui.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    const: FluorineP = {
+        image: 'https://i.postimg.cc/gcyPGzcH/slazzer-edit-image-prev-ui.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    const: SiliconP = {
+        image: 'https://i.postimg.cc/VkffxSjt/583f68fde02ba760658b5f40-prev-ui.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    const: FranciumP = {
+        image: 'https://i.postimg.cc/nzJRR3cx/s13-prev-ui.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    const: LithiumUP = {
+        image: 'https://i.postimg.cc/NFxV4sfc/C29-BCJ-1-prev-ui.png',
+        style: { "background-size": "100% 100%" },
+        gravity: 2,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return (Math.random() + 1.2) * 8
+        },
+    },
+
+    automate() {
+        if (getBuyableAmount('Li', 11) == 50 && getBuyableAmount('Li', 12) == 25 && getBuyableAmount('Li', 13) == 100 && getBuyableAmount('Li', 14) == 20 && getBuyableAmount('Li', 15) == 25 && getBuyableAmount('Li', 16) == 2) player.Li.All = player.Li.All.add(1)
+        else player.Li.All = player.Li.All.times(0)
+        if (player.Li.Deg < 280) player.Li.State = 1
+        if (player.Li.Deg > 360) player.Li.State = 0
+        if (player.Li.State == 1) player.Li.Deg = player.Li.Deg.add(player.Li.Sped), temp.Li.UrO = temp.Li.UrO.sub(0.2)
+        if (player.Li.State == 0) player.Li.Deg = player.Li.Deg.add(-player.Li.Sped), temp.Li.UrO = temp.Li.UrO.add(0.2)
+        if (player.Li.Deg <= 280) player.Li.Size = player.Li.Size.add(4)
+        if (player.Li.Size >= 1) player.Li.Size = player.Li.Size.add(-1)
+        player.Li.Hp = player.Li.H.add(player.Li.RM)
+        if (player.Li.Hp > 10) player.Li.Hp = player.Li.Hp.times(0).add(10)
+        player.Li.Lp = player.Li.HM.add(player.Li.RM)
+        if (player.Li.Lp > 10) player.Li.Lp = player.Li.Lp.times(0).add(10)
+        player.Li.Rp = player.Li.R
+        if (player.Li.Rp > 10) player.Li.Rp = player.Li.Rp.times(0).add(10)
+        player.Li.HDp = player.Li.AlM
+        if (player.Li.HDp > 10) player.Li.HDp = player.Li.HDp.times(0).add(10)
+        player.Li.Kp = player.Li.AlM
+        if (player.Li.Kp > 10) player.Li.Kp = player.Li.Kp.times(0).add(10)
+        player.Li.Alp = new Decimal(1)
+        if (player.Li.Alp > 10) player.Li.Alp = player.Li.Alp.times(0).add(10)
+        if (player.A.Particlesx.gte(1)) player.Li.Rp = player.Li.Rp.times(0), player.Li.Alp = player.Li.Alp.times(0), player.Li.Lp = player.Li.Lp.times(0), player.Li.Hp = player.Li.Hp.times(0),  player.Li.HDp = player.Li.HDp.times(0), player.Li.Kp = player.Li.Kp.times(0)
+        if (hasMilestone('Li', 5) && player.Li.Size == 2) player.Li.Gain = new Decimal(Math.floor(Math.random() * 100) + 1)
+        if (player.Li.Gain.gte(player.Li.H1) && player.Li.Gain.lte(player.Li.H2) && player.Li.Size == 2 && hasMilestone('Li', 5)) player.Li.HM = player.Li.Hydrogen.times(1.1), player.Li.Hydrogen = player.Li.Hydrogen.add(player.Li.H).add(player.Li.RM)
+        if (inChallenge('Li', 11)) player.Li.HM = player.Li.HM.times(0)
+        if (inChallenge('Li', 12)) player.Li.HM = player.Li.HM.times(0)
+        if (player.Li.Gain.gte(1) && player.Li.Gain.lte(player.Li.Li1) && player.Li.Size == 2 && hasMilestone('Li', 5)) player.Li.points = player.Li.points.add(player.Li.HM.add(player.Li.RM).times(player.Li.PM))
+        if (player.Li.Gain.gte(player.Li.R1) && player.Li.Gain.lte(100) && player.Li.Size == 2 && hasMilestone('Li', 5) && player.Li.Runlock > 0) player.Li.Rubidium = player.Li.Rubidium.add(player.Li.R.times(player.Li.HD)), player.Li.RM = player.Li.Rubidium.times(1.2)
+        if (player.Li.Gain.gte(player.Li.H1) && player.Li.Gain.lte(player.Li.H2) && player.Li.Size == 2 && hasMilestone('Li', 5) && player.tab == this.layer) makeParticles(myParticle1, player.Li.Hp)
+        if (player.Li.Gain.gte(1) && player.Li.Gain.lte(player.Li.Li1) && player.Li.Size == 2 && hasMilestone('Li', 5) && player.tab == this.layer) makeParticles(myParticle2, player.Li.Lp)
+        if (player.Li.Gain.gte(player.Li.R1) && player.Li.Gain.lte(100) && player.Li.Size == 2 && hasMilestone('Li', 5) && player.Li.Runlock > 0 && player.tab == this.layer) makeParticles(myParticle, player.Li.Rp)
+        if (hasChallenge('Li', 11) && player.Li.Size == 2) player.Li.Gain2 = new Decimal(Math.floor(Math.random() * 200) + 1)
+        if (player.Li.Gain2 == 200 && hasChallenge('Li', 11) && player.Li.Size == 2) player.Li.Hydroxide = player.Li.Hydroxide.add(1), player.Li.HD = player.Li.Hydroxide.times(2)
+        if (player.Li.Gain2 == 100 && hasChallenge('Li', 11) && player.Li.Size == 2) player.Li.Potassium = player.Li.Potassium.add(1), player.Li.PM = player.Li.Potassium.times(2)
+        if (player.Li.Gain2 == 200 && player.Li.Size == 2 && hasChallenge('Li', 11) && player.tab == this.layer) makeParticles(HydroxideP, player.Li.HDp)
+        if (player.Li.Gain2 == 100 && player.Li.Size == 2 && hasChallenge('Li', 11) && player.tab == this.layer) makeParticles(PottasiumP, player.Li.Kp)
+        if (hasChallenge('Li', 12) && player.Li.Size == 2) player.Li.Gain3 = new Decimal(Math.floor(Math.random() * 500) + 1)
+        if (player.Li.Gain3.gte(1) && player.Li.Gain3.lte(3) && hasChallenge('Li', 12) && player.Li.Size == 2) player.Li.Hydroxide = player.Li.Hydroxide.add(new Decimal(1).times(player.Li.AlM)), player.Li.HD = player.Li.Hydroxide.times(2)
+        if (player.Li.Gain3.gte(4) && player.Li.Gain3.lte(6) && hasChallenge('Li', 12) && player.Li.Size == 2) player.Li.Potassium = player.Li.Potassium.add(new Decimal(1).times(player.Li.AlM)), player.Li.PM = player.Li.Potassium.times(2)
+        if (inChallenge('Li', 14)) player.Li.PM = player.Li.PM.times(0).add(1)
+        if (player.Li.Gain3.gte(1) && player.Li.Gain3.lte(3) && player.Li.Size == 2 && hasChallenge('Li', 12) && player.tab == this.layer) makeParticles(HydroxideP, player.Li.HDp)
+        if (player.Li.Gain3.gte(4) && player.Li.Gain3.lte(6) && player.Li.Size == 2 && hasChallenge('Li', 12) && player.tab == this.layer) makeParticles(PottasiumP, player.Li.Kp)
+        if (player.Li.Gain3 == 99 && hasChallenge('Li', 12) && player.Li.Size == 2) player.Li.Aluminum = player.Li.Aluminum.add(1), player.Li.AlM = player.Li.Aluminum.times(10)
+        if (player.Li.Gain3 == 99 && player.Li.Size == 2 && hasChallenge('Li', 12) && player.tab == this.layer) makeParticles(AluminumP, player.Li.Alp)
+        if (hasChallenge('Li', 13) && player.Li.Size == 2) player.Li.Gain4 = new Decimal(Math.floor(Math.random() * 200) + 1)
+        if (player.Li.Gain4 == 200 && hasChallenge('Li', 13) && player.Li.Size == 2) player.Li.Hydroxide = player.Li.Hydroxide.add(1), player.Li.HD = player.Li.Hydroxide.times(2)
+        if (player.Li.Gain4 == 100 && hasChallenge('Li', 13) && player.Li.Size == 2) player.Li.Potassium = player.Li.Potassium.add(1), player.Li.PM = player.Li.Potassium.times(2)
+        if (player.Li.Gain4 == 200 && player.Li.Size == 2 && hasChallenge('Li', 13) && player.tab == this.layer) makeParticles(HydroxideP, player.Li.HDp)
+        if (player.Li.Gain4 == 100 && player.Li.Size == 2 && hasChallenge('Li', 13) && player.tab == this.layer) makeParticles(PottasiumP, player.Li.Kp)
+        if (hasChallenge('Li', 13) && player.Li.Size == 2) player.Li.Gain5 = new Decimal(Math.floor(Math.random() * 10000) + 1)
+        if (player.Li.Gain5.gte(1) && player.Li.Gain5.lte(10) && hasChallenge('Li', 13) && player.Li.Size == 2) player.Li.Fluorine = player.Li.Fluorine.add(1)
+        if (player.Li.Gain5 == 20 && hasChallenge('Li', 13) && player.Li.Size == 2) player.Li.Silicon = player.Li.Silicon.add(1)
+        if (player.Li.Gain5.gte(1) && player.Li.Gain5.lte(10) && player.Li.Size == 2 && hasChallenge('Li', 13) && player.tab == this.layer) makeParticles(FluorineP, player.Li.Alp)
+        if (player.Li.Gain5 == 20 && player.Li.Size == 2 && hasChallenge('Li', 13) && player.tab == this.layer) makeParticles(SiliconP, player.Li.Alp)
+        if (hasChallenge('Li', 14) && player.Li.Size == 2) player.Li.Gain6 = new Decimal(Math.floor(Math.random() * 124653) + 1)
+        if (player.Li.Gain6 == 17777 && hasChallenge('Li', 14) && player.Li.Size == 2) player.Li.Francium = player.Li.Francium.add(1)
+        if (player.Li.Gain6 == 17777 && player.Li.Size == 2 && hasChallenge('Li', 14) && player.tab == this.layer) makeParticles(FranciumP, player.Li.Alp)
+        if (hasChallenge('Li', 14) && player.Li.Size == 2) player.Li.Gain7 = new Decimal(Math.floor(Math.random() * 1000000) + 1)
+        if (player.Li.Gain7 == 50 && hasChallenge('Li', 15) && player.Li.Size == 2) player.Li.LithiumUP = player.Li.LithiumUP.add(1)
+        if (player.Li.Gain7 == 50 && player.Li.Size == 2 && hasChallenge('Li', 15) && player.tab == this.layer) makeParticles(LithiumUP, player.Li.Alp)
+        if (temp.Li.UrO.gte(1)) player.Li.State2 = 1
+        if (temp.Li.UrO.lte(0)) player.Li.State2 = 0
+        if (player.Li.State2 == 1 && player.tab == this.layer) temp.Li.UrO = temp.Li.UrO.sub(0.1)
+        if (player.Li.State2 == 0 && player.tab == this.layer) temp.Li.UrO = temp.Li.UrO.add(0.1)
+        if (player.Li.State3.gte(10) && temp.Li.Inv >= 1 && player.tab == this.layer) makeShinies(ShinyS), player.Li.State3 = player.Li.State3.times(0)
+        if (player.Li.State3 < 10 && temp.Li.Inv >= 1 && player.tab == this.layer) player.Li.State3 = player.Li.State3.add(1)
+    },
+})
