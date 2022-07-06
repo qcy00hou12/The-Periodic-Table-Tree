@@ -438,7 +438,9 @@ addLayer("p", {
     },
     row: 0, // Row the layer is in on the tree (0 is the first row)
     hotkeys: [
-        { key: "h", description: "H: Reset for Hydrogen", onPress() { if (canReset(this.layer)) doReset(this.layer) } },
+        { key: "h", description: "H: Reset for Hydrogen", onPress() { if (canReset(this.layer)) doReset(this.layer)}, 
+        unlocked() { if (hasUpgrade('He', 11)) return false
+        else return true}},
     ],
 
     layerShown() { return true },
@@ -912,7 +914,9 @@ addLayer("He", {
     displayRow: 0,
 
     hotkeys: [
-        { key: "e", description: "E: Reset for Helium", onPress() { if (canReset(this.layer)) doReset(this.layer) } },
+        { key: "e", description: "E: Reset for Helium", onPress() { if (canReset(this.layer)) doReset(this.layer)},
+        unlocked() { if (hasMilestone('Li', 2)) return false
+        else return true}},
     ],
 
     onPrestige() {
@@ -1305,7 +1309,6 @@ addLayer("Li", {
             Fluorine: new Decimal(0),
             Silicon: new Decimal(0),
             Francium: new Decimal(0),
-            noKey: new Decimal(0),
             InText: "Input ore name here",
             State2: new Decimal(0),
             State3: new Decimal(0),
@@ -1342,7 +1345,9 @@ addLayer("Li", {
     displayRow: 0,
 
     hotkeys: [
-        { key: "l", description: "L: Reset for Lithium", onPress() { if (canReset(this.layer) && player.Li.noKey == 0) doReset(this.layer) } },
+        { key: "l", description: "L: Reset for Lithium", onPress() { if (canReset(this.layer) && player.Li.noKey == 0) doReset(this.layer)}, 
+        unlocked() { if (hasMilestone('Li', 5)) return false
+        else return true}},
     ],
 
     onPrestige() {
@@ -1567,7 +1572,7 @@ addLayer("Li", {
             rewardDescription: "Double mining speed and unlock another Lepoidolite (purely aesthetical).",
             canComplete: function() {return player.Li.points.gte(1e11)},
             onComplete: function() { if (hasChallenge('Li', 14)) return ""
-                else return player.Li.Sped = player.Li.Sped.times(2)},
+                else return player.Li.Sped = player.Li.Sped.times(2), player.Li.StoreSped = player.Li.Sped},
             style() { if (inChallenge('Li', 14)) return {"background-color" : "#a9a9a9"}},
             onEnter() { return player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.StoreSped = player.Li.Sped,  player.Li.StoreHydro = player.Li.H, player.Li.Runlock = player.Li.Runlock.times(0), player.Li.Hydrogen = player.Li.Hydrogen.times(0), player.Li.points = player.Li.points.times(0), player.Li.Rubidium = player.Li.Rubidium.times(0), setBuyableAmount('Li', 11, new Decimal(0)), setBuyableAmount('Li', 12, new Decimal(0)), setBuyableAmount('Li', 13, new Decimal(0)), setBuyableAmount('Li', 14, new Decimal(0)), setBuyableAmount('Li', 15, new Decimal(0)), setBuyableAmount('Li', 16, new Decimal(0)), player.Li.Sped = player.Li.Sped.times(0).add(10), player.Li.H = player.Li.H.times(0).add(1), player.Li.H1 = player.Li.H1.times(0).add(2), player.Li.H2 = player.Li.H2.times(0).add(100), player.Li.Li1 = player.Li.Li1.times(0).add(1), player.Li.R1 = player.Li.R1.times(0).add(100), player.Li.H3 = player.Li.H3.times(0), player.Li.RM = player.Li.RM.times(0)},
             onExit() { return player.Li.Runlock = player.Li.Runlock.add(2), setBuyableAmount('Li', 11, new Decimal(50)), setBuyableAmount('Li', 12, new Decimal(25)), setBuyableAmount('Li', 13, new Decimal(100)), setBuyableAmount('Li', 14, new Decimal(20)), setBuyableAmount('Li', 15, new Decimal(25)), setBuyableAmount('Li', 16, new Decimal(2)), player.Li.Sped = player.Li.StoreSped, player.Li.H = player.Li.StoreHydro, player.Li.H1 = player.Li.H1.times(0).add(53), player.Li.H2 = player.Li.H2.times(0).add(80), player.Li.Li1 = player.Li.Li1.times(0).add(51), player.Li.R1 = player.Li.R1.times(0).add(80), player.Li.H3 = player.Li.H3.add(10)}
@@ -1604,7 +1609,7 @@ addLayer("Li", {
         "milestones",
         "blank",
         ["display-text",
-            function () { if (player.p.Node < 1 && hasMilestone('Li', 5) && player.Li.Punlock < 1) return 'You have ' + format(player.Li.points) + 'g of Lithium from Lepoidolite (Currency).<div> Current chance: ' + formatWhole(player.Li.Li1.add(1)) + ' in 100.' }],
+            function () { if (player.p.Node < 1 && hasMilestone('Li', 5)) return 'You have ' + format(player.Li.points) + 'g of Lithium from Lepoidolite (Currency).<div> Current chance: ' + formatWhole(player.Li.Li1.add(1)) + ' in 100.' }],
         ["display-text",
             function () { if (player.p.Node < 1 && hasMilestone('Li', 5) && player.Li.Punlock < 1) return 'You have ' + format(player.Li.Hydrogen) + 'L of Hydrogen from Lepoidolite (10% more Lithium per L). <div> Current chance: ' + formatWhole(player.Li.H2.sub(player.Li.H1)) + ' in 100.' }],
         ["display-text",
@@ -1955,7 +1960,6 @@ addLayer("Li", {
     automate() {
         if (getBuyableAmount('Li', 15) == 25) player.Li.StoreSped = player.Li.Sped
         if (getBuyableAmount('Li', 16) == 2) player.Li.Punlock = player.Li.Punlock.times(0).add(1)
-        if (hasMilestone('Li', 5)) player.Li.noKey = player.Li.noKey.times(0).add(1)
         if (getBuyableAmount('Li', 11) == 50 && getBuyableAmount('Li', 12) == 25 && getBuyableAmount('Li', 13) == 100 && getBuyableAmount('Li', 14) == 20 && getBuyableAmount('Li', 15) == 25 && getBuyableAmount('Li', 16) == 2) player.Li.All = player.Li.All.add(1)
         else player.Li.All = player.Li.All.times(0)
         if (player.Li.Deg < 280) player.Li.State = 1
