@@ -3365,7 +3365,7 @@ componentStyles: {
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 312 MLI + 1g PL + 5321 SE || 1'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow2">' + formatWhole(player.Be.ALight) + ' Light</h1>.'
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow2">' + formatWhole(player.Be.ALight) + ' Light</h1> Max: 1.'
                 if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.ALight) + ' Lights.'}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
@@ -3377,7 +3377,7 @@ componentStyles: {
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 455 MLI + 1g PL + 2000 CL || 1'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow3">' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride</h1>.'
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow3">' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride</h1>. Max: 1'
                 if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride.'}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
@@ -3389,7 +3389,7 @@ componentStyles: {
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 520 MLI + 1g PL + 21111 IC || 1'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow4">' + formatWhole(player.Be.bunknown) + ' Unknown</h1>.'
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow4">' + formatWhole(player.Be.bunknown) + ' Unknown</h1>. Max: 1'
                 if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.bunknown) + ' Unkown.'}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
@@ -3401,7 +3401,7 @@ componentStyles: {
                ['display-text',
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 584 MLI + 1g PL + 11911L H2O || 1'}],
                ['display-text',
-               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow5">' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds</h1>.'
+               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow5">' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds</h1>. Max: 1'
                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds.'}],
                ["row", function () {
                    if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
@@ -3413,7 +3413,7 @@ componentStyles: {
                ['display-text',
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 666 MLI + 1g PL + 666666g CA || 1'}],
                ['display-text',
-               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow6">' + formatWhole(player.Be.jDiamond) + ' Diamonds</h1>.'
+               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow6">' + formatWhole(player.Be.jDiamond) + ' Diamonds</h1>. Max: 1'
                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.jDiamond) + ' Diamonds.'}], 
                ["row", function () {
                    if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
@@ -3494,15 +3494,15 @@ componentStyles: {
         if (player.Be.s1 == 14 || player.Be.s2 == 14 || player.Be.s3 == 14 || player.Be.s4 == 14 || player.Be.s5 == 14 || player.Be.s6 == 14 || player.Be.s7 == 14 || player.Be.s8 == 14 || player.Be.s9 == 14 || player.Be.s10 == 14) player.Be.dirt = player.Be.dirt.add(1e12)
         if (player.Be.s1 == 15 || player.Be.s2 == 15 || player.Be.s3 == 15 || player.Be.s4 == 15 || player.Be.s5 == 15 || player.Be.s6 == 15 || player.Be.s7 == 15 || player.Be.s8 == 15 || player.Be.s9 == 15 || player.Be.s10 == 15) player.Be.egg = player.Be.egg.add(1)
         if (player.Be.s1 == 21 || player.Be.s2 == 21 || player.Be.s3 == 21 || player.Be.s4 == 21 || player.Be.s5 == 21 || player.Be.s6 == 21 || player.Be.s7 == 21 || player.Be.s8 == 21 || player.Be.s9 == 21 || player.Be.s10 == 21){
-        if (player.Be.moltenIron.gte(312) && player.Be.plutonium.gte(1) && player.Be.solarEssence.gte(5321)) player.Be.moltenIron = player.Be.moltenIron.sub(312), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.solarEssence = player.Be.solarEssence.sub(5321), player.Be.ALight = player.Be.ALight.add(1)}
+        if (player.Be.moltenIron.gte(312) && player.Be.plutonium.gte(1) && player.Be.solarEssence.gte(5321) && player.Be.ALight < 1) player.Be.moltenIron = player.Be.moltenIron.sub(312), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.solarEssence = player.Be.solarEssence.sub(5321), player.Be.ALight = player.Be.ALight.add(1)}
         if (player.Be.s1 == 22 || player.Be.s2 == 22 || player.Be.s3 == 22 || player.Be.s4 == 22 || player.Be.s5 == 22 || player.Be.s6 == 22 || player.Be.s7 == 22 || player.Be.s8 == 22 || player.Be.s9 == 22 || player.Be.s10 == 22){
-        if (player.Be.moltenIron.gte(455) && player.Be.plutonium.gte(1) && player.Be.neptuneCloud.gte(2000)) player.Be.moltenIron = player.Be.moltenIron.sub(455), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.neptuneCloud = player.Be.neptuneCloud.sub(2000), player.Be.gHeliumHydride = player.Be.gHeliumHydride.add(1)}
+        if (player.Be.moltenIron.gte(455) && player.Be.plutonium.gte(1) && player.Be.neptuneCloud.gte(2000) && player.Be.gHeliumHydride < 1) player.Be.moltenIron = player.Be.moltenIron.sub(455), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.neptuneCloud = player.Be.neptuneCloud.sub(2000), player.Be.gHeliumHydride = player.Be.gHeliumHydride.add(1)}
         if (player.Be.s1 == 23 || player.Be.s2 == 23 || player.Be.s3 == 23 || player.Be.s4 == 23 || player.Be.s5 == 23 || player.Be.s6 == 23 || player.Be.s7 == 23 || player.Be.s8 == 23 || player.Be.s9 == 23 || player.Be.s10 == 23){
-        if (player.Be.moltenIron.gte(520) && player.Be.plutonium.gte(1) && player.Be.saturnIce.gte(21111)) player.Be.moltenIron = player.Be.moltenIron.sub(520), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.saturnIce = player.Be.saturnIce.sub(21111), player.Be.bunknown = player.Be.bunknown.add(1)}
+        if (player.Be.moltenIron.gte(520) && player.Be.plutonium.gte(1) && player.Be.saturnIce.gte(21111) && player.Be.bunknown < 1) player.Be.moltenIron = player.Be.moltenIron.sub(520), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.saturnIce = player.Be.saturnIce.sub(21111), player.Be.bunknown = player.Be.bunknown.add(1)}
         if (player.Be.s1 == 24 || player.Be.s2 == 24 || player.Be.s3 == 24 || player.Be.s4 == 24 || player.Be.s5 == 24 || player.Be.s6 == 24 || player.Be.s7 == 24 || player.Be.s8 == 24 || player.Be.s9 == 24 || player.Be.s10 == 24){
-        if (player.Be.moltenIron.gte(584) && player.Be.plutonium.gte(1) && player.Be.uranusWater.gte(11911)) player.Be.moltenIron = player.Be.moltenIron.sub(584), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.uranusWater = player.Be.uranusWater.sub(11911), player.Be.lWaterCloud = player.Be.lWaterCloud.add(1)}
+        if (player.Be.moltenIron.gte(584) && player.Be.plutonium.gte(1) && player.Be.uranusWater.gte(11911) && player.Be.lWaterCloud < 1) player.Be.moltenIron = player.Be.moltenIron.sub(584), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.uranusWater = player.Be.uranusWater.sub(11911), player.Be.lWaterCloud = player.Be.lWaterCloud.add(1)}
         if (player.Be.s1 == 25 || player.Be.s2 == 25 || player.Be.s3 == 25 || player.Be.s4 == 25 || player.Be.s5 == 25 || player.Be.s6 == 25 || player.Be.s7 == 25 || player.Be.s8 == 25 || player.Be.s9 == 25 || player.Be.s10 == 25){
-        if (player.Be.moltenIron.gte(666) && player.Be.plutonium.gte(1) && player.Be.plutoCarbon.gte(666666)) player.Be.moltenIron = player.Be.moltenIron.sub(666), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.plutoCarbon = player.Be.plutoCarbon.sub(666666), player.Be.jDiamond = player.Be.jDiamond.add(1)}
+        if (player.Be.moltenIron.gte(666) && player.Be.plutonium.gte(1) && player.Be.plutoCarbon.gte(666666) && player.Be.jDiamond < 1) player.Be.moltenIron = player.Be.moltenIron.sub(666), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.plutoCarbon = player.Be.plutoCarbon.sub(666666), player.Be.jDiamond = player.Be.jDiamond.add(1)}
         if (player.Be.s1 == 31 || player.Be.s2 == 31 || player.Be.s3 == 31 || player.Be.s4 == 31 || player.Be.s5 == 31 || player.Be.s6 == 31 || player.Be.s7 == 31 || player.Be.s8 == 31 || player.Be.s9 == 31 || player.Be.s10 == 31) player.Be.solarEssence = player.Be.solarEssence.add(3)
         if (player.Be.metalliccore.gte(3) && player.Be.solarEssence.gte(100)) player.Be.metalliccore = player.Be.metalliccore.sub(3), player.Be.solarEssence = player.Be.solarEssence.sub(100), player.Be.solarBar = player.Be.solarBar.add(3)
         if (player.Be.s1 == 32 || player.Be.s2 == 32 || player.Be.s3 == 32 || player.Be.s4 == 32 || player.Be.s5 == 32 || player.Be.s6 == 32 || player.Be.s7 == 32 || player.Be.s8 == 32 || player.Be.s9 == 32 || player.Be.s10 == 32) player.Be.saturnIce = player.Be.saturnIce.add(5)
