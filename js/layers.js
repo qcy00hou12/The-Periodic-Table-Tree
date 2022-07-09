@@ -67,7 +67,7 @@ addLayer("Per", {
             function () { return `<a href="https://www.mediafire.com/file/skf3ypdxt0wu9l4/Start_of_Beryllium.txt/file">Start of Beryllium</a>`}],
         "blank",
         ["display-text",
-        function () { return `<a href="https://www.mediafire.com/file/zwaocphm82afr67/Start_of_Boron.txt/file">Start of Boron</a>`}],
+        function () { return `<a href="https://www.mediafire.com/file/zwaocphm82afr67/Start+of+Boron.txt/file">Start of Boron</a>`}],
         "blank",
         ["display-text",
             function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer, <div> P🆎tfr, <div> JJP.' }],
@@ -2303,7 +2303,7 @@ onPrestige() {
         11: {
             style() {if (temp['Be'].clickables[11].canClick == true) return {color: "#000000", 'background-color': '#ededed', 'border-radius': '100%'}
                     else return {color: "#ededed", 'border-radius': '100%'}},
-            title: "Planet GWA",
+            title: "Planet gwa",
             display() { if (temp['Be'].clickables[11].canClick == true) return '":gwa:"'
                         else return 'Must have 10 total rocketships to travel to.'},
             canClick() { if (player.Be.Rocketships.gte(10)) return true
@@ -2854,7 +2854,7 @@ onPrestige() {
         },
         81: {
             style() {return {color: "#ededed", 'background-color': '#78BF5F', 'border-radius': '100%'}},
-            title: "Planet GWA",
+            title: "Planet gwa",
             canClick() { return false},
             branches() { if (player.Be.Rocketships.gte(10)) return [83]} 
         },
@@ -3431,7 +3431,7 @@ componentStyles: {
               ]}],
               "blank",
               ['display-text',
-               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return '<u>Planet GWA</u>'}],
+               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return '<u>Planet gwa</u>'}],
                ['display-text',
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.gwa) + ' gwa.<div> Making 231 gwa/tick.'}],
                ["row", function () {
