@@ -14,7 +14,7 @@ function getStartOptions() {
 		forceOneTab: false,
 		oldStyle: false,
 		tooltipForcing: true,
-		mobileMode: true,
+		mobileMode: false,
 		disableParticles: true,
 	}
 }

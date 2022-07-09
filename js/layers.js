@@ -3332,7 +3332,7 @@ componentStyles: {
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.plutoCarbon) + 'g of Carbon.<div> 10000 + 9 SB + 15L MG + 30L AG + 15 SL || 1'}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3) && options.mobileMode == false) return 'You have <h1 class="glow">' + formatWhole(player.Be.plutonium) + 'g of Plutonium</h1>.'
-                else return 'You have ' + formatWhole(player.Be.plutonium) + 'g of Plutonium.'}],
+                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.plutonium) + 'g of Plutonium.'}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return [
                     ["display-image", 'https://i.postimg.cc/HxxySMH4/207-pluto-large-1-prev-ui.png', { width: '120px', position: 'absolute',  right: '85px', top: '700px', id: 'under'}],
@@ -3366,7 +3366,7 @@ componentStyles: {
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 312 MLI + 1g PL + 5321 SE || 1'}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow2">' + formatWhole(player.Be.ALight) + ' Light</h1>.'
-                else return 'You have ' + formatWhole(player.Be.ALight) + ' Lights.'}],
+                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.ALight) + ' Lights.'}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                     ["display-image", 'https://i.postimg.cc/D0kgNSb8/th-1403826250-prev-ui.png', { width: '70px', position: 'absolute',  right: '110px', top: '930px', id: 'under'}],
@@ -3378,7 +3378,7 @@ componentStyles: {
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 455 MLI + 1g PL + 2000 CL || 1'}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow3">' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride</h1>.'
-                else return 'You have ' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride.'}],
+                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride.'}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                     ["display-image", 'https://i.postimg.cc/05z3zSf1/290px-55cnc-C1-prev-ui.png', { width: '100px', position: 'absolute',  right: '90px', top: '1010px', id: 'under'}],
@@ -3390,7 +3390,7 @@ componentStyles: {
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 520 MLI + 1g PL + 21111 IC || 1'}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow4">' + formatWhole(player.Be.bunknown) + ' Unknown</h1>.'
-                else return 'You have ' + formatWhole(player.Be.bunknown) + ' Unkown.'}],
+                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.bunknown) + ' Unkown.'}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                     ["display-image", 'https://i.postimg.cc/cCWsLcnZ/55cncb-prev-ui.png', { width: '100px', position: 'absolute',  right: '100px', top: '1080px', id: 'under'}],
@@ -3402,7 +3402,7 @@ componentStyles: {
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 584 MLI + 1g PL + 11911L H2O || 1'}],
                ['display-text',
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow5">' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds</h1>.'
-               else return 'You have ' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds.'}],
+               if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds.'}],
                ["row", function () {
                    if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                    ["display-image", 'https://i.postimg.cc/wjqQm8pR/3819005-orig-prev-ui.png', { width: '100px', position: 'absolute',  right: '96px', top: '1160px', id: 'under'}],
@@ -3414,7 +3414,7 @@ componentStyles: {
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 666 MLI + 1g PL + 666666g CA || 1'}],
                ['display-text',
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow6">' + formatWhole(player.Be.jDiamond) + ' Diamonds</h1>.'
-               else return 'You have ' + formatWhole(player.Be.jDiamond) + ' Diamonds.'}], 
+               if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.jDiamond) + ' Diamonds.'}], 
                ["row", function () {
                    if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                    ["display-image", 'https://i.postimg.cc/dtdxBKpW/D-prev-ui.png', { width: '100px', position: 'absolute',  right: '90px', top: '1240px', id: 'under'}],
@@ -3434,7 +3434,7 @@ componentStyles: {
               ['display-text',
               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.laser) + ' Lasers.<div> Making 7777 Lasers/tick.'}],
               ["row", function () {
-                  if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
+                  if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return [
                   ["display-image", 'https://i.postimg.cc/mrB2qkfZ/eee-3-removebg-preview.png', { width: '100px', position: 'absolute',  right: '90px', top: '1375px', id: 'under'}],
              ]}],
              "blank",
@@ -3444,7 +3444,7 @@ componentStyles: {
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'Conversion: 3g PL + 1 LI + 1L HeH + 1 UN + 1 WC + 1 DI + 1,000,000 gwa + 10,000,000 LA + 1e16 DR + 10,000 EG|| 1'}],
              ['display-text',
              function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10) && options.mobileMode == false) return 'You have <h1 class="Rainbow2">' + formatWhole(player.Be.rainbownium) + ' Rainbownium</h1>.'
-            else return 'You have ' + formatWhole(player.Be.rainbownium) + ' Rainbownium.'}],
+                          if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.rainbownium) + ' Rainbownium.'}],
              ["row", function () {
                  if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return [
                  ["display-image", 'https://i.postimg.cc/027nxkHK/bl881-removebg-preview.png', { width: '50px', position: 'absolute',  right: '110px', top: '1480px', id: 'under'}],
