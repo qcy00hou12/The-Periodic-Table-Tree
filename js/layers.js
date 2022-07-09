@@ -2900,6 +2900,15 @@ onPrestige() {
             onClick() { 
                 return player.Be.Activeships = player.Be.Rocketships, player.Be.s1 = player.Be.s1.times(0), player.Be.s2 = player.Be.s2.times(0), player.Be.s3 = player.Be.s3.times(0), player.Be.s4 = player.Be.s4.times(0), player.Be.s5 = player.Be.s5.times(0), player.Be.s6 = player.Be.s6.times(0), player.Be.s7 = player.Be.s7.times(0), player.Be.s8 = player.Be.s8.times(0), player.Be.s9 = player.Be.s9.times(0), player.Be.s10 = player.Be.s10.times(0)},
         },
+        93: {
+            style: {color: "#ededed"},
+            title: "Reset Tier 1 Resources.",
+            canClick() {
+               return true
+            },
+            onClick() { 
+                return player.Be.metalliccore = player.Be.metalliccore.times(0), player.Be.sulfuricAcid = player.Be.sulfuricAcid.times(0), player.Be.basaltrock = player.Be.basaltrock.times(0), player.Be.jupiterHelium = player.Be.jupiterHelium.times(0)}
+        },
     },
 
     buyables: {
@@ -3285,7 +3294,7 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return '<u>Mars</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.marsDust) + ' Mars Dust.<div> 83 || 8'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.marsDust) + ' Mars Dust.<div> 40 || 8'}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.basaltrock) + ' Basalt Rocks.'}],
                 ["row", function () {
@@ -3520,7 +3529,7 @@ componentStyles: {
         if (player.Be.s1 == 43 || player.Be.s2 == 43 || player.Be.s3 == 43 || player.Be.s4 == 43 || player.Be.s5 == 43 || player.Be.s6 == 43 || player.Be.s7 == 43 || player.Be.s8 == 43 || player.Be.s9 == 43 || player.Be.s10 == 43) player.Be.moonDust = player.Be.moonDust.add(1)
         if (player.Be.moonDust.gte(10)) player.Be.moonDust = player.Be.moonDust.sub(10), player.Be.moltenIron = player.Be.moltenIron.add(3) 
         if (player.Be.s1 == 44 || player.Be.s2 == 44 || player.Be.s3 == 44 || player.Be.s4 == 44 || player.Be.s5 == 44 || player.Be.s6 == 44 || player.Be.s7 == 44 || player.Be.s8 == 44 || player.Be.s9 == 44 || player.Be.s10 == 44) player.Be.marsDust = player.Be.marsDust.add(1)
-        if (player.Be.marsDust.gte(83)) player.Be.marsDust = player.Be.marsDust.sub(83), player.Be.basaltrock = player.Be.basaltrock.add(8) 
+        if (player.Be.marsDust.gte(40)) player.Be.marsDust = player.Be.marsDust.sub(40), player.Be.basaltrock = player.Be.basaltrock.add(8) 
         if (player.Be.s1 == 45 || player.Be.s2 == 45 || player.Be.s3 == 45 || player.Be.s4 == 45 || player.Be.s5 == 45 || player.Be.s6 == 45 || player.Be.s7 == 45 || player.Be.s8 == 45 || player.Be.s9 == 45 || player.Be.s10 == 45) player.Be.jupiterHydrogen = player.Be.jupiterHydrogen.add(1)
         if (player.Be.jupiterHydrogen.gte(90)) player.Be.jupiterHydrogen = player.Be.jupiterHydrogen.sub(90), player.Be.jupiterHelium = player.Be.jupiterHelium.add(1) 
     },
