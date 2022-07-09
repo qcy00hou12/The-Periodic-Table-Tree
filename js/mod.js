@@ -13,16 +13,21 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "1.3",
-	name: "The Fresh Basics",
+	num: "1.4",
+	name: "Beryllium",
 }
 
 let changelog = `<h1>Changelog:</h1><br><br>
+<h3>v1.4</h3><br>
+		- Added a new layer <br>
+		- Updated Save Bank <br>
+		- Change transparency of Achievements <br>
+		- Added mobile mode (low graphics) and particles toggle in settings. <br><br>
 <h3>v1.3</h3><br>
 		- Added challenges to newest layer. <br>
 		- Improved Particle System again. <br>
 		- More mobile support again. <br>
-		- QOL stuff <br><br>
+		- QoL stuff <br><br>
 	<h3>v1.2.5</h3><br>
 		- Improved Particle System. <br>
 		- More mobile support. <br><br>

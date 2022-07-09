@@ -1,5 +1,5 @@
 var layoutInfo = {
-    startTab: "none",
+    startTab: "Per",
     startNavTab: "tree-tab",
 	showTree: true,
 

@@ -171,6 +171,10 @@ var systemComponents = {
                 <td><button class="opt" onclick="toggleOpt('forceOneTab'); needsCanvasUpdate = true">Single-Tab Mode: {{ options.forceOneTab?"ALWAYS":"AUTO" }}</button></td>
 				<td><button class="opt" onclick="toggleOpt('forceTooltips'); needsCanvasUpdate = true">Shift-Click to Toggle Tooltips: {{ options.forceTooltips?"ON":"OFF" }}</button></td>
 				</tr> 
+				<tr>
+				<td><button class="opt" onclick="toggleOpt('mobileMode');needsCanvasUpdate = true">Mobile Mode: {{ options.mobileMode?"Enabled":"Disabled"}}</button></td>
+                <td><button class="opt" onclick="toggleOpt('disableParticles'); needsCanvasUpdate = true">Particles: {{ options.disableParticles?"Enabled":"Disabled"}}</button></td>
+				</tr> 
         </table>`
     },
 

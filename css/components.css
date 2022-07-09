@@ -8,11 +8,24 @@
 	overflow: visible;
 }
 
+.achievement::before {
+	content: "";
+	  position: absolute;
+	  top: 0px;
+	  right: 0px;
+	  bottom: 0px;
+	  left: 0px;
+	  background-color: rgba(0,0,0,0.2);
+  }
+  
+  .achievement span {
+	position: relative;
+  }
+
 .achievement {
 	height: 90px;
 	width: 90px;
 	border-radius: 25%;
-	border: 2px solid;
 	border-color: rgba(0, 0, 0, 0.125);
 	font-size: 10px;
 	color: white;
