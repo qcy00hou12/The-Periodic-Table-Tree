@@ -3179,6 +3179,7 @@ componentStyles: {
                 "blank",
                 ['buyable', 21],
                 ['clickable', 92],
+                ['clickable', 93],
                 ]],
             "blank",
                 ["row", [ //1
