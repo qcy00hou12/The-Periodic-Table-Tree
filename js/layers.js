@@ -2290,9 +2290,8 @@ onPrestige() {
         31: {
             style: { "color": "#ededed" },
             title: "Tests?",
-            description: "Guess.",
+            description: "Guess. Jk, makes Beryllium Scrap to Plate converter cost nothing.",
             cost() { return new Decimal(89)},
-            onPurchase() { return player.Be.points = player.Be.points.add(this.cost), player.Be.Stored = player.Be.Stored.times(0).add(1), player.Be.Stored1 = player.Be.Stored1.times(0).add(1), player.Be.Current = player.Be.Current.times(0).add(1)},
             unlocked() {
                 if (hasUpgrade('Be', 22)) return true
                 else return false
@@ -2915,9 +2914,11 @@ onPrestige() {
     buyables: {
         11: {
             style: {color: "#ededed"},
-            cost() { return player.Be.Stored.add(player.Be.Current)},
+            cost() { 
+                if (hasUpgrade('Be', 31)) return new Decimal(0)
+                else return player.Be.Stored.add(player.Be.Current)},
             display() { return "<div> Convert Beryllium Scraps to Plates using a Industrial Beryllium Plate Rolling Machine.<div> Cost: " + formatWhole(this.cost()) + " Scraps of Beryllium<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + " / " + formatWhole((this.purchaseLimit))},
-            canAfford() { return player[this.layer].points.gte(this.cost()) },
+            canAfford() { return player[this.layer].points.gte(this.cost())},
             purchaseLimit: 50,
             buy() {
                 player[this.layer].points = player[this.layer].points.sub(this.cost())
