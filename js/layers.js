@@ -2939,7 +2939,7 @@ onPrestige() {
                 player[this.layer].BerylliumPlates = player[this.layer].BerylliumPlates.sub(this.cost())
                 setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
                 player.Li.Sped = player.Li.Sped.times(1.1)
-                if (player.Li.Sped.gte(102)) player.Li.Sped = player.Li.Sped.times(0).add(101)
+                if (player.Li.Sped.gte(90)) player.Li.Sped = player.Li.Sped.times(0).add(90)
             },
             sellOne() { if (getBuyableAmount(this.layer, this.id) > 0 && getBuyableAmount(this.layer, 15) == 0 && hasMilestone('Be', 2) == false) return player.Be.BerylliumPlates = player.Be.BerylliumPlates.add(1), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).sub(1)), player.Li.Sped = player.Li.Sped.div(1.1)},
         },
