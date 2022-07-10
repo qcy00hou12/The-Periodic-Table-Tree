@@ -55,19 +55,19 @@ addLayer("Per", {
         ["display-text",
             function () { return 'Save files:' }],
         ["display-text",
-            function () { return `<a href="https://www.mediafire.com/file/zvllklnqa3eri29/Start_of_Hydrogen.txt/file">Start of Hydrogen</a>`}],
+            function () { return `<a href="https://www.mediafire.com/file/zvllklnqa3eri29/Start_of_Hydrogen.txt/file" target="_blank" rel="noopener noreferrer">Start of Hydrogen</a>`}],
         "blank",
         ["display-text",
-            function () { return `<a href="https://www.mediafire.com/file/4iwro9j1n7o4naa/Start_of_Helium.txt/file">Start of Helium</a>`}],
+            function () { return `<a href="https://www.mediafire.com/file/4iwro9j1n7o4naa/Start_of_Helium.txt/file" target="_blank" rel="noopener noreferrer">Start of Helium</a>`}],
         "blank",
         ["display-text",
-            function () { return `<a href="https://www.mediafire.com/file/c5i57pirt5wbogx/Start_of_Lithium.txt/file">Start of Lithium</a>`}],
+            function () { return `<a href="https://www.mediafire.com/file/c5i57pirt5wbogx/Start_of_Lithium.txt/file" target="_blank" rel="noopener noreferrer">Start of Lithium</a>`}],
         "blank",
         ["display-text",
-            function () { return `<a href="https://www.mediafire.com/file/skf3ypdxt0wu9l4/Start_of_Beryllium.txt/file">Start of Beryllium</a>`}],
+            function () { return `<a href="https://www.mediafire.com/file/skf3ypdxt0wu9l4/Start_of_Beryllium.txt/file" target="_blank" rel="noopener noreferrer">Start of Beryllium</a>`}],
         "blank",
         ["display-text",
-        function () { return `<a href="https://www.mediafire.com/file/zwaocphm82afr67/Start+of+Boron.txt/file">Start of Boron</a>`}],
+        function () { return `<a href="https://www.mediafire.com/file/zwaocphm82afr67/Start+of+Boron.txt/file" target="_blank" rel="noopener noreferrer">Start of Boron</a>`}],
         "blank",
         ["display-text",
             function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer, <div> P🆎tfr, <div> JJP.' }],
@@ -2006,6 +2006,7 @@ addLayer("Li", {
     },
 
     automate() {
+        if (player.Li.Size == 10) player.Li.Size = player.Li.Size.times(0)
         if (getBuyableAmount('Li', 15) == 25) player.Li.StoreSped = player.Li.Sped
         if (getBuyableAmount('Li', 16) == 2) player.Li.Punlock = player.Li.Punlock.times(0).add(1)
         if (getBuyableAmount('Li', 11) == 50 && getBuyableAmount('Li', 12) == 25 && getBuyableAmount('Li', 13) == 100 && getBuyableAmount('Li', 14) == 20 && getBuyableAmount('Li', 15) == 25 && getBuyableAmount('Li', 16) == 2) player.Li.All = player.Li.All.add(1)
@@ -2939,7 +2940,7 @@ onPrestige() {
                 player[this.layer].BerylliumPlates = player[this.layer].BerylliumPlates.sub(this.cost())
                 setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
                 player.Li.Sped = player.Li.Sped.times(1.1)
-                if (player.Li.Sped.gte(90)) player.Li.Sped = player.Li.Sped.times(0).add(90)
+                if (player.Li.Sped.gte(101)) player.Li.Sped = player.Li.Sped.times(0).add(101)
             },
             sellOne() { if (getBuyableAmount(this.layer, this.id) > 0 && getBuyableAmount(this.layer, 15) == 0 && hasMilestone('Be', 2) == false) return player.Be.BerylliumPlates = player.Be.BerylliumPlates.add(1), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).sub(1)), player.Li.Sped = player.Li.Sped.div(1.1)},
         },
