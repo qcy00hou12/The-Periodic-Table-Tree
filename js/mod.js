@@ -13,11 +13,14 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "1.4",
-	name: "Beryllium",
+	num: "1.4.5",
+	name: "Boron V1",
 }
 
 let changelog = `<h1>Changelog:</h1><br><br>
+<h3>v1.4.5</h3><br>
+		- Added a new layer <br>
+		- Added animations (toggle in settings)<br><br>
 <h3>v1.4</h3><br>
 		- Added a new layer <br>
 		- Updated Save Bank <br>

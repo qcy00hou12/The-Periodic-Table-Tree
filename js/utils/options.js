@@ -16,6 +16,7 @@ function getStartOptions() {
 		tooltipForcing: true,
 		mobileMode: false,
 		disableParticles: true,
+		toggleButtonAnimations: true,
 	}
 }
 

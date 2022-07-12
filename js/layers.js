@@ -32,8 +32,9 @@ addNode("Ex", {
 var _0x35f6=["\x43\x68","\x73\x69\x64\x65","\x23\x30\x30\x30\x30\x30\x30","\x23\x66\x66\x66\x66\x66\x66","\x49\x54\x65\x78\x74","\x48\x65","\x48\x65\x69\x73\x65\x6E\x62\x75\x72\x67","\x49\x20\x6E\x65\x65\x64\x20\x61\x20\x6E\x65\x77\x20\x64\x75\x73\x74\x20\x66\x69\x6C\x74\x65\x72\x20\x66\x6F\x72\x20\x6D\x79\x20\x48\x6F\x6F\x76\x65\x72\x20\x4D\x61\x78\x20\x45\x78\x74\x72\x61\x63\x74\x20\x50\x72\x65\x73\x73\x75\x72\x65\x20\x50\x72\x6F\x20\x6D\x6F\x64\x65\x6C\x20\x36\x30","\x54\x65\x73\x74\x69\x63\x6C\x65","\x4C\x61\x62\x20\x4E\x6F\x74\x65\x73","\x4E\x6F\x74\x65\x20\x23\x31","\x20\x2D\x6A\x75\x73\x74\x20\x74\x68\x65\x20\x6F\x74\x68\x65\x72\x20\x64\x61\x79\x2C\x20\x68\x65\x20\x74\x6F\x6C\x64\x20\x6D\x65\x20\x69\x74\x20\x77\x61\x73\x20\x68\x69\x73\x20\x62\x69\x72\x74\x68\x64\x61\x79\x2E\x20\x49\x20\x6D\x65\x61\x6E\x2C\x20\x77\x68\x6F\x20\x63\x61\x72\x65\x73\x3F\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x27\x73\x20\x67\x6F\x69\x6E\x67\x20\x74\x6F\x20\x67\x65\x74\x20\x68\x69\x6D\x20\x61\x6E\x79\x74\x68\x69\x6E\x67\x20\x61\x6E\x79\x77\x61\x79\x2E\x20\x4E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x2E\x20\x54\x68\x65\x20\x64\x75\x64\x65\x73\x20\x61\x20\x77\x65\x69\x72\x64\x6F\x2C\x20\x79\x6F\x75\x20\x73\x68\x6F\x75\x6C\x64\x20\x73\x74\x61\x79\x20\x61\x77\x61\x79\x20\x66\x72\x6F\x6D\x20\x27\x65\x6D\x2E\x20\x41\x6E\x79\x77\x61\x79\x20\x67\x6F\x74\x74\x61\x20\x67\x6F\x2C\x20\x67\x6F\x74\x20\x61\x20\x63\x6C\x69\x65\x6E\x74\x20\x77\x68\x6F\x27\x73\x20\x70\x72\x6F\x62\x61\x62\x6C\x79\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x61\x74\x20\x4C\x69\x74\x68\x69\x75\x6D\x21","\x4E\x6F\x74\x65\x20\x23\x32","\x43\x6F\x63\x65\x6E\x74\x72\x61\x74\x65\x20\x74\x68\x65\x20\x70\x65\x72\x63\x69\x70\x69\x74\x61\x74\x65\x2E\x20\x46\x69\x6C\x74\x65\x72\x20\x6F\x75\x74\x20\x74\x6F\x20\x70\x75\x72\x69\x66\x79\x2E\x20\x50\x6F\x75\x72\x20\x74\x6F\x20\x63\x72\x79\x73\x74\x61\x6C\x69\x7A\x65\x2E\x20\x43\x75\x2D\x2E\x20\x44\x61\x6D\x6E\x20\x69\x74\x2E\x20\x49\x20\x63\x61\x6E\x27\x74\x20\x6B\x65\x65\x70\x20\x64\x6F\x69\x6E\x67\x20\x74\x68\x69\x73\x20\x69\x66\x20\x49\x20\x64\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x61\x20\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x73\x75\x70\x70\x6C\x79\x2E\x20\x54\x68\x61\x6E\x6B\x66\x75\x6C\x6C\x79\x2C\x20\x49\x20\x68\x61\x76\x2D","\x4E\x6F\x74\x65\x20\x23\x33","\x44\x69\x64\x20\x79\x6F\x75\x20\x70\x65\x72\x68\x61\x70\x73\x20\x66\x6F\x72\x67\x65\x74\x20\x74\x6F\x20\x74\x61\x6B\x65\x20\x79\x6F\x75\x72\x20\x70\x61\x69\x6E\x6B\x69\x6C\x6C\x65\x72\x73\x20\x74\x68\x69\x73\x20\x6D\x6F\x72\x6E\x69\x6E\x67\x3F\x20\x48\x61\x73\x20\x79\x6F\x75\x72\x20\x6D\x69\x6E\x64\x20\x67\x6F\x6E\x65\x20\x66\x75\x7A\x7A\x79\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x70\x61\x69\x6E\x3F\x20\x4F\x72\x20\x69\x74\x20\x74\x68\x69\x73\x20\x70\x65\x72\x68\x61\x70\x73\x20\x61\x20\x67\x65\x6E\x69\x74\x69\x63\x61\x6C\x20\x74\x68\x69\x6E\x67\x2C\x20\x62\x65\x63\x61\x75\x73\x65\x20\x72\x69\x67\x68\x74\x20\x6E\x6F\x77\x20\x6E\x6F\x20\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x20\x70\x6F\x73\x73\x69\x62\x6C\x65\x20\x63\x6F\x6D\x70\x72\x65\x68\x65\x6E\x64\x20\x77\x68\x61\x74\x27\x73\x20\x63\x6F\x6D\x69\x6E\x67\x20\x6F\x75\x74\x20\x6F\x66\x20\x79\x6F\x75\x72\x20\x6D\x6F\x75\x74\x68\x2E\x20\x45\x69\x74\x68\x65\x72\x20\x79\x6F\x75\x20\x67\x69\x76\x65\x20\x75\x70\x20\x61\x6E\x64\x20\x77\x65\x20\x64\x69\x65\x20\x6F\x72\x20\x79\x6F\x75\x20\x73\x65\x6E\x64\x20\x74\x68\x65\x6D\x20\x6F\x6E\x20\x74\x68\x65\x69\x72\x20\x6D\x65\x72\x72\x79\x20\x77\x61\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x6E\x65\x78\x74\x20\x6C\x61\x79\x65\x72\x2E","\x72\x6F\x77","\x69\x6E\x66\x6F\x62\x6F\x78","\x6C\x6F\x72\x65","\x6C\x6F\x72\x65\x31","\x6C\x6F\x72\x65\x32"];addLayer(_0x35f6[0],{row:_0x35f6[1],color:_0x35f6[2],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x35f6[3]},layerShown:function(){if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[6]){return true};if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[7]){return true};if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[8]){return true}else {return false}},tooltip:function(){return _0x35f6[9]},infoboxes:{lore:{unlocked:function(){if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[6]){return true}},title:_0x35f6[10],body:function(){return _0x35f6[11]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x35f6[3]}},lore1:{unlocked:function(){if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[7]){return true}},title:_0x35f6[12],body:function(){return _0x35f6[13]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x35f6[3]}},lore2:{unlocked:function(){if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[8]){return true}},title:_0x35f6[14],body:function(){return _0x35f6[15]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x35f6[3]}}},tabFormat:[[_0x35f6[16],[[_0x35f6[17],_0x35f6[18]],[_0x35f6[17],_0x35f6[19]],[_0x35f6[17],_0x35f6[20]]]]]})
 
 addLayer("Per", {
-    branches: ['p', 'He', 'Li', 'Be'],
+    branches: ['p', 'He', 'Li', 'Be', 'B'],
     row: 1,
+    position: 1,
     color: "#FFFFFF",
     tooltip() { return "" },
 
@@ -346,7 +347,7 @@ addLayer("A", {
             unlocked() { if (hasAchievement('A', 65)) return true},
             name: "Fly Me To The Moon",
             textStyle: { "color": "#000000" },
-            style: { "background-size": "100% 100%"},
+            style: { "background-size": "120% 100%", "background-position": "center center"},
             tooltip: "Get 100 Molten Liquid Iron",
             done() { return player.Be.moltenIron.gte(100)},
             image() { if (hasAchievement('A', 71)) return "https://i.postimg.cc/W16mJYFy/moon-16mar2014-stretched-prev-ui.png" }
@@ -364,7 +365,7 @@ addLayer("A", {
             unlocked() { if (hasAchievement('A', 65)) return true},
             name: "I Own The Galaxy",
             textStyle: { "color": "#000000" },
-            style: { "background-size": "100% 100%"},
+            style: { "background-size": "150% 100%", "background-position": "center center"},
             tooltip: "Get 1g of Plutonium",
             done() { return player.Be.plutonium.gte(1)},
             image() { if (hasAchievement('A', 73)) return "https://i.postimg.cc/HxxySMH4/207-pluto-large-1-prev-ui.png" }
@@ -373,7 +374,7 @@ addLayer("A", {
             unlocked() { if (hasAchievement('A', 65)) return true},
             name: "This Is Literal Cancer",
             textStyle: { "color": "#000000" },
-            style: { "background-size": "100% 100%"},
+            style: { "background-size": "160% 100%", "background-position": "center center"},
             tooltip: "Get 10 Rocketships",
             done() { return player.Be.Rocketships.gte(10)},
             image() { if (hasAchievement('A', 74)) return "https://i.postimg.cc/dtdxBKpW/D-prev-ui.png" }
@@ -386,6 +387,51 @@ addLayer("A", {
             tooltip: "Get 1 Rainbownium",
             done() { return player.Be.rainbownium.gte(1)},
             image() { if (hasAchievement('A', 75)) return "https://i.postimg.cc/027nxkHK/bl881-removebg-preview.png" }
+        },
+        81: {
+            unlocked() { if (hasAchievement('A', 75)) return true},
+            name: "You Load Sixteen Tons",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%"},
+            tooltip: "Have 5 elements",
+            done() { return player.E.points.gte(5)},
+            image() { if (hasAchievement('A', 81)) return 'https://i.postimg.cc/VsXgqxT1/broken-pick-removebg-preview.png'}
+        },
+        82: {
+            unlocked() { if (hasAchievement('A', 75)) return true},
+            name: "And What Do You Get?",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%"},
+            tooltip: "Have 3 Prisms",
+            done() { return player.B.points.gte(3)},
+            image() { if (hasAchievement('A', 82)) return "https://i.postimg.cc/h4MzRMQT/prism-removebg-preview.png" }
+        },
+        83: {
+            unlocked() { if (hasAchievement('A', 75)) return true},
+            name: "Another Day Older and You're Deeper In Debt",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%"},
+            tooltip: "Have 7 Boron Resets",
+            done() { return player.B.resets.gte(7)},
+            image() { if (hasAchievement('A', 83)) return "https://i.postimg.cc/26zC4rq1/Furnace-transformed.jpg" }
+        },
+        84: {
+            unlocked() { if (hasAchievement('A', 75)) return true},
+            name: "Saint Peter Don't You Call Me 'Cause I Can't Go",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%"},
+            tooltip: "Have 2 Electric Diamond Hand Saw Parts",
+            done() { return player.B.DS.gte(2)},
+            image() { if (hasAchievement('A', 84)) return "https://i.postimg.cc/9X4MsVV5/Screenshot-2022-07-11-201935-removebg-preview-1.png" }
+        },
+        85: {
+            unlocked() { if (hasAchievement('A', 75)) return true},
+            name: "I Owe My Soul To The Company Store",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%"},
+            tooltip: "Unlock The Workshop",
+            done() { return player.B.DS.gte(3)},
+            image() { if (hasAchievement('A', 85)) return "https://i.postimg.cc/YSnryDsC/2017-05-09-001-2017-05-09-007-removebg-preview.png" }
         },
     },
 
@@ -425,9 +471,20 @@ addLayer("A", {
 })
 
 addLayer("p", {
+
+    symbol() { return options.toggleButtonAnimations ? '' : 'H' },
+    nodeStyle() {
+        return options.toggleButtonAnimations ? {
+            'color': '#0000ff',
+            'background-image': 'url("resources/Hydrogen.gif")',
+            'background-position': 'center bottom',
+            'background-size': '95%',
+            'border': '1px solid #0000ff'
+        } : {}
+    },
     name: "Hydrogen", // This is optional, only used in a few places, If absent it just uses the layer id.
     image: "https://i.postimg.cc/sxTpYZ07/a1f4826e-e1d2-40a3-8027-e243e33ca67b-Photo-Room-1.png", // This appears on the layer's node. Default is the id with the first letter capitalized
-    position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
+    position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
     startData() {
         return {
             unlocked: true,
@@ -482,7 +539,7 @@ addLayer("p", {
 
     canBuyMax() { return (hasMilestone('p', 3)) },
 
-    tooltip() { return player.p.points + " Hydrogen and " + formatWhole(player.p.HydrogenPower) + " Hydrogen Power" },
+    tooltip() { return formatWhole(player.p.points) + " Hydrogen and " + formatWhole(player.p.HydrogenPower) + " Hydrogen Power" },
 
     bars: {
         HydrogenBar: {
@@ -895,9 +952,21 @@ addLayer("p", {
 })
 
 addLayer("He", {
+    symbol() { return options.toggleButtonAnimations ? '' : 'He' },
+    nodeStyle() {
+        return options.toggleButtonAnimations ? {
+            'color': '#00ffff',
+            'background-image': 'url("resources/Helium.gif")',
+            'background-position': 'center center',
+            'background-size': '200%',
+            'border': '1px solid #00ffff'
+        } : {
+            'background-position': 'center center',
+        }
+    },
     name: "Helium", // This is optional, only used in a few places, If absent it just uses the layer id.
     image: "https://i.postimg.cc/RZMcmXvm/1764b201-ab45-4111-9c8a-646628e64d5c.png", // This appears on the layer's node. Default is the id with the first letter capitalized
-    position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
+    position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
     startData() {
         return {
             unlocked: true,
@@ -938,7 +1007,7 @@ addLayer("He", {
     gainExp() { // Calculate the exponent on main currency from bonuses
         return new Decimal(1)
     },
-    row: 1, // Row the layer is in on the tree (0 is the first row)
+    row: 11, // Row the layer is in on the tree (0 is the first row)
     displayRow: 0,
 
     hotkeys: [
@@ -1288,9 +1357,22 @@ addLayer("He", {
 })
 
 addLayer("Li", {
+    
+    symbol() { return options.toggleButtonAnimations ? '' : 'Li' },
+    nodeStyle() {
+        return options.toggleButtonAnimations ? {
+            'color': '#a9a9a9',
+            'background-image': 'url("resources/Lithium.gif")',
+            'background-position': 'center center',
+            'background-size': '190%',
+            'border': '1px solid #a9a9a9'
+        } : {
+            'background-position': 'center center',
+        }
+    },
     name: "Li", // This is optional, only used in a few places, If absent it just uses the layer id.
     image: "https://i.postimg.cc/qR0xHgF1/49f49e18-b45b-4b40-aef3-318b8b46376d.png", // This appears on the layer's node. Default is the id with the first letter capitalized
-    position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
+    position: 3, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
     startData() {
         return {
             unlocked: true,
@@ -1368,7 +1450,7 @@ addLayer("Li", {
     gainExp() { // Calculate the exponent on main currency from bonuses
         return new Decimal(1)
     },
-    row: 2, // Row the layer is in on the tree (0 is the first row)
+    row: 12, // Row the layer is in on the tree (0 is the first row)
     displayRow: 0,
 
     hotkeys: [
@@ -1785,13 +1867,17 @@ addLayer("Li", {
                 ["display-text",
                 function () { if (player.Li.Aluminum.gte(1) && player.Li.InText == "Aluminum" && player.p.Node < 1) return 'Aluminum' }],
                 ["display-text",
-                function () { if (player.Li.Fluorine.gte(1) && player.Li.InText == "Fluorine" && player.p.Node < 1) return  makeShinies(ShinyF), 'Fluorine' }],
+                function () { 
+                    if (player.Li.Fluorine.gte(1) && player.Li.InText == "Fluorine" && player.p.Node < 1 && options.mobileMode == false) return  makeShinies(ShinyF), 'Fluorine'
+                    if (player.Li.Fluorine.gte(1) && player.Li.InText == "Fluorine" && player.p.Node < 1 && options.mobileMode == true) return  'Fluorine'}],
                 ["display-text",
                 function () { if (player.Li.Silicon.gte(1) && player.Li.InText == "Silicon" && player.p.Node < 1) return 'Silicon' }],
                 ["display-text",
                 function () { if (player.Li.Francium.gte(1) && player.Li.InText == "Francium" && player.p.Node < 1) return 'Francium' }],
                 ["display-text",
-                function () { if (player.Li.UltraLithium.gte(1) && player.Li.InText == "Ultra Lithium" && player.p.Node < 1) return makeShinies(ShinyL), makeShinies(ShinyL1), makeShinies(ShinyL2), 'Ultra Lithium' }],
+                function () { 
+                    if (player.Li.UltraLithium.gte(1) && player.Li.InText == "Ultra Lithium" && player.p.Node < 1 && options.mobileMode == false) return makeShinies(ShinyL), makeShinies(ShinyL1), makeShinies(ShinyL2), 'Ultra Lithium'
+                    if (player.Li.UltraLithium.gte(1) && player.Li.InText == "Ultra Lithium" && player.p.Node < 1 && options.mobileMode == true) return 'Ultra Lithium' }],
                     ]],
                 ['row', [
                 ["display-image", 
@@ -2072,13 +2158,22 @@ addLayer("Li", {
         if (temp.Li.UrO.lte(-0.5)) player.Li.State2 = 0
         if (player.Li.State2 == 1 && player.tab == this.layer) temp.Li.UrO = temp.Li.UrO.sub(0.1)
         if (player.Li.State2 == 0 && player.tab == this.layer) temp.Li.UrO = temp.Li.UrO.add(0.1)
-        if (player.Li.State3.gte(10) && temp.Li.Inv >= 1 && player.tab == this.layer) makeShinies(ShinyS), player.Li.State3 = player.Li.State3.times(0)
-        if (player.Li.State3 < 10 && temp.Li.Inv >= 1 && player.tab == this.layer) player.Li.State3 = player.Li.State3.add(1)
+        if (player.Li.State3.gte(10) && temp.Li.Inv >= 1 && player.tab == this.layer && options.mobileMode == false) makeShinies(ShinyS), player.Li.State3 = player.Li.State3.times(0)
+        if (player.Li.State3 < 10 && temp.Li.Inv >= 1 && player.tab == this.layer && options.mobileMode == false) player.Li.State3 = player.Li.State3.add(1)
     },
 })
 
 addLayer("Be", {
-
+    symbol() { return options.toggleButtonAnimations ? '' : 'Be' },
+    nodeStyle() {
+        return options.toggleButtonAnimations ? {
+            'color': '#8B0000',
+            'background-image': 'url("resources/Beryllium.gif")',
+            'background-position': 'center center',
+            'background-size': '160%',
+            'border': '1px solid #8B0000'
+        } : {}
+    },
     name: "Beryllium", // This is optional, only used in a few places, If absent it just uses the layer id.
     image: "https://i.postimg.cc/fWd1ZqQ0/Screenshot-2022-07-06-112019-removebg-preview-1.png", // This appears on the layer's node. Default is the id with the first letter capitalized
     position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
@@ -2164,6 +2259,8 @@ addLayer("Be", {
         else return false
     },
 
+    autoPrestige() { if (hasMilestone('B', 2)) return true },
+
     color: "#8B0000",
     requires: new Decimal(1), // Can be a function that takes requirement increases into account
     resource: "Beryllium Scraps", // Name of prestige currency
@@ -2199,7 +2296,8 @@ onPrestige() {
             requirementDescription: "1 Beryllium Scrap",
             effectDescription: "Keep everything.",
             done() { return player.Be.points.gte(1) },
-            onComplete() { player.E.points = player.E.points.add(1) },
+            onComplete() {
+                if (player.B.resets < 1) player.E.points = player.E.points.add(1) },
         },
         2: {
             style: { "color": "#ededed" },
@@ -2922,7 +3020,7 @@ onPrestige() {
             purchaseLimit: 50,
             buy() {
                 player[this.layer].points = player[this.layer].points.sub(this.cost())
-                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                addBuyables(this.layer, this.id, 1)
                 player.Be.BerylliumPlates = player.Be.BerylliumPlates.add(1)
                 player.Be.Stored1 = player.Be.Current
                 player.Be.Current = player.Be.Current.add(player.Be.Stored)
@@ -3264,7 +3362,7 @@ componentStyles: {
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(1)) return '<u>The Moon</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(1)) return 'You have ' + formatWhole(player.Be.moonDust) + ' Moon Dust.<div> 10 || 3'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(1)) return 'You have ' + formatWhole(player.Be.moonDust) + ' Moon Dust.<div> 10 || ' + formatWhole((new Decimal(3).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(1)) return 'You have ' + formatWhole(player.Be.moltenIron) + 'L of Molten Liquid Iron.'}],
                 ["row", function () {
@@ -3275,7 +3373,7 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return '<u>Mercury</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.mercuryDust) + ' Mercury Dust.<div> 100 || 1'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.mercuryDust) + ' Mercury Dust.<div> 100 || ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.metalliccore) + ' Metallic Cores.'}],
                 ["row", function () {
@@ -3286,7 +3384,7 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return '<u>Venus</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.venusDust) + ' Venus Dust.<div> 67 || 2'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.venusDust) + ' Venus Dust.<div> 67 || ' + formatWhole((new Decimal(2).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.sulfuricAcid) + 'L of Sulfuric Acid.'}],
                 ["row", function () {
@@ -3297,7 +3395,7 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return '<u>Mars</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.marsDust) + ' Mars Dust.<div> 40 || 8'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.marsDust) + ' Mars Dust.<div> 40 || ' + formatWhole((new Decimal(8).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.basaltrock) + ' Basalt Rocks.'}],
                 ["row", function () {
@@ -3308,7 +3406,7 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return '<u>Jupiter</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.jupiterHydrogen) + 'L of Hydrogen.<div> 90 || 1'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.jupiterHydrogen) + 'L of Hydrogen.<div> 90 || ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(2)) return 'You have ' + formatWhole(player.Be.jupiterHelium) + 'L of Helium.'}],
                 ["row", function () {
@@ -3319,7 +3417,7 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return '<u>The Sun</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.solarEssence) + ' Solar Essence.<div> 100 + 3 MC || 3'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.solarEssence) + ' Solar Essence.<div> 100 + 3 MC || ' + formatWhole((new Decimal(3).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.solarBar) + ' Solar Bars.'}],
                 ["row", function () {
@@ -3330,7 +3428,7 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return '<u>Saturn</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.saturnIce) + ' Ice.<div> 342 + 10 SA || 5'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.saturnIce) + ' Ice.<div> 342 + 10 SA || ' + formatWhole((new Decimal(5).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.methaneGas) + 'L of Methane Gas.'}],
                 ["row", function () {
@@ -3341,10 +3439,10 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return '<u>Pluto</u>'}], 
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.plutoCarbon) + 'g of Carbon.<div> 10000 + 9 SB + 15L MG + 30L AG + 15 SL || 1'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.plutoCarbon) + 'g of Carbon.<div> 10000 + 9 SB + 15L MG + 30L AG + 15 SL || ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3) && options.mobileMode == false) return 'You have <h1 class="glow">' + formatWhole(player.Be.plutonium) + 'g of Plutonium</h1>.'
-                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.plutonium) + 'g of Plutonium.'}],
+                if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.plutonium) + 'g of Plutonium.'}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return [
                     ["display-image", 'https://i.postimg.cc/HxxySMH4/207-pluto-large-1-prev-ui.png', { width: '120px', position: 'absolute',  right: '85px', top: '700px', id: 'under'}],
@@ -3353,7 +3451,7 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return '<u>Uranus</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.uranusWater) + 'L of Water.<div> 1000 + 100 BR || 10'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.uranusWater) + 'L of Water.<div> 1000 + 100 BR || 1' + formatWhole((new Decimal(10).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.uranusAmmonia) + 'L of Ammonia Gas.'}],
                 ["row", function () {
@@ -3364,7 +3462,7 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return '<u>Neptune</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.neptuneCloud) + ' Clouds.<div> 50 + 5L He || 3'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.neptuneCloud) + ' Clouds.<div> 50 + 5L He || ' + formatWhole((new Decimal(3).times(player.B.points.add(1))))}],
                 ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(3)) return 'You have ' + formatWhole(player.Be.neptuneSlush) + ' Slush.'}],
                 ["row", function () {
@@ -3375,10 +3473,10 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return '<u>55 Cancri A</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 312 MLI + 1g PL + 5321 SE || 1'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 312 MLI + 1g PL + 5321 SE || ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow2">' + formatWhole(player.Be.ALight) + ' Light</h1> Max: 1.'
-                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.ALight) + ' Lights.'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow2">' + formatWhole(player.Be.ALight) + ' Light</h1> Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))
+                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.ALight) + ' Lights. Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                     ["display-image", 'https://i.postimg.cc/D0kgNSb8/th-1403826250-prev-ui.png', { width: '70px', position: 'absolute',  right: '110px', top: '930px', id: 'under'}],
@@ -3387,10 +3485,10 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return '<u>Galileo</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 455 MLI + 1g PL + 2000 CL || 1'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 455 MLI + 1g PL + 2000 CL || ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow3">' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride</h1>. Max: 1'
-                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride.'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow3">' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride</h1>. Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))
+                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.gHeliumHydride) + 'L of Helium Hydride. Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                     ["display-image", 'https://i.postimg.cc/05z3zSf1/290px-55cnc-C1-prev-ui.png', { width: '100px', position: 'absolute',  right: '90px', top: '1010px', id: 'under'}],
@@ -3399,10 +3497,10 @@ componentStyles: {
                ['display-text',
                 function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return '<u>Brahe</u>'}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 520 MLI + 1g PL + 21111 IC || 1'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 520 MLI + 1g PL + 21111 IC || ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                 ['display-text',
-                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow4">' + formatWhole(player.Be.bunknown) + ' Unknown</h1>. Max: 1'
-                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.bunknown) + ' Unkown.'}],
+                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow4">' + formatWhole(player.Be.bunknown) + ' Unknown</h1>. Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))
+                if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.bunknown) + ' Unkown. Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                 ["row", function () {
                     if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                     ["display-image", 'https://i.postimg.cc/cCWsLcnZ/55cncb-prev-ui.png', { width: '100px', position: 'absolute',  right: '100px', top: '1080px', id: 'under'}],
@@ -3411,10 +3509,10 @@ componentStyles: {
                ['display-text',
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return '<u>Lipperhey</u>'}],
                ['display-text',
-               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 584 MLI + 1g PL + 11911L H2O || 1'}],
+               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 584 MLI + 1g PL + 11911L H2O || ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                ['display-text',
-               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow5">' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds</h1>. Max: 1'
-               if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds.'}],
+               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow5">' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds</h1>. Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))
+               if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.lWaterCloud) + ' Water Clouds. Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                ["row", function () {
                    if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                    ["display-image", 'https://i.postimg.cc/wjqQm8pR/3819005-orig-prev-ui.png', { width: '100px', position: 'absolute',  right: '96px', top: '1160px', id: 'under'}],
@@ -3423,10 +3521,10 @@ componentStyles: {
               ['display-text',
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return '<u>Janssen</u>'}],
                ['display-text',
-               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 666 MLI + 1g PL + 666666g CA || 1'}],
+               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'Conversion: 666 MLI + 1g PL + 666666g CA || ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
                ['display-text',
-               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow6">' + formatWhole(player.Be.jDiamond) + ' Diamonds</h1>. Max: 1'
-               if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.jDiamond) + ' Diamonds.'}], 
+               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(5) && options.mobileMode == false) return 'You have <h1 class="glow6">' + formatWhole(player.Be.jDiamond) + ' Diamonds</h1>. Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))
+               if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return 'You have ' + formatWhole(player.Be.jDiamond) + ' Diamonds. Max: ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}], 
                ["row", function () {
                    if (player.p.Node < 1 && player.Be.Rocketships.gte(5)) return [
                    ["display-image", 'https://i.postimg.cc/dtdxBKpW/D-prev-ui.png', { width: '100px', position: 'absolute',  right: '90px', top: '1240px', id: 'under'}],
@@ -3435,7 +3533,7 @@ componentStyles: {
               ['display-text',
                function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return '<u>Planet gwa</u>'}],
                ['display-text',
-               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.gwa) + ' gwa.<div> Making 231 gwa/tick.'}],
+               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.gwa) + ' gwa.<div> Making ' + formatWhole((new Decimal(231).times(player.B.points.add(1)))) + ' gwa/tick.'}],
                ["row", function () {
                    if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return [
                    ["display-image", 'https://i.postimg.cc/R0kG9kd0/slazzer-edit-image-removebg-preview.png', { width: '70px', position: 'absolute',  right: '100px', top: '1310px', id: 'under'}],
@@ -3444,7 +3542,7 @@ componentStyles: {
               ['display-text',
               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return '<u>Death Star</u>'}],
               ['display-text',
-              function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.laser) + ' Lasers.<div> Making 7777 Lasers/tick.'}],
+              function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.laser) + ' Lasers.<div> Making ' + formatWhole((new Decimal(7777).times(player.B.points.add(1)))) + ' Lasers/tick.'}],
               ["row", function () {
                   if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return [
                   ["display-image", 'https://i.postimg.cc/mrB2qkfZ/eee-3-removebg-preview.png', { width: '100px', position: 'absolute',  right: '90px', top: '1375px', id: 'under'}],
@@ -3453,7 +3551,7 @@ componentStyles: {
              ['display-text',
              function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return '<u>MultiOrb</u>'}],
              ['display-text',
-               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'Conversion: 3g PL + 1 LI + 1L HeH + 1 UN + 1 WC + 1 DI + 1,000,000 gwa + 10,000,000 LA + 1e16 DR + 10,000 EG|| 1'}],
+               function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'Conversion: 3g PL + 1 LI + 1L HeH + 1 UN + 1 WC + 1 DI + 1,000,000 gwa + 10,000,000 LA + 1e16 DR + 10,000 EG|| ' + formatWhole((new Decimal(1).times(player.B.points.add(1))))}],
              ['display-text',
              function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10) && options.mobileMode == false) return 'You have <h1 class="Rainbow2">' + formatWhole(player.Be.rainbownium) + ' Rainbownium</h1>.'
                           if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.rainbownium) + ' Rainbownium.'}],
@@ -3465,7 +3563,7 @@ componentStyles: {
             ['display-text',
             function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return '<u>Genviron</u>'}],
             ['display-text',
-            function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.dirt) + ' Dirt.<div> Making 1e12 Dirt/tick.'}],
+            function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.dirt) + ' Dirt.<div> Making ' + formatWhole((new Decimal(1e12).times(player.B.points.add(1)))) + ' Dirt/tick.'}],
             ["row", function () {
                 if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return [
                 ["display-image", 'https://i.postimg.cc/W34YbBJL/Z3e-WNw-X-removebg-preview.pngg', { width: '70px', position: 'absolute',  right: '95px', top: '1540px', id: 'under'}],
@@ -3474,14 +3572,14 @@ componentStyles: {
            ['display-text',
            function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return '<u>Haumea</u>'}],
            ['display-text',
-           function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.egg) + ' eggs.<div> Making 1 Eggs/tick.'}],
+           function() { if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return 'You have ' + formatWhole(player.Be.egg) + ' eggs.<div> Making ' + formatWhole((new Decimal(1).times(player.B.points.add(1)))) + ' Eggs/tick.'}],
            ["row", function () {
                if (player.p.Node < 1 && player.Be.Rocketships.gte(10)) return [
                ["display-image", 'https://i.postimg.cc/Jz255ssg/maxresdefault-4-removebg-preview.png', { width: '140px', position: 'absolute',  right: '70px', top: '1605px', id: 'under'}],
           ]}],
           "blank",
             ],  
-            unlocked() { if (player.Be.Rocketships.gte(1)) return true
+            unlocked() { if (player.Be.Rocketships.gte(1) && hasMilestone('Be', 2)) return true
             else return false}
         },
         "Abbreviations": {
@@ -3499,41 +3597,312 @@ componentStyles: {
     },
 
     automate() {
-        if (player.Be.s1 == 11 || player.Be.s2 == 11 || player.Be.s3 == 11 || player.Be.s4 == 11 || player.Be.s5 == 11 || player.Be.s6 == 11 || player.Be.s7 == 11 || player.Be.s8 == 11 || player.Be.s9 == 11 || player.Be.s10 == 11) player.Be.gwa = player.Be.gwa.add(231)
-        if (player.Be.s1 == 12 || player.Be.s2 == 12 || player.Be.s3 == 12 || player.Be.s4 == 12 || player.Be.s5 == 12 || player.Be.s6 == 12 || player.Be.s7 == 12 || player.Be.s8 == 12 || player.Be.s9 == 12 || player.Be.s10 == 12) player.Be.laser = player.Be.laser.add(7777)
-        if (player.Be.s1 == 13 || player.Be.s2 == 13 || player.Be.s3 == 13 || player.Be.s4 == 13 || player.Be.s5 == 13 || player.Be.s6 == 13 || player.Be.s7 == 13 || player.Be.s8 == 13 || player.Be.s9 == 13 || player.Be.s10 == 13){
-        if (player.Be.plutonium.gte(3) && player.Be.ALight.gte(1) && player.Be.gHeliumHydride.gte(1) && player.Be.bunknown.gte(1) && player.Be.lWaterCloud.gte(1) && player.Be.jDiamond.gte(1) && player.Be.gwa.gte(1000000) && player.Be.laser.gte(10000000) && player.Be.dirt.gte(1e16) && player.Be.egg.gte(10000)) player.Be.plutonium = player.Be.plutonium.sub(3), player.Be.ALight = player.Be.ALight.sub(1), player.Be.gHeliumHydride = player.Be.gHeliumHydride.sub(1), player.Be.bunknown = player.Be.bunknown.sub(1), player.Be.gHeliumHydride = player.Be.lWaterCloud.sub(1), player.Be.jDiamond = player.Be.jDiamond.sub(1), player.Be.gwa = player.Be.gwa.sub(1000000), player.Be.laser = player.Be.laser.sub(10000000), player.Be.dirt = player.Be.dirt.sub(1e16), player.Be.egg = player.Be.egg.sub(10000), player.Be.rainbownium = player.Be.rainbownium.add(1)}
-        if (player.Be.s1 == 14 || player.Be.s2 == 14 || player.Be.s3 == 14 || player.Be.s4 == 14 || player.Be.s5 == 14 || player.Be.s6 == 14 || player.Be.s7 == 14 || player.Be.s8 == 14 || player.Be.s9 == 14 || player.Be.s10 == 14) player.Be.dirt = player.Be.dirt.add(1e12)
-        if (player.Be.s1 == 15 || player.Be.s2 == 15 || player.Be.s3 == 15 || player.Be.s4 == 15 || player.Be.s5 == 15 || player.Be.s6 == 15 || player.Be.s7 == 15 || player.Be.s8 == 15 || player.Be.s9 == 15 || player.Be.s10 == 15) player.Be.egg = player.Be.egg.add(1)
-        if (player.Be.s1 == 21 || player.Be.s2 == 21 || player.Be.s3 == 21 || player.Be.s4 == 21 || player.Be.s5 == 21 || player.Be.s6 == 21 || player.Be.s7 == 21 || player.Be.s8 == 21 || player.Be.s9 == 21 || player.Be.s10 == 21){
-        if (player.Be.moltenIron.gte(312) && player.Be.plutonium.gte(1) && player.Be.solarEssence.gte(5321) && player.Be.ALight < 1) player.Be.moltenIron = player.Be.moltenIron.sub(312), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.solarEssence = player.Be.solarEssence.sub(5321), player.Be.ALight = player.Be.ALight.add(1)}
-        if (player.Be.s1 == 22 || player.Be.s2 == 22 || player.Be.s3 == 22 || player.Be.s4 == 22 || player.Be.s5 == 22 || player.Be.s6 == 22 || player.Be.s7 == 22 || player.Be.s8 == 22 || player.Be.s9 == 22 || player.Be.s10 == 22){
-        if (player.Be.moltenIron.gte(455) && player.Be.plutonium.gte(1) && player.Be.neptuneCloud.gte(2000) && player.Be.gHeliumHydride < 1) player.Be.moltenIron = player.Be.moltenIron.sub(455), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.neptuneCloud = player.Be.neptuneCloud.sub(2000), player.Be.gHeliumHydride = player.Be.gHeliumHydride.add(1)}
-        if (player.Be.s1 == 23 || player.Be.s2 == 23 || player.Be.s3 == 23 || player.Be.s4 == 23 || player.Be.s5 == 23 || player.Be.s6 == 23 || player.Be.s7 == 23 || player.Be.s8 == 23 || player.Be.s9 == 23 || player.Be.s10 == 23){
-        if (player.Be.moltenIron.gte(520) && player.Be.plutonium.gte(1) && player.Be.saturnIce.gte(21111) && player.Be.bunknown < 1) player.Be.moltenIron = player.Be.moltenIron.sub(520), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.saturnIce = player.Be.saturnIce.sub(21111), player.Be.bunknown = player.Be.bunknown.add(1)}
-        if (player.Be.s1 == 24 || player.Be.s2 == 24 || player.Be.s3 == 24 || player.Be.s4 == 24 || player.Be.s5 == 24 || player.Be.s6 == 24 || player.Be.s7 == 24 || player.Be.s8 == 24 || player.Be.s9 == 24 || player.Be.s10 == 24){
-        if (player.Be.moltenIron.gte(584) && player.Be.plutonium.gte(1) && player.Be.uranusWater.gte(11911) && player.Be.lWaterCloud < 1) player.Be.moltenIron = player.Be.moltenIron.sub(584), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.uranusWater = player.Be.uranusWater.sub(11911), player.Be.lWaterCloud = player.Be.lWaterCloud.add(1)}
-        if (player.Be.s1 == 25 || player.Be.s2 == 25 || player.Be.s3 == 25 || player.Be.s4 == 25 || player.Be.s5 == 25 || player.Be.s6 == 25 || player.Be.s7 == 25 || player.Be.s8 == 25 || player.Be.s9 == 25 || player.Be.s10 == 25){
-        if (player.Be.moltenIron.gte(666) && player.Be.plutonium.gte(1) && player.Be.plutoCarbon.gte(666666) && player.Be.jDiamond < 1) player.Be.moltenIron = player.Be.moltenIron.sub(666), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.plutoCarbon = player.Be.plutoCarbon.sub(666666), player.Be.jDiamond = player.Be.jDiamond.add(1)}
-        if (player.Be.s1 == 31 || player.Be.s2 == 31 || player.Be.s3 == 31 || player.Be.s4 == 31 || player.Be.s5 == 31 || player.Be.s6 == 31 || player.Be.s7 == 31 || player.Be.s8 == 31 || player.Be.s9 == 31 || player.Be.s10 == 31) player.Be.solarEssence = player.Be.solarEssence.add(3)
-        if (player.Be.metalliccore.gte(3) && player.Be.solarEssence.gte(100)) player.Be.metalliccore = player.Be.metalliccore.sub(3), player.Be.solarEssence = player.Be.solarEssence.sub(100), player.Be.solarBar = player.Be.solarBar.add(3)
-        if (player.Be.s1 == 32 || player.Be.s2 == 32 || player.Be.s3 == 32 || player.Be.s4 == 32 || player.Be.s5 == 32 || player.Be.s6 == 32 || player.Be.s7 == 32 || player.Be.s8 == 32 || player.Be.s9 == 32 || player.Be.s10 == 32) player.Be.saturnIce = player.Be.saturnIce.add(5)
-        if (player.Be.sulfuricAcid.gte(10) && player.Be.saturnIce.gte(342)) player.Be.sulfuricAcid = player.Be.sulfuricAcid.sub(10), player.Be.saturnIce = player.Be.saturnIce.sub(342), player.Be.methaneGas = player.Be.methaneGas.add(5)
-        if (player.Be.s1 == 33 || player.Be.s2 == 33 || player.Be.s3 == 33 || player.Be.s4 == 33 || player.Be.s5 == 33 || player.Be.s6 == 33 || player.Be.s7 == 33 || player.Be.s8 == 33 || player.Be.s9 == 33 || player.Be.s10 == 33) player.Be.plutoCarbon = player.Be.plutoCarbon.add(100)
-        if (player.Be.plutoCarbon.gte(10000) && player.Be.solarBar.gte(9) && player.Be.methaneGas.gte(15) && player.Be.uranusAmmonia.gte(30) && player.Be.neptuneSlush.gte(15)) player.Be.plutoCarbon = player.Be.plutoCarbon.sub(10000), player.Be.solarBar = player.Be.solarBar.sub(9), player.Be.methaneGas = player.Be.methaneGas.sub(15), player.Be.uranusAmmonia = player.Be.uranusAmmonia.sub(30), player.Be.neptuneSlush = player.Be.neptuneSlush.sub(15), player.Be.plutonium = player.Be.plutonium.add(1)
-        if (player.Be.s1 == 34 || player.Be.s2 == 34 || player.Be.s3 == 34 || player.Be.s4 == 34 || player.Be.s5 == 34 || player.Be.s6 == 34 || player.Be.s7 == 34 || player.Be.s8 == 34 || player.Be.s9 == 34 || player.Be.s10 == 34) player.Be.uranusWater = player.Be.uranusWater.add(10)
-        if (player.Be.basaltrock.gte(100) && player.Be.uranusWater.gte(1000)) player.Be.basaltrock = player.Be.basaltrock.sub(100), player.Be.uranusWater = player.Be.uranusWater.sub(1000), player.Be.uranusAmmonia = player.Be.uranusAmmonia.add(10) 
-        if (player.Be.s1 == 35 || player.Be.s2 == 35 || player.Be.s3 == 35 || player.Be.s4 == 35 || player.Be.s5 == 35 || player.Be.s6 == 35 || player.Be.s7 == 35 || player.Be.s8 == 35 || player.Be.s9 == 35 || player.Be.s10 == 35) player.Be.neptuneCloud = player.Be.neptuneCloud.add(1)
-        if (player.Be.jupiterHelium.gte(5) && player.Be.neptuneCloud.gte(50)) player.Be.jupiterHelium = player.Be.jupiterHelium.sub(5), player.Be.neptuneCloud = player.Be.neptuneCloud.sub(50), player.Be.neptuneSlush = player.Be.neptuneSlush.add(3) 
-        if (player.Be.s1 == 41 || player.Be.s2 == 41 || player.Be.s3 == 41 || player.Be.s4 == 41 || player.Be.s5 == 41 || player.Be.s6 == 41 || player.Be.s7 == 41 || player.Be.s8 == 41 || player.Be.s9 == 41 || player.Be.s10 == 41) player.Be.mercuryDust = player.Be.mercuryDust.add(1)
-        if (player.Be.mercuryDust.gte(100)) player.Be.mercuryDust = player.Be.mercuryDust.sub(100), player.Be.metalliccore = player.Be.metalliccore.add(1) 
-        if (player.Be.s1 == 42 || player.Be.s2 == 42 || player.Be.s3 == 42 || player.Be.s4 == 42 || player.Be.s5 == 42 || player.Be.s6 == 42 || player.Be.s7 == 42 || player.Be.s8 == 42 || player.Be.s9 == 42 || player.Be.s10 == 42) player.Be.venusDust = player.Be.venusDust.add(1)
-        if (player.Be.venusDust.gte(67)) player.Be.venusDust = player.Be.venusDust.sub(67), player.Be.sulfuricAcid = player.Be.sulfuricAcid.add(2) 
-        if (player.Be.s1 == 43 || player.Be.s2 == 43 || player.Be.s3 == 43 || player.Be.s4 == 43 || player.Be.s5 == 43 || player.Be.s6 == 43 || player.Be.s7 == 43 || player.Be.s8 == 43 || player.Be.s9 == 43 || player.Be.s10 == 43) player.Be.moonDust = player.Be.moonDust.add(1)
-        if (player.Be.moonDust.gte(10)) player.Be.moonDust = player.Be.moonDust.sub(10), player.Be.moltenIron = player.Be.moltenIron.add(3) 
-        if (player.Be.s1 == 44 || player.Be.s2 == 44 || player.Be.s3 == 44 || player.Be.s4 == 44 || player.Be.s5 == 44 || player.Be.s6 == 44 || player.Be.s7 == 44 || player.Be.s8 == 44 || player.Be.s9 == 44 || player.Be.s10 == 44) player.Be.marsDust = player.Be.marsDust.add(1)
-        if (player.Be.marsDust.gte(40)) player.Be.marsDust = player.Be.marsDust.sub(40), player.Be.basaltrock = player.Be.basaltrock.add(8) 
-        if (player.Be.s1 == 45 || player.Be.s2 == 45 || player.Be.s3 == 45 || player.Be.s4 == 45 || player.Be.s5 == 45 || player.Be.s6 == 45 || player.Be.s7 == 45 || player.Be.s8 == 45 || player.Be.s9 == 45 || player.Be.s10 == 45) player.Be.jupiterHydrogen = player.Be.jupiterHydrogen.add(1)
-        if (player.Be.jupiterHydrogen.gte(90)) player.Be.jupiterHydrogen = player.Be.jupiterHydrogen.sub(90), player.Be.jupiterHelium = player.Be.jupiterHelium.add(1) 
+        if (player.Be.s1 == 11 || player.Be.s2 == 11 || player.Be.s3 == 11 || player.Be.s4 == 11 || player.Be.s5 == 11 || player.Be.s6 == 11 || player.Be.s7 == 11 || player.Be.s8 == 11 || player.Be.s9 == 11 || player.Be.s10 == 11 || player.B.resets > 15) player.Be.gwa = player.Be.gwa.add(new Decimal(231).times(player.B.points.add(1)))
+        if (player.Be.s1 == 12 || player.Be.s2 == 12 || player.Be.s3 == 12 || player.Be.s4 == 12 || player.Be.s5 == 12 || player.Be.s6 == 12 || player.Be.s7 == 12 || player.Be.s8 == 12 || player.Be.s9 == 12 || player.Be.s10 == 12 || player.B.resets > 16) player.Be.laser = player.Be.laser.add(new Decimal(7777).times(player.B.points.add(1)))
+        if (player.Be.s1 == 13 || player.Be.s2 == 13 || player.Be.s3 == 13 || player.Be.s4 == 13 || player.Be.s5 == 13 || player.Be.s6 == 13 || player.Be.s7 == 13 || player.Be.s8 == 13 || player.Be.s9 == 13 || player.Be.s10 == 13 || player.B.resets > 17){
+        if (player.Be.plutonium.gte(3) && player.Be.ALight.gte(1) && player.Be.gHeliumHydride.gte(1) && player.Be.bunknown.gte(1) && player.Be.lWaterCloud.gte(1) && player.Be.jDiamond.gte(1) && player.Be.gwa.gte(1000000) && player.Be.laser.gte(10000000) && player.Be.dirt.gte(1e16) && player.Be.egg.gte(10000)) player.Be.plutonium = player.Be.plutonium.sub(3), player.Be.ALight = player.Be.ALight.sub(1), player.Be.gHeliumHydride = player.Be.gHeliumHydride.sub(1), player.Be.bunknown = player.Be.bunknown.sub(1), player.Be.gHeliumHydride = player.Be.lWaterCloud.sub(1), player.Be.jDiamond = player.Be.jDiamond.sub(1), player.Be.gwa = player.Be.gwa.sub(1000000), player.Be.laser = player.Be.laser.sub(10000000), player.Be.dirt = player.Be.dirt.sub(1e16), player.Be.egg = player.Be.egg.sub(10000), player.Be.rainbownium = player.Be.rainbownium.add(new Decimal(1).times(player.B.points.add(1)))}
+        if (player.Be.s1 == 14 || player.Be.s2 == 14 || player.Be.s3 == 14 || player.Be.s4 == 14 || player.Be.s5 == 14 || player.Be.s6 == 14 || player.Be.s7 == 14 || player.Be.s8 == 14 || player.Be.s9 == 14 || player.Be.s10 == 14 || player.B.resets > 18) player.Be.dirt = player.Be.dirt.add(new Decimal(1e12).times(player.B.points.add(1)))
+        if (player.Be.s1 == 15 || player.Be.s2 == 15 || player.Be.s3 == 15 || player.Be.s4 == 15 || player.Be.s5 == 15 || player.Be.s6 == 15 || player.Be.s7 == 15 || player.Be.s8 == 15 || player.Be.s9 == 15 || player.Be.s10 == 15 || player.B.resets > 19) player.Be.egg = player.Be.egg.add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.s1 == 21 || player.Be.s2 == 21 || player.Be.s3 == 21 || player.Be.s4 == 21 || player.Be.s5 == 21 || player.Be.s6 == 21 || player.Be.s7 == 21 || player.Be.s8 == 21 || player.Be.s9 == 21 || player.Be.s10 == 21 || player.B.resets > 10){
+        if (player.Be.moltenIron.gte(312) && player.Be.plutonium.gte(1) && player.Be.solarEssence.gte(5321) && player.Be.ALight < player.B.points.add(1)) player.Be.moltenIron = player.Be.moltenIron.sub(312), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.solarEssence = player.Be.solarEssence.sub(5321), player.Be.ALight = player.Be.ALight.add(new Decimal(1).times(player.B.points.add(1)))}
+        if (player.Be.s1 == 22 || player.Be.s2 == 22 || player.Be.s3 == 22 || player.Be.s4 == 22 || player.Be.s5 == 22 || player.Be.s6 == 22 || player.Be.s7 == 22 || player.Be.s8 == 22 || player.Be.s9 == 22 || player.Be.s10 == 22 || player.B.resets > 11){
+        if (player.Be.moltenIron.gte(455) && player.Be.plutonium.gte(1) && player.Be.neptuneCloud.gte(2000) && player.Be.gHeliumHydride < player.B.points.add(1)) player.Be.moltenIron = player.Be.moltenIron.sub(455), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.neptuneCloud = player.Be.neptuneCloud.sub(2000), player.Be.gHeliumHydride = player.Be.gHeliumHydride.add(new Decimal(1).times(player.B.points.add(1)))}
+        if (player.Be.s1 == 23 || player.Be.s2 == 23 || player.Be.s3 == 23 || player.Be.s4 == 23 || player.Be.s5 == 23 || player.Be.s6 == 23 || player.Be.s7 == 23 || player.Be.s8 == 23 || player.Be.s9 == 23 || player.Be.s10 == 23 || player.B.resets > 12){
+        if (player.Be.moltenIron.gte(520) && player.Be.plutonium.gte(1) && player.Be.saturnIce.gte(21111) && player.Be.bunknown < player.B.points.add(1)) player.Be.moltenIron = player.Be.moltenIron.sub(520), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.saturnIce = player.Be.saturnIce.sub(21111), player.Be.bunknown = player.Be.bunknown.add(new Decimal(1).times(player.B.points.add(1)))}
+        if (player.Be.s1 == 24 || player.Be.s2 == 24 || player.Be.s3 == 24 || player.Be.s4 == 24 || player.Be.s5 == 24 || player.Be.s6 == 24 || player.Be.s7 == 24 || player.Be.s8 == 24 || player.Be.s9 == 24 || player.Be.s10 == 24 || player.B.resets > 13){
+        if (player.Be.moltenIron.gte(584) && player.Be.plutonium.gte(1) && player.Be.uranusWater.gte(11911) && player.Be.lWaterCloud < player.B.points.add(1)) player.Be.moltenIron = player.Be.moltenIron.sub(584), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.uranusWater = player.Be.uranusWater.sub(11911), player.Be.lWaterCloud = player.Be.lWaterCloud.add(new Decimal(1).times(player.B.points.add(1)))}
+        if (player.Be.s1 == 25 || player.Be.s2 == 25 || player.Be.s3 == 25 || player.Be.s4 == 25 || player.Be.s5 == 25 || player.Be.s6 == 25 || player.Be.s7 == 25 || player.Be.s8 == 25 || player.Be.s9 == 25 || player.Be.s10 == 25 || player.B.resets > 14){
+        if (player.Be.moltenIron.gte(666) && player.Be.plutonium.gte(1) && player.Be.plutoCarbon.gte(666666) && player.Be.jDiamond < player.B.points.add(1)) player.Be.moltenIron = player.Be.moltenIron.sub(666), player.Be.plutonium = player.Be.plutonium.sub(1), player.Be.plutoCarbon = player.Be.plutoCarbon.sub(666666), player.Be.jDiamond = player.Be.jDiamond.add(new Decimal(1).times(player.B.points.add(1)))}
+        if (player.Be.s1 == 31 || player.Be.s2 == 31 || player.Be.s3 == 31 || player.Be.s4 == 31 || player.Be.s5 == 31 || player.Be.s6 == 31 || player.Be.s7 == 31 || player.Be.s8 == 31 || player.Be.s9 == 31 || player.Be.s10 == 31 || player.B.resets > 5) player.Be.solarEssence = player.Be.solarEssence.add(player.B.baseT2).add(new Decimal(3).times(player.B.points.add(1)))
+        if (player.Be.metalliccore.gte(3) && player.Be.solarEssence.gte(100)) player.Be.metalliccore = player.Be.metalliccore.sub(3), player.Be.solarEssence = player.Be.solarEssence.sub(100), player.Be.solarBar = player.Be.solarBar.add(new Decimal(3).times(player.B.points.add(1)))
+        if (player.Be.s1 == 32 || player.Be.s2 == 32 || player.Be.s3 == 32 || player.Be.s4 == 32 || player.Be.s5 == 32 || player.Be.s6 == 32 || player.Be.s7 == 32 || player.Be.s8 == 32 || player.Be.s9 == 32 || player.Be.s10 == 32 || player.B.resets > 6) player.Be.saturnIce = player.Be.saturnIce.add(player.B.baseT2).add(new Decimal(5).times(player.B.points.add(1)))
+        if (player.Be.sulfuricAcid.gte(10) && player.Be.saturnIce.gte(342)) player.Be.sulfuricAcid = player.Be.sulfuricAcid.sub(10), player.Be.saturnIce = player.Be.saturnIce.sub(342), player.Be.methaneGas = player.Be.methaneGas.add(new Decimal(5).times(player.B.points.add(1)))
+        if (player.Be.s1 == 33 || player.Be.s2 == 33 || player.Be.s3 == 33 || player.Be.s4 == 33 || player.Be.s5 == 33 || player.Be.s6 == 33 || player.Be.s7 == 33 || player.Be.s8 == 33 || player.Be.s9 == 33 || player.Be.s10 == 33 || player.B.resets > 7) player.Be.plutoCarbon = player.Be.plutoCarbon.add(player.B.baseT2).add(new Decimal(100).times(player.B.points.add(1)))
+        if (player.Be.plutoCarbon.gte(10000) && player.Be.solarBar.gte(9) && player.Be.methaneGas.gte(15) && player.Be.uranusAmmonia.gte(30) && player.Be.neptuneSlush.gte(15)) player.Be.plutoCarbon = player.Be.plutoCarbon.sub(10000), player.Be.solarBar = player.Be.solarBar.sub(9), player.Be.methaneGas = player.Be.methaneGas.sub(15), player.Be.uranusAmmonia = player.Be.uranusAmmonia.sub(30), player.Be.neptuneSlush = player.Be.neptuneSlush.sub(15), player.Be.plutonium = player.Be.plutonium.add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.s1 == 34 || player.Be.s2 == 34 || player.Be.s3 == 34 || player.Be.s4 == 34 || player.Be.s5 == 34 || player.Be.s6 == 34 || player.Be.s7 == 34 || player.Be.s8 == 34 || player.Be.s9 == 34 || player.Be.s10 == 34 || player.B.resets > 8) player.Be.uranusWater = player.Be.uranusWater.add(player.B.baseT2).add(new Decimal(10).times(player.B.points.add(1)))
+        if (player.Be.basaltrock.gte(100) && player.Be.uranusWater.gte(1000)) player.Be.basaltrock = player.Be.basaltrock.sub(100), player.Be.uranusWater = player.Be.uranusWater.sub(1000), player.Be.uranusAmmonia = player.Be.uranusAmmonia.add(new Decimal(10).times(player.B.points.add(1)))
+        if (player.Be.s1 == 35 || player.Be.s2 == 35 || player.Be.s3 == 35 || player.Be.s4 == 35 || player.Be.s5 == 35 || player.Be.s6 == 35 || player.Be.s7 == 35 || player.Be.s8 == 35 || player.Be.s9 == 35 || player.Be.s10 == 35 || player.B.resets > 9) player.Be.neptuneCloud = player.Be.neptuneCloud.add(player.B.baseT2).add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.jupiterHelium.gte(5) && player.Be.neptuneCloud.gte(50)) player.Be.jupiterHelium = player.Be.jupiterHelium.sub(5), player.Be.neptuneCloud = player.Be.neptuneCloud.sub(50), player.Be.neptuneSlush = player.Be.neptuneSlush.add(new Decimal(3).times(player.B.points.add(1)))
+        if (player.Be.s1 == 41 || player.Be.s2 == 41 || player.Be.s3 == 41 || player.Be.s4 == 41 || player.Be.s5 == 41 || player.Be.s6 == 41 || player.Be.s7 == 41 || player.Be.s8 == 41 || player.Be.s9 == 41 || player.Be.s10 == 41 || player.B.resets > 1) player.Be.mercuryDust = player.Be.mercuryDust.add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.mercuryDust.gte(100)) player.Be.mercuryDust = player.Be.mercuryDust.sub(100), player.Be.metalliccore = player.Be.metalliccore.add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.s1 == 42 || player.Be.s2 == 42 || player.Be.s3 == 42 || player.Be.s4 == 42 || player.Be.s5 == 42 || player.Be.s6 == 42 || player.Be.s7 == 42 || player.Be.s8 == 42 || player.Be.s9 == 42 || player.Be.s10 == 42 || player.B.resets > 2) player.Be.venusDust = player.Be.venusDust.add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.venusDust.gte(67)) player.Be.venusDust = player.Be.venusDust.sub(67), player.Be.sulfuricAcid = player.Be.sulfuricAcid.add(new Decimal(2).times(player.B.points.add(1)))
+        if (player.Be.s1 == 43 || player.Be.s2 == 43 || player.Be.s3 == 43 || player.Be.s4 == 43 || player.Be.s5 == 43 || player.Be.s6 == 43 || player.Be.s7 == 43 || player.Be.s8 == 43 || player.Be.s9 == 43 || player.Be.s10 == 43 || player.B.resets > 0) player.Be.moonDust = player.Be.moonDust.add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.moonDust.gte(10)) player.Be.moonDust = player.Be.moonDust.sub(10), player.Be.moltenIron = player.Be.moltenIron.add(new Decimal(3).times(player.B.points.add(1)))
+        if (player.Be.s1 == 44 || player.Be.s2 == 44 || player.Be.s3 == 44 || player.Be.s4 == 44 || player.Be.s5 == 44 || player.Be.s6 == 44 || player.Be.s7 == 44 || player.Be.s8 == 44 || player.Be.s9 == 44 || player.Be.s10 == 44 || player.B.resets > 3) player.Be.marsDust = player.Be.marsDust.add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.marsDust.gte(40)) player.Be.marsDust = player.Be.marsDust.sub(40), player.Be.basaltrock = player.Be.basaltrock.add(new Decimal(8).times(player.B.points.add(1)))
+        if (player.Be.s1 == 45 || player.Be.s2 == 45 || player.Be.s3 == 45 || player.Be.s4 == 45 || player.Be.s5 == 45 || player.Be.s6 == 45 || player.Be.s7 == 45 || player.Be.s8 == 45 || player.Be.s9 == 45 || player.Be.s10 == 45 || player.B.resets > 4) player.Be.jupiterHydrogen = player.Be.jupiterHydrogen.add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.jupiterHydrogen.gte(90)) player.Be.jupiterHydrogen = player.Be.jupiterHydrogen.sub(90), player.Be.jupiterHelium = player.Be.jupiterHelium.add(new Decimal(1).times(player.B.points.add(1)))
+        if (player.Be.ALight >= player.B.points.add(1)) player.Be.ALight = player.Be.ALight.times(0).add(player.B.points.add(1))
+        if (player.Be.gHeliumHydride >= player.B.points.add(1)) player.Be.gHeliumHydride = player.Be.gHeliumHydride.times(0).add(player.B.points.add(1))
+        if (player.Be.bunknown >= player.B.points.add(1)) player.Be.bunknown = player.Be.bunknown.times(0).add(player.B.points.add(1))
+        if (player.Be.lWaterCloud >= player.B.points.add(1)) player.Be.lWaterCloud = player.Be.lWaterCloud.times(0).add(player.B.points.add(1))
+        if (player.Be.jDiamond >= player.B.points.add(1)) player.Be.jDiamond = player.Be.jDiamond.times(0).add(player.B.points.add(1))
+        if (hasMilestone('B', 4)) buyBuyable('Be', 12), buyBuyable('Be', 13), buyBuyable('Be', 14), buyBuyable('Be', 16)
+        if (hasMilestone('B', 4) && getBuyableAmount('Be', 12) == 10 && getBuyableAmount('Be', 13) == 10) buyBuyable('Be', 15)
     },
+
+    doReset(resettingLayer) {
+        if (layers[this.layer].row >= layers[resettingLayer].row) return
+        let keptUpgrades = []
+        let keptMilestones = []
+        if (player.B.resets > 0) keptUpgrades.push(...player.Be.upgrades.slice(0, player.B.resets))
+        if (player.B.resets > 4) keptMilestones.push(...player.Be.milestones.slice(0, player.B.resets))
+        layerDataReset(this.layer)
+        if (player.B.resets > 0) player.Be.BerylliumPlates = player.Be.BerylliumPlates.add(player.B.resets.times(10)), setBuyableAmount('Be', 11, player.B.resets.times(10))
+        if (player.B.resets > 10) player.Be.BerylliumPlates = player.Be.BerylliumPlates.times(0).add(50)
+        if (player.B.resets > 6) player.Be.Rocketships = player.Be.Rocketships.times(0).add(10), player.Be.Activeships = player.Be.Rocketships, setBuyableAmount('Be', 21, new Decimal(10))
+        player.Be.upgrades.push(...keptUpgrades)
+        player.Be.milestones.push(...keptMilestones)
+    },
+})
+
+addLayer("B", {
+
+    symbol() { return options.toggleButtonAnimations ? '' : 'B' },
+    nodeStyle() {
+        return options.toggleButtonAnimations ? {
+            'color': '#964b00',
+            'background-image': 'url("resources/Boron.gif")',
+            'background-position': 'center center',
+            'background-size': '120%',
+            'border': '1px solid #964b00'
+        } : {
+            'background-position': 'center center',
+            'background-size': '85%'
+        }
+    },
+    
+    image: "https://i.postimg.cc/J4LnSfTP/Screenshot-2022-07-10-165312-1-removebg-preview.png",
+    name: "Boron", // This is optional, only used in a few places, If absent it just uses the layer id.
+    position: 4, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
+    startData() {
+        return {
+            unlocked: true,
+            total: new Decimal(0),
+            points: new Decimal(0),
+            resets: new Decimal(0),
+            baseT2: new Decimal(0),
+            Scraps: new Decimal(0),
+            Ticks: new Decimal(0),
+            Ticks1: new Decimal(0),
+            TicksMax: new Decimal(0),
+            DS: new Decimal(0),
+        }
+    },
+
+    color: '#964b00',
+    layerShown() {
+        if (player.B.resets.gte(1)) return true
+        if (player.Be.rainbownium.gte(1)) return true
+        else return false
+    },
+
+    onPrestige() {
+        player.B.resets = player.B.resets.add(1)
+    },
+
+    requires: new Decimal(1), // Can be a function that takes requirement increases into account
+    resource: "Prisms", // Name of prestige currency
+    baseResource: "Rainbownium", // Name of resource prestige is based on
+    baseAmount() { return player.Be.rainbownium }, // Get the current amount of baseResource
+    requires: new Decimal(1),
+    type: "normal", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
+    exponent() {  
+        if (player.B.points.gte(100)) return 0.2
+        else return 1}, // Prestige currency exponent
+    gainMult: new Decimal(1), 
+    gainExp: new Decimal(1),
+    row: 1, // Row the layer is in on the tree (0 is the first row)
+    displayRow: 1,
+
+    hotkeys: [
+        { key: "r", description: "R: Reset for Boron", onPress() { if (canReset(this.layer)) doReset(this.layer)}, 
+        unlocked() { if (hasMilestone('Be', 20)) return false
+        else return true}},
+    ],
+
+    tooltip() { return formatWhole(player.B.points) + "  Prisms" },
+    tooltipLocked() { return formatWhole(player.B.points) + " Prisms" },
+    
+    milestones: {
+        1: {
+            style: { "color": "#ededed" },
+            requirementDescription: "1 Boron Reset",
+            effectDescription: "Keep 1 upgrade, auto 1 planet, and keep 10 Beryllium Plate buyables per reset.",
+            done() { return player.B.resets.gte(1) },
+            onComplete() { player.E.points = player.E.points.add(1) },
+        },
+        2: {
+            style: { "color": "#ededed" },
+            requirementDescription: "2 Boron Resets",
+            effectDescription: "Unlock Beryllium button automation.",
+            done() { return player.B.resets.gte(2) },
+        },
+        3: {
+            style: { "color": "#ededed" },
+            requirementDescription: "3 Boron Resets",
+            effectDescription: "Tier 2 planets start with a base of 10,000.",
+            done() { return player.B.resets.gte(3) },
+            onComplete() {player.B.baseT2 = player.B.baseT2.add(9999)},
+        },
+        4: {
+            style: { "color": "#ededed" },
+            requirementDescription: "5 Boron Resets",
+            effectDescription: "Keep all rocketship part buyables. Also keep both milestones.",
+            done() { return player.B.resets.gte(5) },
+        },
+        5: {
+            style: { "color": "#ededed" },
+            requirementDescription: "7 Boron Resets",
+            effectDescription: "Keep all rocketships.",
+            done() { return player.B.resets.gte(7) },
+        },
+    },
+
+    buyables: {
+         11: {
+            style: {width: '125px', height: '120px', color: "#ededed"},
+            display() { 
+                return "<div> Make a Diamond Saw Blade.<div> <i>Requires:</i> 180 Diamonds, 100,000 Metallic Cores, 1,000,000 Basalt Rocks and 190 Prisms. <div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + " / " + formatWhole((this.purchaseLimit))
+               },
+            canAfford() { 
+               return player.Be.jDiamond.gte(180) && player.Be.metalliccore.gte(100000) && player.Be.basaltrock.gte(1000000) && player.B.points.gte(160)
+            },
+            purchaseLimit: 1,
+            buy() {
+                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                player.B.Scraps = player.B.Scraps.add(1)
+                player.B.Ticks = player.B.Ticks.times(0).add(1000)
+                player.B.Ticks1 = player.B.Ticks1.times(0)
+                player.B.TicksMax = player.B.TicksMax.times(0).add(1000)
+            },
+            unlocked() {
+                if (player.B.resets.gte(1)) return true
+                else return false
+            }
+        },
+        12: {
+            style: {width: '125px', height: '120px', color: "#ededed"},
+            display() { 
+                return "<div> Make a Handle.<div> <i>Requires:</i> 200 Lights, 2,000,000 Slush, 1,000,000 Plutonium and 220 Prisms. Nothing can be burning.<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + " / " + formatWhole((this.purchaseLimit))
+               },
+            canAfford() { 
+               return player.Be.ALight.gte(200) && player.Be.neptuneSlush.gte(2000000) && player.Be.plutonium.gte(1000000) && player.B.points.gte(220) && player.B.Ticks.lte(0)
+            },
+            purchaseLimit: 1,
+            buy() {
+                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                player.B.Scraps = player.B.Scraps.add(1)
+                player.B.Ticks = player.B.Ticks.times(0).add(2323)
+                player.B.Ticks1 = player.B.Ticks1.times(0)
+                player.B.TicksMax = player.B.TicksMax.times(0).add(2323)
+            },
+            unlocked() {
+                if (getBuyableAmount('B', 11) == 1) return true
+                else return false
+            }
+        },
+        13: {
+            style: {width: '125px', height: '120px', color: "#ededed"},
+            display() { 
+                return "<div> Make a Blade Guard.<div> <i>Requires:</i> 100,000,000 gwa, 5e9 Lasers, 20,000 Rainbownium and 250 Prisms. Nothing can be burning.<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + " / " + formatWhole((this.purchaseLimit))
+               },
+            canAfford() { 
+               return player.Be.gwa.gte(100000000) && player.Be.laser.gte(5e9) && player.Be.rainbownium.gte(20000) && player.B.points.gte(250) && player.B.Ticks.lte(0)
+            },
+            purchaseLimit: 1,
+            buy() {
+                setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
+                player.B.Scraps = player.B.Scraps.add(1)
+                player.B.Ticks = player.B.Ticks.times(0).add(666)
+                player.B.Ticks1 = player.B.Ticks1.times(0)
+                player.B.TicksMax = player.B.TicksMax.times(0).add(666)
+            },
+            unlocked() {
+                if (getBuyableAmount('B', 12) == 1) return true
+                else return false
+            }
+        },
+    },
+
+    infoboxes: {
+        lore: {
+            titleStyle: { "color": "#ededed" },
+            title: "Boron",
+            body() { return "Woah man, that was quite the crash landing! Something must of hit your ship. Hey wait, what's that over there? That, you know, that massive crater. Wait, yoooo. There's some meteorite debris over there. Go check that stuff out! Actually, first of all, we need to create a electric diamond hand saw. Anyway, do whatever it is you do and when you're ready let's start crafting." },
+        },
+    },
+
+componentStyles: {
+    "prestige-button"() { return {color: "#ededed"}}
+},
+
+    tabFormat: {
+        "MainTab": {
+            content: [
+                ['infobox', 'lore'],
+                ['display-text',
+            function() { if (player.p.Node < 1) return 'Prisms boosts all Beryllium resources by ' + formatWhole(player.B.points.add(1)) + '. Cost scales at 100 rainbownium.'}],
+            "blank",
+                "main-display",
+                () => (hasMilestone('B', 20)) ? "" : "prestige-button",
+                "blank",
+            ['display-text',
+            function() { if (player.p.Node < 1) return 'You have ' + formatWhole(player.Be.rainbownium) + ' Rainbownium'}],
+            "blank",
+            ['display-text',
+            function() { if (player.p.Node < 1) return 'You have done ' + formatWhole(player.B.resets) + ' Boron Resets'}],
+            'milestones',
+            ['display-text',
+            function() { if (player.p.Node < 1 && player.B.Ticks.gte(1)) return 'Time until finished burning: ' + formatWhole(player.B.Ticks) + ' ticks.'}],
+            ["row", function () {
+                if (player.B.resets.gte(1)) return [ 
+                    ["display-image", 'https://i.postimg.cc/26zC4rq1/Furnace-transformed.jpg', { 'height': `400px`, 'width': `500px`, position: 'absolute', right: '110px', top: '1000px', id: 'under'}],
+            ]}],
+            ["row", function () {
+                if (player.B.Scraps.gte(1)) return [ 
+                    ["display-image", 'https://i.postimg.cc/gkS5sRJy/iron-metal-png-forest-lake-minnesota-scrap-metal-recycling-570-removebg-preview.png', { transform: `rotate(6deg)`, height: `200px`, width: `370px`, position: 'absolute',  right: '170px', top: "1208px", id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.Scraps.gte(1)) return [ 
+                    ["display-image", 'https://i.postimg.cc/2jL8PP3M/image.png', { transform: `rotate(6deg)`, height: `200px`, width: `370px`, position: 'absolute',  right: '170px', top: "1208px", id: 'top', opacity: player.B.Ticks1.div(player.B.TicksMax)}],
+            ]}],
+            ["row", function () {
+                if (player.B.resets.gte(1)) return [ 
+                    ["display-image", 'https://i.postimg.cc/T3Ws08Gc/OYQpn-X-637597350.png', {'background-image': 'url("resources/Fire.gif")', height: `200px`, width: `370px`, position: 'absolute',  right: '170px', top: "1185px", id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.DS.gte(1)) return [ 
+                    ["display-image", 'https://i.postimg.cc/9fx05nKk/ediamondtools-diamond-blades-lk16xh1-64-1000-removebg-preview.png', { height: `200px`, width: `200px`, position: 'absolute',  right: '270px', top: "1608px", id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.DS.gte(3)) return [ 
+                    ["display-image", 'https://i.postimg.cc/bYB4ZcKT/C14-PRO-removebg-preview-2.png', { height: `240px`, width: `400px`, position: 'absolute',  right: '275px', top: "1586px", id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.DS.gte(2)) return [ 
+                    ["display-image", 'https://i.postimg.cc/Y9XNhRVG/C14-PRO-removebg-preview-1.png', { height: `200px`, width: `300px`, position: 'absolute',  right: '320px', top: "1608px", id: 'top'}],
+            ]}],
+            "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank",
+            'buyables',
+        ]
+    },
+    "The Workshop": {
+        content: [
+            ['display-text',
+            function() { return 'No Content Here Yet.'}],
+        ],
+        unlocked() {
+            if (player.B.DS.gte(3)) return true
+            else return false
+        }
+    },
+},
+
+update() {
+    if (player.B.Scraps.gte(1)) player.B.Ticks = player.B.Ticks.sub(1)
+    if (player.B.Scraps.gte(1)) player.B.Ticks1 = player.B.Ticks1.add(1)
+    if (player.B.Ticks.lte(0) && player.B.Scraps.gte(1)) player.B.Scraps = player.B.Scraps.times(0), player.B.DS = player.B.DS.add(1)
+},
 })
