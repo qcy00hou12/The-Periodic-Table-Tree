@@ -3689,6 +3689,7 @@ addLayer("B", {
             Ticks1: new Decimal(0),
             TicksMax: new Decimal(0),
             DS: new Decimal(0),
+            backtohun: new Decimal(0),
         }
     },
 
@@ -3730,7 +3731,7 @@ addLayer("B", {
         1: {
             style: { "color": "#ededed" },
             requirementDescription: "1 Boron Reset",
-            effectDescription: "Keep 1 upgrade, auto 1 planet, and keep 10 Beryllium Plate buyables per reset.",
+            effectDescription: "Keep 1 upgrade, auto 1 planet, and keep 10 Beryllium Plate buyables per reset. Toggle autobuy planets.",
             done() { return player.B.resets.gte(1) },
             toggles: [["Be", "auto"]],
             onComplete() { player.E.points = player.E.points.add(1) },
@@ -3903,6 +3904,7 @@ componentStyles: {
 },
 
 update() {
+    if (player.B.points.gte(100) && player.B.backtohun.lte(0)) player.B.backtohun = player.B.backtohun.add(1), player.B.points = player.B.points.times(0).add(100)
     if (player.B.Scraps.gte(1)) player.B.Ticks = player.B.Ticks.sub(1)
     if (player.B.Scraps.gte(1)) player.B.Ticks1 = player.B.Ticks1.add(1)
     if (player.B.Ticks.lte(0) && player.B.Scraps.gte(1)) player.B.Scraps = player.B.Scraps.times(0), player.B.DS = player.B.DS.add(1)
