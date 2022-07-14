@@ -324,6 +324,9 @@ function gameLoop(diff) {
 		clearParticles()
 	}
 
+	//Particles to scroll with with the tab
+	tmp.currentSt = document.getElementById("treeTabScroll")?.scrollTop ?? 0
+
 	if (isNaN(diff) || diff < 0) diff = 0
 	if (tmp.gameEnded && !player.keepGoing) {
 		diff = 0

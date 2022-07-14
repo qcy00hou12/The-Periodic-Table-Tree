@@ -56,8 +56,8 @@ function updateParticles(diff) {
         else {
             if (particle.update) run(particle.update, particle)
             particle.angle += particle.rotation
-            particle.x += particle.xVel
-            particle.y += particle.yVel
+            particle.x += particle.xVel 
+            particle.y += particle.yVel - tmp.currentSt
             particle.speed = Math.sqrt(Math.pow(particle.xVel, 2) + Math.pow(particle.yVel, 2))
             particle.dir = atan(-particle.xVel/particle.yVel)
             particle.yVel += particle.gravity

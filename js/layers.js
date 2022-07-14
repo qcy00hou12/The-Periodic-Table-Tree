@@ -29,7 +29,7 @@ addNode("Ex", {
     },
 })
 
-var _0x35f6=["\x43\x68","\x73\x69\x64\x65","\x23\x30\x30\x30\x30\x30\x30","\x23\x66\x66\x66\x66\x66\x66","\x49\x54\x65\x78\x74","\x48\x65","\x48\x65\x69\x73\x65\x6E\x62\x75\x72\x67","\x49\x20\x6E\x65\x65\x64\x20\x61\x20\x6E\x65\x77\x20\x64\x75\x73\x74\x20\x66\x69\x6C\x74\x65\x72\x20\x66\x6F\x72\x20\x6D\x79\x20\x48\x6F\x6F\x76\x65\x72\x20\x4D\x61\x78\x20\x45\x78\x74\x72\x61\x63\x74\x20\x50\x72\x65\x73\x73\x75\x72\x65\x20\x50\x72\x6F\x20\x6D\x6F\x64\x65\x6C\x20\x36\x30","\x54\x65\x73\x74\x69\x63\x6C\x65","\x4C\x61\x62\x20\x4E\x6F\x74\x65\x73","\x4E\x6F\x74\x65\x20\x23\x31","\x20\x2D\x6A\x75\x73\x74\x20\x74\x68\x65\x20\x6F\x74\x68\x65\x72\x20\x64\x61\x79\x2C\x20\x68\x65\x20\x74\x6F\x6C\x64\x20\x6D\x65\x20\x69\x74\x20\x77\x61\x73\x20\x68\x69\x73\x20\x62\x69\x72\x74\x68\x64\x61\x79\x2E\x20\x49\x20\x6D\x65\x61\x6E\x2C\x20\x77\x68\x6F\x20\x63\x61\x72\x65\x73\x3F\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x27\x73\x20\x67\x6F\x69\x6E\x67\x20\x74\x6F\x20\x67\x65\x74\x20\x68\x69\x6D\x20\x61\x6E\x79\x74\x68\x69\x6E\x67\x20\x61\x6E\x79\x77\x61\x79\x2E\x20\x4E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x2E\x20\x54\x68\x65\x20\x64\x75\x64\x65\x73\x20\x61\x20\x77\x65\x69\x72\x64\x6F\x2C\x20\x79\x6F\x75\x20\x73\x68\x6F\x75\x6C\x64\x20\x73\x74\x61\x79\x20\x61\x77\x61\x79\x20\x66\x72\x6F\x6D\x20\x27\x65\x6D\x2E\x20\x41\x6E\x79\x77\x61\x79\x20\x67\x6F\x74\x74\x61\x20\x67\x6F\x2C\x20\x67\x6F\x74\x20\x61\x20\x63\x6C\x69\x65\x6E\x74\x20\x77\x68\x6F\x27\x73\x20\x70\x72\x6F\x62\x61\x62\x6C\x79\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x61\x74\x20\x4C\x69\x74\x68\x69\x75\x6D\x21","\x4E\x6F\x74\x65\x20\x23\x32","\x43\x6F\x63\x65\x6E\x74\x72\x61\x74\x65\x20\x74\x68\x65\x20\x70\x65\x72\x63\x69\x70\x69\x74\x61\x74\x65\x2E\x20\x46\x69\x6C\x74\x65\x72\x20\x6F\x75\x74\x20\x74\x6F\x20\x70\x75\x72\x69\x66\x79\x2E\x20\x50\x6F\x75\x72\x20\x74\x6F\x20\x63\x72\x79\x73\x74\x61\x6C\x69\x7A\x65\x2E\x20\x43\x75\x2D\x2E\x20\x44\x61\x6D\x6E\x20\x69\x74\x2E\x20\x49\x20\x63\x61\x6E\x27\x74\x20\x6B\x65\x65\x70\x20\x64\x6F\x69\x6E\x67\x20\x74\x68\x69\x73\x20\x69\x66\x20\x49\x20\x64\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x61\x20\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x73\x75\x70\x70\x6C\x79\x2E\x20\x54\x68\x61\x6E\x6B\x66\x75\x6C\x6C\x79\x2C\x20\x49\x20\x68\x61\x76\x2D","\x4E\x6F\x74\x65\x20\x23\x33","\x44\x69\x64\x20\x79\x6F\x75\x20\x70\x65\x72\x68\x61\x70\x73\x20\x66\x6F\x72\x67\x65\x74\x20\x74\x6F\x20\x74\x61\x6B\x65\x20\x79\x6F\x75\x72\x20\x70\x61\x69\x6E\x6B\x69\x6C\x6C\x65\x72\x73\x20\x74\x68\x69\x73\x20\x6D\x6F\x72\x6E\x69\x6E\x67\x3F\x20\x48\x61\x73\x20\x79\x6F\x75\x72\x20\x6D\x69\x6E\x64\x20\x67\x6F\x6E\x65\x20\x66\x75\x7A\x7A\x79\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x70\x61\x69\x6E\x3F\x20\x4F\x72\x20\x69\x74\x20\x74\x68\x69\x73\x20\x70\x65\x72\x68\x61\x70\x73\x20\x61\x20\x67\x65\x6E\x69\x74\x69\x63\x61\x6C\x20\x74\x68\x69\x6E\x67\x2C\x20\x62\x65\x63\x61\x75\x73\x65\x20\x72\x69\x67\x68\x74\x20\x6E\x6F\x77\x20\x6E\x6F\x20\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x20\x70\x6F\x73\x73\x69\x62\x6C\x65\x20\x63\x6F\x6D\x70\x72\x65\x68\x65\x6E\x64\x20\x77\x68\x61\x74\x27\x73\x20\x63\x6F\x6D\x69\x6E\x67\x20\x6F\x75\x74\x20\x6F\x66\x20\x79\x6F\x75\x72\x20\x6D\x6F\x75\x74\x68\x2E\x20\x45\x69\x74\x68\x65\x72\x20\x79\x6F\x75\x20\x67\x69\x76\x65\x20\x75\x70\x20\x61\x6E\x64\x20\x77\x65\x20\x64\x69\x65\x20\x6F\x72\x20\x79\x6F\x75\x20\x73\x65\x6E\x64\x20\x74\x68\x65\x6D\x20\x6F\x6E\x20\x74\x68\x65\x69\x72\x20\x6D\x65\x72\x72\x79\x20\x77\x61\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x6E\x65\x78\x74\x20\x6C\x61\x79\x65\x72\x2E","\x72\x6F\x77","\x69\x6E\x66\x6F\x62\x6F\x78","\x6C\x6F\x72\x65","\x6C\x6F\x72\x65\x31","\x6C\x6F\x72\x65\x32"];addLayer(_0x35f6[0],{row:_0x35f6[1],color:_0x35f6[2],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x35f6[3]},layerShown:function(){if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[6]){return true};if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[7]){return true};if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[8]){return true}else {return false}},tooltip:function(){return _0x35f6[9]},infoboxes:{lore:{unlocked:function(){if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[6]){return true}},title:_0x35f6[10],body:function(){return _0x35f6[11]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x35f6[3]}},lore1:{unlocked:function(){if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[7]){return true}},title:_0x35f6[12],body:function(){return _0x35f6[13]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x35f6[3]}},lore2:{unlocked:function(){if(player[_0x35f6[5]][_0x35f6[4]]== _0x35f6[8]){return true}},title:_0x35f6[14],body:function(){return _0x35f6[15]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x35f6[3]}}},tabFormat:[[_0x35f6[16],[[_0x35f6[17],_0x35f6[18]],[_0x35f6[17],_0x35f6[19]],[_0x35f6[17],_0x35f6[20]]]]]})
+var _0x6e68=["\x43\x68","\x73\x69\x64\x65","\x23\x30\x30\x30\x30\x30\x30","\x23\x66\x66\x66\x66\x66\x66","\x49\x54\x65\x78\x74","\x48\x65","\x48\x65\x69\x73\x65\x6E\x62\x75\x72\x67","\x49\x20\x6E\x65\x65\x64\x20\x61\x20\x6E\x65\x77\x20\x64\x75\x73\x74\x20\x66\x69\x6C\x74\x65\x72\x20\x66\x6F\x72\x20\x6D\x79\x20\x48\x6F\x6F\x76\x65\x72\x20\x4D\x61\x78\x20\x45\x78\x74\x72\x61\x63\x74\x20\x50\x72\x65\x73\x73\x75\x72\x65\x20\x50\x72\x6F\x20\x6D\x6F\x64\x65\x6C\x20\x36\x30","\x54\x65\x73\x74\x69\x63\x6C\x65","\x42\x61\x44\x20\x42\x72\x65\x61\x6B\x49\x6E\x47","\x4C\x61\x62\x20\x4E\x6F\x74\x65\x73","\x4E\x6F\x74\x65\x20\x23\x31","\x20\x2D\x6A\x75\x73\x74\x20\x74\x68\x65\x20\x6F\x74\x68\x65\x72\x20\x64\x61\x79\x2C\x20\x68\x65\x20\x74\x6F\x6C\x64\x20\x6D\x65\x20\x69\x74\x20\x77\x61\x73\x20\x68\x69\x73\x20\x62\x69\x72\x74\x68\x64\x61\x79\x2E\x20\x49\x20\x6D\x65\x61\x6E\x2C\x20\x77\x68\x6F\x20\x63\x61\x72\x65\x73\x3F\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x27\x73\x20\x67\x6F\x69\x6E\x67\x20\x74\x6F\x20\x67\x65\x74\x20\x68\x69\x6D\x20\x61\x6E\x79\x74\x68\x69\x6E\x67\x20\x61\x6E\x79\x77\x61\x79\x2E\x20\x4E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x2E\x20\x54\x68\x65\x20\x64\x75\x64\x65\x73\x20\x61\x20\x77\x65\x69\x72\x64\x6F\x2C\x20\x79\x6F\x75\x20\x73\x68\x6F\x75\x6C\x64\x20\x73\x74\x61\x79\x20\x61\x77\x61\x79\x20\x66\x72\x6F\x6D\x20\x27\x65\x6D\x2E\x20\x41\x6E\x79\x77\x61\x79\x20\x67\x6F\x74\x74\x61\x20\x67\x6F\x2C\x20\x67\x6F\x74\x20\x61\x20\x63\x6C\x69\x65\x6E\x74\x20\x77\x68\x6F\x27\x73\x20\x70\x72\x6F\x62\x61\x62\x6C\x79\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x61\x74\x20\x4C\x69\x74\x68\x69\x75\x6D\x21","\x4E\x6F\x74\x65\x20\x23\x32","\x43\x6F\x63\x65\x6E\x74\x72\x61\x74\x65\x20\x74\x68\x65\x20\x70\x65\x72\x63\x69\x70\x69\x74\x61\x74\x65\x2E\x20\x46\x69\x6C\x74\x65\x72\x20\x6F\x75\x74\x20\x74\x6F\x20\x70\x75\x72\x69\x66\x79\x2E\x20\x50\x6F\x75\x72\x20\x74\x6F\x20\x63\x72\x79\x73\x74\x61\x6C\x69\x7A\x65\x2E\x20\x43\x75\x2D\x2E\x20\x44\x61\x6D\x6E\x20\x69\x74\x2E\x20\x49\x20\x63\x61\x6E\x27\x74\x20\x6B\x65\x65\x70\x20\x64\x6F\x69\x6E\x67\x20\x74\x68\x69\x73\x20\x69\x66\x20\x49\x20\x64\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x61\x20\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x73\x75\x70\x70\x6C\x79\x2E\x20\x54\x68\x61\x6E\x6B\x66\x75\x6C\x6C\x79\x2C\x20\x49\x20\x68\x61\x76\x2D","\x4E\x6F\x74\x65\x20\x23\x33","\x44\x69\x64\x20\x79\x6F\x75\x20\x70\x65\x72\x68\x61\x70\x73\x20\x66\x6F\x72\x67\x65\x74\x20\x74\x6F\x20\x74\x61\x6B\x65\x20\x79\x6F\x75\x72\x20\x70\x61\x69\x6E\x6B\x69\x6C\x6C\x65\x72\x73\x20\x74\x68\x69\x73\x20\x6D\x6F\x72\x6E\x69\x6E\x67\x3F\x20\x48\x61\x73\x20\x79\x6F\x75\x72\x20\x6D\x69\x6E\x64\x20\x67\x6F\x6E\x65\x20\x66\x75\x7A\x7A\x79\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x70\x61\x69\x6E\x3F\x20\x4F\x72\x20\x69\x73\x20\x74\x68\x69\x73\x20\x70\x65\x72\x68\x61\x70\x73\x20\x61\x20\x67\x65\x6E\x69\x74\x69\x63\x61\x6C\x20\x74\x68\x69\x6E\x67\x2C\x20\x62\x65\x63\x61\x75\x73\x65\x20\x72\x69\x67\x68\x74\x20\x6E\x6F\x77\x20\x6E\x6F\x20\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x20\x70\x6F\x73\x73\x69\x62\x6C\x65\x20\x63\x6F\x6D\x70\x72\x65\x68\x65\x6E\x64\x20\x77\x68\x61\x74\x27\x73\x20\x63\x6F\x6D\x69\x6E\x67\x20\x6F\x75\x74\x20\x6F\x66\x20\x79\x6F\x75\x72\x20\x6D\x6F\x75\x74\x68\x2E\x20\x45\x69\x74\x68\x65\x72\x20\x79\x6F\x75\x20\x67\x69\x76\x65\x20\x75\x70\x20\x61\x6E\x64\x20\x77\x65\x20\x64\x69\x65\x20\x6F\x72\x20\x79\x6F\x75\x20\x73\x65\x6E\x64\x20\x74\x68\x65\x6D\x20\x6F\x6E\x20\x74\x68\x65\x69\x72\x20\x6D\x65\x72\x72\x79\x20\x77\x61\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x6E\x65\x78\x74\x20\x6C\x61\x79\x65\x72\x2E","\x4E\x6F\x74\x65\x20\x23\x34","\x54\x68\x65\x20\x75\x6E\x69\x76\x65\x72\x73\x65\x20\x69\x73\x20\x72\x61\x6E\x64\x6F\x6D\x2E\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x69\x6E\x65\x76\x69\x74\x61\x62\x6C\x65\x2E\x20\x49\x74\x27\x73\x20\x73\x69\x6D\x70\x6C\x65\x20\x63\x68\x61\x6F\x73\x2E\x20\x49\x74\x27\x73\x20\x73\x75\x62\x61\x74\x6F\x6D\x69\x63\x20\x70\x61\x72\x74\x69\x63\x6C\x65\x73\x20\x69\x6E\x20\x65\x6E\x64\x6C\x65\x73\x73\x2C\x20\x61\x69\x6D\x6C\x65\x73\x73\x20\x63\x6F\x6C\x6C\x69\x73\x69\x6F\x6E\x2E\x20\x54\x68\x61\x74\x27\x73\x20\x77\x68\x61\x74\x20\x73\x63\x69\x65\x6E\x63\x65\x20\x74\x65\x61\x63\x68\x65\x73\x20\x75\x73\x2C\x20\x62\x75\x74\x20\x77\x68\x61\x74\x20\x69\x73\x20\x74\x68\x69\x73\x20\x73\x61\x79\x69\x6E\x67\x3F\x20\x57\x68\x61\x74\x20\x69\x73\x20\x69\x74\x20\x74\x65\x6C\x6C\x69\x6E\x67\x20\x75\x73\x2C\x20\x77\x68\x65\x6E\x20\x6F\x6E\x20\x74\x68\x65\x20\x76\x65\x72\x79\x20\x6E\x69\x67\x68\x74\x20\x74\x68\x61\x74\x20\x74\x68\x69\x73\x20\x6D\x61\x6E\x27\x73\x20\x64\x61\x75\x67\x68\x74\x65\x72\x20\x64\x69\x65\x73\x2C\x20\x69\x74\x27\x73\x20\x6D\x65\x20\x77\x68\x6F\x27\x73\x20\x68\x61\x76\x69\x6E\x67\x20\x61\x20\x64\x72\x69\x6E\x6B\x20\x77\x69\x74\x68\x20\x68\x69\x6D\x3F\x20\x48\x6F\x77\x20\x63\x61\x6E\x20\x74\x68\x61\x74\x20\x62\x65\x20\x72\x61\x6E\x64\x6F\x6D\x3F","\x72\x6F\x77","\x69\x6E\x66\x6F\x62\x6F\x78","\x6C\x6F\x72\x65","\x6C\x6F\x72\x65\x31","\x6C\x6F\x72\x65\x32","\x6C\x6F\x72\x65\x33"];addLayer(_0x6e68[0],{row:_0x6e68[1],color:_0x6e68[2],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]},layerShown:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[6]){return true};if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[7]){return true};if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[8]){return true};if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[9]){return true}else {return false}},tooltip:function(){return _0x6e68[10]},infoboxes:{lore:{unlocked:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[6]){return true}},title:_0x6e68[11],body:function(){return _0x6e68[12]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]}},lore1:{unlocked:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[7]){return true}},title:_0x6e68[13],body:function(){return _0x6e68[14]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]}},lore2:{unlocked:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[8]){return true}},title:_0x6e68[15],body:function(){return _0x6e68[16]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]}},lore3:{unlocked:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[9]){return true}},title:_0x6e68[17],body:function(){return _0x6e68[18]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]}}},tabFormat:[[_0x6e68[19],[[_0x6e68[20],_0x6e68[21]],[_0x6e68[20],_0x6e68[22]],[_0x6e68[20],_0x6e68[23]],[_0x6e68[20],_0x6e68[24]]]]]})
 
 addLayer("Per", {
     branches: ['p', 'He', 'Li', 'Be', 'B'],
@@ -69,6 +69,8 @@ addLayer("Per", {
         "blank",
         ["display-text",
         function () { return `<a href="https://www.mediafire.com/file/zwaocphm82afr67/Start+of+Boron.txt/file" target="_blank" rel="noopener noreferrer">Start of Boron</a>`}],
+        ["display-text",
+        function () { return `<a href="https://www.mediafire.com/file/d7n1oxgjtx0qjib/Start+of+Carbon.txt/file" target="_blank" rel="noopener noreferrer">Start of Carbon</a>`}],
         "blank",
         ["display-text",
             function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer, <div> P🆎tfr, <div> JJP.' }],
@@ -432,6 +434,51 @@ addLayer("A", {
             tooltip: "Unlock The Workshop",
             done() { return player.B.DS.gte(3)},
             image() { if (hasAchievement('A', 85)) return "https://i.postimg.cc/YSnryDsC/2017-05-09-001-2017-05-09-007-removebg-preview.png" }
+        },
+        91: {
+            unlocked() { if (hasAchievement('A', 85)) return true},
+            name: "Literally Grinding",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "150% 100%", "background-position": "center center"},
+            tooltip: "Have three Boron upgrades",
+            done() { return hasUpgrade('B', 11) && hasUpgrade('B', 12) && hasUpgrade('B', 13)},
+            image() { if (hasAchievement('A', 91)) return "https://i.postimg.cc/pTh4CyX2/Screenshot-2022-07-13-002811-removebg-preview.png" }
+        },
+        92: {
+            unlocked() { if (hasAchievement('A', 85)) return true},
+            name: "Something's Brewing",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "150% 100%", "background-position": "center center"},
+            tooltip: "Get Boron Automation",
+            done() { return hasUpgrade('B', 21)},
+            image() { if (hasAchievement('A', 92)) return "https://i.postimg.cc/CL9nfCY1/th-2214508969-removebg-preview.png" }
+        },
+        93: {
+            unlocked() { if (hasAchievement('A', 85)) return true},
+            name: "Nuclear Magnetic Resonance",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: "Have 1e9 Boron",
+            done() { return player.B.Boron.gte(1e9)},
+            image() { if (hasAchievement('A', 93)) return "https://i.postimg.cc/j2P03rWB/avanceiii-hd-nanobay-orig-removebg-preview.png" }
+        },
+        94: {
+            unlocked() { if (hasAchievement('A', 85)) return true},
+            name: "No, This Is Not Vorona",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: `Have upgrade "CVD"`,
+            done() { return hasUpgrade('B', 24)},
+            image() { if (hasAchievement('A', 94)) return "https://i.postimg.cc/GhT19Gqq/istockphoto-1213521027-170667a-removebg-preview.png" }
+        },
+        95: {
+            unlocked() { if (hasAchievement('A', 85)) return true},
+            name: "Astroid Destroyer",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "150% 100%", "background-position": "center center"},
+            tooltip: "Destroy the final meteorite",
+            done() { return player.B.Slider == 10 && player.B.Ticks.lt(1)},
+            image() { if (hasAchievement('A', 95)) return "https://i.postimg.cc/wB8x90zX/Two-asteroids-colliding-1022945-removebg-preview.png" }
         },
     },
 
@@ -3691,8 +3738,38 @@ addLayer("B", {
             TicksMax: new Decimal(0),
             DS: new Decimal(0),
             backtohun: new Decimal(0),
+            Size: new Decimal(0),
+            Size1: new Decimal(0),
+            Size2: new Decimal(0),
+            Slider: [],
+            Trigger: new Decimal(0),
+            Pos1: new Decimal(0),
+            Pos2: new Decimal(0),
+            Deg: new Decimal(0),
+            SDeg: new Decimal(0),
+            Reward: new Decimal(0),
+            Boron: new Decimal(0),
+            BM: new Decimal(1),
+            BB: new Decimal(0),
+            BM1: new Decimal(1),
+            BM2: new Decimal(0),
+            BM3: new Decimal(0),
+            BB1: new Decimal(0),
+            TickSped: new Decimal(1),
+            DrillingSped: new Decimal(0),
+            TickSpedStored: new Decimal(0),
+            TickBase: new Decimal(1),
+            TickBaseStored: new Decimal(0),
+            State: new Decimal(0),
+            Added: new Decimal(0),
+            Added1: new Decimal(0),
+            Times: new Decimal(1),
+            Times1: new Decimal(1),  
+            Times2: new Decimal(1),
         }
     },
+
+  
 
     color: '#964b00',
     layerShown() {
@@ -3721,9 +3798,13 @@ addLayer("B", {
 
     hotkeys: [
         { key: "r", description: "R: Reset for Boron", onPress() { if (canReset(this.layer)) doReset(this.layer)}, 
-        unlocked() { if (hasMilestone('Be', 20)) return false
+        unlocked() { if (hasUpgrade('B', 21)) return false
         else return true}},
     ],
+
+    passiveGeneration() {
+        if (hasUpgrade('B', 21)) return 1
+    },
 
     tooltip() { return formatWhole(player.B.points) + "  Prisms" },
     tooltipLocked() { return formatWhole(player.B.points) + " Prisms" },
@@ -3764,6 +3845,7 @@ addLayer("B", {
         },
     },
 
+
     buyables: {
          11: {
             style: {width: '125px', height: '120px', color: "#ededed"},
@@ -3784,7 +3866,7 @@ addLayer("B", {
             unlocked() {
                 if (player.B.resets.gte(1)) return true
                 else return false
-            }
+            },
         },
         12: {
             style: {width: '125px', height: '120px', color: "#ededed"},
@@ -3828,13 +3910,390 @@ addLayer("B", {
                 else return false
             }
         },
+        14: {
+            style: {color: "#ededed"},
+            unlocked() {
+                if (hasUpgrade('B', 21)) return true
+            },
+            cost(x) { 
+                if (hasUpgrade('B', 31)) return new Decimal(5.5).times(new Decimal(x).mul(x)).pow(2.5).sub(500000)
+                if (hasUpgrade('B', 23)) return new Decimal(0.5).times(new Decimal(x).mul(x)).pow(2).sub(500000)
+               else return new Decimal(45).times(new Decimal(1).add(x)).pow(1.21)},
+            display() { return "Sharpen Your Blade <div> Cost: " + format(this.cost()) + "g of Boron<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + '<div>Current Effect: +' + player.B.Added + ' to base of Drilling Speed'},
+            canAfford() { return player[this.layer].Boron.gte(this.cost())},
+            buy() {
+             if (hasUpgrade('B', 35)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000000)), player.B.Added = getBuyableAmount(this.layer, this.id).pow(0.8)
+             if (hasUpgrade('B', 33) && !hasUpgrade('B', 35)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000)), player.B.Added = getBuyableAmount(this.layer, this.id).pow(0.8)
+             if (hasUpgrade('B', 32) && !hasUpgrade('B', 33)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(10)), player.B.Added = getBuyableAmount(this.layer, this.id).pow(0.8)
+             if (!hasUpgrade('B', 25) && !hasUpgrade('B', 32)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Added = getBuyableAmount(this.layer, this.id).pow(0.8)
+             if (hasUpgrade('B', 25))player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Added = getBuyableAmount(this.layer, this.id).pow(1.2)
+            },
+        },
+        15: {
+            style: {color: "#ededed"},
+            unlocked() {
+                if (hasUpgrade('B', 22)) return true
+            },
+            cost(x) { 
+                if (hasUpgrade('B', 31)) return new Decimal(5.5).times(new Decimal(x).mul(x)).pow(2.5).sub(500000)
+                if (hasUpgrade('B', 23)) return new Decimal(0.5).times(new Decimal(x).mul(x)).pow(2).sub(500000)
+                else return new Decimal(42).times(new Decimal(1).add(x)).pow(1.31)},
+            display() { return "Enhance Your Blade <div> Cost: " + format(this.cost()) + "g of Boron<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + '<div>Current Effect: x' + player.B.Times + ' to base of Drilling Speed'},
+            canAfford() { return player[this.layer].Boron.gte(this.cost())},
+            buy() {
+                if (hasUpgrade('B', 35)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000000)), player.B.Times = getBuyableAmount(this.layer, this.id).pow(1.2).pow(0.3).times(player.B.Times1)
+                if (hasUpgrade('B', 33) && !hasUpgrade('B', 35)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000)), player.B.Times = getBuyableAmount(this.layer, this.id).pow(1.2).pow(0.3).times(player.B.Times1)
+                if (hasUpgrade('B', 32) && !hasUpgrade('B', 33)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(10)), player.B.Times = getBuyableAmount(this.layer, this.id).pow(1.2)
+                if (hasUpgrade('B', 25) && !hasUpgrade('B', 32)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Times = getBuyableAmount(this.layer, this.id).pow(1.2)
+                if (!hasUpgrade('B', 25)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Times = getBuyableAmount(this.layer, this.id).pow(0.3).times(player.B.Times1)
+            },
+        },
+        21: {
+            
+            style: {color: "#ededed"},
+            unlocked() {
+                if (hasUpgrade('B', 23)) return true
+            },
+            cost(x) {
+                if (hasUpgrade('B', 31)) return new Decimal(0.1).times(new Decimal(x).mul(x)).pow(2.7)
+                else return new Decimal(0.01).times(new Decimal(x).mul(x)).pow(2.5)},
+            display() { return "Use A Better Handle<div> Cost: " + format(this.cost()) + "g of Boron<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + '<div>Current Effect: x' + player.B.Times1 + ' to "Enhance Your Blade"'},
+            canAfford() { return player[this.layer].Boron.gte(this.cost())},
+            buy() {
+                if (hasUpgrade('B', 35)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000000)), player.B.Times1 = getBuyableAmount(this.layer, this.id).pow(1.5)
+                if (hasUpgrade('B', 34) && !hasUpgrade('B', 35)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000)), player.B.Times1 = getBuyableAmount(this.layer, this.id).pow(1.5)
+                if (hasUpgrade('B', 33) && !hasUpgrade('B', 34)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000)), player.B.Times1 = getBuyableAmount(this.layer, this.id).pow(0.5)
+                if (hasUpgrade('B', 32) && !hasUpgrade('B', 33)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(10)), player.B.Times1 = getBuyableAmount(this.layer, this.id).pow(0.5)
+                if (hasUpgrade('B', 25) && !hasUpgrade('B', 32)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Times1 = getBuyableAmount(this.layer, this.id).pow(0.5)
+                if (!hasUpgrade('B', 25)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Times1 = getBuyableAmount(this.layer, this.id).pow(0.5), player.B.Times = getBuyableAmount(this.layer, 15).pow(0.3).times(player.B.Times1)
+            },
+        },
+        22: {
+            
+            style: {color: "#ededed"},
+            unlocked() {
+                if (hasUpgrade('B', 24)) return true
+            },
+            cost(x) { 
+                if (hasUpgrade('B', 31)) return new Decimal(0.5).times(new Decimal(x).mul(x)).pow(2.8)
+                if (!hasUpgrade('B', 31)) return new Decimal(0.05).times(new Decimal(x).mul(x)).pow(2.5)},
+            display() { return "Buy A Better Blade Guard<div> Cost: " + format(this.cost()) + "g of Boron<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + '<div>Current Effect: x' + player.B.Times2 + ' to Boron Multiplier'},
+            canAfford() { return player[this.layer].Boron.gte(this.cost())},
+            buy() {
+                if (hasUpgrade('B', 35)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000000)), player.B.Times2 = getBuyableAmount(this.layer, this.id).pow(0.5)
+                if (hasUpgrade('B', 33) && !hasUpgrade('B', 35)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000)), player.B.Times2 = getBuyableAmount(this.layer, this.id).pow(0.5)
+                if (hasUpgrade('B', 32) && !hasUpgrade('B', 33)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(10)), player.B.Times2 = getBuyableAmount(this.layer, this.id).pow(0.5)
+                if (hasUpgrade('B', 31) && !hasUpgrade('B', 32)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Times2 = getBuyableAmount(this.layer, this.id).pow(0.5)
+                if (!hasUpgrade('B', 31)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Times2 = getBuyableAmount(this.layer, this.id).pow(0.2)
+            },
+        },
+        23: {
+            
+            style: {color: "#ededed"},
+            unlocked() {
+                if (hasUpgrade('B', 25)) return true
+            },
+            cost(x) { 
+                if (hasUpgrade('B', 31))  return new Decimal(1).times(new Decimal(x).mul(x)).pow(2.5)
+                if (!hasUpgrade('B', 31)) return new Decimal(0.1).times(new Decimal(x).mul(x)).pow(2.5)},
+            display() { return "Improve The Diamond Hand Saw Overall.<div> Cost: " + format(this.cost()) + "g of Boron<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + '<div>Current Effect: +' + player.B.Added1 + ' to Boron Multiplier before other effects'},
+            canAfford() { return player[this.layer].Boron.gte(this.cost())},
+            buy() {
+                if (hasUpgrade('B', 35))player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000000)), player.B.Added1 = getBuyableAmount(this.layer, this.id)
+                if (hasUpgrade('B', 33) && !hasUpgrade('B', 35)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1000)), player.B.Added1 = getBuyableAmount(this.layer, this.id)
+                if (hasUpgrade('B', 32) && !hasUpgrade('B', 33)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(10)), player.B.Added1 = getBuyableAmount(this.layer, this.id)
+                if (hasUpgrade('B', 31) && !hasUpgrade('B', 32)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Added1 = getBuyableAmount(this.layer, this.id)
+                if (!hasUpgrade('B', 31)) player[this.layer].Boron = player[this.layer].Boron.sub(this.cost()), setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1)), player.B.Added1 = getBuyableAmount(this.layer, this.id).pow(0.5)
+            },
+        },
+    },
+
+    clickables: {
+        11: {
+            style: {color: "#ededed", 'border-radius': '44%'},
+            title() {
+                if (hasUpgrade('B', 21) && player.B.State == 1) return "Drill: ON"
+                if (hasUpgrade('B', 21) && player.B.State == 0) return "Drill: OFF"
+                else return "Drill"
+            },
+            display() { return 'Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'},
+            canClick() { return true},
+            effect() {
+                let effect = [];
+                player.B.DrillingSped = temp['B'].clickables[11].effect
+                effect = new Decimal(0.1).times(player.B.TickSped)
+                if (player.B.Deg.gte(100)) effect = player.B.TickBase.add(player.B.Added).times(player.B.TickSped).times(player.B.Times)
+                return effect
+            },
+            onClick() {
+                if (hasUpgrade('B', 21) && player.B.State == 0) return player.B.State = player.B.State.add(1)
+                if (hasUpgrade('B', 21) && player.B.State == 1) return player.B.State = player.B.State.times(0)
+            },
+            onHold() {  
+                if (hasUpgrade('B', 21)) return ''
+                player.B.TicksMax = temp['B'].clickables[11].effect
+                player.B.SDeg = player.B.SDeg.add(1)
+                if (player.B.Ticks.gte(1)) player.B.Ticks = player.B.Ticks.sub(temp['B'].clickables[11].effect)
+                if (player.B.Ticks.gte(1) && player.B.Deg.lte(100)) player.B.Deg = player.B.Deg.add(player.B.Deg.times(0.1))
+                if (player.B.Ticks.gte(1) && player.B.Deg.gte(101)) player.B.Deg = player.B.Deg.add(10)
+            },
+        
+        },
+    },
+
+    upgrades: {
+        11: {
+            style: { "color": "#ededed" },
+            title() { if (player.p.Node < 1) return "Bad Manners"
+                        else return "BaD BreakInG"},
+            description: "Boron Multiplier is now 2. Add one per upgrade on this row.",
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            effectDisplay() { return "x" + formatWhole(player.B.BM)},
+            currencyLocation() { return player.B },
+            cost() { 
+                if (hasUpgrade('B', 12) && hasUpgrade('B', 13)) return new Decimal(100)
+                if (hasUpgrade('B', 12) || hasUpgrade('B', 13) || hasUpgrade('B', 11)) return new Decimal(75)
+                else return new Decimal(50)},
+            effect() {
+                if (hasUpgrade('B', 11)) player.B.BM = player.B.BM1
+                if (hasUpgrade('B', 22)) player.B.BM = player.B.BM1.pow(2)
+                if (hasUpgrade('B', 24)) player.B.BM = player.B.BM1.pow(2).pow(1.5).times(player.B.Times2)
+                if (hasUpgrade('B', 25)) player.B.BM = player.B.BM1.add(player.B.Added1).pow(2).pow(1.5).times(player.B.Times2)
+            },
+            onPurchase() { return player.B.BM1 = player.B.BM1.add(1), player.B.BB1 = player.B.BB1.add(1), player.B.BM2 = player.B.BM2.add(1), player.B.TickSpedStored = player.B.TickSpedStored.add(1), player.B.TickBaseStored = player.B.TickBaseStored.add(1)},
+            unlocked() {
+                if (player.B.Boron.gte(1) || hasUpgrade('B', 12) || hasUpgrade('B', 13) || hasUpgrade('B', 11)) return true
+                else return false
+            },
+        },
+        12: {
+            style: { "color": "#ededed" },
+            title: "Good Manners",
+            description: "Add 1 to Boron Base. Add one per upgrade on this row.",
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            effectDisplay() { return "+" + formatWhole(player.B.BB.sub(player.B.BM3))},
+            currencyLocation() { return player.B },
+            cost() { 
+                if (hasUpgrade('B', 11) && hasUpgrade('B', 13)) return new Decimal(100)
+                if (hasUpgrade('B', 11) || hasUpgrade('B', 13) || hasUpgrade('B', 12)) return new Decimal(75)
+                else return new Decimal(50)},
+            effect() {
+                if (hasUpgrade('B', 12)) player.B.BB = player.B.BB1
+                if (hasUpgrade('B', 13)) player.B.BB = player.B.BB1.add(player.B.BM3)
+            },
+            onPurchase() { 
+                return player.B.BB1 = player.B.BB1.add(1), player.B.BM1 = player.B.BM1.add(1), player.B.BM2 = player.B.BM2.add(1), player.B.TickSpedStored = player.B.TickSpedStored.add(1), player.B.TickBaseStored = player.B.TickBaseStored.add(1)},
+            unlocked() {
+                if (player.B.Boron.gte(1) || hasUpgrade('B', 11) || hasUpgrade('B', 13) || hasUpgrade('B', 12)) return true
+                else return false
+            },
+        },
+        13: {
+            style: { "color": "#ededed" },
+            title: "Bonkers Manners",
+            description: "Add Log2(2) to Boron Base. Add one per upgrade on this row.",
+            effectDisplay() { return "+" + formatWhole(player.B.BM3)},
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { 
+                if (hasUpgrade('B', 11) && hasUpgrade('B', 12)) return new Decimal(100)
+                if (hasUpgrade('B', 11) || hasUpgrade('B', 12) || hasUpgrade('B', 13)) return new Decimal(75)
+                else return new Decimal(50)},
+                effect() {
+                    if (hasUpgrade('B', 13)) player.B.BM3 = player.B.BM2
+                },
+            onPurchase() { 
+                return player.B.BB1 = player.B.BB1.add(1), player.B.BM2 = player.B.BM2.add(1), player.B.BM1 = player.B.BM1.add(1), player.B.TickSpedStored = player.B.TickSpedStored.add(1), player.B.TickBaseStored = player.B.TickBaseStored.add(1)},
+            unlocked() {
+                if (player.B.Boron.gte(1) || hasUpgrade('B', 12) || hasUpgrade('B', 11) || hasUpgrade('B', 13)) return true
+                else return false
+            },
+        },
+        14: {
+            style: { "color": "#ededed" },
+            title: "False Dillema'd",
+            description: "Drilling speed is doubled. Add one per upgrade on this row.",
+            effectDisplay() { return "x" + formatWhole(player.B.TickSped)},
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(500)},
+            effect() {
+                if (hasUpgrade('B', 14)) player.B.TickSped = player.B.TickSpedStored
+            },
+            onPurchase() { 
+                return player.B.BB1 = player.B.BB1.add(1), player.B.BM2 = player.B.BM2.add(1), player.B.BM1 = player.B.BM1.add(1), player.B.TickSpedStored = player.B.TickSpedStored.add(1), player.B.TickBaseStored = player.B.TickBaseStored.add(1)},
+            unlocked() {
+                if (hasUpgrade('B', 13)) return true
+                else return false
+            },
+        },
+        15: {
+            style: { "color": "#ededed" },
+            title: "Fallacies 101",
+            description: "Add 1 to base of Drilling speed. Add one per upgrade on this row.",
+            effectDisplay() { return "+" + formatWhole(player.B.TickBaseStored)},
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(1420)},
+            effect() {
+                if (hasUpgrade('B', 15)) player.B.TickBase = player.B.TickBaseStored.add(1)
+            },
+            onPurchase() { 
+                return player.B.BB1 = player.B.BB1.add(1), player.B.BM2 = player.B.BM2.add(1), player.B.BM1 = player.B.BM1.add(1), player.B.TickSpedStored = player.B.TickSpedStored.add(1), player.B.TickBaseStored = player.B.TickBaseStored.add(1)},
+            unlocked() {
+                if (hasUpgrade('B', 14)) return true
+                else return false
+            },
+        },
+        21: {
+            style: { "color": "#ededed" },
+            title: "Early Automation",
+            description: "Unlock Boron button automation. Also unlock a buyble per upgrade on this row.",
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(200000)},
+            unlocked() {
+                if (hasUpgrade('B', 15)) return true
+                else return false
+            },
+        },
+        22: {
+            style: { "color": "#ededed" },
+            title: "Enriched Boron",
+            description: "Add the power of 2 to the Boron Multiplier.",
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(2000000)},
+            unlocked() {
+                if (hasUpgrade('B', 21)) return true
+                else return false
+            },
+        },
+        23: {
+            style: { "color": "#ededed" },
+            title: "NMR",
+            description: "Lower cost of the first two buyables by subtacting 500,000 but set there buyable amounts to 1 and cost scales much higher.",
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(1e9)},
+            onPurchase() { 
+                return setBuyableAmount(this.layer, 14, 1), setBuyableAmount(this.layer, 15, 1)},
+            unlocked() {
+                if (hasUpgrade('B', 22)) return true
+                else return false
+            },
+        },
+        24: {
+            style: { "color": "#ededed" },
+            title: "CVD",
+            description: "Add the power of 1.5 to the Boron Multiplier.",
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(1e9)},
+            unlocked() {
+                if (hasUpgrade('B', 23)) return true
+                else return false
+            },
+        },
+        25: {
+            style: { "color": "#ededed" },
+            title: "Boronated Fiberglass",
+            description: "The first two buyables are more effective and autobuy the first row.",
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(5e10)},
+            unlocked() {
+                if (hasUpgrade('B', 24)) return true
+                else return false
+            },
+        },
+        31: {
+            style: { "color": "#ededed" },
+            title: "Borosilicate glass",
+            description: "The bottom row of buyables are more effective and autobuy the bottom row but increase cost scaling of all buyables. Keep cost.",
+            currencyDisplayName: "Drilling Speed",
+            currencyInternalName: "DrillingSped",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(1e9)},
+            unlocked() {
+                if (hasUpgrade('B', 25)) return true
+                else return false
+            },
+        },
+        32: {
+            style: { "color": "#ededed" },
+            title: "Tank Armor and Bulletproof Vests",
+            description: "Autobuyers autobuy 10x faster. Keep cost.",
+            currencyDisplayName: "Drilling Speed",
+            currencyInternalName: "DrillingSped",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(2e10)},
+            unlocked() {
+                if (hasUpgrade('B', 31)) return true
+                else return false
+            },
+        },
+        33: {
+            style: { "color": "#ededed" },
+            title: "Tavaborole, a Aminoacyl tRNA synthetase inhibitor",
+            description: "Autobuyers autobuy 100x faster. Keep cost.",
+            currencyDisplayName: "Drilling Speed",
+            currencyInternalName: "DrillingSped",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(5e12)},
+            unlocked() {
+                if (hasUpgrade('B', 32)) return true
+                else return false
+            },
+        },
+        34: {
+            style: { "color": "#ededed" },
+            title: "Boron-Chelate Complex, Rosocyanine",
+            description: "The third buyable is more effective.",
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(1e35)},
+            unlocked() {
+                if (hasUpgrade('B', 33)) return true
+                else return false
+            },
+        },
+        35: {
+            style: { "color": "#ededed" },
+            title: "Boron Deficiency.",
+            description: "Autobuy 1000x more.",
+            currencyDisplayName: "Boron",
+            currencyInternalName: "Boron",
+            currencyLocation() { return player.B },
+            cost() { return new Decimal(3e43)},
+            unlocked() {
+                if (hasUpgrade('B', 34)) return true
+                else return false
+            },
+        },
     },
 
     infoboxes: {
         lore: {
             titleStyle: { "color": "#ededed" },
             title: "Boron",
-            body() { return "Woah man, that was quite the crash landing! Something must of hit your ship. Hey wait, what's that over there? That, you know, that massive crater. Wait, yoooo. There's some meteorite debris over there. Go check that stuff out! Actually, first of all, we need to create a electric diamond hand saw. Anyway, do whatever it is you do and when you're ready let's start crafting." },
+            body() { return "Woah man, that was quite the crash landing! Something must of hit your ship. Hey wait, what's that over there? That, you know, that massive crater. Wait, yoooo. There's some meteorite debris over there. Go check that stuff out! We'll get Boron! Actually, first of all, we need to create a electric diamond hand saw. Anyway, do whatever it is you do and when you're ready let's start crafting." },
+        },
+        lore1: {
+            titleStyle: { "color": "#ededed" },
+            title: "The Workshop",
+            body() { return "Nice going. You got the diamond hand saw with ease. Now comes the fun part. Use that saw and start drilling into the meteorites. Remember: The bigger they are, the more abundant they are in Boron." },
         },
     },
 
@@ -3850,7 +4309,7 @@ componentStyles: {
             function() { if (player.p.Node < 1) return 'Prisms boosts all Beryllium resources by ' + formatWhole(player.B.points.add(1)) + '. Cost scales at 100 rainbownium.'}],
             "blank",
                 "main-display",
-                () => (hasMilestone('B', 20)) ? "" : "prestige-button",
+                () => (hasUpgrade('B', 21)) ? "" : "prestige-button",
                 "blank",
             ['display-text',
             function() { if (player.p.Node < 1) return 'You have ' + formatWhole(player.Be.rainbownium) + ' Rainbownium'}],
@@ -3859,7 +4318,7 @@ componentStyles: {
             function() { if (player.p.Node < 1) return 'You have done ' + formatWhole(player.B.resets) + ' Boron Resets'}],
             'milestones',
             ['display-text',
-            function() { if (player.p.Node < 1 && player.B.Ticks.gte(1)) return 'Time until finished burning: ' + formatWhole(player.B.Ticks) + ' ticks.'}],
+            function() { if (player.p.Node < 1 && player.B.Ticks.gte(1) && player.B.Boron.lte(0)) return 'Time until finished burning: ' + formatWhole(player.B.Ticks) + ' ticks.'}],
             ["row", function () {
                 if (player.B.resets.gte(1)) return [ 
                     ["display-image", 'https://i.postimg.cc/26zC4rq1/Furnace-transformed.jpg', { 'height': `400px`, 'width': `500px`, position: 'absolute', right: '110px', top: '1000px', id: 'under'}],
@@ -3889,25 +4348,184 @@ componentStyles: {
                     ["display-image", 'https://i.postimg.cc/Y9XNhRVG/C14-PRO-removebg-preview-1.png', { height: `200px`, width: `300px`, position: 'absolute',  right: '320px', top: "1608px", id: 'top'}],
             ]}],
             "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank",
-            'buyables',
+            ["row", , function () {
+                if (player.B.Boron.lte(0)) return [
+                ['buyable', 11],   
+                ['buyable', 12],      
+                ['buyable', 13],                 
+        ]}],
         ]
     },
     "The Workshop": {
         content: [
+            ['infobox', 'lore1'],
             ['display-text',
-            function() { return 'No Content Here Yet.'}],
+            function() { 
+                if (player.B.Slider == 1 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''
+                if (player.B.Slider == 2 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''
+                if (player.B.Slider == 3 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''
+                if (player.B.Slider == 4 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''
+                if (player.B.Slider == 5 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''
+                if (player.B.Slider == 6 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''
+                if (player.B.Slider == 7 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''
+                if (player.B.Slider == 8 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''
+                if (player.B.Slider == 9 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''
+                if (player.B.Slider == 10 && player.B.Ticks.lt(1) && options.disableParticles == true && player.tab == this.layer) return makeParticles(PartB, 1), ''}],
+            ["row", function () {
+                if (player.B.DS.gte(3)) return [ 
+                    ["display-image", 'https://i.postimg.cc/YSnryDsC/2017-05-09-001-2017-05-09-007-removebg-preview.png', { transform: `rotate(-2deg)`, height: `700px`, width: `800px`, position: 'absolute',  right: '-20px', top: "300px", id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.DS.gte(3)) return [ 
+                    ["display-image", 'https://i.postimg.cc/9fx05nKk/ediamondtools-diamond-blades-lk16xh1-64-1000-removebg-preview.png', {transform: `rotate(${player.B.Deg}deg)`, height: `200px`, width: `200px`, position: 'absolute',   right: `${player.B.Pos1.add(470)}px`, top: `408px`, id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.Deg.gte(100) && !hasUpgrade('B', 21)) return [ 
+                    ["display-image", 'https://i.postimg.cc/T3Ws08Gc/OYQpn-X-637597350.png', {'background-image': 'url("resources/Sparks.gif")', transform: `rotate(130deg)`, height: `200px`, width: `370px`, position: 'absolute',  right: `${player.B.Pos2.add(10)}px`, top: "520px", id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.Deg.gte(100) && player.B.State == 1) return [ 
+                    ["display-image", 'https://i.postimg.cc/T3Ws08Gc/OYQpn-X-637597350.png', {'background-image': 'url("resources/Sparks.gif")', transform: `rotate(130deg)`, height: `200px`, width: `370px`, position: 'absolute',  right: `${player.B.Pos2.add(10)}px`, top: "520px", id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.DS.gte(3)) return [ 
+                    ["display-image", 'https://i.postimg.cc/bYB4ZcKT/C14-PRO-removebg-preview-2.png', { transform: `rotate(15deg)`, height: `240px`, width: `400px`, position: 'absolute',  right: `${player.B.Pos1.add(475)}px`, top: `356px`, id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.DS.gte(3)) return [ 
+                    ["display-image", 'https://i.postimg.cc/Y9XNhRVG/C14-PRO-removebg-preview-1.png', {height: `200px`, width: `300px`, position: 'absolute',  right: `${player.B.Pos1.add(510)}px`, top: `408px`, id: 'top'}],
+            ]}],
+            ["row", function () {
+                if (player.B.DS.gte(3)) return [ 
+                    ["display-image", 'https://i.postimg.cc/kMRpNkhq/asteroid-transparent-9.png', { transform: `rotate(-30deg)`, height: `${player.B.Size}px`, width: `${player.B.Size}px`, position: 'absolute',  right: `${player.B.Size1.add(320)}px`, top: `${player.B.Size2.add(400)}px`, id: 'top'}],
+            ]}],
+            ['display-text',
+            function() { if (player.p.Node < 1) return 'Meteorite size: '+ formatWhole(player[this.layer].Slider) + ' cm.'}], 
+            ["slider", ["Slider", 1, 10]],
+            "blank",
+            ['display-text',
+            function() { 
+                if (player.p.Node < 1 && player.B.Ticks.gte(0)) return 'Time until finished drilling: ' + formatWhole(player.B.Ticks) + ' ticks. Reward: ' + formatWhole(player.B.Reward) + 'g of Boron.'
+                if (player.p.Node < 1 && player.B.Ticks.lt(0)) return 'Time until finished drilling: 0 ticks. Reward: ' + formatWhole(player.B.Reward) + 'g of Boron.'}],
+            ['display-text',
+            function() { if (player.p.Node < 1) return 'You have ' + formatWhole(player.B.Boron) + 'g of Boron from meteorites.'}],
+            "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank","blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", 
+            "clickables",
+            "upgrades",
         ],
         unlocked() {
             if (player.B.DS.gte(3)) return true
             else return false
         }
     },
+    "Buyables": {
+        content: [
+            ['display-text',
+            function() { if (player.p.Node < 1) return 'You have ' + formatWhole(player.B.Boron) + 'g of Boron from meteorites.'}],
+            ["row", [
+        ['buyable', 14],   
+        ['buyable', 15],      
+        ['buyable', 21],
+        ['buyable', 22],
+        ['buyable', 23],                  
+            ]]  
+        ],
+        unlocked() {
+            if (hasUpgrade('B', 21)) return true
+            else return false
+        }
+    },
+},
+
+const: PartB = {
+    image() {   
+       return ''},
+    text() {
+    if (player.B.Slider == 1) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(1).add(player.B.BB)))
+    if (player.B.Slider == 2) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(666).add(player.B.BB)))
+    if (player.B.Slider == 3) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(21212).add(player.B.BB)))
+    if (player.B.Slider == 4) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(525109).add(player.B.BB)))
+    if (player.B.Slider == 5) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(8880000).add(player.B.BB)))
+    if (player.B.Slider == 6) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(222260000).add(player.B.BB)))
+    if (player.B.Slider == 7) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(8e9).add(player.B.BB)))
+    if (player.B.Slider == 8) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(5e11).add(player.B.BB)))
+    if (player.B.Slider == 9) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(7e14).add(player.B.BB)))
+    if (player.B.Slider == 10) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(1e20).add(player.B.BB)))
+    },
+    x() {
+    if (player.B.Slider == 1) return 1000
+        if (player.B.Slider == 2) return 975
+        if (player.B.Slider == 3) return 950
+        if (player.B.Slider == 4) return 935
+        if (player.B.Slider == 5) return 910
+        if (player.B.Slider == 6) return 890
+        if (player.B.Slider == 7) return 885
+        if (player.B.Slider == 8) return 880
+        if (player.B.Slider == 9) return 875
+        if (player.B.Slider == 10) return 875},
+    y: 1250,
+    offset: () => Math.random() + 1.2 * 700,
+    dir() {return (Math.random() + 1.2) * 8},
+    style: { "background-size": "100% 100%", color: '#964b00', 'text-shadow': '0 0 40px #fff'},
+    gravity: 0.1,
+    time: 2,
+    speed() { // Randomize speed a bit
+        return (Math.random() + 1.2) * 8  
+    },
 },
 
 update() {
     if (player.B.points.gte(100) && player.B.backtohun.lte(0)) player.B.backtohun = player.B.backtohun.add(1), player.B.points = player.B.points.times(0).add(100)
-    if (player.B.Scraps.gte(1)) player.B.Ticks = player.B.Ticks.sub(1)
-    if (player.B.Scraps.gte(1)) player.B.Ticks1 = player.B.Ticks1.add(1)
+    if (player.B.Scraps.gte(1) && player.B.DS.lte(2)) player.B.Ticks = player.B.Ticks.sub(1)
+    if (player.B.Scraps.gte(1) && player.B.DS.lte(2)) player.B.Ticks1 = player.B.Ticks1.add(1)
     if (player.B.Ticks.lte(0) && player.B.Scraps.gte(1)) player.B.Scraps = player.B.Scraps.times(0), player.B.DS = player.B.DS.add(1)
+    if (player.B.Slider == 1) player.B.Reward = player.B.BM.times(new Decimal(1).add(player.B.BB))
+    if (player.B.Slider == 2) player.B.Reward = player.B.BM.times(new Decimal(666).add(player.B.BB))
+    if (player.B.Slider == 3) player.B.Reward = player.B.BM.times(new Decimal(21212).add(player.B.BB))
+    if (player.B.Slider == 4) player.B.Reward = player.B.BM.times(new Decimal(525109).add(player.B.BB))
+    if (player.B.Slider == 5) player.B.Reward = player.B.BM.times(new Decimal(8880000).add(player.B.BB))
+    if (player.B.Slider == 6) player.B.Reward = player.B.BM.times(new Decimal(222260000).add(player.B.BB))
+    if (player.B.Slider == 7) player.B.Reward = player.B.BM.times(new Decimal(8e9).add(player.B.BB))
+    if (player.B.Slider == 8) player.B.Reward = player.B.BM.times(new Decimal(5e11).add(player.B.BB))
+    if (player.B.Slider == 9) player.B.Reward = player.B.BM.times(new Decimal(7e14).add(player.B.BB))
+    if (player.B.Slider == 10) player.B.Reward = player.B.BM.times(new Decimal(1e20).add(player.B.BB))
+    if (player.B.Slider == 1 && player.B.Trigger != 1) player.B.Size = player.B.Size.times(0).add(37.795275591), player.B.Size1 = player.B.Size1.times(0).add(-60), player.B.Size2 = player.B.Size2.times(0).add(170), player.B.Ticks = player.B.Ticks.times(0).add(100), player.B.Trigger = player.B.Trigger.times(0).add(1), player.B.Pos2 = player.B.Pos2.times(0)
+    if (player.B.Slider == 2 && player.B.Trigger != 2) player.B.Size = player.B.Size.times(0).add(75.590551181), player.B.Size1 = player.B.Size1.times(0).add(-80), player.B.Size2 = player.B.Size2.times(0).add(140), player.B.Ticks = player.B.Ticks.times(0).add(3000), player.B.Trigger = player.B.Trigger.times(0).add(2), player.B.Pos2 = player.B.Pos2.times(0).add(15)
+    if (player.B.Slider == 3 && player.B.Trigger != 3) player.B.Size = player.B.Size.times(0).add(113.38582677), player.B.Size1 = player.B.Size1.times(0).add(-100), player.B.Size2 = player.B.Size2.times(0).add(110), player.B.Ticks = player.B.Ticks.times(0).add(90000), player.B.Trigger = player.B.Trigger.times(0).add(3), player.B.Pos2 = player.B.Pos2.times(0).add(30)
+    if (player.B.Slider == 4 && player.B.Trigger != 4) player.B.Size = player.B.Size.times(0).add(151.18110236), player.B.Size1 = player.B.Size1.times(0).add(-120), player.B.Size2 = player.B.Size2.times(0).add(80), player.B.Ticks = player.B.Ticks.times(0).add(930000), player.B.Trigger = player.B.Trigger.times(0).add(4), player.B.Pos2 = player.B.Pos2.times(0).add(45)
+    if (player.B.Slider == 5 && player.B.Trigger != 5) player.B.Size = player.B.Size.times(0).add(188.97637795), player.B.Size1 = player.B.Size1.times(0).add(-140), player.B.Size2 = player.B.Size2.times(0).add(40), player.B.Ticks = player.B.Ticks.times(0).add(16000000), player.B.Trigger = player.B.Trigger.times(0).add(5), player.B.Pos2 = player.B.Pos2.times(0).add(80)
+    if (player.B.Slider == 6 && player.B.Trigger != 6) player.B.Size = player.B.Size.times(0).add(226.77165354), player.B.Size1 = player.B.Size1.times(0).add(-160), player.B.Size2 = player.B.Size2.times(0).add(10), player.B.Ticks = player.B.Ticks.times(0).add(2e10), player.B.Trigger = player.B.Trigger.times(0).add(6), player.B.Pos2 = player.B.Pos2.times(0).add(90)
+    if (player.B.Slider == 7 && player.B.Trigger != 7) player.B.Size = player.B.Size.times(0).add(264.56692913), player.B.Size1 = player.B.Size1.times(0).add(-180), player.B.Size2 = player.B.Size2.times(0).add(-30), player.B.Ticks = player.B.Ticks.times(0).add(4e11), player.B.Trigger = player.B.Trigger.times(0).add(7), player.B.Pos2 = player.B.Pos2.times(0).add(110)
+    if (player.B.Slider == 8 && player.B.Trigger != 8) player.B.Size = player.B.Size.times(0).add(302.36220472), player.B.Size1 = player.B.Size1.times(0).add(-200), player.B.Size2 = player.B.Size2.times(0).add(-60), player.B.Ticks = player.B.Ticks.times(0).add(2e14), player.B.Trigger = player.B.Trigger.times(0).add(8), player.B.Pos2 = player.B.Pos2.times(0).add(130)
+    if (player.B.Slider == 9 && player.B.Trigger != 9) player.B.Size = player.B.Size.times(0).add(340.15748031), player.B.Size1 = player.B.Size1.times(0).add(-220), player.B.Size2 = player.B.Size2.times(0).add(-90), player.B.Ticks = player.B.Ticks.times(0).add(2e23), player.B.Trigger = player.B.Trigger.times(0).add(9), player.B.Pos2 = player.B.Pos2.times(0).add(150)
+    if (player.B.Slider == 10 && player.B.Trigger != 10) player.B.Size = player.B.Size.times(0).add(377.95275591), player.B.Size1 = player.B.Size1.times(0).add(-240), player.B.Size2 = player.B.Size2.times(0).add(-120), player.B.Ticks = player.B.Ticks.times(0).add(5e32), player.B.Trigger = player.B.Trigger.times(0).add(10), player.B.Pos2 = player.B.Pos2.times(0).add(170)
+    if (player.B.Slider == 1 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(1).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(100)
+    if (player.B.Slider == 2 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(666).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(3000)
+    if (player.B.Slider == 3 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(21212).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(90000)
+    if (player.B.Slider == 4 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(525109).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(930000)
+    if (player.B.Slider == 5 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(8880000).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(16000000)
+    if (player.B.Slider == 6 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(222260000).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(2e10)
+    if (player.B.Slider == 7 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(8e9).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(4e11)
+    if (player.B.Slider == 8 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(5e11).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(2e14)
+    if (player.B.Slider == 9 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(7e14).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(2e23)
+    if (player.B.Slider == 10 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(1e20).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(5e32)
+    if (player.B.SDeg.lte(0)) player.B.Pos1 = player.B.Pos1.times(0), player.B.Deg = player.B.Deg.times(0).add(1)
+    if (player.B.Slider == 1 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-220)
+    if (player.B.Slider == 2 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-200)
+    if (player.B.Slider == 3 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-180)
+    if (player.B.Slider == 4 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-160)
+    if (player.B.Slider == 5 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-140)
+    if (player.B.Slider == 6 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-120)
+    if (player.B.Slider == 7 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-100)
+    if (player.B.Slider == 8 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-80)
+    if (player.B.Slider == 9 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-60)
+    if (player.B.Slider == 10 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-40)
+    if (player.B.Boron.lt(0)) player.B.Boron = player.B.Boron.times(0)
+    if (hasUpgrade('B', 21) && player.B.State == 1){ player.B.SDeg = player.B.SDeg.add(1), player.B.TicksMax = temp['B'].clickables[11].effect
+    if (player.B.Ticks.gte(1)) player.B.Ticks = player.B.Ticks.sub(temp['B'].clickables[11].effect)
+    if (player.B.Deg.lte(100)) player.B.Deg = player.B.Deg.add(player.B.Deg.times(0.1))
+    if (player.B.Deg.gte(101)) player.B.Deg = player.B.Deg.add(10)}
+    if (hasUpgrade('B', 25)) buyBuyable('B', 14), buyBuyable('B', 15), buyBuyable('B', 21)
+    if (hasUpgrade('B', 31)) buyBuyable('B', 22), buyBuyable('B', 23)
 },
 })

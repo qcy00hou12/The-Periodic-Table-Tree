@@ -13,11 +13,14 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "1.4.5",
-	name: "Boron V1",
+	num: "1.5",
+	name: "The Workshop",
 }
 
 let changelog = `<h1>Changelog:</h1><br><br>
+<h3>v1.5</h3><br>
+		- Finished newest layer<br>
+		- Improved particle system<br><br>
 <h3>v1.4.5</h3><br>
 		- Added a new layer <br>
 		- Added animations (toggle in settings)<br><br>
@@ -43,7 +46,7 @@ let changelog = `<h1>Changelog:</h1><br><br>
 		- Added new layers.<br>
 		- Fixed some performance and visual issues.`
 
-let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
+let winText = `Congratulations! You have reached the end and beaten this game, but what have you missed and what will you gain from going further in? Anyway, for now...`
 
 // If you add new functions anywhere inside of a layer, and those functions have an effect when called, add them here.
 // (The ones here are examples, all official functions are already taken care of)
@@ -78,7 +81,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	
+	if (player.B.Slider == 10 && player.B.Ticks.lt(1)) return true
 }
 
 

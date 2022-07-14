@@ -362,6 +362,7 @@ function loadVue() {
 				clearInterval(this.interval)
 				this.interval = false
 			  	this.time = 0
+				if (player.B.State == 0 || !hasUpgrade('B', 21)) player.B.SDeg = player.B.SDeg.times(0), player.B.TicksMax = 0
 			}
 		},
 	})
@@ -584,7 +585,7 @@ function loadVue() {
 		props: ['layer', 'data'],
 		template: `
 			<div class="tooltipBox">
-			<tooltip :text="player[layer][data[0]]"></tooltip><input type="range" v-model="player[layer][data[0]]" :min="data[1]" :max="data[2]"></div>
+			<input type="range" v-model="player[layer][data[0]]" :min="data[1]" :max="data[2]"></div>
 		`
 	})
 
