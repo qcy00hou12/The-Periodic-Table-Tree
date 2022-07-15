@@ -81,7 +81,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	if (player.B.Slider == 10 && player.B.Ticks.lt(1)) return true
+
 }
 
 
