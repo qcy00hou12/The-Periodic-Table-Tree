@@ -69,8 +69,9 @@ addLayer("Per", {
         "blank",
         ["display-text",
         function () { return `<a href="https://www.mediafire.com/file/zwaocphm82afr67/Start+of+Boron.txt/file" target="_blank" rel="noopener noreferrer">Start of Boron</a>`}],
+        "blank",
         ["display-text",
-        function () { return `<a href="https://www.mediafire.com/file/d7n1oxgjtx0qjib/Start+of+Carbon.txt/file" target="_blank" rel="noopener noreferrer">Start of Carbon</a>`}],
+        function () { return `<a href="https://www.mediafire.com/file/o10hn01ef8nlevl/Start+of+Carbon.txt/file" target="_blank" rel="noopener noreferrer">Start of Carbon</a>`}],
         "blank",
         ["display-text",
             function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer, <div> P🆎tfr, <div> JJP.' }],
@@ -1676,8 +1677,10 @@ addLayer("Li", {
                 if (inChallenge('Li', 15)) return new Decimal(1e15).mul(x)
                 if (inChallenge('Li', 13)) return new Decimal(1e15).mul(x)
                 else return new Decimal(10000000).mul(x)},
-            display() { return "Find a portal? <div> Unlocks Lithium challenges.<div> Cost: " + format(this.cost()) + "g of Lithium<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + " / " + formatWhole((this.purchaseLimit)) + "<div> Completion reward: Unlock challenges." },
-            canAfford() { return player[this.layer].points.gte(this.cost()) },
+            display() { return "Find a portal? <div> Unlocks Lithium challenges. Must have all others at max to get this.<div> Cost: " + format(this.cost()) + "g of Lithium<div> Amount: " + formatWhole(getBuyableAmount(this.layer, this.id)) + " / " + formatWhole((this.purchaseLimit)) + "<div> Completion reward: Unlock challenges." },
+            canAfford() { 
+                if (getBuyableAmount('Li', 16) == 1) return player[this.layer].points.gte(this.cost()) && getBuyableAmount('Li', 11) == 50 && getBuyableAmount('Li', 12) == 25 && getBuyableAmount('Li', 13) == 100 && getBuyableAmount('Li', 14) == 20 && getBuyableAmount('Li', 15) == 25
+                else return player[this.layer].points.gte(this.cost()) },
             buy() {
                 player[this.layer].points = player[this.layer].points.sub(this.cost())
                 setBuyableAmount(this.layer, this.id, getBuyableAmount(this.layer, this.id).add(1))
@@ -4016,7 +4019,7 @@ addLayer("B", {
                 if (hasUpgrade('B', 21) && player.B.State == 0) return "Drill: OFF"
                 else return "Drill"
             },
-            display() { return 'Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'},
+            display() { return 'HOLD TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'},
             canClick() { return true},
             effect() {
                 let effect = [];
@@ -4185,7 +4188,7 @@ addLayer("B", {
             currencyLocation() { return player.B },
             cost() { return new Decimal(1e9)},
             onPurchase() { 
-                return setBuyableAmount(this.layer, 14, 1), setBuyableAmount(this.layer, 15, 1)},
+                return [14,15].forEach(i=>player.B.buyables[i] = new Decimal(1))},
             unlocked() {
                 if (hasUpgrade('B', 22)) return true
                 else return false
@@ -4348,8 +4351,8 @@ componentStyles: {
                     ["display-image", 'https://i.postimg.cc/Y9XNhRVG/C14-PRO-removebg-preview-1.png', { height: `200px`, width: `300px`, position: 'absolute',  right: '320px', top: "1608px", id: 'top'}],
             ]}],
             "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank",
-            ["row", , function () {
-                if (player.B.Boron.lte(0)) return [
+            ["row", function () {
+                if (player.B.DS.lt(3)) return [
                 ['buyable', 11],   
                 ['buyable', 12],      
                 ['buyable', 13],                 
@@ -4410,7 +4413,7 @@ componentStyles: {
             ['display-text',
             function() { if (player.p.Node < 1) return 'You have ' + formatWhole(player.B.Boron) + 'g of Boron from meteorites.'}],
             "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank","blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank", 
-            "clickables",
+            () => (player.B.Slider == 0) ? "" : "clickables",
             "upgrades",
         ],
         unlocked() {
