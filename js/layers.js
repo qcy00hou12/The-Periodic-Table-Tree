@@ -1,3 +1,7 @@
+function getBaseLog(x, y) {
+    return Math.log(y) / Math.log(x);
+  }
+
 addLayer("E", {
     startData() {
         return {
@@ -29,10 +33,10 @@ addNode("Ex", {
     },
 })
 
-var _0x6e68=["\x43\x68","\x73\x69\x64\x65","\x23\x30\x30\x30\x30\x30\x30","\x23\x66\x66\x66\x66\x66\x66","\x49\x54\x65\x78\x74","\x48\x65","\x48\x65\x69\x73\x65\x6E\x62\x75\x72\x67","\x49\x20\x6E\x65\x65\x64\x20\x61\x20\x6E\x65\x77\x20\x64\x75\x73\x74\x20\x66\x69\x6C\x74\x65\x72\x20\x66\x6F\x72\x20\x6D\x79\x20\x48\x6F\x6F\x76\x65\x72\x20\x4D\x61\x78\x20\x45\x78\x74\x72\x61\x63\x74\x20\x50\x72\x65\x73\x73\x75\x72\x65\x20\x50\x72\x6F\x20\x6D\x6F\x64\x65\x6C\x20\x36\x30","\x54\x65\x73\x74\x69\x63\x6C\x65","\x42\x61\x44\x20\x42\x72\x65\x61\x6B\x49\x6E\x47","\x4C\x61\x62\x20\x4E\x6F\x74\x65\x73","\x4E\x6F\x74\x65\x20\x23\x31","\x20\x2D\x6A\x75\x73\x74\x20\x74\x68\x65\x20\x6F\x74\x68\x65\x72\x20\x64\x61\x79\x2C\x20\x68\x65\x20\x74\x6F\x6C\x64\x20\x6D\x65\x20\x69\x74\x20\x77\x61\x73\x20\x68\x69\x73\x20\x62\x69\x72\x74\x68\x64\x61\x79\x2E\x20\x49\x20\x6D\x65\x61\x6E\x2C\x20\x77\x68\x6F\x20\x63\x61\x72\x65\x73\x3F\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x27\x73\x20\x67\x6F\x69\x6E\x67\x20\x74\x6F\x20\x67\x65\x74\x20\x68\x69\x6D\x20\x61\x6E\x79\x74\x68\x69\x6E\x67\x20\x61\x6E\x79\x77\x61\x79\x2E\x20\x4E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x2E\x20\x54\x68\x65\x20\x64\x75\x64\x65\x73\x20\x61\x20\x77\x65\x69\x72\x64\x6F\x2C\x20\x79\x6F\x75\x20\x73\x68\x6F\x75\x6C\x64\x20\x73\x74\x61\x79\x20\x61\x77\x61\x79\x20\x66\x72\x6F\x6D\x20\x27\x65\x6D\x2E\x20\x41\x6E\x79\x77\x61\x79\x20\x67\x6F\x74\x74\x61\x20\x67\x6F\x2C\x20\x67\x6F\x74\x20\x61\x20\x63\x6C\x69\x65\x6E\x74\x20\x77\x68\x6F\x27\x73\x20\x70\x72\x6F\x62\x61\x62\x6C\x79\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x61\x74\x20\x4C\x69\x74\x68\x69\x75\x6D\x21","\x4E\x6F\x74\x65\x20\x23\x32","\x43\x6F\x63\x65\x6E\x74\x72\x61\x74\x65\x20\x74\x68\x65\x20\x70\x65\x72\x63\x69\x70\x69\x74\x61\x74\x65\x2E\x20\x46\x69\x6C\x74\x65\x72\x20\x6F\x75\x74\x20\x74\x6F\x20\x70\x75\x72\x69\x66\x79\x2E\x20\x50\x6F\x75\x72\x20\x74\x6F\x20\x63\x72\x79\x73\x74\x61\x6C\x69\x7A\x65\x2E\x20\x43\x75\x2D\x2E\x20\x44\x61\x6D\x6E\x20\x69\x74\x2E\x20\x49\x20\x63\x61\x6E\x27\x74\x20\x6B\x65\x65\x70\x20\x64\x6F\x69\x6E\x67\x20\x74\x68\x69\x73\x20\x69\x66\x20\x49\x20\x64\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x61\x20\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x73\x75\x70\x70\x6C\x79\x2E\x20\x54\x68\x61\x6E\x6B\x66\x75\x6C\x6C\x79\x2C\x20\x49\x20\x68\x61\x76\x2D","\x4E\x6F\x74\x65\x20\x23\x33","\x44\x69\x64\x20\x79\x6F\x75\x20\x70\x65\x72\x68\x61\x70\x73\x20\x66\x6F\x72\x67\x65\x74\x20\x74\x6F\x20\x74\x61\x6B\x65\x20\x79\x6F\x75\x72\x20\x70\x61\x69\x6E\x6B\x69\x6C\x6C\x65\x72\x73\x20\x74\x68\x69\x73\x20\x6D\x6F\x72\x6E\x69\x6E\x67\x3F\x20\x48\x61\x73\x20\x79\x6F\x75\x72\x20\x6D\x69\x6E\x64\x20\x67\x6F\x6E\x65\x20\x66\x75\x7A\x7A\x79\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x70\x61\x69\x6E\x3F\x20\x4F\x72\x20\x69\x73\x20\x74\x68\x69\x73\x20\x70\x65\x72\x68\x61\x70\x73\x20\x61\x20\x67\x65\x6E\x69\x74\x69\x63\x61\x6C\x20\x74\x68\x69\x6E\x67\x2C\x20\x62\x65\x63\x61\x75\x73\x65\x20\x72\x69\x67\x68\x74\x20\x6E\x6F\x77\x20\x6E\x6F\x20\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x20\x70\x6F\x73\x73\x69\x62\x6C\x65\x20\x63\x6F\x6D\x70\x72\x65\x68\x65\x6E\x64\x20\x77\x68\x61\x74\x27\x73\x20\x63\x6F\x6D\x69\x6E\x67\x20\x6F\x75\x74\x20\x6F\x66\x20\x79\x6F\x75\x72\x20\x6D\x6F\x75\x74\x68\x2E\x20\x45\x69\x74\x68\x65\x72\x20\x79\x6F\x75\x20\x67\x69\x76\x65\x20\x75\x70\x20\x61\x6E\x64\x20\x77\x65\x20\x64\x69\x65\x20\x6F\x72\x20\x79\x6F\x75\x20\x73\x65\x6E\x64\x20\x74\x68\x65\x6D\x20\x6F\x6E\x20\x74\x68\x65\x69\x72\x20\x6D\x65\x72\x72\x79\x20\x77\x61\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x6E\x65\x78\x74\x20\x6C\x61\x79\x65\x72\x2E","\x4E\x6F\x74\x65\x20\x23\x34","\x54\x68\x65\x20\x75\x6E\x69\x76\x65\x72\x73\x65\x20\x69\x73\x20\x72\x61\x6E\x64\x6F\x6D\x2E\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x69\x6E\x65\x76\x69\x74\x61\x62\x6C\x65\x2E\x20\x49\x74\x27\x73\x20\x73\x69\x6D\x70\x6C\x65\x20\x63\x68\x61\x6F\x73\x2E\x20\x49\x74\x27\x73\x20\x73\x75\x62\x61\x74\x6F\x6D\x69\x63\x20\x70\x61\x72\x74\x69\x63\x6C\x65\x73\x20\x69\x6E\x20\x65\x6E\x64\x6C\x65\x73\x73\x2C\x20\x61\x69\x6D\x6C\x65\x73\x73\x20\x63\x6F\x6C\x6C\x69\x73\x69\x6F\x6E\x2E\x20\x54\x68\x61\x74\x27\x73\x20\x77\x68\x61\x74\x20\x73\x63\x69\x65\x6E\x63\x65\x20\x74\x65\x61\x63\x68\x65\x73\x20\x75\x73\x2C\x20\x62\x75\x74\x20\x77\x68\x61\x74\x20\x69\x73\x20\x74\x68\x69\x73\x20\x73\x61\x79\x69\x6E\x67\x3F\x20\x57\x68\x61\x74\x20\x69\x73\x20\x69\x74\x20\x74\x65\x6C\x6C\x69\x6E\x67\x20\x75\x73\x2C\x20\x77\x68\x65\x6E\x20\x6F\x6E\x20\x74\x68\x65\x20\x76\x65\x72\x79\x20\x6E\x69\x67\x68\x74\x20\x74\x68\x61\x74\x20\x74\x68\x69\x73\x20\x6D\x61\x6E\x27\x73\x20\x64\x61\x75\x67\x68\x74\x65\x72\x20\x64\x69\x65\x73\x2C\x20\x69\x74\x27\x73\x20\x6D\x65\x20\x77\x68\x6F\x27\x73\x20\x68\x61\x76\x69\x6E\x67\x20\x61\x20\x64\x72\x69\x6E\x6B\x20\x77\x69\x74\x68\x20\x68\x69\x6D\x3F\x20\x48\x6F\x77\x20\x63\x61\x6E\x20\x74\x68\x61\x74\x20\x62\x65\x20\x72\x61\x6E\x64\x6F\x6D\x3F","\x72\x6F\x77","\x69\x6E\x66\x6F\x62\x6F\x78","\x6C\x6F\x72\x65","\x6C\x6F\x72\x65\x31","\x6C\x6F\x72\x65\x32","\x6C\x6F\x72\x65\x33"];addLayer(_0x6e68[0],{row:_0x6e68[1],color:_0x6e68[2],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]},layerShown:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[6]){return true};if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[7]){return true};if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[8]){return true};if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[9]){return true}else {return false}},tooltip:function(){return _0x6e68[10]},infoboxes:{lore:{unlocked:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[6]){return true}},title:_0x6e68[11],body:function(){return _0x6e68[12]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]}},lore1:{unlocked:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[7]){return true}},title:_0x6e68[13],body:function(){return _0x6e68[14]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]}},lore2:{unlocked:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[8]){return true}},title:_0x6e68[15],body:function(){return _0x6e68[16]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]}},lore3:{unlocked:function(){if(player[_0x6e68[5]][_0x6e68[4]]== _0x6e68[9]){return true}},title:_0x6e68[17],body:function(){return _0x6e68[18]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x6e68[3]}}},tabFormat:[[_0x6e68[19],[[_0x6e68[20],_0x6e68[21]],[_0x6e68[20],_0x6e68[22]],[_0x6e68[20],_0x6e68[23]],[_0x6e68[20],_0x6e68[24]]]]]})
+var _0x1200=["\x43\x68","\x73\x69\x64\x65","\x23\x30\x30\x30\x30\x30\x30","\x23\x66\x66\x66\x66\x66\x66","\x49\x54\x65\x78\x74","\x48\x65","\x48\x65\x69\x73\x65\x6E\x62\x75\x72\x67","\x49\x20\x6E\x65\x65\x64\x20\x61\x20\x6E\x65\x77\x20\x64\x75\x73\x74\x20\x66\x69\x6C\x74\x65\x72\x20\x66\x6F\x72\x20\x6D\x79\x20\x48\x6F\x6F\x76\x65\x72\x20\x4D\x61\x78\x20\x45\x78\x74\x72\x61\x63\x74\x20\x50\x72\x65\x73\x73\x75\x72\x65\x20\x50\x72\x6F\x20\x6D\x6F\x64\x65\x6C\x20\x36\x30","\x54\x65\x73\x74\x69\x63\x6C\x65","\x42\x61\x44\x20\x42\x72\x65\x61\x6B\x49\x6E\x47","\x49\x20\x61\x6D\x20\x6E\x6F\x74\x20\x74\x75\x72\x6E\x69\x6E\x67\x20\x64\x6F\x77\x6E\x20\x74\x68\x65\x20\x6D\x6F\x6E\x65\x79\x21\x20\x49\x20\x61\x6D\x20\x74\x75\x72\x6E\x69\x6E\x67\x20\x64\x6F\x77\x6E\x20\x79\x6F\x75\x21\x20\x59\x6F\x75\x20\x67\x65\x74\x20\x69\x74\x3F\x20\x49\x20\x77\x61\x6E\x74\x20\x6E\x6F\x74\x68\x69\x6E\x67\x20\x74\x6F\x20\x64\x6F\x20\x77\x69\x74\x68\x20\x79\x6F\x75\x21\x20\x45\x76\x65\x72\x20\x73\x69\x6E\x63\x65\x20\x49\x20\x6D\x65\x74\x20\x79\x6F\x75\x2C\x20\x65\x76\x65\x72\x79\x74\x68\x69\x6E\x67\x20\x49\x20\x65\x76\x65\x72\x20\x63\x61\x72\x65\x64\x20\x61\x62\x6F\x75\x74\x20\x69\x73\x20\x67\x6F\x6E\x65\x21\x20\x52\x75\x69\x6E\x65\x64\x2C\x20\x74\x75\x72\x6E\x65\x64\x20\x74\x6F\x20\x73\x2A\x2A\x74\x2C\x20\x64\x65\x61\x64\x2C\x20\x65\x76\x65\x72\x20\x73\x69\x6E\x63\x65\x20\x49\x20\x68\x6F\x6F\x6B\x65\x64\x20\x75\x70\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x67\x72\x65\x61\x74\x20\x48\x65\x69\x73\x65\x6E\x62\x65\x72\x67\x21","\x4C\x61\x62\x20\x4E\x6F\x74\x65\x73","\x4E\x6F\x74\x65\x20\x23\x31","\x20\x2D\x6A\x75\x73\x74\x20\x74\x68\x65\x20\x6F\x74\x68\x65\x72\x20\x64\x61\x79\x2C\x20\x68\x65\x20\x74\x6F\x6C\x64\x20\x6D\x65\x20\x69\x74\x20\x77\x61\x73\x20\x68\x69\x73\x20\x62\x69\x72\x74\x68\x64\x61\x79\x2E\x20\x49\x20\x6D\x65\x61\x6E\x2C\x20\x77\x68\x6F\x20\x63\x61\x72\x65\x73\x3F\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x27\x73\x20\x67\x6F\x69\x6E\x67\x20\x74\x6F\x20\x67\x65\x74\x20\x68\x69\x6D\x20\x61\x6E\x79\x74\x68\x69\x6E\x67\x20\x61\x6E\x79\x77\x61\x79\x2E\x20\x4E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x2E\x20\x54\x68\x65\x20\x64\x75\x64\x65\x73\x20\x61\x20\x77\x65\x69\x72\x64\x6F\x2C\x20\x79\x6F\x75\x20\x73\x68\x6F\x75\x6C\x64\x20\x73\x74\x61\x79\x20\x61\x77\x61\x79\x20\x66\x72\x6F\x6D\x20\x27\x65\x6D\x2E\x20\x41\x6E\x79\x77\x61\x79\x20\x67\x6F\x74\x74\x61\x20\x67\x6F\x2C\x20\x67\x6F\x74\x20\x61\x20\x63\x6C\x69\x65\x6E\x74\x20\x77\x68\x6F\x27\x73\x20\x70\x72\x6F\x62\x61\x62\x6C\x79\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x61\x74\x20\x4C\x69\x74\x68\x69\x75\x6D\x21","\x4E\x6F\x74\x65\x20\x23\x32","\x43\x6F\x63\x65\x6E\x74\x72\x61\x74\x65\x20\x74\x68\x65\x20\x70\x65\x72\x63\x69\x70\x69\x74\x61\x74\x65\x2E\x20\x46\x69\x6C\x74\x65\x72\x20\x6F\x75\x74\x20\x74\x6F\x20\x70\x75\x72\x69\x66\x79\x2E\x20\x50\x6F\x75\x72\x20\x74\x6F\x20\x63\x72\x79\x73\x74\x61\x6C\x69\x7A\x65\x2E\x20\x43\x75\x2D\x2E\x20\x44\x61\x6D\x6E\x20\x69\x74\x2E\x20\x49\x20\x63\x61\x6E\x27\x74\x20\x6B\x65\x65\x70\x20\x64\x6F\x69\x6E\x67\x20\x74\x68\x69\x73\x20\x69\x66\x20\x49\x20\x64\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x61\x20\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x73\x75\x70\x70\x6C\x79\x2E\x20\x54\x68\x61\x6E\x6B\x66\x75\x6C\x6C\x79\x2C\x20\x49\x20\x68\x61\x76\x2D","\x4E\x6F\x74\x65\x20\x23\x33","\x44\x69\x64\x20\x79\x6F\x75\x20\x70\x65\x72\x68\x61\x70\x73\x20\x66\x6F\x72\x67\x65\x74\x20\x74\x6F\x20\x74\x61\x6B\x65\x20\x79\x6F\x75\x72\x20\x70\x61\x69\x6E\x6B\x69\x6C\x6C\x65\x72\x73\x20\x74\x68\x69\x73\x20\x6D\x6F\x72\x6E\x69\x6E\x67\x3F\x20\x48\x61\x73\x20\x79\x6F\x75\x72\x20\x6D\x69\x6E\x64\x20\x67\x6F\x6E\x65\x20\x66\x75\x7A\x7A\x79\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x70\x61\x69\x6E\x3F\x20\x4F\x72\x20\x69\x73\x20\x74\x68\x69\x73\x20\x70\x65\x72\x68\x61\x70\x73\x20\x61\x20\x67\x65\x6E\x69\x74\x69\x63\x61\x6C\x20\x74\x68\x69\x6E\x67\x2C\x20\x62\x65\x63\x61\x75\x73\x65\x20\x72\x69\x67\x68\x74\x20\x6E\x6F\x77\x20\x6E\x6F\x20\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x20\x70\x6F\x73\x73\x69\x62\x6C\x65\x20\x63\x6F\x6D\x70\x72\x65\x68\x65\x6E\x64\x20\x77\x68\x61\x74\x27\x73\x20\x63\x6F\x6D\x69\x6E\x67\x20\x6F\x75\x74\x20\x6F\x66\x20\x79\x6F\x75\x72\x20\x6D\x6F\x75\x74\x68\x2E\x20\x45\x69\x74\x68\x65\x72\x20\x79\x6F\x75\x20\x67\x69\x76\x65\x20\x75\x70\x20\x61\x6E\x64\x20\x77\x65\x20\x64\x69\x65\x20\x6F\x72\x20\x79\x6F\x75\x20\x73\x65\x6E\x64\x20\x74\x68\x65\x6D\x20\x6F\x6E\x20\x74\x68\x65\x69\x72\x20\x6D\x65\x72\x72\x79\x20\x77\x61\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x6E\x65\x78\x74\x20\x6C\x61\x79\x65\x72\x2E","\x4E\x6F\x74\x65\x20\x23\x34","\x54\x68\x65\x20\x75\x6E\x69\x76\x65\x72\x73\x65\x20\x69\x73\x20\x72\x61\x6E\x64\x6F\x6D\x2E\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x69\x6E\x65\x76\x69\x74\x61\x62\x6C\x65\x2E\x20\x49\x74\x27\x73\x20\x73\x69\x6D\x70\x6C\x65\x20\x63\x68\x61\x6F\x73\x2E\x20\x49\x74\x27\x73\x20\x73\x75\x62\x61\x74\x6F\x6D\x69\x63\x20\x70\x61\x72\x74\x69\x63\x6C\x65\x73\x20\x69\x6E\x20\x65\x6E\x64\x6C\x65\x73\x73\x2C\x20\x61\x69\x6D\x6C\x65\x73\x73\x20\x63\x6F\x6C\x6C\x69\x73\x69\x6F\x6E\x2E\x20\x54\x68\x61\x74\x27\x73\x20\x77\x68\x61\x74\x20\x73\x63\x69\x65\x6E\x63\x65\x20\x74\x65\x61\x63\x68\x65\x73\x20\x75\x73\x2C\x20\x62\x75\x74\x20\x77\x68\x61\x74\x20\x69\x73\x20\x74\x68\x69\x73\x20\x73\x61\x79\x69\x6E\x67\x3F\x20\x57\x68\x61\x74\x20\x69\x73\x20\x69\x74\x20\x74\x65\x6C\x6C\x69\x6E\x67\x20\x75\x73\x2C\x20\x77\x68\x65\x6E\x20\x6F\x6E\x20\x74\x68\x65\x20\x76\x65\x72\x79\x20\x6E\x69\x67\x68\x74\x20\x74\x68\x61\x74\x20\x74\x68\x69\x73\x20\x6D\x61\x6E\x27\x73\x20\x64\x61\x75\x67\x68\x74\x65\x72\x20\x64\x69\x65\x73\x2C\x20\x69\x74\x27\x73\x20\x6D\x65\x20\x77\x68\x6F\x27\x73\x20\x68\x61\x76\x69\x6E\x67\x20\x61\x20\x64\x72\x69\x6E\x6B\x20\x77\x69\x74\x68\x20\x68\x69\x6D\x3F\x20\x48\x6F\x77\x20\x63\x61\x6E\x20\x74\x68\x61\x74\x20\x62\x65\x20\x72\x61\x6E\x64\x6F\x6D\x3F","\x4E\x6F\x74\x65\x20\x23\x35","\x48\x61\x73\x6E\x27\x74\x20\x69\x74\x20\x62\x65\x65\x6E\x20\x63\x6C\x65\x61\x72\x20\x73\x69\x6E\x63\x65\x20\x74\x68\x65\x20\x62\x65\x67\x69\x6E\x6E\x69\x6E\x67\x3F\x20\x43\x61\x6E\x27\x74\x20\x79\x6F\x75\x20\x73\x65\x65\x20\x74\x68\x65\x20\x77\x72\x69\x74\x74\x69\x6E\x67\x20\x6F\x6E\x20\x74\x68\x65\x20\x77\x61\x6C\x6C\x73\x3F\x20\x49\x27\x6D\x20\x6E\x6F\x74\x20\x69\x6E\x20\x74\x68\x65\x20\x6D\x6F\x6E\x65\x79\x20\x62\x75\x73\x69\x6E\x65\x73\x73\x20\x6E\x6F\x72\x20\x74\x68\x65\x20\x63\x68\x65\x6D\x69\x63\x61\x6C\x20\x6F\x6E\x65\x2E\x20\x49\x27\x6D\x20\x69\x6E\x20\x74\x68\x65\x20\x65\x6D\x70\x69\x72\x65\x20\x62\x75\x73\x69\x6E\x65\x73\x73\x20\x61\x6E\x64\x20\x74\x68\x65\x20\x6F\x6E\x6C\x79\x20\x77\x61\x79\x20\x74\x68\x69\x73\x20\x63\x61\x6E\x20\x66\x75\x6E\x63\x74\x69\x6F\x6E\x20\x69\x73\x20\x77\x69\x74\x68\x20\x79\x6F\x75\x20\x61\x73\x20\x74\x68\x65\x20\x64\x65\x61\x6C\x65\x72\x20\x61\x6E\x64\x20\x6D\x65\x20\x61\x73\x20\x74\x68\x65\x20\x63\x6F\x6F\x6B\x2E\x20\x49\x74\x27\x73\x20\x61\x20\x6F\x6E\x65\x2D\x77\x61\x79\x20\x73\x74\x72\x65\x65\x74\x20\x4A\x2D","\x72\x6F\x77","\x69\x6E\x66\x6F\x62\x6F\x78","\x6C\x6F\x72\x65","\x6C\x6F\x72\x65\x31","\x6C\x6F\x72\x65\x32","\x6C\x6F\x72\x65\x33","\x6C\x6F\x72\x65\x34"];addLayer(_0x1200[0],{row:_0x1200[1],color:_0x1200[2],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]},layerShown:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[6]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[7]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[8]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[9]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[10]){return true}else {return false}},tooltip:function(){return _0x1200[11]},infoboxes:{lore:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[6]){return true}},title:_0x1200[12],body:function(){return _0x1200[13]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore1:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[7]){return true}},title:_0x1200[14],body:function(){return _0x1200[15]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore2:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[8]){return true}},title:_0x1200[16],body:function(){return _0x1200[17]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore3:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[9]){return true}},title:_0x1200[18],body:function(){return _0x1200[19]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore4:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[10]){return true}},title:_0x1200[20],body:function(){return _0x1200[21]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}}},tabFormat:[[_0x1200[22],[[_0x1200[23],_0x1200[24]],[_0x1200[23],_0x1200[25]],[_0x1200[23],_0x1200[26]],[_0x1200[23],_0x1200[27]],[_0x1200[23],_0x1200[28]]]]]})
 
 addLayer("Per", {
-    branches: ['p', 'He', 'Li', 'Be', 'B'],
+    branches: ['p', 'He', 'Li', 'Be', 'B', 'C'],
     row: 1,
     position: 1,
     color: "#FFFFFF",
@@ -55,9 +59,10 @@ addLayer("Per", {
         "blank",
         ["display-text",
             function () { return 'Save files:' }],
+            "blank",
         ["display-text",
             function () { return `<a href="https://www.mediafire.com/file/zvllklnqa3eri29/Start_of_Hydrogen.txt/file" target="_blank" rel="noopener noreferrer">Start of Hydrogen</a>`}],
-        "blank",
+        "blank"
         ["display-text",
             function () { return `<a href="https://www.mediafire.com/file/4iwro9j1n7o4naa/Start_of_Helium.txt/file" target="_blank" rel="noopener noreferrer">Start of Helium</a>`}],
         "blank",
@@ -71,10 +76,21 @@ addLayer("Per", {
         function () { return `<a href="https://www.mediafire.com/file/rqd48xx4lxxrien/Start+of+Boron.txt/file" target="_blank" rel="noopener noreferrer">Start of Boron</a>`}],
         "blank",
         ["display-text",
-        function () { return `<a href="https://www.mediafire.com/file/9fyea63l87x04nw/Start+of+Carbon.txt/file" target="_blank" rel="noopener noreferrer">Start of Carbon</a>`}],
+        function () { return `<a href="https://www.mediafire.com/file/b3k0vnbh94pamqh/Start+of+Carbon.txt/file" target="_blank" rel="noopener noreferrer">Start of Carbon</a>`}],
+        "blank",
+        ["display-text",
+        function () { return `<a href="" target="_blank" rel="noopener noreferrer">Start of Nitrogen</a>`}],
         "blank",
         ["display-text",
             function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer, <div> P🆎tfr, <div> JJP.' }],
+            ["display-image", 'https://i.postimg.cc/x1b6Q644/c8b42708505611e88f6702e6256ec5c3-1-removebg-preview.png', { 'height': `30px`, 'width': `30px`, position: 'relative', right: '-50px', top: '-148px'}],
+            ["display-image", 'https://i.postimg.cc/brn1WwgV/Studio-Project-removebg-preview.png', { 'height': `30px`, 'width': `30px`, position: 'relative', right: '50px', top: '-168px'}],
+            ["display-image", 'https://i.postimg.cc/mk54KTdq/a5219bd91f868f264f556082bbb339dd.jpg', { 'height': `25px`, 'width': `25px`, position: 'relative', right: '-50px', top: '-182px'}],
+            ["display-image", 'https://i.postimg.cc/zGCzGb0S/15-2-removebg-preview-1.png', { 'height': `25px`, 'width': `25px`, position: 'relative', right: '52px', top: '-188px'}],
+            ["display-image", 'https://i.postimg.cc/kGNV316K/Screenshot-2022-07-21-021115-removebg-preview.png', { 'height': `35px`, 'width': `30px`, position: 'relative', right: '-52px', top: '-205px'}],
+            ["display-image", 'https://i.postimg.cc/PJ6jwY00/Screenshot-2022-07-21-021433-removebg-preview.png', { 'height': `30px`, 'width': `35px`, position: 'relative', right: '88px', top: '-220px'}],
+            ["display-image", 'https://i.postimg.cc/26Sm80Kn/Screenshot-2022-07-21-021710-removebg-preview.png', { 'height': `30px`, 'width': `27px`, position: 'relative', right: '-50px', top: '-230px'}],
+            ["display-image", 'https://i.postimg.cc/VL2zzBwV/Screenshot-2022-07-21-022358-removebg-preview.png', { 'height': `30px`, 'width': `30px`, position: 'relative', right: '46px', top: '-250px'}],
     ]
 })
 
@@ -128,7 +144,7 @@ addLayer("A", {
             image() { if (hasAchievement('A', 14)) return "https://i.postimg.cc/0yddvF2j/527535f7-7dc4-43a5-b57a-a75afda3029b-1.png" }
         },
         15: {
-            name: '"Shut Up Bitch"',
+            name: '"Shut Up B***ch"',
             textStyle: { "color": "#000000" },
             style: { "background-size": "100% 100%" },
             goalTooltip: "Spend over 201 ticks with extra text on.",
@@ -217,7 +233,7 @@ addLayer("A", {
             image() { if (hasAchievement('A', 35)) return "https://i.postimg.cc/MHwFn3gm/3bgrvhjkbkt21-1272574542-1-prev-ui.png" }
         },
         41: {
-            name: "Ah shit, here we go again.",
+            name: "Ah sh*t, here we go again.",
             textStyle: { "color": "#000000" },
             style: { "background-size": "110% 100%" },
             tooltip: "Unlock the third element.",
@@ -481,6 +497,16 @@ addLayer("A", {
             done() { return player.B.Slider == 10 && player.B.Ticks.lt(1)},
             image() { if (hasAchievement('A', 95)) return "https://i.postimg.cc/wB8x90zX/Two-asteroids-colliding-1022945-removebg-preview.png" }
         },
+        101: {
+            unlocked() { if (hasAchievement('A', 95)) return true},
+            name: "The Rat Race",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "150% 100%", "background-position": "center center"},
+            tooltip: "The sixth element must be yours",
+            done() { return player.C.points.gte(1)},
+            onComplete() { return player.E.points = player.E.points.add(1)},
+            image() { if (hasAchievement('A', 95)) return "https://i.postimg.cc/wB8x90zX/Two-asteroids-colliding-1022945-removebg-preview.png" }
+        },
     },
 
     clickables: {
@@ -715,7 +741,7 @@ addLayer("p", {
         12: {
             style: { "color": "#ededed" },
             title: "Hydrogen's Based",
-            description: "Gain 1 to Hydrogen Gas base",
+            description: "Add 1 to the Hydrogen Gas base",
             cost() {
                 if (hasUpgrade('p', 11)) return new Decimal(3)
                 else return new Decimal(2)
@@ -728,7 +754,7 @@ addLayer("p", {
         13: {
             style: { "color": "#ededed" },
             title: "Hydrogen's Bonding",
-            description: "Add 2 more to base of Hydrogen Gas.",
+            description: "Add 2 more to the base of Hydrogen Gas.",
             cost: new Decimal(8),
             unlocked() {
                 if (hasUpgrade('p', 11)) return true
@@ -761,7 +787,7 @@ addLayer("p", {
         16: {
             style: { "color": "#ededed" },
             title: "Hydrogen's Half Lifed",
-            description: "Hydrogen upgrades on this row cut Hydrogen cost, but Hydrogen Tank capcity 2x.",
+            description: "Hydrogen upgrades on this row cut Hydrogen cost, but Hydrogen Tank capcity is doubled.",
             cost: new Decimal(20),
             effectDisplay() { return "/" + format(upgra.pow(-0.22)) },
             unlocked() {
@@ -827,7 +853,7 @@ addLayer("p", {
         26: {
             style: { "color": "#ededed" },
             title: "Hydrogen's Tritium",
-            description: "Unlock balloons. Remove Hydrogen Multiplier Division. Multiplier also boosts Hydrogen Power. Hydrogen Multiplier falls much slower.",
+            description: "Unlock balloons. Remove Hydrogen Multiplier Division. The Multiplier also boosts Hydrogen Power. Hydrogen Multiplier falls much slower.",
             cost: new Decimal(1600),
             unlocked() {
                 if (hasUpgrade('p', 25)) return true
@@ -1227,7 +1253,7 @@ addLayer("He", {
         },
         13: {
             title: "Helium Hydride Corrosion!",
-            description: "Remove exponent of Helium effect but unlock more Hydrogen upgrades. Keep Cost.",
+            description: "Remove the exponent of the Helium effects but unlock more Hydrogen upgrades. Keep Cost.",
             cost() { return new Decimal(100) },
             onPurchase() { return player.He.points = player.He.points.add(100), player.p.HydrogenMult = player.p.HydrogenMult.times(0.1), player.p.HydrogenPower = player.p.HydrogenPower.times(0), player.p.points = player.p.points.times(0) },
             unlocked() {
@@ -1273,7 +1299,7 @@ addLayer("He", {
         },
         21: {
             title: `Helium "Leak Detection"`,
-            description: "Greatly reduce the Helium requirement exponent. Helium now multiplies Helium expunged gain. Helium Gas no longer has gas constantly decreasing. Keep 50% of cost.",
+            description: "Greatly reduce the Helium requirement exponent. Helium now multiplies Helium Expunged gain. Helium Gas no longer has its gas constantly decreasing. Keep 50% of cost.",
             cost() { return new Decimal(500) },
             onPurchase() { return player.He.points = player.He.points.add(250) },
             unlocked() {
@@ -1552,7 +1578,7 @@ addLayer("Li", {
         5: {
             style: { "color": "#ededed" },
             requirementDescription: "12 Lithium Resets",
-            effectDescription: "Automate Helium Inflate and Deflate. Also unlock a Lepoidolite. Reset Lithium and remove button.",
+            effectDescription: "Automate Helium Inflate and Deflate. Also unlock a Lepoidolite. Reset Lithium and remove its button.",
             done() { return player.Li.resets.gte(12) },
             onComplete() { return player.Li.points = player.Li.points.times(0), player.Li.RM = player.Li.RM.times(0)},
             unlocked() {
@@ -2352,7 +2378,7 @@ onPrestige() {
         },
         2: {
             style: { "color": "#ededed" },
-            requirementDescription: "Have Max Rocketship Parts",
+            requirementDescription: "Have The Maxmum Of All Rocketship Parts",
             effectDescription: "Unlock Le Universe",
             done() { return getBuyableAmount(this.layer, 12) == 10 && getBuyableAmount(this.layer, 13) == 10 && getBuyableAmount(this.layer, 14) == 10 && getBuyableAmount(this.layer, 15) == 10 && getBuyableAmount(this.layer, 16) == 10},
         },
@@ -2362,7 +2388,7 @@ onPrestige() {
         11: {
             style: { "color": "#ededed" },
             title: "Riddle Me",
-            description: "Reduce Beryllium cost exponent by 0.4. Keep Cost.",
+            description: "Reduce Beryllium's cost exponent by 0.4. Keep Cost.",
             cost() { return new Decimal(9)},
             onPurchase() { return player.Be.points = player.Be.points.add(this.cost)},
             unlocked() {
@@ -3366,7 +3392,7 @@ componentStyles: {
                 ['clickable', 51],
                 ["row", function () {
                     if (player.Be.s1 > 0) return [
-                        ["display-image", 'https://i.postimg.cc/7hTxMWD0/E6vgz-TBWEAYa-M3r-prev-ui.png', { height: `60px`, width: `100px`, position: 'absolute',  right: `${player.Be.position1}px`, top: `${player.Be.position2}px`, id: 'top', 'z-index': '2'}],
+                        ["display-image", 'https://i.postimg.cc/7hTxMWD0/E6vgz-TBWEAYa-M3r-prev-ui.png', { height: `60px`, width: `100px`, position: 'relative',  right: `${player.Be.position1}px`, top: `${player.Be.position2}px`, id: 'top', 'z-index': '2'}],
                     ]}],
                 ["row", function () {
                     if (player.Be.s2 > 0) return [
@@ -3769,6 +3795,7 @@ addLayer("B", {
             Times: new Decimal(1),
             Times1: new Decimal(1),  
             Times2: new Decimal(1),
+            Next: new Decimal(0),
         }
     },
 
@@ -4222,7 +4249,7 @@ addLayer("B", {
         },
         31: {
             style: { "color": "#ededed" },
-            title: "Borosilicate glass",
+            title: "Borosilicate Glass",
             description: "The bottom row of buyables are more effective and autobuy the bottom row but increase cost scaling of all buyables. Keep cost.",
             currencyDisplayName: "Drilling Speed",
             currencyInternalName: "DrillingSped",
@@ -4235,7 +4262,7 @@ addLayer("B", {
         },
         32: {
             style: { "color": "#ededed" },
-            title: "Tank Armor and Bulletproof Vests",
+            title: "Tank Armor And Bulletproof Vests",
             description: "Autobuyers autobuy 10x faster. Keep cost.",
             currencyDisplayName: "Drilling Speed",
             currencyInternalName: "DrillingSped",
@@ -4248,8 +4275,8 @@ addLayer("B", {
         },
         33: {
             style: { "color": "#ededed" },
-            title: "Tavaborole, a Aminoacyl tRNA synthetase inhibitor",
-            description: "Autobuyers autobuy 100x faster. Keep cost.",
+            title: "Tavaborole, A Aminoacyl tRNA Synthetase Inhibitor",
+            description: "Autobuyers autobuy 100x faster.",
             currencyDisplayName: "Drilling Speed",
             currencyInternalName: "DrillingSped",
             currencyLocation() { return player.B },
@@ -4511,7 +4538,7 @@ update() {
     if (player.B.Slider == 7 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(8e9).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(4e11)
     if (player.B.Slider == 8 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(5e11).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(2e14)
     if (player.B.Slider == 9 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(7e14).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(2e23)
-    if (player.B.Slider == 10 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(1e20).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(5e32)
+    if (player.B.Slider == 10 && player.B.Ticks.lt(1)) player.B.Boron = player.B.Boron.add(player.B.BM.times(new Decimal(1e20).add(player.B.BB))), player.B.Ticks = player.B.Ticks.times(0).add(5e32), player.B.Next = player.B.Next.add(1)
     if (player.B.SDeg.lte(0)) player.B.Pos1 = player.B.Pos1.times(0), player.B.Deg = player.B.Deg.times(0).add(1)
     if (player.B.Slider == 1 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-220)
     if (player.B.Slider == 2 && player.B.SDeg.gte(1)) player.B.Pos1 = player.B.Pos1.times(0).add(-200)
@@ -4531,4 +4558,1568 @@ update() {
     if (hasUpgrade('B', 25)) buyBuyable('B', 14), buyBuyable('B', 15), buyBuyable('B', 21)
     if (hasUpgrade('B', 31)) buyBuyable('B', 22), buyBuyable('B', 23)
 },
+})
+
+addLayer("C", {
+
+    symbol() { return options.toggleButtonAnimations ? '' : 'C' },
+    nodeStyle() {
+        return options.toggleButtonAnimations ? {
+            'color': '#00e600',
+            'background-image': 'url("resources/Carbon.gif")',
+            'background-position': 'center center',
+            'background-size': '180%',
+            'border': '1px solid #00e600'
+        } : {
+            'background-position': 'center center',
+            'background-size': '100%'
+        }
+    },
+    
+    image: "https://i.postimg.cc/zXdM0zMB/Screenshot-2022-07-15-162004-1-removebg-preview-1.png",
+    name: "Carbon", // This is optional, only used in a few places, If absent it just uses the layer id.
+    position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
+    startData() {
+        return {
+            unlocked: false,
+            points: new Decimal(0),
+            fragements: new Decimal(0),
+            Nay: new Decimal(1), 
+            Res: 0,
+            No: new Decimal(0),
+            Yes: new Decimal(0),
+            Lol: 0,
+            Switch: new Decimal(0),
+            Switch1: new Decimal(0),
+            Switch2: new Decimal(1),
+            Year: new Decimal(1),
+            Day: new Decimal(0),
+            TotalD: new Decimal(0),
+            TotalY: new Decimal(1),
+            TotalCf: new Decimal(0),
+            TotalC: new Decimal(0),
+            Ticks: new Decimal(0),
+            Levelptm: 1,
+            Xpmaxptm: 100,
+            Truemaxptm: 100,
+            Xpptm: 5,
+            XpToptm: 0,
+            Carbonptm: 5,
+            maxptm: 0,
+            Levelftm: 1,
+            Xpmaxftm: 100,
+            Truemaxftm: 100,
+            XpToftm: 0,
+            Carbonftm: 9,
+            maxftm: 0,
+            LevelM: 1,
+            XpmaxM: 200,
+            TruemaxM: 200,
+            XpToM: 0,
+            CarbonM: 18,
+            maxM: 0,
+            LevelE: 1,
+            XpmaxE: 600,
+            TruemaxE: 600,
+            XpToE: 0,
+            CarbonE: 52,
+            maxE: 0,
+            LevelC: 1,
+            XpmaxC: 800,
+            TruemaxC: 800,
+            XpToC: 0,
+            CarbonC: 200,
+            maxC: 0,
+            Levelp: 1,
+            Xpmaxp: 100,
+            Truemaxp: 100,
+            XpTop: 0,
+            Carbonp: 9,
+            maxp: 0,
+            LevelG: 1,
+            XpmaxG: 1000,
+            TruemaxG: 1000,
+            XpToG: 0,
+            CarbonG: 66,
+            maxG: 0,
+            LevelJ: 1,
+            XpmaxJ: 10000,
+            TruemaxJ: 10000,
+            XpToJ: 0,
+            CarbonJ: 157,
+            maxJ: 0,
+            LevelB: 1,
+            XpmaxB: 10000,
+            TruemaxB: 10000,
+            XpToB: 0,
+            CarbonB: 544,
+            maxB: 0,
+            Levelf: 1,
+            Xpmaxf: 100,
+            Truemaxf: 100,
+            Xpskill: 5,
+            maxf: 0,
+            XpTof: 0,
+            LevelJB: 1,
+            XpmaxJB: 100,
+            TruemaxJB: 100,
+            XpToJB: 0,    
+            maxJB: 0,
+            Levelpe: 1,
+            Xpmaxpe: 200,
+            Truemaxpe: 200,
+            XpTope: 0,
+            maxpe: 0,
+            LevelR: 1,
+            XpmaxR: 50,
+            TruemaxR: 50,
+            XpToR: 0,
+            maxR: 0,
+            LevelD: 1,
+            XpmaxD: 100,
+            TruemaxD: 100,
+            XpToD: 0,
+            maxD: 0,
+            Levelt: 1,
+            Xpmaxt: 200,
+            Truemaxt: 200,
+            XpTot: 0,
+            maxt: 0,
+            LevelW: 1,
+            XpmaxW: 100,
+            TruemaxW: 100,
+            XpToW: 0,
+            maxW: 0, 
+            Mis1: new Decimal(0),
+            Mis2: new Decimal(0),
+            Mis3: new Decimal(0),
+            Mis4: new Decimal(0),
+            Mis5: new Decimal(0),
+            ME1: 0,
+            ME2: 0,
+            ME3: 0,
+            ME4: 0,
+            ME5: 0,
+        }
+    },
+            eptm: 1,
+            eftm: 1,
+            eM: 1,
+            eE: 1,
+            eC: 1,
+            ep: 1,
+            eG: 1,
+            eJ: 1,
+            eB: 1,
+            ef: 1,
+            eJB: 1,
+            epe: 1,
+            eR: 1,
+            eD: 1,
+            et: 1,
+            eW: 1,
+            Net: new Decimal(0),
+            Income: new Decimal(0),
+            Expenses: new Decimal(0), 
+            Health: 0,
+            JHealth: 0,
+            OnOff: new Decimal(0),
+           
+
+    color: '#00e600',
+    layerShown() {
+        if (hasUpgrade('B', 14)) return true
+        else return false
+    },
+
+    row: 1, // Row the layer is in on the tree (0 is the first row)
+    displayRow: 2,
+
+
+    tooltip() { return formatWhole(player.C.points) + " Carbon and " + formatWhole(player.C.fragements) + " Carbon Fragments."},
+    tooltipLocked() { return "You must destroy the largest meteorite first." },
+
+    bars: {
+        PartMBar: {
+            tooltip() {
+                return `Wow Mr. Krabs has you working at $50 an hour! When I started working here I had to pay him $100 an hour.`
+            },
+            onClick(){
+                return player.C.Switch = player.C.Switch.times(0).add(1)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            progress() {
+                let progPM = []
+                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1 && -getBaseLog(10, player.C.Levelptm) + 2 >= 0.1) player.C.Carbonptm = player.C.Carbonptm -getBaseLog(10, player.C.Levelptm) + 2
+                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1 && -getBaseLog(10, player.C.Levelptm) + 2 < 0.1) player.C.Carbonptm = player.C.Carbonptm + 0.1
+                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1) player.C.Levelptm = player.C.Levelptm + 1, player.C.Xpmaxptm = player.C.Truemaxptm + (player.C.Levelptm^0.6 + 40), player.C.Truemaxptm = player.C.Xpmaxptm, player.C.XpToptm = 0
+                progPM = player.C.XpToptm / player.C.Truemaxptm
+                return progPM
+            },
+            display() { return "Part-time Miner<div>-0.2 Health" },
+            fillStyle() {if (player.C.Switch == 1) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch == 1) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}}
+        },
+        FullMBar: {
+            tooltip() {
+                return `You have now been fully integrated into the company.`
+            },
+            onClick(){
+                return player.C.Switch = player.C.Switch.times(0).add(2)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            progress() {
+                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2 && -getBaseLog(3, player.C.Levelftm) + 4 >= 0.1) player.C.Carbonftm = player.C.Carbonftm -getBaseLog(3, player.C.Levelftm) + 4
+                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2 && -getBaseLog(3, player.C.Levelftm) + 4 < 0.1) player.C.Carbonftm = player.C.Carbonftm + 0.1
+                let progFM = []
+                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2) player.C.Levelftm = player.C.Levelftm + 1, player.C.Xpmaxftm = player.C.Truemaxftm + (player.C.Levelftm^0.6 + 100), player.C.Truemaxftm = player.C.Xpmaxftm, player.C.XpToftm = 0
+                progFM = player.C.XpToftm / player.C.Truemaxftm
+                return progFM
+            },
+            display() { return "Full-time Miner<div>-0.5 Health" },
+            fillStyle() {if (player.C.Switch == 2) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch == 2) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}}
+        },
+        MineManager: {
+            tooltip() {
+                return `You're done with all the riff raff and have now been promoted to a management position!`
+            },
+            onClick(){
+                return player.C.Switch = player.C.Switch.times(0).add(3)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            progress() {
+                if (player.C.XpmaxM <= 0 && player.C.Switch == 3 && -getBaseLog(2, player.C.LevelM) + 5 >= 0.1) player.C.CarbonM = player.C.CarbonM -getBaseLog(2, player.C.LevelM) + 5
+                if (player.C.XpmaxM <= 0 && player.C.Switch == 3 && -getBaseLog(2, player.C.LevelM) + 5 < 0.1) player.C.CarbonM = player.C.CarbonM + 0.1
+                let progM = []
+                if (player.C.XpmaxM <= 0 && player.C.Switch == 3) player.C.LevelM = player.C.LevelM + 1, player.C.XpmaxM = player.C.TruemaxM + (player.C.LevelM^1.6 + 200), player.C.TruemaxM = player.C.XpmaxM, player.C.XpToM = 0
+                progM = player.C.XpToM / player.C.TruemaxM
+                return progM
+            },
+            display() { return "Mine Manager<div>-0.3 Health" },
+            fillStyle() {if (player.C.Switch == 3) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch == 3) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}}
+        },
+        EVP: {
+            tooltip() {
+                return `You now hold a major amount of power in the comapany. You help keep effeciency of the mines to the highest percent and answer only to the higher ups.`
+            },
+            onClick(){
+                return player.C.Switch = player.C.Switch.times(0).add(4)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            progress() {
+                if (player.C.XpmaxE <= 0 && player.C.Switch == 4 && -getBaseLog(1.45, player.C.LevelE) + 7 >= 0.1) player.C.CarbonE = player.C.CarbonE -getBaseLog(1.45, player.C.LevelE) + 7
+                if (player.C.XpmaxE <= 0 && player.C.Switch == 4 && -getBaseLog(1.45, player.C.LevelE) + 7 < 0.1) player.C.CarbonE = player.C.CarbonE + 0.1
+                let progE = []
+                if (player.C.XpmaxE <= 0 && player.C.Switch == 4) player.C.LevelE = player.C.LevelE + 1, player.C.XpmaxE = player.C.TruemaxE + (player.C.LevelE^1.7 + 600), player.C.TruemaxE = player.C.XpmaxE, player.C.XpToE = 0
+                progE = player.C.XpToE / player.C.TruemaxE
+                return progE
+            },
+            display() { return "Executive Vice President" },
+            fillStyle() {if (player.C.Switch == 4) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch == 4) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}}
+        },
+        CEO: {
+            tooltip() {
+                return `You're the boogeyman. When workers look up at you, all they see is; "Get back to work!" You only give respect to those who deserve it. Those who grovle at your feet, otherwise they're not worth your time.`
+            },
+            onClick(){
+                return player.C.Switch = player.C.Switch.times(0).add(5)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            progress() {
+                if (player.C.XpmaxC <= 0 && player.C.Switch == 5 && -getBaseLog(1.075, player.C.LevelC) + 24 >= 1) player.C.CarbonC = player.C.CarbonC -getBaseLog(1.075, player.C.LevelC) + 24
+                if (player.C.XpmaxC <= 0 && player.C.Switch == 5 && -getBaseLog(1.075, player.C.LevelC) + 24 < 1) player.C.CarbonC = player.C.CarbonC + 1
+                let progC = []
+                if (player.C.XpmaxC <= 0 && player.C.Switch == 5) player.C.LevelC = player.C.LevelC + 1, player.C.XpmaxC = player.C.TruemaxC + (player.C.LevelC^1.7 + 800), player.C.TruemaxC = player.C.XpmaxC, player.C.XpToC = 0
+                progC = player.C.XpToC / player.C.TruemaxC
+                return progC
+            },
+            display() { return "CEO" },
+            fillStyle() {if (player.C.Switch == 5) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch == 5) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}}
+        },
+        PickBar: {
+            tooltip() {
+                return `You cannot hold any more items.`
+            },
+            onClick(){
+                return player.C.Switch = player.C.Switch.times(0).add(6)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            progress() {
+                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6 && -getBaseLog(5, player.C.Levelp) + 1.75 >= 0.1) player.C.Carbonp = player.C.Carbonp -getBaseLog(5, player.C.Levelp) + 1.75
+                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6 && -getBaseLog(1.45, player.C.Levelp) + 1.75 < 0.1) player.C.Carbonp = player.C.Carbonp + 0.1
+                let progp = []
+                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6) player.C.Levelp = player.C.Levelp + 1, player.C.Xpmaxp = player.C.Truemaxp + (player.C.Levelp^0.8 + 120), player.C.Truemaxp = player.C.Xpmaxp, player.C.XpTop = 0
+                progp = player.C.XpTop / player.C.Truemaxp
+                return progp
+            },
+            display() { return "Pickpocket<div>-0.1 Health" },
+            fillStyle() {if (player.C.Switch == 6) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch == 6) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}}
+        },
+        Gas: {
+            tooltip() {
+                return `Robbing a gas station is quite the step up from people's pockets wouldn't you say. With it comes much risk however.`
+            },
+            onClick(){
+                return player.C.Switch = player.C.Switch.times(0).add(7)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            progress() {
+                if (player.C.XpmaxG <= 0 && player.C.Switch == 7 &&  -getBaseLog(1.105, player.C.LevelG) + 19 >= 2) player.C.CarbonG = player.C.CarbonG -getBaseLog(1.105, player.C.LevelG) + 19
+                if (player.C.XpmaxG <= 0 && player.C.Switch == 7 && -getBaseLog(1.105, player.C.LevelG) + 19 < 2) player.C.CarbonG = player.C.CarbonG + 2
+                let progG = []
+                if (player.C.XpmaxG <= 0 && player.C.Switch == 7) player.C.LevelG = player.C.LevelG + 1, player.C.XpmaxG = player.C.TruemaxG + (player.C.LevelG^1.8 + 1000), player.C.TruemaxG = player.C.XpmaxG, player.C.XpToG = 0
+                progG = player.C.XpToG / player.C.TruemaxG
+                return progG
+            },
+            display() { return "Gas Station<div>-0.4 Health" },
+            fillStyle() {if (player.C.Switch == 7) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch == 7) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}}
+        },
+        Jewelry: {
+            tooltip() {
+                return `Heavily reinforced doors, bullet proof glass and many bystanders. High risk, high reward`
+            },
+            onClick(){
+                return player.C.Switch = player.C.Switch.times(0).add(8)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            progress() {
+                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8 &&  -getBaseLog(1.034, player.C.LevelJ) + 48 >= 5) player.C.CarbonJ = player.C.CarbonJ -getBaseLog(1.034, player.C.LevelJ) + 48
+                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8 && -getBaseLog(1.034, player.C.LevelJ) + 48 < 5) player.C.CarbonJ = player.C.CarbonJ + 5
+                let progJ = []
+                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8) player.C.LevelJ = player.C.LevelJ + 1, player.C.XpmaxJ = player.C.TruemaxJ + (player.C.LevelJ^3 + 10000), player.C.TruemaxJ = player.C.XpmaxJ, player.C.XpToJ = 0
+                progJ = player.C.XpToJ / player.C.TruemaxJ
+                return progJ
+            },
+            display() { return "Jewelry Store<div>-1 Health" },
+            fillStyle() {if (player.C.Switch == 8) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch == 8) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}}
+        },
+        BankHeist: {
+            tooltip() {
+                return `On a dark and gloomy night, you arise from the shadows overlooking the establishment. It's layered with security camera's, security guards and security doors. The chance of success is slim but rewards are plentiful. Will conquer the bank, or will you die trying?`
+            },
+            onClick(){
+                return player.C.Switch = player.C.Switch.times(0).add(9)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            progress() {
+                if (player.C.XpmaxB <= 0 && player.C.Switch == 9 &&  -getBaseLog(1.034, player.C.LevelB) + 200 >= 10) player.C.CarbonB = player.C.Carbonb -getBaseLog(1.034, player.C.LevelB) + 200
+                if (player.C.XpmaxB <= 0 && player.C.Switch == 9 && -getBaseLog(1.034, player.C.LevelB) + 200 < 10) player.C.CarbonB = player.C.CarbonB + 10
+                let progB = []
+                if (player.C.XpmaxJ <= 0 && player.C.Switch == 9) player.C.LevelJ = player.C.LevelB + 1, player.C.XpmaxB = player.C.TruemaxB + (player.C.LevelB^3 + 10000), player.C.TruemaxB = player.C.XpmaxB, player.C.XpToB = 0
+                progB = player.C.XpToB / player.C.TruemaxB
+                return progB
+            },
+            display() { return "Bank Heist<div>-2 Health" },
+            fillStyle() {if (player.C.Switch == 9) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch == 9) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}}
+        },
+        Focus: {
+            onClick(){
+                return player.C.Switch1 = player.C.Switch1.times(0).add(1)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            tooltip() {
+                return 'The key is to concentrate. Ready your mind as you research and experiment. The worst yield must always be expected.'
+            },
+            effect(){
+                let effect = []
+                effect = player.C.Levelf * 0.01 + 0.01 + 1 - 0.02
+                player.C.Xpskill = 2 * effect * tmp.C.Health
+                return effect
+            },
+            progress() {
+                let progF = []
+                if (player.C.Xpmaxf <= 0 && player.C.Switch1 == 1) player.C.Levelf = player.C.Levelf + 1, player.C.Xpmaxf = player.C.Truemaxf + (player.C.Levelf^1.9 + 100), player.C.Truemaxf = player.C.Xpmaxf, player.C.XpTof = 0
+                progF = player.C.XpTof / player.C.Truemaxf
+                return progF
+            },
+            display() { return "Focus" },
+            fillStyle() {if (player.C.Switch1 == 1) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch1 == 1) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}}
+        },
+        JobExperience: {
+            tooltip() {
+                return `It's about drive, it's about power, we stay hungry, we devour. Put in the work, put in the hours and take what's ours.`
+            },
+            onClick(){
+                return player.C.Switch1 = player.C.Switch1.times(0).add(2)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            effect(){
+                let effect = []
+                effect = player.C.LevelJB * 0.01 + 0.01 + 1 - 0.02
+                player.C.Xpptm = 2 * effect * tmp.C.Health * temp['C'].clickables[23].effect
+                return effect
+            },
+            progress() {
+                let progJE = []
+                if (player.C.XpmaxJB <= 0 && player.C.Switch1 == 2) player.C.LevelJB = player.C.LevelJB + 1, player.C.XpmaxJB = player.C.TruemaxJB + (player.C.LevelJB^2.1 + 100), player.C.TruemaxJB = player.C.XpmaxJB, player.C.XpToJB = 0
+                progJE = player.C.XpToJB / player.C.TruemaxJB
+                return progJE
+            },
+            display() { return "Job Experience" },
+            fillStyle() {if (player.C.Switch1 == 2) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch1 == 2) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}}
+        },
+        Persuasion: {
+            tooltip() {
+                return `Learn the art of persuasion. Have a silver tongue and watch as your expenses trickle away.`
+            },
+            onClick(){
+                return player.C.Switch1 = player.C.Switch1.times(0).add(3)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            effect(){
+                let effect = 1
+                if (effect >= 0.90) effect = 1 + player.C.Levelpe * 0.02 * -1 + 0.02
+                if (effect < 0.90) effect = 1 + player.C.Levelpe * 0.01 * -1
+                if (effect < 0.85) effect = 1 + player.C.Levelpe * 0.001 * -1
+                return effect
+            },
+            progress() {
+                let progpe = []
+                if (player.C.Xpmaxpe <= 0 && player.C.Switch1 == 3) player.C.Levelpe = player.C.Levelpe + 1, player.C.Xpmaxpe = player.C.Truemaxpe + (player.C.Levelpe^2.4 + 100), player.C.Truemaxpe = player.C.Xpmaxpe, player.C.XpTope = 0
+                progpe = player.C.XpTope / player.C.Truemaxpe
+                return progpe
+            },
+            display() { return "Persuasion" },
+            fillStyle() {if (player.C.Switch1 == 3) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch1 == 3) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}}
+        },
+        Relaxation: {
+            tooltip() {
+                return `Find comfort within who you are. Understand that not everyday has to be work filled. Peace comes to those who embrace it.`
+            },
+            onClick(){
+                return player.C.Switch1 = player.C.Switch1.times(0).add(4)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            effect(){
+                let effect = []
+                effect = 1 + player.C.LevelR * 0.01 - 0.01
+                return effect
+            },
+            progress() {
+                let progR = []
+                if (player.C.XpmaxR <= 0 && player.C.Switch1 == 4) player.C.LevelR = player.C.LevelR + 1, player.C.XpmaxR = player.C.TruemaxR + (player.C.LevelR^2.7 + 150), player.C.TruemaxR = player.C.XpmaxR, player.C.XpToR = 0
+                progR = player.C.XpToR / player.C.TruemaxR
+                return progR
+            },
+            display() { return "Relaxation" },
+            fillStyle() {if (player.C.Switch1 == 4) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch1 == 4) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}}
+        },
+        Dummy: {
+            tooltip() {
+                return `Easier than stealing candy from a baby!`
+            },
+            onClick(){
+                return player.C.Switch1 = player.C.Switch1.times(0).add(6)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            effect(){
+                let effect = []
+                effect = player.C.LevelD * 0.01 + 0.01 + 1 - 0.02
+                return effect
+            },
+            progress() {
+                let progD = []
+                if (player.C.XpmaxD <= 0 && player.C.Switch1 == 6) player.C.LevelD = player.C.LevelD + 1, player.C.XpmaxD = player.C.TruemaxD + (player.C.LevelD^1.4 + 100), player.C.TruemaxD = player.C.XpmaxD, player.C.XpToD = 0
+                progD = player.C.XpToD / player.C.TruemaxD
+                return progD
+            },
+            display() { return "Dummy" },
+            fillStyle() {if (player.C.Switch1 == 6) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch1 == 6) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}}
+        },
+        ThievingTactics: {
+            tooltip() {
+                return `Devise executable plans for your theiving ways.`
+            },
+            onClick(){
+                return player.C.Switch1 = player.C.Switch1.times(0).add(7)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            effect(){
+                let effect = []
+                effect = player.C.Levelt * 0.01 + 0.01 + 1 - 0.02
+                return effect
+            },
+            progress() {
+                let progt = []
+                if (player.C.Xpmaxt <= 0 && player.C.Switch1 == 7) player.C.Levelt = player.C.Levelt + 1, player.C.Xpmaxt = player.C.Truemaxt + (player.C.Levelt^2 + 100), player.C.Truemaxt = player.C.Xpmaxt, player.C.XpTot = 0
+                progt = player.C.XpTot / player.C.Truemaxt
+                return progt
+            },
+            display() { return "Thieving Tatics" },
+            fillStyle() {if (player.C.Switch1 == 7) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch1 == 7) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}}
+        },
+        WeaponsTools: {
+            tooltip() {
+                return `Improve your artillery of weapons and tools to pull off heists with higher stakes.`
+            },
+            onClick(){
+                return player.C.Switch1 = player.C.Switch1.times(0).add(8)
+            },
+            direction: RIGHT,
+            width: 150,
+            height: 35,
+            effect(){
+                let effect = []
+                effect = 1 + player.C.LevelW * 0.01 - 0.01
+                return effect
+            },
+            progress() {
+                let progW = []
+                if (player.C.XpmaxW <= 0 && player.C.Switch1 == 8) player.C.LevelW = player.C.LevelW + 1, player.C.XpmaxW = player.C.TruemaxW + (player.C.LevelW^2.4 + 200), player.C.TruemaxW = player.C.XpmaxW, player.C.XpToW = 0
+                progW = player.C.XpToW / player.C.TruemaxW
+                return progW
+            },
+            display() { return "Weapons/Tools" },
+            fillStyle() {if (player.C.Switch1 == 8) return {"background-color": "#00e600"}
+            else return {"background-color": "#0000ff"}},
+            style() { if (player.C.Switch1 == 8) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}}
+        },
+    },
+
+    clickables: {
+        11: {
+            style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+            title: "Homeless",
+            tooltip() {
+                return 'Rough start huh?'
+            },
+            effect() {
+                if (player.C.Switch2 == 1) tmp.C.Health = 1 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+            },
+            canClick() { return true},
+            onClick() {
+             player.C.Switch2 = 1
+            },
+    },
+    12: {
+        style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+        title: "Cardboard Box",
+        canClick() { return true},
+        tooltip() {
+            return 'Snake, snaaaaaake!'
+        },
+        effect() {
+           if (player.C.Switch2 == 2) tmp.C.Health = 1.5 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+        },
+        onClick() {
+         player.C.Switch2 = 2
+        },
+},
+13: {
+    style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+    title: "Wooden Shack",
+    canClick() { return true},
+    tooltip() {
+        return 'Deep in the wooded forest lies a oak wood shack stained by time. The musky smell waftes over you as you take a look at your new home.'
+    },
+    effect() {
+       if (player.C.Switch2 == 3) tmp.C.Health = 2 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+    },
+    onClick() {
+     player.C.Switch2 = 3
+    },
+},
+14: {
+    style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+    title: "Merged House",
+    canClick() { return true},
+    tooltip() {
+        return `Fresh off the market, this house can easily support 8 people, though you probably don't have any friends. Gaze over the wooden balcony and feel the height of a second floor!`
+    },
+    effect() {
+       if (player.C.Switch2 == 4) tmp.C.Health = 3.5 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+    },
+    onClick() {
+     player.C.Switch2 = 4
+    },
+},
+15: {
+    style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+    title: "Mansion",
+    canClick() { return true},
+    tooltip() {
+        return `An inprint of your success. Lavish rooms, decadent hallways, marble tiling. What's not to love? You can even buy friends if you want!`
+    },
+    effect() {
+       if (player.C.Switch2 == 5) tmp.C.Health = 5 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+    },
+    onClick() {
+     player.C.Switch2 = 5
+    },
+},
+ 21: {
+            style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+            title: `<div style="font-size": "1px">Encyclopedia</div>`,
+            tooltip() {
+                return 'Read through a variety of encyclopedias in order to strengthen your knowledge boosting your comprehension on specific skills.'
+            },
+            effect() {
+                if (player.C.Mis1 == 1) effect = 1.5
+                else effect = 1
+                return effect
+            },
+            canClick() { return true},
+            onClick() {
+             if (player.C.Mis1 == 0) player.C.Mis1 = 1, player.C.ME1 = player.C.ME1 + 2 * temp['C'].bars['Persuasion'].effect
+             else player.C.Mis1 = 0, player.C.ME1 = 0
+            },
+    },
+    22: {
+        style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+        title: "Wit",
+        tooltip() {
+            return 'Chow down on mind games for breakfast. Understand the other with a single glance. Know what they will do and inturn save yourself some time. Intelligence comes at a cost however.'
+        },
+        effect() {
+            if (player.C.Mis2 == 1) effect = 1.5
+            else effect = 1
+            return effect
+        },
+        canClick() { return true},
+        onClick() {
+         if (player.C.Mis2 == 0) player.C.Mis2 = 1, player.C.ME2 = player.C.ME2 + 10 * temp['C'].bars['Persuasion'].effect
+         else player.C.Mis2 = 0, player.C.ME2 = 0
+        },
+},
+23: {
+    style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+    title: "Assistant",
+    tooltip() {
+        return 'Your own personal lacky. Not that they respect or anything. Infact, they fear you. For the pay that they receive, they feel as though they are stuck in purgatory between quitting and dying to another one of your mandatory 8 hour work session.'
+    },
+    effect() {
+        if (player.C.Mis3 == 1) effect = 2
+        else effect = 1
+        return effect
+    },
+    canClick() { return true},
+    onClick() {
+     if (player.C.Mis3 == 0) player.C.Mis3 = 1, player.C.ME3 = player.C.ME3 + 30 * temp['C'].bars['Persuasion'].effect
+     else player.C.Mis3 = 0, player.C.ME3 = 0
+    },
+},
+24: {
+    style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+    title: "Associate",
+    tooltip() {
+        return 'I am not turning down the money! I am turning down you! You get it? I want nothing to do with you! Ever since I met you, everything I ever cared about is gone! Ruined, turned to s**t, dead, ever since I hooked up with the great Heisenberg!'
+    },
+    effect() {
+        if (player.C.Mis4 == 1) effect = 2
+        else effect = 1
+        return effect
+    },
+    canClick() { return true},
+    onClick() {
+     if (player.C.Mis4 == 0) player.C.Mis4 = 1, player.C.ME4 = player.C.ME4 + 150 * temp['C'].bars['Persuasion'].effect
+     else player.C.Mis4 = 0, player.C.ME4 = 0
+    },
+},
+25: {
+    style: {color: "#ededed", 'border-radius': '0%', 'min-height': '50px', width: '100px'},
+    title: "Friend",
+    tooltip() {
+        return 'You bought a friend, simple as that.'
+    },
+    effect() {
+        if (player.C.Mis5 == 1) effect = 2
+        else effect = 1
+        return effect
+    },
+    canClick() { return true},
+    onClick() {
+     if (player.C.Mis5 == 0) player.C.Mis5 = 1, player.C.ME5 = player.C.ME5 + 400 * temp['C'].bars['Persuasion'].effect
+     else player.C.Mis5 = 0, player.C.ME5 = 0
+    },
+},
+31: {
+    style: {color: "#ededed", 'border-radius': '0%', 'min-height': '25px', width: '80px'},
+    title: "Restart",
+    canClick() { return true},
+    onClick() {
+        if (player.C.maxptm < player.C.Levelptm) player.C.maxptm = player.C.Levelptm
+        if (player.C.maxftm < player.C.Levelftm) player.C.maxftm = player.C.Levelftm
+        if (player.C.maxM < player.C.LevelM) player.C.maxM = player.C.LevelM
+        if (player.C.maxE < player.C.LevelE) player.C.maxE = player.C.LevelE
+        if (player.C.maxC < player.C.LevelC) player.C.maxC = player.C.LevelC
+        if (player.C.maxp < player.C.Levelp) player.C.maxp = player.C.Levelp
+        if (player.C.maxG < player.C.LevelG) player.C.maxG = player.C.LevelG
+        if (player.C.maxJ < player.C.LevelJ) player.C.maxJ = player.C.LevelJ
+        if (player.C.maxB < player.C.LevelB) player.C.maxB = player.C.LevelB
+        if (player.C.maxf < player.C.Levelf) player.C.maxf = player.C.Levelf
+        if (player.C.maxJB < player.C.LevelJB) player.C.maxJB = player.C.LevelJB
+        if (player.C.maxpe < player.C.Levelpe) player.C.maxpe = player.C.Levelpe
+        if (player.C.maxR < player.C.LevelR) player.C.maxR = player.C.LevelR
+        if (player.C.maxD < player.C.LevelD) player.C.maxD = player.C.LevelD
+        if (player.C.maxt < player.C.Levelt) player.C.maxt = player.C.Levelt
+        if (player.C.maxW < player.C.LevelW) player.C.maxW = player.C.LevelW
+player.C.points= new Decimal(0)
+player.C.fragements= new Decimal(0)
+player.C.Nay= new Decimal(1), 
+player.C.No= new Decimal(1),
+player.C.Yes= new Decimal(0),
+player.C.Lol= 0,
+player.C.Switch= new Decimal(0),
+player.C.Switch1= new Decimal(0),
+player.C.Switch2= new Decimal(1),
+player.C.Year= new Decimal(1),
+player.C.Day= new Decimal(0),
+        player.C.Res = player.C.Res + 1
+        player.C.Levelptm= 1
+        player.C.Xpmaxptm= 100
+        player.C.Truemaxptm= 100
+        player.C.Xpptm= 5
+        player.C.XpToptm= 0
+        player.C.Carbonptm= 5
+        player.C.Levelftm= 1
+        player.C.Xpmaxftm= 100
+        player.C.Truemaxftm= 100
+        player.C.XpToftm= 0
+        player.C.Carbonftm= 9
+        player.C.LevelM= 1
+        player.C.XpmaxM= 200
+        player.C.TruemaxM= 200
+        player.C.XpToM= 0
+        player.C.CarbonM= 18
+        player.C.LevelE= 1
+        player.C.XpmaxE= 600
+        player.C.TruemaxE= 600
+        player.C.XpToE= 0
+        player.C.CarbonE= 52
+        player.C.LevelC= 1
+        player.C.XpmaxC= 800
+        player.C.TruemaxC= 800
+        player.C.XpToC= 0
+        player.C.CarbonC= 200
+        player.C.Levelp= 1
+        player.C.Xpmaxp= 100
+        player.C.Truemaxp= 100
+        player.C.XpTop= 0
+        player.C.Carbonp= 9
+        player.C.LevelG= 1
+        player.C.XpmaxG= 1000
+        player.C.TruemaxG= 1000
+        player.C.XpToG= 0
+        player.C.CarbonG= 66
+        player.C.LevelJ= 1
+        player.C.XpmaxJ= 10000
+        player.C.TruemaxJ= 10000
+        player.C.XpToJ= 0
+        player.C.CarbonJ= 157
+        player.C.LevelB= 1
+        player.C.XpmaxB= 10000
+        player.C.TruemaxB= 10000
+        player.C.XpToB= 0
+        player.C.CarbonB= 544
+        player.C.Levelf= 1
+        player.C.Xpmaxf= 100
+        player.C.Truemaxf= 100
+        player.C.Xpskill= 5
+        player.C.XpTof= 0
+        player.C.LevelJB= 1
+        player.C.XpmaxJB= 100
+        player.C.TruemaxJB= 100
+        player.C.XpToJB= 0    
+        player.C.Levelpe= 1
+        player.C.Xpmaxpe= 200
+        player.C.Truemaxpe= 200
+        player.C.XpTope= 0
+        player.C.LevelR= 1
+        player.C.XpmaxR= 50
+        player.C.TruemaxR= 50
+        player.C.XpToR= 0
+        player.C.LevelD= 1
+        player.C.XpmaxD= 100
+        player.C.TruemaxD= 100
+        player.C.XpToD= 0
+        player.C.Levelt= 1
+        player.C.Xpmaxt= 200
+        player.C.Truemaxt= 200
+        player.C.XpTot= 0
+        player.C.LevelW= 1
+        player.C.XpmaxW= 100
+        player.C.TruemaxW= 100
+        player.C.XpToW= 0
+        player.C.Mis1= new Decimal(0)
+        player.C.Mis2= new Decimal(0)
+        player.C.Mis3= new Decimal(0)
+        player.C.Mis4 = new Decimal(0)
+        player.C.Mis5 = new Decimal(0)
+        player.C.ME1 = 0
+        player.C.ME2 = 0
+        player.C.ME3 = 0
+        player.C.ME4 = 0
+        player.C.ME5 = 0
+    },
+},
+        41: {
+            style: {color: "#ededed", 'border-radius': '44%'},
+            title: "Screw That! Screw You!",
+            canClick() { return true},
+            unlocked() {
+                if (player.C.No <= 0) return true
+            },
+            onClick() {
+             player.C.No = 1
+            },
+    },
+},
+
+    infoboxes: {
+        lore: {
+            titleStyle: { "color": "#ededed" },
+            title: "Carbon",
+            body() { return "Alright, cool, cool, cool. Now, I'm going to need you to get employed in a mining company. Start mining some carbon-rich rock- I mean minerals." },
+        },
+    },
+
+    tabFormat: {
+        "MainTab": {
+            content: [
+                ['infobox', 'lore'],
+                    ['clickable', 41],                   
+                ['display-text',
+                function() { return 'Random Stats That Nobody Cares About (RSTNCA): <div> Total Days: ' + formatWhole(player.C.TotalD) + '<div> Total Years: ' + formatWhole(player.C.TotalY) + '<div> Total Carbon Fragments: <span style="color: #00e600">' + formatWhole(player.C.TotalCf) + 'g</span><div> Total Carbon: <span style="color: #00e600">' + formatWhole(player.C.TotalC) + 'g</span><div>Total Resets: ' + formatWhole(player.C.Res)}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.No >= 1) return "Ok, wow. Screw you too. What are you going do to then? Rob a bank? Heh, get a load of this guy. Ok fine, we'll go with your plan, genius. Go rob a bank."}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 1) return "Uh, on your 10th anniversary of doing whatever you do, you got icecream or something."}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 2) return "20 years in, 20 years down the drain. Keep going buddy. What? You expected me to talk about some sort of thing you did or something?"}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 3) return "Alright no more games, you died. It doesn't matter how, you just did. Now you'll have to restart from the beginning but hey, atleast you'll be boosted by your max levels. I'm gonna need 2 Bank Robbery Levels, 11 Jewelry Store Levels, 10 CEO Levels and like 50 Levels on all the other Jobs. Oh and also 50 Levels on the Skills. Just hit the button below to start fresh, nothing broken. Muliplier formula is: Resets + Job/Skill / 10"}],
+                () => (player.C.Lol >= 3) ? ['clickable', 31] : "",
+            ]
+        },
+        "Jobs": {
+            content: [
+                "blank",
+                ['display-text', 
+                function() { return '<h3>Year: ' + formatWhole(player.C.Year) + ' Day: ' + formatWhole(player.C.Day) + '</h3>'}],
+                ['display-text', 
+                function() { return `<span style="color: #70716B"> You'll die at 30 years, view MainTab for Updates</span>`}],
+                "blank",
+                'Job-grid',
+                "blank",
+                'Job1-grid',
+                ['display-text', '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
+                ['display-text',
+                    function() { if (player.C.Levelptm < 10) return '<span style="color: #70716B">Required: Part-time Miner level ' + formatWhole(player.C.Levelptm) + '/10</span>'}],
+                "blank",
+                () => (player.C.Levelptm >= 10) ? 'Job2-grid' : "",
+                ['display-text', 
+                    function() { if (player.C.Levelptm >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                ['display-text',
+                    function() { if (player.C.Levelptm >= 10 && player.C.Levelftm < 10) return '<span style="color: #70716B">Required: Full-time Miner level ' + formatWhole(player.C.Levelftm) + '/10</span>'}],
+                () => (player.C.Levelftm >= 10) ? "blank" : "",
+                () => (player.C.Levelftm >= 10) ? 'Job3-grid' : "",
+                ['display-text', 
+                    function() { if (player.C.Levelftm >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                ['display-text',
+                    function() { if (player.C.Levelftm >= 10 && player.C.LevelD < 10 || player.C.Levelftm >= 10 && player.C.LevelM < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/10 and Mine Manager level ' + formatWhole(player.C.LevelM) + '/10</span>'}],
+                    () => (player.C.LevelD >= 10 && player.C.LevelM >= 10) ? "blank" : "",
+                    () => (player.C.LevelD >= 10 && player.C.LevelM >= 10) ? 'Job4-grid' : "",
+                    ['display-text', 
+                        function() { if (player.C.LevelD >= 10 && player.C.LevelM >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    ['display-text',
+                        function() { if (player.C.LevelM >= 10 && player.C.LevelD < 30 || player.C.LevelM >= 10 && player.C.LevelE < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/30 and Excutive Vise President level ' + formatWhole(player.C.LevelE) + '/10</span>'}],
+                        () => (player.C.LevelE >= 10 && player.C.LevelD >= 30) ? "blank" : "",
+                    () => (player.C.LevelE >= 10 && player.C.LevelD >= 30) ? 'Job5-grid' : "",
+                    ['display-text', 
+                        function() { if (player.C.LevelE >= 10 && player.C.LevelD >= 30) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    "blank",
+                    () => (player.C.No >= 1) ? "Job-gridz" : "",
+                ['display-text',
+                function() { if (player.C.No >= 1 && player.C.LevelD < 5) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.Levelp) + '/5</span>'}],
+                () => (player.C.LevelD >= 5) ? "blank" : "",
+                () => (player.C.LevelD >= 5) ? 'Job6-grid' : "",
+                ['display-text', 
+                    function() { if (player.C.LevelD >= 5) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                ['display-text',
+                    function() { if (player.C.LevelD >= 5 && player.C.LevelD < 20 || player.C.LevelD >= 5 && player.C.Levelp < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/20 and Pickpocket level ' + formatWhole(player.C.Levelp) + '/10</span>'}],
+                    () => (player.C.LevelD >= 20 && player.C.Levelp >= 10) ? "blank" : "",
+                    () => (player.C.LevelD >= 20 && player.C.Levelp >= 10) ? 'Job7-grid' : "",
+                    ['display-text', 
+                        function() { if (player.C.LevelD >= 20 && player.C.Levelp >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    ['display-text',
+                        function() { if (player.C.LevelD >= 20 && player.C.Levelp >= 10 && player.C.Levelt < 40 || player.C.LevelD >= 20 && player.C.Levelp >= 10 && player.C.LevelG < 10) return '<span style="color: #70716B">Required: Thieving Tactics level ' + formatWhole(player.C.Levelt) + '/40 and Gas Station level ' + formatWhole(player.C.LevelG) + '/10</span>'}],
+                         () => (player.C.Levelt >= 40 && player.C.LevelG >= 10) ? "blank" : "",
+                    () => (player.C.Levelt >= 40 && player.C.LevelG >= 10) ? 'Job8-grid' : "",
+                    ['display-text', 
+                        function() { if (player.C.Levelt >= 40 && player.C.LevelG >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    ['display-text',
+                        function() { if (player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelD < 100 || player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelJ < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/100 and Jewelry Store level ' + formatWhole(player.C.LevelJ) + '/10</span>'}],
+                        () => (player.C.LevelD >= 100 && player.C.LevelJ >= 10) ? "blank" : "",
+                        () => (player.C.LevelD >= 100 && player.C.LevelJ >= 10) ? 'Job9-grid' : "",
+                        ['display-text', 
+                            function() { if (player.C.LevelD >= 100 && player.C.LevelJ >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                "blank",
+                ['display-text', 
+                function() { return 'You have <span style="color: #00e600">' + formatWhole(player.C.fragements) + 'g</span> of Carbon Fragments<div> <span style="color: #00e600">1000g</span> of Carbon Fragments = <span style="color: #00e600">1g</span> of Carbon'}],
+            ]
+        },
+        "Skills": {
+            content: [
+                "blank",
+                ['display-text', 
+                function() { return '<h3>Year: ' + formatWhole(player.C.Year) + ' Day: ' + formatWhole(player.C.Day) + '</h3>'}],
+                ['display-text', 
+                function() { return `<span style="color: #70716B"> You'll die at 30 years, view MainTab for Updates</span>`}],
+                "blank",
+                'Skill-grid',
+                "blank",
+                'Skill1-grid',
+                ['display-text', '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
+                "blank",
+                'Skill2-grid',
+                ['display-text', '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
+                ['display-text',
+                    function() { if (player.C.Levelf < 20) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/20</span>'}],
+                    () => (player.C.Levelf >= 20) ? "blank" : "",
+                () => (player.C.Levelf >= 20) ? 'Skill3-grid' : "",
+                ['display-text', 
+                    function() { if (player.C.Levelf >= 20) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    ['display-text',
+                    function() { if (player.C.Levelf >= 20 && player.C.Levelf < 30 ||  player.C.Levelf >= 20 && player.C.LevelJB < 20) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/30 and Job Experience level ' + formatWhole(player.C.LevelJB) + '/20</span>'}],
+                    () => (player.C.Levelf >= 30 &&  player.C.LevelJB >= 20) ? "blank" : "",
+                    () => (player.C.Levelf >= 30 &&  player.C.LevelJB >= 20) ? 'Skill4-grid' : "",
+                    ['display-text', 
+                        function() { if (player.C.Levelf >= 30 && player.C.LevelJB >= 20) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    "blank",
+                    () => (player.C.No >= 1) ? "Skillz-grid" : "",
+                    () => (player.C.No >= 1) ? "blank" : "",
+                () => (player.C.No >= 1) ? 'Skill6-grid' : "",
+                ['display-text', 
+                    function()  {if (player.C.No >= 1) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    () => (player.C.No >= 1 && player.C.Levelf >= 20) ? "blank" : "",
+                    ['display-text',
+                    function() { if (player.C.No >= 1 && player.C.Levelf < 20) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/20</span>'}],
+                () => (player.C.No >= 1 && player.C.Levelf >= 20) ? 'Skill7-grid' : "",
+                ['display-text', 
+                    function()  {if (player.C.No >= 1 && player.C.Levelf >= 20) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    ['display-text',
+                    function() { if (player.C.No >= 1 && player.C.Levelf >= 20 && player.C.Levelf < 30 || player.C.No >= 1 && player.C.Levelf >= 20 && player.C.LevelD < 30) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/30 and Dummy level ' + formatWhole(player.C.LevelD) + '/30</span>'}],
+                    () => (player.C.No >= 1 && player.C.Levelf >= 30 ||  player.C.No >= 1 && player.C.LevelD >= 20) ? "blank" : "",
+                    () => (player.C.No >= 1 && player.C.Levelf >= 30 && player.C.LevelD >= 20) ? 'Skill8-grid' : "",
+                    ['display-text', 
+                        function()  {if (player.C.No >= 1 && player.C.Levelf >= 30 && player.C.LevelD >= 20) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+            ]
+        },
+        "Shop": {
+            content: [
+                "blank",
+                ['display-text', 
+                function() { return '<h3>Year: ' + formatWhole(player.C.Year) + ' Day: ' + formatWhole(player.C.Day) + '</h3>'}],
+                ['display-text', 
+                function() { return `<span style="color: #70716B"> You'll die at 30 years, view MainTab for Updates</span>`}],
+                "blank",
+                ['display-text', '<b>&nbsp&nbsp&nbsp&nbsp<span style="background-color: #009d94">&nbsp&nbspProperties&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspActive&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEffect&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCarbon/day&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp</b>'],
+                "blank",
+                'Shop1-grid',
+                ['display-text', '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
+                "blank",
+                'Shop2-grid',
+                ['display-text', '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
+                ['display-text', 
+                function() { if (player.C.Nay < 2) return '<span style="color: #70716B">Required: <span style="color: #70716B">1g</span> of Carbon</span>'}],
+                () => (player.C.Nay >= 2) ? "blank" : "",
+                () => (player.C.Nay >= 2) ? 'Shop3-grid' : "",
+                ['display-text', 
+                function() { if (player.C.Nay > 1) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                ['display-text', 
+                function() { if (player.C.Nay >= 2 && player.C.Nay < 3) return '<span style="color: #70716B">Required: <span style="color: #70716B">10g</span> of Carbon</span>'}],
+                () => (player.C.Nay >= 3) ? "blank" : "",
+                () => (player.C.Nay >= 3) ? 'Shop4-grid' : "",
+                ['display-text', 
+                function() { if (player.C.Nay >= 3) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                ['display-text', 
+                function() { if (player.C.Nay >= 3 && player.C.Nay < 4) return '<span style="color: #70716B">Required: <span style="color: #70716B">100g</span> of Carbon</span>'}],
+                () => (player.C.Nay >= 4) ? "blank" : "",
+                () => (player.C.Nay >= 4) ? 'Shop5-grid' : "",
+                ['display-text', 
+                function() { if (player.C.Nay >= 4) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                "blank",
+                ['display-text', '<b>&nbsp&nbsp&nbsp&nbsp<span style="background-color: #800080">&nbsp&nbspMisc&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspActive&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEffect&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCarbon/day&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp</b>'],
+                "blank",
+                'Shop6-grid',
+                ['display-text', '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
+                "blank",
+                'Shop7-grid',
+                ['display-text', '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
+                ['display-text', 
+                function() { if (player.C.Yes < 1) return '<span style="color: #70716B">Required: <span style="color: #70716B">2g</span> of Carbon</span>'}],
+                () => (player.C.Yes >= 1) ? "blank" : "",
+                () => (player.C.Yes >= 1) ? 'Shop8-grid' : "",
+                ['display-text', 
+                function() { if (player.C.Yes >= 1) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                ['display-text', 
+                function() { if (player.C.Yes >= 1 && player.C.Yes < 2) return '<span style="color: #70716B">Required: <span style="color: #70716B">20g</span> of Carbon</span>'}],
+                () => (player.C.Yes >= 2) ? "blank" : "",
+                () => (player.C.Yes >= 2) ? 'Shop9-grid' : "",
+                ['display-text', 
+                function() { if (player.C.Yes >= 2) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                ['display-text', 
+                function() { if (player.C.Yes >= 2 && player.C.Yes < 3) return '<span style="color: #70716B">Required: <span style="color: #70716B">200g</span> of Carbon</span>'}],
+                () => (player.C.Yes >= 3) ? "blank" : "",
+                () => (player.C.Yes >= 3) ? 'Shop10-grid' : "",
+                ['display-text', 
+                function() { if (player.C.Yes >= 3) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+            ]
+        }
+    },
+
+    update() {
+        if (player.B.Next.gte(1)) player.C.unlocked = true
+        tmp.C.Net = tmp.C.Income - tmp.C.Expenses * 5
+ if (tmp.C.OnOff == 1) player.C.Ticks = player.C.Ticks.add(1)
+ if (tmp.C.OnOff == 1 && player.C.Ticks.gte(5)) player.C.Ticks = player.C.Ticks.times(0), player.C.Day = player.C.Day.add(1), player.C.TotalD = player.C.TotalD.add(1)
+ if (tmp.C.OnOff == 1 && player.C.Day == 365) player.C.Day = player.C.Day.times(0), player.C.Year = player.C.Year.add(1), player.C.TotalY = player.C.TotalY.add(1)
+
+ if (player.C.Switch2 == 1) tmp.C.Expenses = 0 + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
+ if (player.C.Switch2 == 2) tmp.C.Expenses = 3 * temp['C'].bars['Persuasion'].effect + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
+ if (player.C.Switch2 == 3) tmp.C.Expenses = 20 * temp['C'].bars['Persuasion'].effect + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
+ if (player.C.Switch2 == 4) tmp.C.Expenses = 100 * temp['C'].bars['Persuasion'].effect + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
+ if (player.C.Switch2 == 5) tmp.C.Expenses = 200 * temp['C'].bars['Persuasion'].effect + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
+
+ if (tmp.C.OnOff == 1 && player.C.Switch == 1) player.C.fragements = player.C.fragements.add((player.C.Carbonptm / 5) - tmp.C.Expenses), player.C.Xpmaxptm = player.C.Xpmaxptm - player.C.Xpptm * tmp.C.eptm, player.C.XpToptm = player.C.XpToptm + player.C.Xpptm * tmp.C.eptm, player.C.TotalCf = player.C.TotalCf.add(player.C.Carbonptm / 5)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 2) player.C.fragements = player.C.fragements.add((player.C.Carbonftm / 5) - tmp.C.Expenses), player.C.Xpmaxftm = player.C.Xpmaxftm - player.C.Xpptm * tmp.C.eftm, player.C.XpToftm = player.C.XpToftm + player.C.Xpptm * tmp.C.eftm, player.C.TotalCf = player.C.TotalCf.add(player.C.Carbonftm / 5)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 3) player.C.fragements = player.C.fragements.add((player.C.CarbonM / 5) - tmp.C.Expenses), player.C.XpmaxM = player.C.XpmaxM - player.C.Xpptm * tmp.C.eM, player.C.XpToM = player.C.XpToM + player.C.Xpptm * tmp.C.eM, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonM / 5)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 4) player.C.fragements = player.C.fragements.add((player.C.CarbonE / 5) - tmp.C.Expenses), player.C.XpmaxE = player.C.XpmaxE - player.C.Xpptm * tmp.C.eE, player.C.XpToE = player.C.XpToE + player.C.Xpptm * tmp.C.eE, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonE / 5)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 5) player.C.fragements = player.C.fragements.add((player.C.CarbonC / 5) - tmp.C.Expenses), player.C.XpmaxC = player.C.XpmaxC - player.C.Xpptm * tmp.C.eC, player.C.XpToC = player.C.XpToC + player.C.Xpptm * tmp.C.eC, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonC / 5)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 6) player.C.fragements = player.C.fragements.add((player.C.Carbonp * temp['C'].bars['Dummy'].effect / 5) - tmp.C.Expenses), player.C.Xpmaxp = player.C.Xpmaxp - player.C.Xpptm * tmp.C.ep * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpTop = player.C.XpTop + player.C.Xpptm * tmp.C.ep * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.Carbonp * temp['C'].bars['Dummy'].effect / 5)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 7) player.C.fragements = player.C.fragements.add((player.C.CarbonG * temp['C'].bars['Dummy'].effect / 5) - tmp.C.Expenses), player.C.XpmaxG = player.C.XpmaxG - player.C.Xpptm * tmp.C.eG * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpToG = player.C.XpToG + player.C.Xpptm * tmp.C.eG * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonG * temp['C'].bars['Dummy'].effect / 5)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 8) player.C.fragements = player.C.fragements.add((player.C.CarbonJ * temp['C'].bars['Dummy'].effect / 5) - tmp.C.Expenses), player.C.XpmaxJ = player.C.XpmaxJ - player.C.Xpptm * tmp.C.eJ * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpToJ = player.C.XpToJ + player.C.Xpptm * tmp.C.eJ * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonJ * temp['C'].bars['Dummy'].effect / 5)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 9) player.C.fragements = player.C.fragements.add((player.C.CarbonB * temp['C'].bars['Dummy'].effect / 5) - tmp.C.Expenses), player.C.XpmaxB = player.C.XpmaxB - player.C.Xpptm * tmp.C.eB * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpToB = player.C.XpToB + player.C.Xpptm * tmp.C.eB * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonJ * temp['C'].bars['Dummy'].effect / 5)
+
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 1) player.C.Xpmaxf = player.C.Xpmaxf - player.C.Xpskill * tmp.C.ef * temp['C'].clickables[21].effect, player.C.XpTof = player.C.XpTof + player.C.Xpskill * tmp.C.ef * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 2) player.C.XpmaxJB = player.C.XpmaxJB - player.C.Xpskill * tmp.C.eJB * temp['C'].clickables[21].effect, player.C.XpToJB = player.C.XpToJB + player.C.Xpskill * tmp.C.eJB * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 3) player.C.Xpmaxpe = player.C.Xpmaxpe - player.C.Xpskill * tmp.C.epe * temp['C'].clickables[21].effect, player.C.XpTope = player.C.XpTope + player.C.Xpskill * tmp.C.epe * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 4) player.C.XpmaxR = player.C.XpmaxR - player.C.Xpskill * tmp.C.eR * temp['C'].clickables[21].effect, player.C.XpToR = player.C.XpToR + player.C.Xpskill * tmp.C.eR * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 6) player.C.XpmaxD = player.C.XpmaxD - player.C.Xpskill * tmp.C.eD * temp['C'].clickables[22].effect * temp['C'].clickables[21].effect * temp['C'].bars['WeaponsTools'].effect, player.C.XpToD = player.C.XpToD + player.C.Xpskill * tmp.C.eD * temp['C'].clickables[22].effect * temp['C'].clickables[21].effect * temp['C'].bars['WeaponsTools'].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 7) player.C.Xpmaxt = player.C.Xpmaxt - player.C.Xpskill * tmp.C.et * temp['C'].clickables[21].effect, player.C.XpTot = player.C.XpTot + player.C.Xpskill * tmp.C.et * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 8) player.C.XpmaxW = player.C.XpmaxW - player.C.Xpskill * tmp.C.eW * temp['C'].clickables[21].effect, player.C.XpToW = player.C.XpToW + player.C.Xpskill * tmp.C.eW * temp['C'].clickables[21].effect
+
+ if (player.C.Switch == 0)  tmp.C.Income = 0, tmp.C.JHealth = 0
+ if (player.C.Switch == 1)  tmp.C.Income = player.C.Carbonptm, tmp.C.JHealth = 0.2 
+ if (player.C.Switch == 2)  tmp.C.Income = player.C.Carbonftm, tmp.C.JHealth = 0.5
+ if (player.C.Switch == 3)  tmp.C.Income = player.C.CarbonM, tmp.C.JHealth = 0.3
+ if (player.C.Switch == 4)  tmp.C.Income = player.C.CarbonE, tmp.C.JHealth = 0
+ if (player.C.Switch == 5)  tmp.C.Income = player.C.CarbonC, tmp.C.JHealth = 0
+ if (player.C.Switch == 6)  tmp.C.Income = player.C.Carbonp * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 0.1
+ if (player.C.Switch == 7)  tmp.C.Income = player.C.CarbonG * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 0.4
+ if (player.C.Switch == 8)  tmp.C.Income = player.C.CarbonJ * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 1
+ if (player.C.Switch == 9)  tmp.C.Income = player.C.CarbonB * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 2
+
+ if (player.C.fragements.gte(1000)) player.C.points = player.C.points.add(1), player.C.fragements = player.C.fragements.sub(1000), player.C.TotalC = player.C.TotalC.add(1)
+ if (player.C.fragements.lt(0) && player.C.points.gt(0)) player.C.points = player.C.points.sub(1), player.C.fragements = player.C.fragements.add(1000)
+ if (player.C.fragements.lte(0) && player.C.points.lte(0)) player.C.fragements = player.C.fragements.times(0), player.C.Switch2 = 1, player.C.Mis1 = 0, player.C.Mis2 = 0, player.C.Mis3 = 0, player.C.Mis4 = 0, player.C.Mis5 = 0, player.C.ME1 = 0, player.C.ME2 = 0, player.C.ME3 = 0, player.C.ME4 = 0, player.C.ME5 = 0
+
+ if (player.C.points >= 1 && player.C.Nay == 1) player.C.Nay = 2
+ if (player.C.points >= 10 && player.C.Nay == 2) player.C.Nay = 3
+ if (player.C.points >= 100 && player.C.Nay == 3) player.C.Nay = 4
+ if (player.C.points >= 2 && player.C.Yes == 0) player.C.Yes = 1
+ if (player.C.points >= 20 && player.C.Yes == 1) player.C.Yes = 2
+ if (player.C.points >= 200 && player.C.Yes == 2) player.C.Yes = 3
+
+ if (player.C.Year.gte(10) && player.C.Lol == 0) player.C.Lol = 1
+ if (player.C.Year.gte(20) && player.C.Lol == 1) player.C.Lol = 2
+ if (player.C.Year.gte(30) && player.C.Lol == 2) player.C.Lol = 3, tmp.C.OnOff = 0, player.C.Day = player.C.Day.times(0)
+
+ if (player.C.Res >= 1) tmp.C.eptm = player.C.Res + player.C.maxptm / 10,  tmp.C.eftm = player.C.Res + player.C.maxftm / 10, tmp.C.eM = player.C.Res + player.C.maxM / 10, tmp.C.eE = player.C.Res + player.C.maxE / 10, tmp.C.eC = player.C.Res + player.C.maxC / 10, tmp.C.ep = player.C.Res + player.C.maxp / 10, tmp.C.eG = player.C.Res + player.C.maxG / 10, tmp.C.eJ = player.C.Res + player.C.maxJ / 10, tmp.C.eB = player.C.Res + player.C.maxB / 10, tmp.C.ef = player.C.Res + player.C.maxf / 10, tmp.C.eJB = player.C.Res + player.C.maxJB / 10, tmp.C.epe = player.C.Res + player.C.maxpe / 10, tmp.C.eR = player.C.Res + player.C.maxR / 10, tmp.C.eD = player.C.Res + player.C.maxD / 10, tmp.C.et = player.C.Res + player.C.maxt / 10, tmp.C.eW = player.C.Res + player.C.maxW / 10
+    },
+})
+
+Vue.component('Job-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="div-overlay1">
+    <div class="wrapper">
+    <span>&nbspMining&nbspCompany</span>
+    <span>Level</span>
+    <span>Ore/day</span>
+    <span>Xp/day</span>
+    <span>Xp Left</span>
+    <span>Max Level</span>
+</div></div>
+    `
+})
+
+Vue.component('Job-gridz', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="div-overlay2">
+    <div class="wrapper">
+    <span>&nbspThief</span>
+    <span>Level</span>
+    <span>Ore/day</span>
+    <span>Xp/day</span>
+    <span>Xp Left</span>
+    <span>Max Level</span>
+</div></div>
+    `
+})
+
+Vue.component('Job1-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'PartMBar'"/>
+    <display-text :layer="layer" :data="(player.C.Levelptm)"/>
+    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonptm)"/>g</span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eptm * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxptm)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxptm)"/>
+</div>
+    `
+})
+
+Vue.component('Job2-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'FullMBar'"/>
+    <display-text :layer="layer" :data="(player.C.Levelftm)"/>
+    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonftm)"/>g</span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eftm * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxftm)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxftm)"/>
+</div>
+    `
+})
+
+Vue.component('Job3-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'MineManager'"/>
+    <display-text :layer="layer" :data="(player.C.LevelM)"/>
+    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonM)"/>g</span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eM * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxM)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxM)"/>
+</div>
+    `
+})
+
+Vue.component('Job4-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'EVP'"/>
+    <display-text :layer="layer" :data="(player.C.LevelE)"/>
+    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonE)"/>g</span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eE * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxE)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxE)"/>
+</div>
+    `
+})
+
+Vue.component('Job5-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'CEO'"/>
+    <display-text :layer="layer" :data="(player.C.LevelC)"/>
+    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonC)"/>g</span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eC * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxC)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxC)"/>
+</div>
+    `
+})
+
+Vue.component('Job6-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'PickBar'"/>
+    <display-text :layer="layer" :data="(player.C.Levelp)"/>
+    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonp * temp['C'].bars['Dummy'].effect)"/>g</span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eD * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxp)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxp)"/>
+</div>
+    `
+})
+
+Vue.component('Job7-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'Gas'"/>
+    <display-text :layer="layer" :data="(player.C.LevelG)"/>
+    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonG * temp['C'].bars['Dummy'].effect)"/>g</span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eG * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxG)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxG)"/>
+</div>
+    `
+})
+
+Vue.component('Job8-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'Jewelry'"/>
+    <display-text :layer="layer" :data="(player.C.LevelJ)"/>
+    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonJ * temp['C'].bars['Dummy'].effect)"/>g</span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eJ * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxJ)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxJ)"/>
+</div>
+    `
+})
+
+Vue.component('Job9-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'BankHeist'"/>
+    <display-text :layer="layer" :data="(player.C.LevelB)"/>
+    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonB * temp['C'].bars['Dummy'].effect)"/>g</span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eB * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxB)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxB)"/>
+</div>
+    `
+})
+
+Vue.component('Skill-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="div-overlay3">
+    <div class="wrapper">
+    <span>&nbspBasics</span>
+    <span>Level</span>
+    <span>Effect</span>
+    <span>Xp/day</span>
+    <span>Xp Left</span>
+    <span>Max Level</span>
+</div></div>
+    `
+})
+
+Vue.component('Skillz-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="div-overlay4">
+    <div class="wrapper">
+    <span>&nbspTraining</span>
+    <span>Level</span>
+    <span>Effect</span>
+    <span>Xp/day</span>
+    <span>Xp Left</span>
+    <span>Max Level</span>
+</div></div>
+    `
+})
+
+Vue.component('Skill1-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'Focus'"/>
+    <display-text :layer="layer" :data="(player.C.Levelf)"/>
+    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['Focus'].effect)"/><div>Skill xp</div></span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.ef * temp['C'].clickables[21].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxf)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxf)"/>
+</div>
+    `
+})
+
+Vue.component('Skill2-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'JobExperience'"/>
+    <display-text :layer="layer" :data="(player.C.LevelJB)"/>
+    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['JobExperience'].effect)"/><div>Job xp</div></span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eJB * temp['C'].clickables[21].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxJB)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxJB)"/>
+</div>
+    `
+})
+
+Vue.component('Skill3-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'Persuasion'"/>
+    <display-text :layer="layer" :data="(player.C.Levelpe)"/>
+    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['Persuasion'].effect)"/><div>Expenses</div></span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.epe * temp['C'].clickables[21].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxpe)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxpe)"/>
+    <blank :layer="layer" :data="['20px', '17px']"/>
+</div>
+    `
+})
+
+Vue.component('Skill4-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'Relaxation'"/>
+    <display-text :layer="layer" :data="(player.C.LevelR)"/>
+    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['Relaxation'].effect)"/><div>Health</div></span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eR * temp['C'].clickables[21].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxR)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxR)"/>
+    <blank :layer="layer" :data="['20px', '17px']"/>
+</div>
+    `
+})
+
+Vue.component('Skill6-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'Dummy'"/>
+    <display-text :layer="layer" :data="(player.C.LevelD)"/>
+    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['Dummy'].effect)"/><div>Thief Rewards</div></span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eD * temp['C'].clickables[21].effect * temp['C'].clickables[22].effect * temp['C'].bars['WeaponsTools'].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxD)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxD)"/>
+</div>
+    `
+})
+
+Vue.component('Skill7-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'ThievingTactics'"/>
+    <display-text :layer="layer" :data="(player.C.Levelt)"/>
+    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['ThievingTactics'].effect)"/><div>Thief Xp</div></span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.et * temp['C'].clickables[21].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxt)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxt)"/>
+</div>
+    `
+})
+
+Vue.component('Skill8-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper">
+    <bar :layer="layer" :data="'WeaponsTools'"/>
+    <display-text :layer="layer" :data="(player.C.LevelW)"/>
+    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['WeaponsTools'].effect)"/><div>Dummy Xp</div></span>
+    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eW * temp['C'].clickables[21].effect * 5)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxW)"/>
+    <display-text :layer="layer" :data="formatWhole(player.C.maxW)"/>
+</div>
+    `
+})
+
+Vue.component('Shop1-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="11"/>
+    <display-text :layer="layer" :data="player.C.Switch2 == 1 ? 'On' : 'Off'"/>
+    <span>x1.0 <div> Health</div></span>
+    <span><span style="color: #00e600">0g</span> of<div>Carbon Fragments</div></span>
+</div>
+    `
+})
+
+Vue.component('Shop2-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="12"/>
+    <display-text :layer="layer" :data="player.C.Switch2 == 2 ? 'On' : 'Off'"/>
+    <span>x1.5 <div> Health</div></span>
+    <span><display-text style="color: #00e600" :layer="layer" :data="format(15 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+</div>
+    `
+})
+
+Vue.component('Shop3-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="13"/>
+    <display-text :layer="layer" :data="player.C.Switch2 == 3 ? 'On' : 'Off'"/>
+    <span>x2 <div> Health</div></span>
+    <span><display-text style="color: #00e600" :layer="layer" :data="format(100 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+</div>
+    `
+})
+
+Vue.component('Shop4-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="14"/>
+    <display-text :layer="layer" :data="player.C.Switch2 == 4 ? 'On' : 'Off'"/>
+    <span>x3.5 <div> Health</div></span>
+    <span><display-text style="color: #00e600" :layer="layer" :data="format(500 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+</div>
+    `
+})
+
+Vue.component('Shop5-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="15"/>
+    <display-text :layer="layer" :data="player.C.Switch2 == 5 ? 'On' : 'Off'"/>
+    <span>x5 <div> Health</div></span>
+    <span><display-text style="color: #00e600" :layer="layer" :data="format(1000 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+</div>
+    `
+})
+
+Vue.component('Shop6-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="21"/>
+    <display-text :layer="layer" :data="player.C.Mis1 == 1 ? 'On' : 'Off'"/>
+    <span>x1.5 <div> Skill</div></span>
+    <span><display-text style="color: #00e600" :layer="layer" :data="format(10 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+</div>
+    `
+})
+
+Vue.component('Shop7-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="22"/>
+    <display-text :layer="layer" :data="player.C.Mis2 == 1 ? 'On' : 'Off'"/>
+    <span>x1.5 <div> Dummy Xp</div></span>
+    <span><display-text style="color: #00e600" :layer="layer" :data="format(50 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+</div>
+    `
+})
+
+Vue.component('Shop8-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="23"/>
+    <display-text :layer="layer" :data="player.C.Mis3 == 1 ? 'On' : 'Off'"/>
+    <span>x2 <div> Job Xp</div></span>
+    <span><display-text style="color: #00e600" :layer="layer" :data="format(150 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+</div>
+    `
+})
+
+Vue.component('Shop9-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="24"/>
+    <display-text :layer="layer" :data="player.C.Mis4 == 1 ? 'On' : 'Off'"/>
+    <span>x2 <div> Thief Xp</div></span>
+    <span><display-text style="color: #00e600" :layer="layer" :data="format(750 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+</div>
+    `
+})
+
+Vue.component('Shop10-grid', {
+    props: ['layer', 'data'],
+    template: `
+    <div class="wrapper1">
+    <blank :layer="layer" :data="['20px', '17px']"/>
+    <clickable :layer="layer" :data="25"/>
+    <display-text :layer="layer" :data="player.C.Mis5 == 1 ? 'On' : 'Off'"/>
+    <span>x2 <div> Health</div></span>
+    <span><display-text style="color: #00e600" :layer="layer" :data="format(2000 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+</div>
+    `
 })

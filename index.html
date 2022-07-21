@@ -3,6 +3,7 @@
 <head>
 
 	<link rel="stylesheet" type="text/css" href="css/system-style.css" />
+	<link rel="stylesheet" type="text/css" href="css/grid.css" />
 	<link rel="stylesheet" type="text/css" href="css/bars.css" />
 	<link rel="stylesheet" type="text/css" href="css/components.css" />
 	<link rel="stylesheet" type="text/css" href="css/general-style.css" />
@@ -110,6 +111,28 @@
 			<bg :layer="player.navTab == 'none' ? player.tab : player.navTab" ></bg>
 		</div>
 
+		<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 10px; margin-right: 13px; z-index: 1; display: inline-flex; align-items: center">
+			<display-text :layer="'tree-tab'" :data="tmp.C.OnOff > 0 ? 'Playing' : 'Paused'" style="text-align: right; min-height: 20px; margin: 4px"></display-text>
+			<clickable :layer="'tree-tab'" :data="'pause'" style="margin: 4px; padding-bottom: 3px"></clickable>
+			<clickable :layer="'tree-tab'" :data="'play'" style="margin: 4px"></clickable>
+			</div>
+
+			<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 40px; margin-right: 12px; z-index: 1; display: inline-flex; align-items: center">
+				<span style="color: #2E662F">Income/day:</span><span style="color: #00e600"><display-text :layer="'tree-tab'" :data="format(tmp.C.Income)" style="text-align: right; min-height: 20px; margin: 4px"></display-text>g</span>
+				</div>
+				<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 55px; margin-right: 12px; z-index: 1; display: inline-flex; align-items: center">
+					<span style="color: #DE2135">Expenses/day:</span><span style="color: #00e600"><display-text :layer="'tree-tab'" :data="format(tmp.C.Expenses * 5)" style="text-align: right; min-height: 20px; margin: 4px"></display-text>g</span>
+					</div>
+					<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 70px; margin-right: 12px; z-index: 1; display: inline-flex; align-items: center">
+						<span style="color: #4690C8">Net/day:</span><span style="color: #00e600"><display-text :layer="'tree-tab'" :data="format(tmp.C.Net)" style="text-align: right; min-height: 20px; margin: 4px"></display-text>g</span>
+						</div>
+						<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 90px; margin-right: 12px; z-index: 1; display: inline-flex; align-items: center">
+							<h3 style="color: #0000FE">Health:</h3><h3><display-text :layer="'tree-tab'" :data="format(tmp.C.Health)" style="text-align: right; min-height: 20px; margin: 4px"></display-text></h3>
+							</div>
+							<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 108px; margin-right: 12px; z-index: 1; display: inline-flex; align-items: center">
+								<span style="color: #70716B">Health multiplies <div>all forms of xp</div></span>
+								</div>
+			
 		<!-- Popups -->
 		<div class="popup-container">
 			<transition-group name="fade">

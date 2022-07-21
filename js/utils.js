@@ -118,6 +118,7 @@ function clickClickable(layer, id) {
 	updateClickableTemp(layer)
 }
 
+
 function clickGrid(layer, id) {
 	if (!player[layer].unlocked  || tmp[layer].deactivated) return
 	if (!run(layers[layer].grid.getUnlocked, layers[layer].grid, id)) return

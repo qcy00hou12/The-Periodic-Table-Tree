@@ -13,11 +13,16 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "1.5",
-	name: "The Workshop",
+	num: "1.6",
+	name: "Carbon",
 }
 
 let changelog = `<h1>Changelog:</h1><br><br>
+<h3>v1.6</h3><br>
+		- Even newer layer!?<br>
+		- Updated credits
+		- Added and modified vues
+		- Some grammatical fixes<br><br>
 <h3>v1.5</h3><br>
 		- Finished newest layer<br>
 		- Improved particle system<br><br>
@@ -46,7 +51,7 @@ let changelog = `<h1>Changelog:</h1><br><br>
 		- Added new layers.<br>
 		- Fixed some performance and visual issues.`
 
-let winText = `Congratulations! You have reached the end and beaten this game, but what have you missed and what will you gain from going further in? Anyway, for now...`
+let winText = `Congratulations! You have reached the end and beaten this game, but what have you missed and what will you gain from going further in? Holy, you actually did that? You're a trooper. Anyway, for now...`
 
 // If you add new functions anywhere inside of a layer, and those functions have an effect when called, add them here.
 // (The ones here are examples, all official functions are already taken care of)
@@ -81,7 +86,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-
+	if (player.C.Levelptm >= 50 && player.C.Levelftm >= 50 && player.C.LevelM >= 50 && player.C.LevelE >= 50 && player.C.LevelC >= 10 && player.C.Levelp >= 50 && player.C.LevelG >= 50 && player.C.LevelJ >= 11 && player.C.LevelB >= 2 && player.C.Levelf >= 50 && player.C.LevelJB >= 50 && player.C.Levelpe >= 50 && player.C.LevelR >= 50 && player.C.LevelD >= 50 && player.C.Levelt >= 50 && player.C.LevelW >= 50) return true
 }
 
 
