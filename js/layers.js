@@ -518,7 +518,7 @@ addLayer("A", {
         },
         103: {
             unlocked() { if (hasAchievement('A', 95)) return true},
-            name: "Rolling in the dough",
+            name: "Rolling In The Dough",
             textStyle: { "color": "#000000" },
             style: { "background-size": "150% 100%", "background-position": "center center"},
             tooltip: "Get CEO Level 2",
@@ -5106,7 +5106,7 @@ addLayer("C", {
             effect(){
                 let effect = 1
                 if (effect >= 0.90) effect = 1 + player.C.Levelpe * 0.02 * -1 + 0.02
-                if (effect < 0.90) effect = 1 + player.C.Levelpe * 0.01 * -1
+                if (effect < 0.90) effect = 1 + player.C.Levelpe * 0.01 * -1 - 0.04
                 if (effect < 0.85) effect = 1 + player.C.Levelpe * 0.001 * -1
                 return effect
             },
