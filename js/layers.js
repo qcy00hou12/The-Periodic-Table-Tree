@@ -5107,7 +5107,7 @@ addLayer("C", {
                 let effect = 1
                 if (effect >= 0.90) effect = 1 + player.C.Levelpe * 0.02 * -1 + 0.02
                 if (effect < 0.90) effect = 1 + player.C.Levelpe * 0.01 * -1 - 0.04
-                if (effect < 0.85) effect = 1 + player.C.Levelpe * 0.001 * -1
+                if (effect < 0.85) effect = 1 + player.C.Levelpe * 0.001 * -1 - 0.15
                 return effect
             },
             progress() {
