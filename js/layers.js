@@ -79,7 +79,7 @@ addLayer("Per", {
         function () { return `<a href="https://www.mediafire.com/file/b3k0vnbh94pamqh/Start+of+Carbon.txt/file" target="_blank" rel="noopener noreferrer">Start of Carbon</a>`}],
         "blank",
         ["display-text",
-        function () { return `<a href="" target="_blank" rel="noopener noreferrer">Start of Nitrogen</a>`}],
+        function () { return `<a href="https://www.mediafire.com/file/1jioh7k8p0281mh/Start+of+Nitrogen.txt/file" target="_blank" rel="noopener noreferrer">Start of Nitrogen</a>`}],
         "blank",
         ["display-text",
             function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer, <div> P🆎tfr, <div> JJP.' }],
@@ -505,7 +505,88 @@ addLayer("A", {
             tooltip: "The sixth element must be yours",
             done() { return player.C.points.gte(1)},
             onComplete() { return player.E.points = player.E.points.add(1)},
-            image() { if (hasAchievement('A', 95)) return "https://i.postimg.cc/wB8x90zX/Two-asteroids-colliding-1022945-removebg-preview.png" }
+            image() { if (hasAchievement('A', 101)) return "https://i.postimg.cc/mrrmccCF/Rat2-Rat-removebg-preview.png" }
+        },
+        102: {
+            unlocked() { if (hasAchievement('A', 95)) return true},
+            name: "Carbon Copied",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "150% 100%", "background-position": "center center"},
+            tooltip: "Please play Progress Knight. It's way better than this layer.",
+            done() { return player.C.Levelptm >= 10},
+            image() { if (hasAchievement('A', 102)) return "https://i.postimg.cc/G3z9KHyp/Screenshot-2022-07-21-144251-removebg-preview.png" }
+        },
+        103: {
+            unlocked() { if (hasAchievement('A', 95)) return true},
+            name: "Rolling in the dough",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "150% 100%", "background-position": "center center"},
+            tooltip: "Get CEO Level 2",
+            done() { return player.C.LevelC >= 2},
+            image() { if (hasAchievement('A', 103)) return "https://i.postimg.cc/cLGq8cLt/money-falling-png-7.png" }
+        },
+        104: {
+            unlocked() { if (hasAchievement('A', 95)) return true},
+            name: "Petty Theft or Grand Theft Carbon?",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: "Get Pickpocket Level 10",
+            done() { return player.C.Levelp >= 10},
+            image() { if (hasAchievement('A', 104)) return "https://i.postimg.cc/nz9bDSB7/woman-stealing-money-pocket-her-lover-back-59070609-removebg-preview.png" }
+        },
+        105: {
+            unlocked() { if (hasAchievement('A', 95)) return true},
+            name: "Getting Old...",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: "Work for 20 Years",
+            done() { return player.C.Year >= 20},
+            image() { if (hasAchievement('A', 105)) return "https://i.postimg.cc/8cF5sbPn/worker-4395768-1920-1024x683-removebg-preview.png" }
+        },
+        111: {
+            unlocked() { if (hasAchievement('A', 105)) return true},
+            name: "Rejuvenated",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 130%", "background-position": "center center"},
+            tooltip: "Reset Carbon Layer",
+            done() { return player.C.Res >= 1},
+            image() { if (hasAchievement('A', 111)) return "https://i.postimg.cc/rFjVcbJF/Fountain-006-scaled-e1590005999477-removebg-preview.png" }
+        },
+        112: {
+            unlocked() { if (hasAchievement('A', 105)) return true},
+            name: "Black Lung Again?",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "150% 100%", "background-position": "center center"},
+            tooltip: "Get Full-time Miner Level 50",
+            done() { return player.C.Levelftm >= 50},
+            image() { if (hasAchievement('A', 112)) return "https://i.postimg.cc/Jnz36SPD/black-lung-lawsuit-1024x675-prev-ui-removebg-preview.png" }
+        },
+        113: {
+            unlocked() { if (hasAchievement('A', 105)) return true},
+            name: "I Own You",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "150% 100%", "background-position": "center center"},
+            tooltip: "Get CEO Level 10",
+            done() { return player.C.LevelC >= 10},
+            image() { if (hasAchievement('A', 113)) return "https://i.postimg.cc/L5fVLLxN/low-key-portrait-of-menacing-looking-picture-k5601974-removebg-preview.png" }
+        },
+        114: {
+            unlocked() { if (hasAchievement('A', 105)) return true},
+            name: "Master C- Thief",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: "Get Jewelry Store Level 11",
+            done() { return player.C.LevelJ >= 11},
+            image() { if (hasAchievement('A', 114)) return "https://i.postimg.cc/VkSkRgqf/image15-3-removebg-preview.png" }
+        },
+        115: {
+            unlocked() { if (hasAchievement('A', 105)) return true},
+            name: "The Rich Made Obedient",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: "Do what they are asking for.",
+            done() { return player.C.Levelptm >= 50 && player.C.Levelftm >= 50 && player.C.LevelM >= 50 && player.C.LevelE >= 50 && player.C.LevelC >= 10 && player.C.Levelp >= 50 && player.C.LevelG >= 50 && player.C.LevelJ >= 11 && player.C.LevelB >= 2 && player.C.Levelf >= 50 && player.C.LevelJB >= 50 && player.C.Levelpe >= 50 && player.C.LevelR >= 50 && player.C.LevelD >= 50 && player.C.Levelt >= 50 && player.C.LevelW >= 50},
+            image() { if (hasAchievement('A', 115)) return "https://i.postimg.cc/K8ygRdSX/ce06b00e5f5b305c46d85ad0727b5ada-amc-breaking-bad-crawl-spaces-removebg-preview-modified-2.png" }
         },
     },
 
@@ -5501,7 +5582,7 @@ player.C.Day= new Decimal(0),
                     ['display-text', 
                         function() { if (player.C.LevelD >= 10 && player.C.LevelM >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                     ['display-text',
-                        function() { if (player.C.LevelM >= 10 && player.C.LevelD < 30 || player.C.LevelM >= 10 && player.C.LevelE < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/30 and Excutive Vise President level ' + formatWhole(player.C.LevelE) + '/10</span>'}],
+                        function() { if (player.C.LevelM >= 10 && player.C.LevelD >= 10 && player.C.LevelD < 30 || player.C.LevelM >= 10 && player.C.LevelD >= 10 && player.C.LevelE < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/30 and Excutive Vise President level ' + formatWhole(player.C.LevelE) + '/10</span>'}],
                         () => (player.C.LevelE >= 10 && player.C.LevelD >= 30) ? "blank" : "",
                     () => (player.C.LevelE >= 10 && player.C.LevelD >= 30) ? 'Job5-grid' : "",
                     ['display-text', 
@@ -5706,420 +5787,4 @@ player.C.Day= new Decimal(0),
 
  if (player.C.Res >= 1) tmp.C.eptm = player.C.Res + player.C.maxptm / 10,  tmp.C.eftm = player.C.Res + player.C.maxftm / 10, tmp.C.eM = player.C.Res + player.C.maxM / 10, tmp.C.eE = player.C.Res + player.C.maxE / 10, tmp.C.eC = player.C.Res + player.C.maxC / 10, tmp.C.ep = player.C.Res + player.C.maxp / 10, tmp.C.eG = player.C.Res + player.C.maxG / 10, tmp.C.eJ = player.C.Res + player.C.maxJ / 10, tmp.C.eB = player.C.Res + player.C.maxB / 10, tmp.C.ef = player.C.Res + player.C.maxf / 10, tmp.C.eJB = player.C.Res + player.C.maxJB / 10, tmp.C.epe = player.C.Res + player.C.maxpe / 10, tmp.C.eR = player.C.Res + player.C.maxR / 10, tmp.C.eD = player.C.Res + player.C.maxD / 10, tmp.C.et = player.C.Res + player.C.maxt / 10, tmp.C.eW = player.C.Res + player.C.maxW / 10
     },
-})
-
-Vue.component('Job-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="div-overlay1">
-    <div class="wrapper">
-    <span>&nbspMining&nbspCompany</span>
-    <span>Level</span>
-    <span>Ore/day</span>
-    <span>Xp/day</span>
-    <span>Xp Left</span>
-    <span>Max Level</span>
-</div></div>
-    `
-})
-
-Vue.component('Job-gridz', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="div-overlay2">
-    <div class="wrapper">
-    <span>&nbspThief</span>
-    <span>Level</span>
-    <span>Ore/day</span>
-    <span>Xp/day</span>
-    <span>Xp Left</span>
-    <span>Max Level</span>
-</div></div>
-    `
-})
-
-Vue.component('Job1-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'PartMBar'"/>
-    <display-text :layer="layer" :data="(player.C.Levelptm)"/>
-    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonptm)"/>g</span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eptm * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxptm)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxptm)"/>
-</div>
-    `
-})
-
-Vue.component('Job2-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'FullMBar'"/>
-    <display-text :layer="layer" :data="(player.C.Levelftm)"/>
-    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonftm)"/>g</span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eftm * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxftm)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxftm)"/>
-</div>
-    `
-})
-
-Vue.component('Job3-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'MineManager'"/>
-    <display-text :layer="layer" :data="(player.C.LevelM)"/>
-    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonM)"/>g</span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eM * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxM)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxM)"/>
-</div>
-    `
-})
-
-Vue.component('Job4-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'EVP'"/>
-    <display-text :layer="layer" :data="(player.C.LevelE)"/>
-    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonE)"/>g</span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eE * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxE)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxE)"/>
-</div>
-    `
-})
-
-Vue.component('Job5-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'CEO'"/>
-    <display-text :layer="layer" :data="(player.C.LevelC)"/>
-    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonC)"/>g</span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eC * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxC)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxC)"/>
-</div>
-    `
-})
-
-Vue.component('Job6-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'PickBar'"/>
-    <display-text :layer="layer" :data="(player.C.Levelp)"/>
-    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonp * temp['C'].bars['Dummy'].effect)"/>g</span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eD * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxp)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxp)"/>
-</div>
-    `
-})
-
-Vue.component('Job7-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'Gas'"/>
-    <display-text :layer="layer" :data="(player.C.LevelG)"/>
-    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonG * temp['C'].bars['Dummy'].effect)"/>g</span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eG * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxG)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxG)"/>
-</div>
-    `
-})
-
-Vue.component('Job8-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'Jewelry'"/>
-    <display-text :layer="layer" :data="(player.C.LevelJ)"/>
-    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonJ * temp['C'].bars['Dummy'].effect)"/>g</span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eJ * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxJ)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxJ)"/>
-</div>
-    `
-})
-
-Vue.component('Job9-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'BankHeist'"/>
-    <display-text :layer="layer" :data="(player.C.LevelB)"/>
-    <span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonB * temp['C'].bars['Dummy'].effect)"/>g</span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eB * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxB)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxB)"/>
-</div>
-    `
-})
-
-Vue.component('Skill-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="div-overlay3">
-    <div class="wrapper">
-    <span>&nbspBasics</span>
-    <span>Level</span>
-    <span>Effect</span>
-    <span>Xp/day</span>
-    <span>Xp Left</span>
-    <span>Max Level</span>
-</div></div>
-    `
-})
-
-Vue.component('Skillz-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="div-overlay4">
-    <div class="wrapper">
-    <span>&nbspTraining</span>
-    <span>Level</span>
-    <span>Effect</span>
-    <span>Xp/day</span>
-    <span>Xp Left</span>
-    <span>Max Level</span>
-</div></div>
-    `
-})
-
-Vue.component('Skill1-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'Focus'"/>
-    <display-text :layer="layer" :data="(player.C.Levelf)"/>
-    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['Focus'].effect)"/><div>Skill xp</div></span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.ef * temp['C'].clickables[21].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxf)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxf)"/>
-</div>
-    `
-})
-
-Vue.component('Skill2-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'JobExperience'"/>
-    <display-text :layer="layer" :data="(player.C.LevelJB)"/>
-    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['JobExperience'].effect)"/><div>Job xp</div></span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eJB * temp['C'].clickables[21].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxJB)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxJB)"/>
-</div>
-    `
-})
-
-Vue.component('Skill3-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'Persuasion'"/>
-    <display-text :layer="layer" :data="(player.C.Levelpe)"/>
-    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['Persuasion'].effect)"/><div>Expenses</div></span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.epe * temp['C'].clickables[21].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxpe)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxpe)"/>
-    <blank :layer="layer" :data="['20px', '17px']"/>
-</div>
-    `
-})
-
-Vue.component('Skill4-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'Relaxation'"/>
-    <display-text :layer="layer" :data="(player.C.LevelR)"/>
-    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['Relaxation'].effect)"/><div>Health</div></span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eR * temp['C'].clickables[21].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxR)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxR)"/>
-    <blank :layer="layer" :data="['20px', '17px']"/>
-</div>
-    `
-})
-
-Vue.component('Skill6-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'Dummy'"/>
-    <display-text :layer="layer" :data="(player.C.LevelD)"/>
-    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['Dummy'].effect)"/><div>Thief Rewards</div></span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eD * temp['C'].clickables[21].effect * temp['C'].clickables[22].effect * temp['C'].bars['WeaponsTools'].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxD)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxD)"/>
-</div>
-    `
-})
-
-Vue.component('Skill7-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'ThievingTactics'"/>
-    <display-text :layer="layer" :data="(player.C.Levelt)"/>
-    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['ThievingTactics'].effect)"/><div>Thief Xp</div></span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.et * temp['C'].clickables[21].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpmaxt)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxt)"/>
-</div>
-    `
-})
-
-Vue.component('Skill8-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper">
-    <bar :layer="layer" :data="'WeaponsTools'"/>
-    <display-text :layer="layer" :data="(player.C.LevelW)"/>
-    <span>x<display-text :layer="layer" :data="format(temp['C'].bars['WeaponsTools'].effect)"/><div>Dummy Xp</div></span>
-    <display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eW * temp['C'].clickables[21].effect * 5)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.XpmaxW)"/>
-    <display-text :layer="layer" :data="formatWhole(player.C.maxW)"/>
-</div>
-    `
-})
-
-Vue.component('Shop1-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="11"/>
-    <display-text :layer="layer" :data="player.C.Switch2 == 1 ? 'On' : 'Off'"/>
-    <span>x1.0 <div> Health</div></span>
-    <span><span style="color: #00e600">0g</span> of<div>Carbon Fragments</div></span>
-</div>
-    `
-})
-
-Vue.component('Shop2-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="12"/>
-    <display-text :layer="layer" :data="player.C.Switch2 == 2 ? 'On' : 'Off'"/>
-    <span>x1.5 <div> Health</div></span>
-    <span><display-text style="color: #00e600" :layer="layer" :data="format(15 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
-</div>
-    `
-})
-
-Vue.component('Shop3-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="13"/>
-    <display-text :layer="layer" :data="player.C.Switch2 == 3 ? 'On' : 'Off'"/>
-    <span>x2 <div> Health</div></span>
-    <span><display-text style="color: #00e600" :layer="layer" :data="format(100 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
-</div>
-    `
-})
-
-Vue.component('Shop4-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="14"/>
-    <display-text :layer="layer" :data="player.C.Switch2 == 4 ? 'On' : 'Off'"/>
-    <span>x3.5 <div> Health</div></span>
-    <span><display-text style="color: #00e600" :layer="layer" :data="format(500 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
-</div>
-    `
-})
-
-Vue.component('Shop5-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="15"/>
-    <display-text :layer="layer" :data="player.C.Switch2 == 5 ? 'On' : 'Off'"/>
-    <span>x5 <div> Health</div></span>
-    <span><display-text style="color: #00e600" :layer="layer" :data="format(1000 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
-</div>
-    `
-})
-
-Vue.component('Shop6-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="21"/>
-    <display-text :layer="layer" :data="player.C.Mis1 == 1 ? 'On' : 'Off'"/>
-    <span>x1.5 <div> Skill</div></span>
-    <span><display-text style="color: #00e600" :layer="layer" :data="format(10 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
-</div>
-    `
-})
-
-Vue.component('Shop7-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="22"/>
-    <display-text :layer="layer" :data="player.C.Mis2 == 1 ? 'On' : 'Off'"/>
-    <span>x1.5 <div> Dummy Xp</div></span>
-    <span><display-text style="color: #00e600" :layer="layer" :data="format(50 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
-</div>
-    `
-})
-
-Vue.component('Shop8-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="23"/>
-    <display-text :layer="layer" :data="player.C.Mis3 == 1 ? 'On' : 'Off'"/>
-    <span>x2 <div> Job Xp</div></span>
-    <span><display-text style="color: #00e600" :layer="layer" :data="format(150 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
-</div>
-    `
-})
-
-Vue.component('Shop9-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="24"/>
-    <display-text :layer="layer" :data="player.C.Mis4 == 1 ? 'On' : 'Off'"/>
-    <span>x2 <div> Thief Xp</div></span>
-    <span><display-text style="color: #00e600" :layer="layer" :data="format(750 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
-</div>
-    `
-})
-
-Vue.component('Shop10-grid', {
-    props: ['layer', 'data'],
-    template: `
-    <div class="wrapper1">
-    <blank :layer="layer" :data="['20px', '17px']"/>
-    <clickable :layer="layer" :data="25"/>
-    <display-text :layer="layer" :data="player.C.Mis5 == 1 ? 'On' : 'Off'"/>
-    <span>x2 <div> Health</div></span>
-    <span><display-text style="color: #00e600" :layer="layer" :data="format(2000 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
-</div>
-    `
 })

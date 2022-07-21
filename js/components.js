@@ -618,6 +618,422 @@ function loadVue() {
 	`
 	})
 
+	Vue.component('Job-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="div-overlay1">
+		<div class="wrapper">
+		<span>&nbspMining&nbspCompany</span>
+		<span>Level</span>
+		<span>Ore/day</span>
+		<span>Xp/day</span>
+		<span>Xp Left</span>
+		<span>Max Level</span>
+	</div></div>
+		`
+	})
+	
+	Vue.component('Job-gridz', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="div-overlay2">
+		<div class="wrapper">
+		<span>&nbspThief</span>
+		<span>Level</span>
+		<span>Ore/day</span>
+		<span>Xp/day</span>
+		<span>Xp Left</span>
+		<span>Max Level</span>
+	</div></div>
+		`
+	})
+	
+	Vue.component('Job1-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'PartMBar'"/>
+		<display-text :layer="layer" :data="(player.C.Levelptm)"/>
+		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonptm)"/>g</span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eptm * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpmaxptm)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxptm)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Job2-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'FullMBar'"/>
+		<display-text :layer="layer" :data="(player.C.Levelftm)"/>
+		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonftm)"/>g</span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eftm * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpmaxftm)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxftm)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Job3-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'MineManager'"/>
+		<display-text :layer="layer" :data="(player.C.LevelM)"/>
+		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonM)"/>g</span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eM * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxM)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxM)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Job4-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'EVP'"/>
+		<display-text :layer="layer" :data="(player.C.LevelE)"/>
+		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonE)"/>g</span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eE * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxE)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxE)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Job5-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'CEO'"/>
+		<display-text :layer="layer" :data="(player.C.LevelC)"/>
+		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonC)"/>g</span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eC * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxC)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxC)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Job6-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'PickBar'"/>
+		<display-text :layer="layer" :data="(player.C.Levelp)"/>
+		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonp * temp['C'].bars['Dummy'].effect)"/>g</span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eD * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpmaxp)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxp)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Job7-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'Gas'"/>
+		<display-text :layer="layer" :data="(player.C.LevelG)"/>
+		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonG * temp['C'].bars['Dummy'].effect)"/>g</span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eG * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxG)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxG)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Job8-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'Jewelry'"/>
+		<display-text :layer="layer" :data="(player.C.LevelJ)"/>
+		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonJ * temp['C'].bars['Dummy'].effect)"/>g</span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eJ * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxJ)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxJ)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Job9-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'BankHeist'"/>
+		<display-text :layer="layer" :data="(player.C.LevelB)"/>
+		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.CarbonB * temp['C'].bars['Dummy'].effect)"/>g</span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eB * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxB)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxB)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Skill-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="div-overlay3">
+		<div class="wrapper">
+		<span>&nbspBasics</span>
+		<span>Level</span>
+		<span>Effect</span>
+		<span>Xp/day</span>
+		<span>Xp Left</span>
+		<span>Max Level</span>
+	</div></div>
+		`
+	})
+	
+	Vue.component('Skillz-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="div-overlay4">
+		<div class="wrapper">
+		<span>&nbspTraining</span>
+		<span>Level</span>
+		<span>Effect</span>
+		<span>Xp/day</span>
+		<span>Xp Left</span>
+		<span>Max Level</span>
+	</div></div>
+		`
+	})
+	
+	Vue.component('Skill1-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'Focus'"/>
+		<display-text :layer="layer" :data="(player.C.Levelf)"/>
+		<span>x<display-text :layer="layer" :data="format(temp['C'].bars['Focus'].effect)"/><div>Skill xp</div></span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.ef * temp['C'].clickables[21].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpmaxf)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxf)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Skill2-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'JobExperience'"/>
+		<display-text :layer="layer" :data="(player.C.LevelJB)"/>
+		<span>x<display-text :layer="layer" :data="format(temp['C'].bars['JobExperience'].effect)"/><div>Job xp</div></span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eJB * temp['C'].clickables[21].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxJB)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxJB)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Skill3-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'Persuasion'"/>
+		<display-text :layer="layer" :data="(player.C.Levelpe)"/>
+		<span>x<display-text :layer="layer" :data="format(temp['C'].bars['Persuasion'].effect)"/><div>Expenses</div></span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.epe * temp['C'].clickables[21].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpmaxpe)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxpe)"/>
+		<blank :layer="layer" :data="['20px', '17px']"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Skill4-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'Relaxation'"/>
+		<display-text :layer="layer" :data="(player.C.LevelR)"/>
+		<span>x<display-text :layer="layer" :data="format(temp['C'].bars['Relaxation'].effect)"/><div>Health</div></span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eR * temp['C'].clickables[21].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxR)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxR)"/>
+		<blank :layer="layer" :data="['20px', '17px']"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Skill6-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'Dummy'"/>
+		<display-text :layer="layer" :data="(player.C.LevelD)"/>
+		<span>x<display-text :layer="layer" :data="format(temp['C'].bars['Dummy'].effect)"/><div>Thief Rewards</div></span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eD * temp['C'].clickables[21].effect * temp['C'].clickables[22].effect * temp['C'].bars['WeaponsTools'].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxD)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxD)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Skill7-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'ThievingTactics'"/>
+		<display-text :layer="layer" :data="(player.C.Levelt)"/>
+		<span>x<display-text :layer="layer" :data="format(temp['C'].bars['ThievingTactics'].effect)"/><div>Thief Xp</div></span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.et * temp['C'].clickables[21].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpmaxt)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxt)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Skill8-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper">
+		<bar :layer="layer" :data="'WeaponsTools'"/>
+		<display-text :layer="layer" :data="(player.C.LevelW)"/>
+		<span>x<display-text :layer="layer" :data="format(temp['C'].bars['WeaponsTools'].effect)"/><div>Dummy Xp</div></span>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpskill * tmp.C.eW * temp['C'].clickables[21].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.XpmaxW)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.maxW)"/>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop1-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="11"/>
+		<display-text :layer="layer" :data="player.C.Switch2 == 1 ? 'On' : 'Off'"/>
+		<span>x1.0 <div> Health</div></span>
+		<span><span style="color: #00e600">0g</span> of<div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop2-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="12"/>
+		<display-text :layer="layer" :data="player.C.Switch2 == 2 ? 'On' : 'Off'"/>
+		<span>x1.5 <div> Health</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(15 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop3-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="13"/>
+		<display-text :layer="layer" :data="player.C.Switch2 == 3 ? 'On' : 'Off'"/>
+		<span>x2 <div> Health</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(100 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop4-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="14"/>
+		<display-text :layer="layer" :data="player.C.Switch2 == 4 ? 'On' : 'Off'"/>
+		<span>x3.5 <div> Health</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(500 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop5-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="15"/>
+		<display-text :layer="layer" :data="player.C.Switch2 == 5 ? 'On' : 'Off'"/>
+		<span>x5 <div> Health</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(1000 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop6-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="21"/>
+		<display-text :layer="layer" :data="player.C.Mis1 == 1 ? 'On' : 'Off'"/>
+		<span>x1.5 <div> Skill</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(10 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop7-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="22"/>
+		<display-text :layer="layer" :data="player.C.Mis2 == 1 ? 'On' : 'Off'"/>
+		<span>x1.5 <div> Dummy Xp</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(50 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop8-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="23"/>
+		<display-text :layer="layer" :data="player.C.Mis3 == 1 ? 'On' : 'Off'"/>
+		<span>x2 <div> Job Xp</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(150 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop9-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="24"/>
+		<display-text :layer="layer" :data="player.C.Mis4 == 1 ? 'On' : 'Off'"/>
+		<span>x2 <div> Thief Xp</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(750 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
+	Vue.component('Shop10-grid', {
+		props: ['layer', 'data'],
+		template: `
+		<div class="wrapper1">
+		<blank :layer="layer" :data="['20px', '17px']"/>
+		<clickable :layer="layer" :data="25"/>
+		<display-text :layer="layer" :data="player.C.Mis5 == 1 ? 'On' : 'Off'"/>
+		<span>x2 <div> Health</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(2000 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+	</div>
+		`
+	})
+	
 	// SYSTEM COMPONENTS
 	Vue.component('node-mark', systemComponents['node-mark'])
 	Vue.component('tab-buttons', systemComponents['tab-buttons'])
