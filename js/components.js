@@ -925,7 +925,7 @@ function loadVue() {
 		<clickable :layer="layer" :data="12"/>
 		<display-text :layer="layer" :data="player.C.Switch2 == 2 ? 'On' : 'Off'"/>
 		<span>x1.5 <div> Health</div></span>
-		<span><display-text style="color: #00e600" :layer="layer" :data="format(15 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(15 * temp['C'].bars['Persuasion'].effect)"/><span style="color: #00e600">g</span> of <div>Carbon Fragments</div></span>
 	</div>
 		`
 	})
@@ -938,7 +938,7 @@ function loadVue() {
 		<clickable :layer="layer" :data="13"/>
 		<display-text :layer="layer" :data="player.C.Switch2 == 3 ? 'On' : 'Off'"/>
 		<span>x2 <div> Health</div></span>
-		<span><display-text style="color: #00e600" :layer="layer" :data="format(100 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(100 * temp['C'].bars['Persuasion'].effect)"/><span style="color: #00e600">g</span> of <div>Carbon Fragments</div></span>
 	</div>
 		`
 	})
@@ -951,7 +951,7 @@ function loadVue() {
 		<clickable :layer="layer" :data="14"/>
 		<display-text :layer="layer" :data="player.C.Switch2 == 4 ? 'On' : 'Off'"/>
 		<span>x3.5 <div> Health</div></span>
-		<span><display-text style="color: #00e600" :layer="layer" :data="format(500 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(500 * temp['C'].bars['Persuasion'].effect)"/><span style="color: #00e600">g</span> of <div>Carbon Fragments</div></span>
 	</div>
 		`
 	})
@@ -964,7 +964,7 @@ function loadVue() {
 		<clickable :layer="layer" :data="15"/>
 		<display-text :layer="layer" :data="player.C.Switch2 == 5 ? 'On' : 'Off'"/>
 		<span>x5 <div> Health</div></span>
-		<span><display-text style="color: #00e600" :layer="layer" :data="format(1000 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(1000 * temp['C'].bars['Persuasion'].effect)"/><span style="color: #00e600">g</span> of <div>Carbon Fragments</div></span>
 	</div>
 		`
 	})
@@ -977,7 +977,7 @@ function loadVue() {
 		<clickable :layer="layer" :data="21"/>
 		<display-text :layer="layer" :data="player.C.Mis1 == 1 ? 'On' : 'Off'"/>
 		<span>x1.5 <div> Skill</div></span>
-		<span><display-text style="color: #00e600" :layer="layer" :data="format(10 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(10 * temp['C'].bars['Persuasion'].effect)"/><span style="color: #00e600">g</span> of <div>Carbon Fragments</div></span>
 	</div>
 		`
 	})
@@ -990,7 +990,7 @@ function loadVue() {
 		<clickable :layer="layer" :data="22"/>
 		<display-text :layer="layer" :data="player.C.Mis2 == 1 ? 'On' : 'Off'"/>
 		<span>x1.5 <div> Dummy Xp</div></span>
-		<span><display-text style="color: #00e600" :layer="layer" :data="format(50 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(50 * temp['C'].bars['Persuasion'].effect)"/><span style="color: #00e600">g</span> of <div>Carbon Fragments</div></span>
 	</div>
 		`
 	})
@@ -1003,7 +1003,7 @@ function loadVue() {
 		<clickable :layer="layer" :data="23"/>
 		<display-text :layer="layer" :data="player.C.Mis3 == 1 ? 'On' : 'Off'"/>
 		<span>x2 <div> Job Xp</div></span>
-		<span><display-text style="color: #00e600" :layer="layer" :data="format(150 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(150 * temp['C'].bars['Persuasion'].effect)"/><span style="color: #00e600">g</span> of <div>Carbon Fragments</div></span>
 	</div>
 		`
 	})
@@ -1016,7 +1016,7 @@ function loadVue() {
 		<clickable :layer="layer" :data="24"/>
 		<display-text :layer="layer" :data="player.C.Mis4 == 1 ? 'On' : 'Off'"/>
 		<span>x2 <div> Thief Xp</div></span>
-		<span><display-text style="color: #00e600" :layer="layer" :data="format(750 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(750 * temp['C'].bars['Persuasion'].effect)"/><span style="color: #00e600">g</span> of <div>Carbon Fragments</div></span>
 	</div>
 		`
 	})
@@ -1029,7 +1029,7 @@ function loadVue() {
 		<clickable :layer="layer" :data="25"/>
 		<display-text :layer="layer" :data="player.C.Mis5 == 1 ? 'On' : 'Off'"/>
 		<span>x2 <div> Health</div></span>
-		<span><display-text style="color: #00e600" :layer="layer" :data="format(2000 * temp['C'].bars['Persuasion'].effect)"/> of <div>Carbon Fragments</div></span>
+		<span><display-text style="color: #00e600" :layer="layer" :data="format(2000 * temp['C'].bars['Persuasion'].effect)"/><span style="color: #00e600">g</span> of <div>Carbon Fragments</div></span>
 	</div>
 		`
 	})
