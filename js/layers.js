@@ -5437,8 +5437,8 @@ addLayer("C", {
     canClick() { return true},
     onClick() {
         if (player.C.Res == 3){player = null
-        save(true)};
-        window.location.reload();
+        save(true);
+        window.location.reload()};
         if (player.C.maxptm < player.C.Levelptm) player.C.maxptm = player.C.Levelptm
         if (player.C.maxftm < player.C.Levelftm) player.C.maxftm = player.C.Levelftm
         if (player.C.maxM < player.C.LevelM) player.C.maxM = player.C.LevelM
