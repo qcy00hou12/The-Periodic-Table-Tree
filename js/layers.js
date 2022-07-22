@@ -5730,7 +5730,7 @@ player.C.Day= new Decimal(0),
     },
 
     update() {
-        if (player.C.Switch == 0) tmp.C.OnOff = tmp.C.OnOff.times(0)
+        if (player.C.Switch == 0) tmp.C.OnOff = tmp.C.OnOff * 0
         if(tmp.C.Health < 0) player.C.Switch = player.C.Switch.times(0)
         if (player.B.Next.gte(1)) player.C.unlocked = true
         tmp.C.Net = tmp.C.Income - tmp.C.Expenses * 5
