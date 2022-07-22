@@ -948,7 +948,8 @@ addLayer("p", {
         11: {
             title: "Hydrogen Gas",
             display() {
-                return "Produce Hydrogen Gas on hold."
+                if(options.mobileMode == false) return "Produce Hydrogen Gas on hold."
+                if(options.mobileMode == true) return "Produce Hydrogen Gas on hover."
             },
             style: { "background-color": "#0000ff" },
             canClick() {
@@ -1014,7 +1015,8 @@ addLayer("p", {
         12: {
             title: "Hydrogen Multiplier",
             display() {
-                return "Multiply Hydrogen Gas gain on hold."
+                if(options.mobileMode == false) return "Multiply Hydrogen Gas gain on hold."
+                if(options.mobileMode == true) return "Multiply Hydrogen Gas gain on hover."
             },
             style: { "color": "#ededed" },
             unlocked() {
@@ -3819,7 +3821,7 @@ componentStyles: {
         if (layers[this.layer].row >= layers[resettingLayer].row) return
         let keptUpgrades = []
         let keptMilestones = []
-        if (player.B.resets > 0) keptUpgrades.push(...player.Be.upgrades.slice(0, player.B.resets))
+        if (player.B.resets > 0) keptUpgrades.push(...player.Be.upgrades.slice(0, player.B.resets)), setBuyableAmount('Be', 11, 50)
         if (player.B.resets > 4) keptMilestones.push(...player.Be.milestones.slice(0, player.B.resets))
         layerDataReset(this.layer)
         if (player.B.resets > 0) player.Be.BerylliumPlates = player.Be.BerylliumPlates.add(player.B.resets.times(10)), setBuyableAmount('Be', 11, player.B.resets.times(10))
@@ -4141,7 +4143,10 @@ addLayer("B", {
                 if (hasUpgrade('B', 21) && player.B.State == 0) return "Drill: OFF"
                 else return "Drill"
             },
-            display() { return 'HOLD TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'},
+            display() { 
+                if (options.mobileMode == false && !hasUpgrade('B', 21)) return 'HOLD TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'
+                if (options.mobileMode == true && !hasUpgrade('B', 21)) return 'HOVER TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'
+                if (hasUpgrade('B', 21)) return 'CLICK TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'},
             canClick() { return true},
             effect() {
                 let effect = [];

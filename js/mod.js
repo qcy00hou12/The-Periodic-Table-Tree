@@ -13,11 +13,15 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "1.6",
-	name: "Carbon",
+	num: "1.6.1",
+	name: "Carbon-Hover",
 }
 
 let changelog = `<h1>Changelog:</h1><br><br>
+<h3>v1.6.1</h3><br>
+		- Added Hover on Low Quality Mode<br>
+		- Changed repository name<br>
+		- Other fixes<br>
 <h3>v1.6</h3><br>
 		- Even newer layer!?<br>
 		- Updated credits<br>
