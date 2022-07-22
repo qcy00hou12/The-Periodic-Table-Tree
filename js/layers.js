@@ -5015,7 +5015,7 @@ addLayer("C", {
         },
         BankHeist: {
             tooltip() {
-                return `On a dark and gloomy night, you arise from the shadows overlooking the establishment. It's layered with security camera's, security guards and security doors. The chance of success is slim but rewards are plentiful. Will conquer the bank, or will you die trying?`
+                return `On a dark and gloomy night, you arise from the shadows overlooking the establishment. It's layered with security camera's, security guards and security doors. The chance of success is slim but rewards are plentiful. Will conquer the bank, or will you die trying? (Must Be Above Negative Health To Attempt.)`
             },
             onClick(){
                 return player.C.Switch = player.C.Switch.times(0).add(9)
@@ -5730,6 +5730,7 @@ player.C.Day= new Decimal(0),
     },
 
     update() {
+        if(tmp.C.Health < 0) player.C.Switch = player.C.Switch.times(0)
         if (player.B.Next.gte(1)) player.C.unlocked = true
         tmp.C.Net = tmp.C.Income - tmp.C.Expenses * 5
  if (tmp.C.OnOff == 1) player.C.Ticks = player.C.Ticks.add(1)
