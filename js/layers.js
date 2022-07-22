@@ -5027,7 +5027,7 @@ addLayer("C", {
                 if (player.C.XpmaxB <= 0 && player.C.Switch == 9 &&  -getBaseLog(1.034, player.C.LevelB) + 200 >= 10) player.C.CarbonB = player.C.CarbonB -getBaseLog(1.034, player.C.LevelB) + 200
                 if (player.C.XpmaxB <= 0 && player.C.Switch == 9 && -getBaseLog(1.034, player.C.LevelB) + 200 < 10) player.C.CarbonB = player.C.CarbonB + 10
                 let progB = []
-                if (player.C.XpmaxJ <= 0 && player.C.Switch == 9) player.C.LevelJ = player.C.LevelB + 1, player.C.XpmaxB = player.C.TruemaxB + (player.C.LevelB^3 + 10000), player.C.TruemaxB = player.C.XpmaxB, player.C.XpToB = 0
+                if (player.C.XpmaxB <= 0 && player.C.Switch == 9) player.C.LevelB = player.C.LevelB + 1, player.C.XpmaxB = player.C.TruemaxB + (player.C.LevelB^3 + 10000), player.C.TruemaxB = player.C.XpmaxB, player.C.XpToB = 0
                 progB = player.C.XpToB / player.C.TruemaxB
                 return progB
             },
