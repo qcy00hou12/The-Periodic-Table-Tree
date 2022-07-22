@@ -21,8 +21,8 @@ addNode("Ex", {
     },
 
     tooltip() {
-        if (player.p.Node < 1) return "ON"
-        else return "OFF"
+        if (player.p.Node < 1) return "ON: Turning off text."
+        else return "OFF: Turning on text."
     },
 
     canClick() { return true },
