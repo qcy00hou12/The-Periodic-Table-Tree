@@ -5730,7 +5730,7 @@ player.C.Day= new Decimal(0),
     },
 
     update() {
-        if (player.C.Switch == 0) tmp.C.OnOff = tmp.C.OnOff * 0
+        if (player.C.Switch == 0) tmp.C.OnOff = tmp.C.OnOff.times(0)
         if(tmp.C.Health < 0) player.C.Switch = player.C.Switch.times(0)
         if (player.B.Next.gte(1)) player.C.unlocked = true
         tmp.C.Net = tmp.C.Income - tmp.C.Expenses * 5
@@ -5786,7 +5786,7 @@ player.C.Day= new Decimal(0),
 
  if (player.C.Year.gte(10) && player.C.Lol == 0) player.C.Lol = 1
  if (player.C.Year.gte(20) && player.C.Lol == 1) player.C.Lol = 2
- if (player.C.Year.gte(30) && player.C.Lol == 2) player.C.Lol = 3, tmp.C.OnOff = 0, player.C.Day = player.C.Day.times(0)
+ if (player.C.Year.gte(30) && player.C.Lol == 2) player.C.Lol = 3, tmp.C.OnOff = tmp.C.OnOff.times(0), player.C.Day = player.C.Day.times(0)
 
  if (player.C.Res >= 1) tmp.C.eptm = player.C.Res + player.C.maxptm / 10,  tmp.C.eftm = player.C.Res + player.C.maxftm / 10, tmp.C.eM = player.C.Res + player.C.maxM / 10, tmp.C.eE = player.C.Res + player.C.maxE / 10, tmp.C.eC = player.C.Res + player.C.maxC / 10, tmp.C.ep = player.C.Res + player.C.maxp / 10, tmp.C.eG = player.C.Res + player.C.maxG / 10, tmp.C.eJ = player.C.Res + player.C.maxJ / 10, tmp.C.eB = player.C.Res + player.C.maxB / 10, tmp.C.ef = player.C.Res + player.C.maxf / 10, tmp.C.eJB = player.C.Res + player.C.maxJB / 10, tmp.C.epe = player.C.Res + player.C.maxpe / 10, tmp.C.eR = player.C.Res + player.C.maxR / 10, tmp.C.eD = player.C.Res + player.C.maxD / 10, tmp.C.et = player.C.Res + player.C.maxt / 10, tmp.C.eW = player.C.Res + player.C.maxW / 10
     },
