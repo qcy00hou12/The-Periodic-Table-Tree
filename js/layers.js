@@ -21,8 +21,8 @@ addNode("Ex", {
     },
 
     tooltip() {
-        if (player.p.Node < 1) return "ON: Turning off text."
-        else return "OFF: Turning on text."
+        if (player.p.Node < 1) return "ON: Turning on text."
+        else return "OFF: Turning off text."
     },
 
     canClick() { return true },
@@ -996,11 +996,19 @@ addLayer("p", {
             onClick() {
                 if (hasUpgrade('p', 14)) player.p.Clic = player.p.Clic.add(1)
             },
+            onHover() {
+                if(options.mobileMode == true){
+                    player.p.GasTicks = player.p.GasTicks.add(1)
+                if (player.p.Node < 1) player.p.HydroGain = player.p.HydroGain.add(1)
+                player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)).times(player.Li.points.add(1).pow(effect5).times(effect6)))
+                player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)}
+            },
             onHold() {
+                if(options.mobileMode == false){
                 player.p.GasTicks = player.p.GasTicks.add(1)
                 if (player.p.Node < 1) player.p.HydroGain = player.p.HydroGain.add(1)
                 player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)).times(player.Li.points.add(1).pow(effect5).times(effect6)))
-                player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)
+                player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)}
             },
         },
         12: {
@@ -1040,9 +1048,15 @@ addLayer("p", {
                 if (player.p.HydrogenMult < Equa) player.p.HydrogenMult = player.p.HydrogenMult.add(-lightfall)
                 return effectM
             },
-            onHold() {
+            onHover(){
+                if (options.mobileMode == true){
                 player.p.HydrogenMult = player.p.HydrogenMult.add(temp['p'].clickables[12].effect)
-                if (player.p.HydrogenMult > cap) player.p.HydrogenMult = player.p.HydrogenMult.add(effectM.times(-1))
+                if (player.p.HydrogenMult > cap) player.p.HydrogenMult = player.p.HydrogenMult.add(effectM.times(-1))}
+            },
+            onHold() {
+                if(options.mobileMode == false){
+                player.p.HydrogenMult = player.p.HydrogenMult.add(temp['p'].clickables[12].effect)
+                if (player.p.HydrogenMult > cap) player.p.HydrogenMult = player.p.HydrogenMult.add(effectM.times(-1))}
             }
         }
     },
@@ -4141,14 +4155,23 @@ addLayer("B", {
                 if (hasUpgrade('B', 21) && player.B.State == 1) return player.B.State = player.B.State.times(0)
             },
             onHold() {  
+                if(options.mobileMode == false){
                 if (hasUpgrade('B', 21)) return ''
                 player.B.TicksMax = temp['B'].clickables[11].effect
                 player.B.SDeg = player.B.SDeg.add(1)
                 if (player.B.Ticks.gte(1)) player.B.Ticks = player.B.Ticks.sub(temp['B'].clickables[11].effect)
                 if (player.B.Ticks.gte(1) && player.B.Deg.lte(100)) player.B.Deg = player.B.Deg.add(player.B.Deg.times(0.1))
-                if (player.B.Ticks.gte(1) && player.B.Deg.gte(101)) player.B.Deg = player.B.Deg.add(10)
+                if (player.B.Ticks.gte(1) && player.B.Deg.gte(101)) player.B.Deg = player.B.Deg.add(10)}
             },
-        
+            onHover() {
+                if(options.mobileMode == true){
+                if (hasUpgrade('B', 21)) return ''
+                player.B.TicksMax = temp['B'].clickables[11].effect
+                player.B.SDeg = player.B.SDeg.add(1)
+                if (player.B.Ticks.gte(1)) player.B.Ticks = player.B.Ticks.sub(temp['B'].clickables[11].effect)
+                if (player.B.Ticks.gte(1) && player.B.Deg.lte(100)) player.B.Deg = player.B.Deg.add(player.B.Deg.times(0.1))
+                if (player.B.Ticks.gte(1) && player.B.Deg.gte(101)) player.B.Deg = player.B.Deg.add(10)}
+            },
         },
     },
 

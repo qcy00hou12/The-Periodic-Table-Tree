@@ -338,7 +338,7 @@ function loadVue() {
 			v-if="tmp[layer].clickables && tmp[layer].clickables[data]!== undefined && tmp[layer].clickables[data].unlocked" 
 			v-bind:class="{ upg: true, tooltipBox: true, can: tmp[layer].clickables[data].canClick, locked: !tmp[layer].clickables[data].canClick}"
 			v-bind:style="[tmp[layer].clickables[data].canClick ? {'background-color': tmp[layer].color} : {}, tmp[layer].clickables[data].style]"
-			v-on:click="if(!interval) clickClickable(layer, data)" :id='"clickable-" + layer + "-" + data' @mousedown="start" @mouseleave="stop" @mouseup="stop" @touchstart="start" @touchend="stop" @touchcancel="stop">
+			v-on:click="if(!interval) clickClickable(layer, data)" :id='"clickable-" + layer + "-" + data' @mouseenter= "hover" @mousedown="start" @mouseleave="stop" @mouseup="stop" @touchstart="start" @touchend="stop" @touchcancel="stop">
 			<span v-if= "tmp[layer].clickables[data].title"><h2 v-html="tmp[layer].clickables[data].title"></h2><br></span>
 			<span v-bind:style="{'white-space': 'pre-line'}" v-html="run(layers[layer].clickables[data].display, layers[layer].clickables[data])"></span>
 			<node-mark :layer='layer' :data='tmp[layer].clickables[data].marked'></node-mark>
@@ -346,7 +346,7 @@ function loadVue() {
 
 		</button>
 		`,
-		data() { return { interval: false, time: 0,}},
+		data() { return { interval: false, time: 0, upHere: false}},
 		methods: {
 			start() {
 				if (!this.interval && layers[this.layer].clickables[this.data].onHold) {
@@ -358,12 +358,22 @@ function loadVue() {
 						this.time = this.time+1
 					}).bind(this), 50)}
 			},
+			hover() {
+				if (!this.interval && layers[this.layer].clickables[this.data].onHover) {
+					this.interval = setInterval((function() {
+						let c = layers[this.layer].clickables[this.data]
+						if(this.time >= 0 && run(c.canClick, c)) {
+							run(c.onHover, c)
+						}	
+						this.time = this.time+1
+					}).bind(this), 50)}
+			},
 			stop() {
 				clearInterval(this.interval)
 				this.interval = false
 			  	this.time = 0
 				if (player.B.State == 0 || !hasUpgrade('B', 21)) player.B.SDeg = player.B.SDeg.times(0), player.B.TicksMax = 0
-			}
+			},
 		},
 	})
 
