@@ -20,8 +20,8 @@ let VERSION = {
 let changelog = `<h1>Changelog:</h1><br><br>
 <h3>v1.6</h3><br>
 		- Even newer layer!?<br>
-		- Updated credits
-		- Added and modified vues
+		- Updated credits<br>
+		- Added and modified vues<br>
 		- Some grammatical fixes<br><br>
 <h3>v1.5</h3><br>
 		- Finished newest layer<br>
@@ -86,7 +86,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	if (player.C.Levelptm >= 50 && player.C.Levelftm >= 50 && player.C.LevelM >= 50 && player.C.LevelE >= 50 && player.C.LevelC >= 10 && player.C.Levelp >= 50 && player.C.LevelG >= 50 && player.C.LevelJ >= 11 && player.C.LevelB >= 5 && player.C.Levelf >= 50 && player.C.LevelJB >= 50 && player.C.Levelpe >= 50 && player.C.LevelR >= 50 && player.C.LevelD >= 50 && player.C.Levelt >= 50 && player.C.LevelW >= 50) return true
+	if (player.C.Levelptm >= 200 && player.C.Levelftm >= 200 && player.C.LevelM >= 200 && player.C.LevelE >= 200 && player.C.LevelC >= 200 && player.C.Levelp >= 200 && player.C.LevelG >= 200 && player.C.LevelJ >= 200 && player.C.LevelB >= 200 && player.C.Levelf >= 200 && player.C.LevelJB >= 200 && player.C.Levelpe >= 200 && player.C.LevelR >= 200 && player.C.LevelD >= 200 && player.C.Levelt >= 200 && player.C.LevelW >= 200) return true
 }
 
 

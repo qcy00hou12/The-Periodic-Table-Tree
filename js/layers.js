@@ -4835,7 +4835,7 @@ addLayer("C", {
                 let progPM = []
                 if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1 && -getBaseLog(10, player.C.Levelptm) + 2 >= 0.1) player.C.Carbonptm = player.C.Carbonptm -getBaseLog(10, player.C.Levelptm) + 2
                 if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1 && -getBaseLog(10, player.C.Levelptm) + 2 < 0.1) player.C.Carbonptm = player.C.Carbonptm + 0.1
-                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1) player.C.Levelptm = player.C.Levelptm + 1, player.C.Xpmaxptm = player.C.Truemaxptm + (player.C.Levelptm^0.6 + 40), player.C.Truemaxptm = player.C.Xpmaxptm, player.C.XpToptm = 0
+                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1) player.C.Levelptm = player.C.Levelptm + 1, player.C.Xpmaxptm = player.C.Truemaxptm + (player.C.Levelptm*1.6 + 40), player.C.Truemaxptm = player.C.Xpmaxptm, player.C.XpToptm = 0
                 progPM = player.C.XpToptm / player.C.Truemaxptm
                 return progPM
             },
@@ -4859,7 +4859,7 @@ addLayer("C", {
                 if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2 && -getBaseLog(3, player.C.Levelftm) + 4 >= 0.1) player.C.Carbonftm = player.C.Carbonftm -getBaseLog(3, player.C.Levelftm) + 4
                 if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2 && -getBaseLog(3, player.C.Levelftm) + 4 < 0.1) player.C.Carbonftm = player.C.Carbonftm + 0.1
                 let progFM = []
-                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2) player.C.Levelftm = player.C.Levelftm + 1, player.C.Xpmaxftm = player.C.Truemaxftm + (player.C.Levelftm^0.6 + 100), player.C.Truemaxftm = player.C.Xpmaxftm, player.C.XpToftm = 0
+                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2) player.C.Levelftm = player.C.Levelftm + 1, player.C.Xpmaxftm = player.C.Truemaxftm + (player.C.Levelftm*1.4 + 100), player.C.Truemaxftm = player.C.Xpmaxftm, player.C.XpToftm = 0
                 progFM = player.C.XpToftm / player.C.Truemaxftm
                 return progFM
             },
@@ -4883,7 +4883,7 @@ addLayer("C", {
                 if (player.C.XpmaxM <= 0 && player.C.Switch == 3 && -getBaseLog(2, player.C.LevelM) + 5 >= 0.1) player.C.CarbonM = player.C.CarbonM -getBaseLog(2, player.C.LevelM) + 5
                 if (player.C.XpmaxM <= 0 && player.C.Switch == 3 && -getBaseLog(2, player.C.LevelM) + 5 < 0.1) player.C.CarbonM = player.C.CarbonM + 0.1
                 let progM = []
-                if (player.C.XpmaxM <= 0 && player.C.Switch == 3) player.C.LevelM = player.C.LevelM + 1, player.C.XpmaxM = player.C.TruemaxM + (player.C.LevelM^1.6 + 200), player.C.TruemaxM = player.C.XpmaxM, player.C.XpToM = 0
+                if (player.C.XpmaxM <= 0 && player.C.Switch == 3) player.C.LevelM = player.C.LevelM + 1, player.C.XpmaxM = player.C.TruemaxM + (player.C.LevelM*1.6 + 200), player.C.TruemaxM = player.C.XpmaxM, player.C.XpToM = 0
                 progM = player.C.XpToM / player.C.TruemaxM
                 return progM
             },
@@ -4907,7 +4907,7 @@ addLayer("C", {
                 if (player.C.XpmaxE <= 0 && player.C.Switch == 4 && -getBaseLog(1.45, player.C.LevelE) + 7 >= 0.1) player.C.CarbonE = player.C.CarbonE -getBaseLog(1.45, player.C.LevelE) + 7
                 if (player.C.XpmaxE <= 0 && player.C.Switch == 4 && -getBaseLog(1.45, player.C.LevelE) + 7 < 0.1) player.C.CarbonE = player.C.CarbonE + 0.1
                 let progE = []
-                if (player.C.XpmaxE <= 0 && player.C.Switch == 4) player.C.LevelE = player.C.LevelE + 1, player.C.XpmaxE = player.C.TruemaxE + (player.C.LevelE^1.7 + 600), player.C.TruemaxE = player.C.XpmaxE, player.C.XpToE = 0
+                if (player.C.XpmaxE <= 0 && player.C.Switch == 4) player.C.LevelE = player.C.LevelE + 1, player.C.XpmaxE = player.C.TruemaxE + (player.C.LevelE*1.7 + 600), player.C.TruemaxE = player.C.XpmaxE, player.C.XpToE = 0
                 progE = player.C.XpToE / player.C.TruemaxE
                 return progE
             },
@@ -4931,7 +4931,7 @@ addLayer("C", {
                 if (player.C.XpmaxC <= 0 && player.C.Switch == 5 && -getBaseLog(1.075, player.C.LevelC) + 24 >= 1) player.C.CarbonC = player.C.CarbonC -getBaseLog(1.075, player.C.LevelC) + 24
                 if (player.C.XpmaxC <= 0 && player.C.Switch == 5 && -getBaseLog(1.075, player.C.LevelC) + 24 < 1) player.C.CarbonC = player.C.CarbonC + 1
                 let progC = []
-                if (player.C.XpmaxC <= 0 && player.C.Switch == 5) player.C.LevelC = player.C.LevelC + 1, player.C.XpmaxC = player.C.TruemaxC + (player.C.LevelC^1.7 + 800), player.C.TruemaxC = player.C.XpmaxC, player.C.XpToC = 0
+                if (player.C.XpmaxC <= 0 && player.C.Switch == 5) player.C.LevelC = player.C.LevelC + 1, player.C.XpmaxC = player.C.TruemaxC + (player.C.LevelC*1.7 + 800), player.C.TruemaxC = player.C.XpmaxC, player.C.XpToC = 0
                 progC = player.C.XpToC / player.C.TruemaxC
                 return progC
             },
@@ -4955,7 +4955,7 @@ addLayer("C", {
                 if (player.C.Xpmaxp <= 0 && player.C.Switch == 6 && -getBaseLog(5, player.C.Levelp) + 1.75 >= 0.1) player.C.Carbonp = player.C.Carbonp -getBaseLog(5, player.C.Levelp) + 1.75
                 if (player.C.Xpmaxp <= 0 && player.C.Switch == 6 && -getBaseLog(1.45, player.C.Levelp) + 1.75 < 0.1) player.C.Carbonp = player.C.Carbonp + 0.1
                 let progp = []
-                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6) player.C.Levelp = player.C.Levelp + 1, player.C.Xpmaxp = player.C.Truemaxp + (player.C.Levelp^0.8 + 120), player.C.Truemaxp = player.C.Xpmaxp, player.C.XpTop = 0
+                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6) player.C.Levelp = player.C.Levelp + 1, player.C.Xpmaxp = player.C.Truemaxp + (player.C.Levelp*1.8 + 120), player.C.Truemaxp = player.C.Xpmaxp, player.C.XpTop = 0
                 progp = player.C.XpTop / player.C.Truemaxp
                 return progp
             },
@@ -4979,7 +4979,7 @@ addLayer("C", {
                 if (player.C.XpmaxG <= 0 && player.C.Switch == 7 &&  -getBaseLog(1.105, player.C.LevelG) + 19 >= 2) player.C.CarbonG = player.C.CarbonG -getBaseLog(1.105, player.C.LevelG) + 19
                 if (player.C.XpmaxG <= 0 && player.C.Switch == 7 && -getBaseLog(1.105, player.C.LevelG) + 19 < 2) player.C.CarbonG = player.C.CarbonG + 2
                 let progG = []
-                if (player.C.XpmaxG <= 0 && player.C.Switch == 7) player.C.LevelG = player.C.LevelG + 1, player.C.XpmaxG = player.C.TruemaxG + (player.C.LevelG^1.8 + 1000), player.C.TruemaxG = player.C.XpmaxG, player.C.XpToG = 0
+                if (player.C.XpmaxG <= 0 && player.C.Switch == 7) player.C.LevelG = player.C.LevelG + 1, player.C.XpmaxG = player.C.TruemaxG + (player.C.LevelG*1.8 + 1000), player.C.TruemaxG = player.C.XpmaxG, player.C.XpToG = 0
                 progG = player.C.XpToG / player.C.TruemaxG
                 return progG
             },
@@ -5003,7 +5003,7 @@ addLayer("C", {
                 if (player.C.XpmaxJ <= 0 && player.C.Switch == 8 &&  -getBaseLog(1.034, player.C.LevelJ) + 48 >= 5) player.C.CarbonJ = player.C.CarbonJ -getBaseLog(1.034, player.C.LevelJ) + 48
                 if (player.C.XpmaxJ <= 0 && player.C.Switch == 8 && -getBaseLog(1.034, player.C.LevelJ) + 48 < 5) player.C.CarbonJ = player.C.CarbonJ + 5
                 let progJ = []
-                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8) player.C.LevelJ = player.C.LevelJ + 1, player.C.XpmaxJ = player.C.TruemaxJ + (player.C.LevelJ^3 + 10000), player.C.TruemaxJ = player.C.XpmaxJ, player.C.XpToJ = 0
+                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8) player.C.LevelJ = player.C.LevelJ + 1, player.C.XpmaxJ = player.C.TruemaxJ + (player.C.LevelJ*3 + 10000), player.C.TruemaxJ = player.C.XpmaxJ, player.C.XpToJ = 0
                 progJ = player.C.XpToJ / player.C.TruemaxJ
                 return progJ
             },
@@ -5027,7 +5027,7 @@ addLayer("C", {
                 if (player.C.XpmaxB <= 0 && player.C.Switch == 9 &&  -getBaseLog(1.034, player.C.LevelB) + 200 >= 10) player.C.CarbonB = player.C.CarbonB -getBaseLog(1.034, player.C.LevelB) + 200
                 if (player.C.XpmaxB <= 0 && player.C.Switch == 9 && -getBaseLog(1.034, player.C.LevelB) + 200 < 10) player.C.CarbonB = player.C.CarbonB + 10
                 let progB = []
-                if (player.C.XpmaxB <= 0 && player.C.Switch == 9) player.C.LevelB = player.C.LevelB + 1, player.C.XpmaxB = player.C.TruemaxB + (player.C.LevelB^3 + 10000), player.C.TruemaxB = player.C.XpmaxB, player.C.XpToB = 0
+                if (player.C.XpmaxB <= 0 && player.C.Switch == 9) player.C.LevelB = player.C.LevelB + 1, player.C.XpmaxB = player.C.TruemaxB + (player.C.LevelB*3 + 10000), player.C.TruemaxB = player.C.XpmaxB, player.C.XpToB = 0
                 progB = player.C.XpToB / player.C.TruemaxB
                 return progB
             },
@@ -5055,7 +5055,7 @@ addLayer("C", {
             },
             progress() {
                 let progF = []
-                if (player.C.Xpmaxf <= 0 && player.C.Switch1 == 1) player.C.Levelf = player.C.Levelf + 1, player.C.Xpmaxf = player.C.Truemaxf + (player.C.Levelf^1.9 + 100), player.C.Truemaxf = player.C.Xpmaxf, player.C.XpTof = 0
+                if (player.C.Xpmaxf <= 0 && player.C.Switch1 == 1) player.C.Levelf = player.C.Levelf + 1, player.C.Xpmaxf = player.C.Truemaxf + (player.C.Levelf*1.9 + 100), player.C.Truemaxf = player.C.Xpmaxf, player.C.XpTof = 0
                 progF = player.C.XpTof / player.C.Truemaxf
                 return progF
             },
@@ -5083,7 +5083,7 @@ addLayer("C", {
             },
             progress() {
                 let progJE = []
-                if (player.C.XpmaxJB <= 0 && player.C.Switch1 == 2) player.C.LevelJB = player.C.LevelJB + 1, player.C.XpmaxJB = player.C.TruemaxJB + (player.C.LevelJB^2.1 + 100), player.C.TruemaxJB = player.C.XpmaxJB, player.C.XpToJB = 0
+                if (player.C.XpmaxJB <= 0 && player.C.Switch1 == 2) player.C.LevelJB = player.C.LevelJB + 1, player.C.XpmaxJB = player.C.TruemaxJB + (player.C.LevelJB*2.1 + 100), player.C.TruemaxJB = player.C.XpmaxJB, player.C.XpToJB = 0
                 progJE = player.C.XpToJB / player.C.TruemaxJB
                 return progJE
             },
@@ -5113,7 +5113,7 @@ addLayer("C", {
             },
             progress() {
                 let progpe = []
-                if (player.C.Xpmaxpe <= 0 && player.C.Switch1 == 3) player.C.Levelpe = player.C.Levelpe + 1, player.C.Xpmaxpe = player.C.Truemaxpe + (player.C.Levelpe^2.4 + 100), player.C.Truemaxpe = player.C.Xpmaxpe, player.C.XpTope = 0
+                if (player.C.Xpmaxpe <= 0 && player.C.Switch1 == 3) player.C.Levelpe = player.C.Levelpe + 1, player.C.Xpmaxpe = player.C.Truemaxpe + (player.C.Levelpe*2.4 + 100), player.C.Truemaxpe = player.C.Xpmaxpe, player.C.XpTope = 0
                 progpe = player.C.XpTope / player.C.Truemaxpe
                 return progpe
             },
@@ -5140,7 +5140,7 @@ addLayer("C", {
             },
             progress() {
                 let progR = []
-                if (player.C.XpmaxR <= 0 && player.C.Switch1 == 4) player.C.LevelR = player.C.LevelR + 1, player.C.XpmaxR = player.C.TruemaxR + (player.C.LevelR^2.7 + 150), player.C.TruemaxR = player.C.XpmaxR, player.C.XpToR = 0
+                if (player.C.XpmaxR <= 0 && player.C.Switch1 == 4) player.C.LevelR = player.C.LevelR + 1, player.C.XpmaxR = player.C.TruemaxR + (player.C.LevelR*2.7 + 150), player.C.TruemaxR = player.C.XpmaxR, player.C.XpToR = 0
                 progR = player.C.XpToR / player.C.TruemaxR
                 return progR
             },
@@ -5167,7 +5167,7 @@ addLayer("C", {
             },
             progress() {
                 let progD = []
-                if (player.C.XpmaxD <= 0 && player.C.Switch1 == 6) player.C.LevelD = player.C.LevelD + 1, player.C.XpmaxD = player.C.TruemaxD + (player.C.LevelD^1.4 + 100), player.C.TruemaxD = player.C.XpmaxD, player.C.XpToD = 0
+                if (player.C.XpmaxD <= 0 && player.C.Switch1 == 6) player.C.LevelD = player.C.LevelD + 1, player.C.XpmaxD = player.C.TruemaxD + (player.C.LevelD*1.4 + 100), player.C.TruemaxD = player.C.XpmaxD, player.C.XpToD = 0
                 progD = player.C.XpToD / player.C.TruemaxD
                 return progD
             },
@@ -5194,7 +5194,7 @@ addLayer("C", {
             },
             progress() {
                 let progt = []
-                if (player.C.Xpmaxt <= 0 && player.C.Switch1 == 7) player.C.Levelt = player.C.Levelt + 1, player.C.Xpmaxt = player.C.Truemaxt + (player.C.Levelt^2 + 100), player.C.Truemaxt = player.C.Xpmaxt, player.C.XpTot = 0
+                if (player.C.Xpmaxt <= 0 && player.C.Switch1 == 7) player.C.Levelt = player.C.Levelt + 1, player.C.Xpmaxt = player.C.Truemaxt + (player.C.Levelt*2 + 100), player.C.Truemaxt = player.C.Xpmaxt, player.C.XpTot = 0
                 progt = player.C.XpTot / player.C.Truemaxt
                 return progt
             },
@@ -5221,7 +5221,7 @@ addLayer("C", {
             },
             progress() {
                 let progW = []
-                if (player.C.XpmaxW <= 0 && player.C.Switch1 == 8) player.C.LevelW = player.C.LevelW + 1, player.C.XpmaxW = player.C.TruemaxW + (player.C.LevelW^2.4 + 200), player.C.TruemaxW = player.C.XpmaxW, player.C.XpToW = 0
+                if (player.C.XpmaxW <= 0 && player.C.Switch1 == 8) player.C.LevelW = player.C.LevelW + 1, player.C.XpmaxW = player.C.TruemaxW + (player.C.LevelW*2.4 + 200), player.C.TruemaxW = player.C.XpmaxW, player.C.XpToW = 0
                 progW = player.C.XpToW / player.C.TruemaxW
                 return progW
             },
@@ -5548,7 +5548,7 @@ player.C.Day= new Decimal(0),
                 function() { if (player.C.Lol >= 2) return "20 years in, 20 years down the drain. Keep going buddy. What? You expected me to talk about some sort of thing you did or something?"}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 3) return "Alright no more games, you died. It doesn't matter how, you just did. Now you'll have to restart from the beginning but hey, atleast you'll be boosted by your max levels. I'm gonna need 5 Bank Robbery Levels, 11 Jewelry Store Levels, 10 CEO Levels and like 50 Levels on all the other Jobs. Oh and also 50 Levels on the Skills. Just hit the button below to start fresh, nothing broken. Muliplier formula is: Resets + Job/Skill / 10"}],
+                function() { if (player.C.Lol >= 3) return "Alright no more games, you died. It doesn't matter how, you just did. Now you'll have to restart from the beginning but hey, atleast you'll be boosted by your max levels. I'm gonna like 200 Levels on all the Jobs and Skills. Just hit the button below to start fresh, nothing broken. Muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
                 () => (player.C.Lol >= 3) ? ['clickable', 31] : "",
             ]
         },
@@ -5787,6 +5787,6 @@ player.C.Day= new Decimal(0),
  if (player.C.Year.gte(20) && player.C.Lol == 1) player.C.Lol = 2
  if (player.C.Year.gte(30) && player.C.Lol == 2) player.C.Lol = 3, tmp.C.OnOff = tmp.C.OnOff.times(0), player.C.Day = player.C.Day.times(0)
 
- if (player.C.Res >= 1) tmp.C.eptm = player.C.Res + player.C.maxptm / 10,  tmp.C.eftm = player.C.Res + player.C.maxftm / 10, tmp.C.eM = player.C.Res + player.C.maxM / 10, tmp.C.eE = player.C.Res + player.C.maxE / 10, tmp.C.eC = player.C.Res + player.C.maxC / 10, tmp.C.ep = player.C.Res + player.C.maxp / 10, tmp.C.eG = player.C.Res + player.C.maxG / 10, tmp.C.eJ = player.C.Res + player.C.maxJ / 10, tmp.C.eB = player.C.Res + player.C.maxB / 10, tmp.C.ef = player.C.Res + player.C.maxf / 10, tmp.C.eJB = player.C.Res + player.C.maxJB / 10, tmp.C.epe = player.C.Res + player.C.maxpe / 10, tmp.C.eR = player.C.Res + player.C.maxR / 10, tmp.C.eD = player.C.Res + player.C.maxD / 10, tmp.C.et = player.C.Res + player.C.maxt / 10, tmp.C.eW = player.C.Res + player.C.maxW / 10
+ if (player.C.Res >= 1) tmp.C.eptm = getBaseLog(1000, player.C.Res) + 1 + player.C.maxptm / 10,  tmp.C.eftm = getBaseLog(1000, player.C.Res) + 1 + player.C.maxftm / 10, tmp.C.eM = getBaseLog(1000, player.C.Res) + 1 + player.C.maxM / 10, tmp.C.eE = getBaseLog(1000, player.C.Res) + 1 + player.C.maxE / 10, tmp.C.eC = getBaseLog(1000, player.C.Res) + 1 + player.C.maxC / 10, tmp.C.ep = getBaseLog(1000, player.C.Res) + 1 + player.C.maxp / 10, tmp.C.eG = getBaseLog(1000, player.C.Res) + 1 + player.C.maxG / 10, tmp.C.eJ = getBaseLog(1000, player.C.Res) + 1 + player.C.maxJ / 10, tmp.C.eB = getBaseLog(1000, player.C.Res) + 1 + player.C.maxB / 10, tmp.C.ef = getBaseLog(1000, player.C.Res) + 1 + player.C.maxf / 10, tmp.C.eJB = getBaseLog(1000, player.C.Res) + 1 + player.C.maxJB / 10, tmp.C.epe = getBaseLog(1000, player.C.Res) + 1 + player.C.maxpe / 10, tmp.C.eR = getBaseLog(1000, player.C.Res) + 1 + player.C.maxR / 10, tmp.C.eD = getBaseLog(1000, player.C.Res) + 1 + player.C.maxD / 10, tmp.C.et = getBaseLog(1000, player.C.Res) + 1 + player.C.maxt / 10, tmp.C.eW = getBaseLog(1000, player.C.Res) + 1 + player.C.maxW / 10
     },
 })

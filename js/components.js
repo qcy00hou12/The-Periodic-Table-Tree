@@ -725,7 +725,7 @@ function loadVue() {
 		<bar :layer="layer" :data="'PickBar'"/>
 		<display-text :layer="layer" :data="(player.C.Levelp)"/>
 		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonp * temp['C'].bars['Dummy'].effect)"/>g</span>
-		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eD * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.ep * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect * 5)"/>
 		<display-text :layer="layer" :data="formatWhole(player.C.Xpmaxp)"/>
 		<display-text :layer="layer" :data="formatWhole(player.C.maxp)"/>
 	</div>
