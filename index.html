@@ -112,11 +112,11 @@
 		</div>
 
 		<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 10px; margin-right: 13px; z-index: 1; display: inline-flex; align-items: center">
-			<display-text :layer="'tree-tab'" :data="tmp.C.OnOff > 0 ? 'Playing' : 'Paused'" style="text-align: right; min-height: 20px; margin: 4px"></display-text>
+			<display-text :layer="'tree-tab'" :data="tmp.C.OnOff > 0 ? 'Playing.' : 'Paused.'" style="text-align: right; min-height: 20px; margin: 4px"></display-text>
+			<display-text :layer="'tree-tab'" :data="player.C.Switch == 0 ? 'Must Select A Job' : ''" style="text-align: right; min-height: 20px; margin: 4px"></display-text>
 			<clickable :layer="'tree-tab'" :data="'pause'" style="margin: 4px; padding-bottom: 3px"></clickable>
 			<clickable :layer="'tree-tab'" :data="'play'" style="margin: 4px"></clickable>
 			</div>
-
 			<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 40px; margin-right: 12px; z-index: 1; display: inline-flex; align-items: center">
 				<span style="color: #2E662F">Income/day:</span><span style="color: #00e600"><display-text :layer="'tree-tab'" :data="format(tmp.C.Income)" style="text-align: right; min-height: 20px; margin: 4px"></display-text>g</span>
 				</div>
