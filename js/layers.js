@@ -148,7 +148,7 @@ addLayer("A", {
             textStyle: { "color": "#000000" },
             style: { "background-size": "100% 100%" },
             goalTooltip: "Spend over 201 ticks with extra text on.",
-            doneTooltip: "Unlocks button to shut off some text.",
+            doneTooltip: "Unlocks a button to shut off some text. Turns on others (;",
             done() { return player.p.GasTicks.gte(201) },
             image() { if (hasAchievement('A', 15)) return "https://i.postimg.cc/gkJ2mBys/84ae5647-37db-4c73-a6c3-7e50154d00bf-1.png" }
         },
