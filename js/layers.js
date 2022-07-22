@@ -5548,7 +5548,7 @@ player.C.Day= new Decimal(0),
                 function() { if (player.C.Lol >= 2) return "20 years in, 20 years down the drain. Keep going buddy. What? You expected me to talk about some sort of thing you did or something?"}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 3) return "Alright no more games, you died. It doesn't matter how, you just did. Now you'll have to restart from the beginning but hey, atleast you'll be boosted by your max levels. I'm gonna need 2 Bank Robbery Levels, 11 Jewelry Store Levels, 10 CEO Levels and like 50 Levels on all the other Jobs. Oh and also 50 Levels on the Skills. Just hit the button below to start fresh, nothing broken. Muliplier formula is: Resets + Job/Skill / 10"}],
+                function() { if (player.C.Lol >= 3) return "Alright no more games, you died. It doesn't matter how, you just did. Now you'll have to restart from the beginning but hey, atleast you'll be boosted by your max levels. I'm gonna need 5 Bank Robbery Levels, 11 Jewelry Store Levels, 10 CEO Levels and like 50 Levels on all the other Jobs. Oh and also 50 Levels on the Skills. Just hit the button below to start fresh, nothing broken. Muliplier formula is: Resets + Job/Skill / 10"}],
                 () => (player.C.Lol >= 3) ? ['clickable', 31] : "",
             ]
         },
