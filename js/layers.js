@@ -1,4 +1,4 @@
-function getBaseLog(x, y) {
+ function getBaseLog(x, y) {
     return Math.log(y) / Math.log(x);
   }
 
@@ -144,7 +144,7 @@ addLayer("A", {
             image() { if (hasAchievement('A', 14)) return "https://i.postimg.cc/0yddvF2j/527535f7-7dc4-43a5-b57a-a75afda3029b-1.png" }
         },
         15: {
-            name: '"Shut Up B***ch"',
+            name: '"Shut Up B**ch"',
             textStyle: { "color": "#000000" },
             style: { "background-size": "100% 100%" },
             goalTooltip: "Spend over 201 ticks with extra text on.",
@@ -653,9 +653,23 @@ addLayer("p", {
             Node: new Decimal(0),
             Clic: new Decimal(0),
             HydroResets: new Decimal(0),
+            effect2: new Decimal(1),
+          
+            
         }
     },
 
+            effect3: new Decimal(2),
+            effect4: new Decimal(1),
+            effect5: new Decimal(2),
+            effect6: new Decimal(1),
+            effectM: new Decimal(0.2),
+            effectMult: new Decimal(0),
+            effectD: new Decimal(5),
+            lightfall: new Decimal(-0.1),
+            Equa: new Decimal(0),
+            cap: new Decimal(3),
+    upgra: new Decimal(0),
     color: "#0000ff",
     requires() { return player.He.points.add(1).pow(2) }, // Can be a function that takes requirement increases into account
     resource: "Hydrogen", // Name of prestige currency
@@ -664,13 +678,13 @@ addLayer("p", {
     requires: new Decimal(1),
     type: "static", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
     exponent() {
-        exp = new Decimal(0.8)
-        upgra = new Decimal(player.p.upgrades.length)
-        if (hasUpgrade('p', 16)) return exp.times(upgra.pow(-0.22))
+        let exp = new Decimal(0.8)
+        tmp.p.upgra = new Decimal(player.p.upgrades.length)
+        if (hasUpgrade('p', 16)) return exp.times(tmp.p.upgra.pow(-0.22))
         else return exp
     }, // Prestige currency exponent
     gainMult() { // Calculate the multiplier for main currency from bonuses
-        mult = new Decimal(1)
+        let mult = new Decimal(1)
         return mult
     },
     gainExp() { // Calculate the exponent on main currency from bonuses
@@ -705,7 +719,7 @@ addLayer("p", {
                 else return 400
             },
             progress() {
-                prog1 = 499.99
+                let prog1 = 499.99
                 if (hasMilestone('p', 2)) prog1 = 999.99
                 if (hasUpgrade('p', 16)) prog1 = 1999.99
                 if (hasMilestone('He', 3)) prog1 = 19999.99
@@ -728,7 +742,7 @@ addLayer("p", {
             },
             progress() {
                 let P2 = new Decimal(0)
-                prog2 = 999.99
+                let prog2 = 999.99
                 if (hasUpgrade('p', 16)) prog2 = 1999.99
                 if (hasMilestone('He', 3)) prog2 = 19999.99
                 if (hasUpgrade('p', 22)) prog2 = 19999999999.99
@@ -754,7 +768,7 @@ addLayer("p", {
                 else return 400
             },
             progress() {
-                prog3 = 3
+                let prog3 = 3
                 if (hasUpgrade('p', 23)) prog3 = 1.11
                 if (hasUpgrade('p', 24)) prog3 = 10
                 return player.p.HydrogenMult / prog3
@@ -858,7 +872,7 @@ addLayer("p", {
             style: { "color": "#ededed" },
             title: "Hydrogen's Powering Up",
             description: "Hydrogen Power boosts Hydrogen Gas.",
-            effectDisplay() { return "+" + format(effect2) },
+            effectDisplay() { return "+" + format(tmp.p.effect2) },
             cost: new Decimal(18),
             unlocked() {
                 if (hasUpgrade('p', 14)) return true
@@ -870,7 +884,7 @@ addLayer("p", {
             title: "Hydrogen's Half Lifed",
             description: "Hydrogen upgrades on this row cut Hydrogen cost, but Hydrogen Tank capcity is doubled.",
             cost: new Decimal(20),
-            effectDisplay() { return "/" + format(upgra.pow(-0.22)) },
+            effectDisplay() { return "/" + format(tmp.p.upgra.pow(-0.22)) },
             unlocked() {
                 if (hasUpgrade('p', 15)) return true
                 else return false
@@ -958,19 +972,19 @@ addLayer("p", {
             style: { "color": "#ededed" },
             effect() {
                 let effect = new Decimal(0.9)
-                effect2 = new Decimal(1)
-                effect3 = new Decimal(2)
-                effect4 = new Decimal(1)
-                effect5 = new Decimal(2)
-                effect6 = new Decimal(1)
-                effectMult2 = new Decimal(1)
-                prog = 499.99
-                if (player.Li.resets > 0) effect5 = 4, effect6 = 2
+                tmp.p.effect2 = new Decimal(1)
+                tmp.p.effect3 = new Decimal(2)
+                tmp.p.effect4 = new Decimal(1)
+                tmp.p.effect5 = new Decimal(2)
+                tmp.p.effect6 = new Decimal(1)
+                let effectMult2 = new Decimal(1)
+                let prog = 499.99
+                if (player.Li.resets > 0) tmp.p.effect5 = 4, tmp.p.effect6 = 2
                 if (hasUpgrade('p', 26)) effectMult2 = effectMult2.add(player.p.HydrogenMult)
-                if (hasMilestone('He', 5)) effect4 = 0
-                if (hasUpgrade('He', 13)) effect3 = 1
-                if (hasUpgrade('p', 25)) effect4 = 1
-                if (hasUpgrade('p', 25)) effect3 = 2
+                if (hasMilestone('He', 5)) tmp.p.effect4 = 0
+                if (hasUpgrade('He', 13)) tmp.p.effect3 = 1
+                if (hasUpgrade('p', 25)) tmp.p.effect4 = 1
+                if (hasUpgrade('p', 25)) tmp.p.effect3 = 2
                 if (hasUpgrade('p', 12)) effect = effect.add(1)
                 if (hasUpgrade('p', 13)) effect = effect.add(2)
                 if (hasMilestone('p', 2)) prog = 999.99
@@ -982,12 +996,12 @@ addLayer("p", {
                 if (hasUpgrade('p', 25)) prog = 39999.99
                 if (hasMilestone('p', 1)) effect = effect.times(2)
                 if (hasUpgrade('p', 11)) effect = effect.pow(2)
-                if (hasUpgrade('p', 15)) effect2 = effect2.add(player.p.HydrogenPower.pow(0.8))
-                if (effect2 > 99.99) effect2 = 100
-                if (hasUpgrade('p', 15)) effect = effect.add(effect2)
+                if (hasUpgrade('p', 15)) tmp.p.effect2 = tmp.p.effect2.add(player.p.HydrogenPower.pow(0.8))
+                if (tmp.p.effect2 > 99.99) tmp.p.effect2 = 100
+                if (hasUpgrade('p', 15)) effect = effect.add(tmp.p.effect2)
                 if (hasMilestone('p', 4)) effect = effect.add(effect.times(player.p.points.add(1).pow(0.2)))
-                effect = effect.times(player.He.points.pow(effect3).times(effect4).add(1))
-                if (player.p.HydrogenGas > prog) player.p.HydroResets = player.p.HydroResets.add(1), player.p.HydrogenPower = player.p.HydrogenPower.times(effectMult2).add(1).add(player.p.points.add(player.p.points).times(player.He.points.add(1).pow(effect3).times(effect4).times(player.Li.points.add(1).pow(effect5).times(effect6)))), player.p.HydrogenGas = player.p.HydrogenGas.times(0)
+                effect = effect.times(player.He.points.pow(tmp.p.effect3).times(tmp.p.effect4).add(1))
+                if (player.p.HydrogenGas > prog) player.p.HydroResets = player.p.HydroResets.add(1), player.p.HydrogenPower = player.p.HydrogenPower.times(effectMult2).add(1).add(player.p.points.add(player.p.points).times(player.He.points.add(1).pow(tmp.p.effect3).times(tmp.p.effect4).times(player.Li.points.add(new Decimal(1)).pow(tmp.p.effect5).times(tmp.p.effect6)))), player.p.HydrogenGas = player.p.HydrogenGas.times(0)
                 return effect
             },
             unlocked() {
@@ -1001,14 +1015,14 @@ addLayer("p", {
                 if(options.mobileMode == true){
                     player.p.GasTicks = player.p.GasTicks.add(1)
                 if (player.p.Node < 1) player.p.HydroGain = player.p.HydroGain.add(1)
-                player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)).times(player.Li.points.add(1).pow(effect5).times(effect6)))
+                player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)).times(player.Li.points.add(1).pow(tmp.p.effect5).times(tmp.p.effect6)))
                 player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)}
             },
             onHold() {
                 if(options.mobileMode == false){
                 player.p.GasTicks = player.p.GasTicks.add(1)
                 if (player.p.Node < 1) player.p.HydroGain = player.p.HydroGain.add(1)
-                player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)).times(player.Li.points.add(1).pow(effect5).times(effect6)))
+                player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)).times(player.Li.points.add(1).pow(tmp.p.effect5).times(tmp.p.effect6)))
                 player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)}
             },
         },
@@ -1027,38 +1041,38 @@ addLayer("p", {
                 return true
             },
             effect() {
-                effectM = new Decimal(0.2)
-                effectMult = new Decimal(0)
-                effectMult = effectMult.add(player.p.HydrogenMult.add(1))
-                effectD = new Decimal(5)
-                lightfall = new Decimal(-0.1)
-                Equa = new Decimal(0)
-                cap = new Decimal(3)
-                if (hasUpgrade('p', 24)) effectD = effectMult
-                if (hasUpgrade('p', 26)) effectD = 5
-                if (effectD > 5) effectMult = new Decimal(0.1).div(effectMult)
-                if (effectD < 4) effectMult = new Decimal(0.1).div(effectMult)
-                if (hasUpgrade('p', 23)) cap = 1.11
-                if (hasUpgrade('p', 24)) cap = 10
-                if (hasUpgrade('p', 22)) lightfall = -0.05
-                if (hasUpgrade('p', 26)) lightfall = -0.005
-                if (hasUpgrade('p', 24)) Equa = 2
-                if (hasMilestone('He', 3)) Equa = 0.1
-                if (hasMilestone('He', 4)) Equa = 0
-                if (hasUpgrade('He', 16)) Equa = 0
-                if (player.p.HydrogenMult > Equa) player.p.HydrogenMult = player.p.HydrogenMult.add(lightfall)
-                if (player.p.HydrogenMult < Equa) player.p.HydrogenMult = player.p.HydrogenMult.add(-lightfall)
-                return effectM
+                tmp.p.effectM = new Decimal(0.2)
+                tmp.p.effectMult = new Decimal(0)
+                tmp.p.effectMult = tmp.p.effectMult.add(player.p.HydrogenMult.add(1))
+                tmp.p.effectD = new Decimal(5)
+                tmp.p.lightfall = new Decimal(-0.1)
+                tmp.p.Equa = new Decimal(0)
+                tmp.p.cap = new Decimal(3)
+                if (hasUpgrade('p', 24)) tmp.p.effectD = tmp.p.effectMult
+                if (hasUpgrade('p', 26)) tmp.p.effectD = 5
+                if (tmp.p.effectD > 5) tmp.p.effectMult = new Decimal(0.1).div(tmp.p.effectMult)
+                if (tmp.p.effectD < 4) tmp.p.effectMult = new Decimal(0.1).div(tmp.p.effectMult)
+                if (hasUpgrade('p', 23)) tmp.p.cap = 1.11
+                if (hasUpgrade('p', 24)) tmp.p.cap = 10
+                if (hasUpgrade('p', 22)) tmp.p.lightfall = -0.05
+                if (hasUpgrade('p', 26)) tmp.p.lightfall = -0.005
+                if (hasUpgrade('p', 24)) tmp.p.Equa = 2
+                if (hasMilestone('He', 3)) tmp.p.Equa = 0.1
+                if (hasMilestone('He', 4)) tmp.p.Equa = 0
+                if (hasUpgrade('He', 16)) tmp.p.Equa = 0
+                if (player.p.HydrogenMult > tmp.p.Equa) player.p.HydrogenMult = player.p.HydrogenMult.add(tmp.p.lightfall)
+                if (player.p.HydrogenMult < tmp.p.Equa) player.p.HydrogenMult = player.p.HydrogenMult.add(-tmp.p.lightfall)
+                return tmp.p.effectM
             },
             onHover(){
                 if (options.mobileMode == true){
                 player.p.HydrogenMult = player.p.HydrogenMult.add(temp['p'].clickables[12].effect)
-                if (player.p.HydrogenMult > cap) player.p.HydrogenMult = player.p.HydrogenMult.add(effectM.times(-1))}
+                if (player.p.HydrogenMult > tmp.p.cap) player.p.HydrogenMult = player.p.HydrogenMult.add(tmp.p.effectM.times(-1))}
             },
             onHold() {
                 if(options.mobileMode == false){
                 player.p.HydrogenMult = player.p.HydrogenMult.add(temp['p'].clickables[12].effect)
-                if (player.p.HydrogenMult > cap) player.p.HydrogenMult = player.p.HydrogenMult.add(effectM.times(-1))}
+                if (player.p.HydrogenMult > tmp.p.cap) player.p.HydrogenMult = player.p.HydrogenMult.add(tmp.p.effectM.times(-1))}
             }
         }
     },
@@ -1114,10 +1128,10 @@ addLayer("p", {
 
     automate() {
         if (hasUpgrade('He', 22)) player.p.HydrogenMult = player.p.HydrogenMult.add(temp['p'].clickables[12].effect)
-        if (hasUpgrade('He', 22) && player.p.HydrogenMult > cap) player.p.HydrogenMult = player.p.HydrogenMult.add(effectM.times(-1))
+        if (hasUpgrade('He', 22) && player.p.HydrogenMult > tmp.p.cap) player.p.HydrogenMult = player.p.HydrogenMult.add(tmp.p.effectM.times(-1))
         if (hasUpgrade('He', 12)) player.p.GasTicks = player.p.GasTicks.add(1),
             player.p.HydroGain = player.p.HydroGain.add(1),
-            player.p.HydrogenGas = player.p.HydrogenGas.add(temp['p'].clickables[11].effect).times(effectMult.add(1)),
+            player.p.HydrogenGas = player.p.HydrogenGas.add(temp['p'].clickables[11].effect).times(tmp.p.effectMult.add(1)),
             player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)
     },
 })
@@ -1256,7 +1270,7 @@ addLayer("He", {
                 if (hasUpgrade('He', 21)) BalMult = BalMult.add((player.He.points).pow(1.1))
                 if (hasMilestone('He', 6)) BalMult = softcap(BalMult, new Decimal(500), 0.1)
                 if (player.He.State > 0) return ""
-                if (player.He.Inflate > 0) player.He.Inflate = player.He.Inflate.add(-InRate), player.He.HeliumExpunged = player.He.HeliumExpunged.add(1).add(player.He.Inflate.pow(0.1)).add(BalMult.times(player.Li.points.add(1).pow(effect5).times(effect6)))
+                if (player.He.Inflate > 0) player.He.Inflate = player.He.Inflate.add(-InRate), player.He.HeliumExpunged = player.He.HeliumExpunged.add(1).add(player.He.Inflate.pow(0.1)).add(BalMult.times(player.Li.points.add(1).pow(tmp.p.effect5).times(tmp.p.effect6)))
             },
             canClick() {
                 return true
@@ -1477,7 +1491,7 @@ addLayer("He", {
     tabFormat: [
         ['infobox', 'lore'],
         ["display-text",
-            function () { if (player.p.Node < 1) return 'Helium boosts Hydrogen Power and Hydrogen Gas gain by ' + formatWhole(player.He.points.add(1).pow(effect3).times(effect4)) }],
+            function () { if (player.p.Node < 1) return 'Helium boosts Hydrogen Power and Hydrogen Gas gain by ' + formatWhole(player.He.points.add(1).pow(tmp.p.effect3).times(tmp.p.effect4)) }],
         ["display-text",
             function () { if (player.p.Node < 1 && hasUpgrade('He', 21)) return 'Helium also boosts Helium Expunged gain by adding ' + format((BalMult)) }],
         "blank",
@@ -1895,7 +1909,7 @@ addLayer("Li", {
             content: [
         () => (player.p.Node < 1) ? ['infobox', 'lore'] : ['infobox', 'lore1'],
         ["display-text",
-            function () { if (player.p.Node < 1) return 'Lithium boosts Helium Expunged and Hydrogen Gas + Power gain by ' + formatWhole(player.Li.points.add(1).pow(effect5).times(effect6)) }],
+            function () { if (player.p.Node < 1) return 'Lithium boosts Helium Expunged and Hydrogen Gas + Power gain by ' + formatWhole(player.Li.points.add(1).pow(tmp.p.effect5).times(tmp.p.effect6)) }],
         "blank",
         "main-display",
         () => (hasMilestone('Li', 5)) ? "" : "prestige-button",
@@ -4592,7 +4606,7 @@ const: PartB = {
     if (player.B.Slider == 10) return 'Boron +' + formatWhole(player.B.BM.times(new Decimal(1e20).add(player.B.BB)))
     },
     x() {
-    if (player.B.Slider == 1) return 1000
+    if (player.B.Slider == 1) return 1000 
         if (player.B.Slider == 2) return 975
         if (player.B.Slider == 3) return 950
         if (player.B.Slider == 4) return 935
@@ -4602,7 +4616,7 @@ const: PartB = {
         if (player.B.Slider == 8) return 880
         if (player.B.Slider == 9) return 875
         if (player.B.Slider == 10) return 875},
-    y: 1250,
+    y() { return 1250 - tmp.currentSt},
     offset: () => Math.random() + 1.2 * 700,
     dir() {return (Math.random() + 1.2) * 8},
     style: { "background-size": "100% 100%", color: '#964b00', 'text-shadow': '0 0 40px #fff'},
@@ -5422,6 +5436,9 @@ addLayer("C", {
     title: "Restart",
     canClick() { return true},
     onClick() {
+        if (player.C.Res == 3){player = null
+        save(true)};
+        window.location.reload();
         if (player.C.maxptm < player.C.Levelptm) player.C.maxptm = player.C.Levelptm
         if (player.C.maxftm < player.C.Levelftm) player.C.maxftm = player.C.Levelftm
         if (player.C.maxM < player.C.LevelM) player.C.maxM = player.C.LevelM
@@ -5567,16 +5584,40 @@ player.C.Day= new Decimal(0),
                 function() { return 'Random Stats That Nobody Cares About (RSTNCA): <div> Total Days: ' + formatWhole(player.C.TotalD) + '<div> Total Years: ' + formatWhole(player.C.TotalY) + '<div> Total Carbon Fragments: <span style="color: #00e600">' + formatWhole(player.C.TotalCf) + 'g</span><div> Total Carbon: <span style="color: #00e600">' + formatWhole(player.C.TotalC) + 'g</span><div>Total Resets: ' + formatWhole(player.C.Res)}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.No >= 1) return "Ok, wow. Screw you too. What are you going do to then? Rob a bank? Heh, get a load of this guy. Ok fine, we'll go with your plan, genius. Go rob a bank."}],
+                function() { if (player.C.No >= 1 && player.C.Res == 0) return "Ok, wow. Screw you too. What are you going do to then? Rob a bank? Heh, get a load of this guy. Ok fine, we'll go with your plan, genius. Go rob a bank."}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 1) return "Uh, on your 10th anniversary of doing whatever you do, you got icecream or something."}],
+                function() { if (player.C.Lol >= 1 && player.C.Res == 0) return "Uh, on your 10th anniversary of doing whatever you do, you got icecream or something."}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 2) return "20 years in, 20 years down the drain. Keep going buddy. What? You expected me to talk about some sort of thing you did or something?"}],
+                function() { if (player.C.Lol >= 2 && player.C.Res == 0) return "20 years in, 20 years down the drain. Keep going buddy. What? You expected me to talk about some sort of thing you did or something?"}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 3) return "Alright no more games, you died. It doesn't matter how, you just did. Now you'll have to restart from the beginning but hey, atleast you'll be boosted by your max levels. I'm gonna like 200 Levels on all the Jobs and Skills. Just hit the button below to start fresh, nothing broken. Muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
+                function() { if (player.C.Lol >= 3 && player.C.Res == 1) return "Alright no more games, you died. It doesn't matter how, you just did. Now you'll have to restart from the beginning but hey, atleast you'll be boosted by your max levels. I'm gonna like 200 Levels on all the Jobs and Skills. Just hit the button below to start fresh, nothing broken. Muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
+                ['display-text', 
+                function() { if (player.C.Lol >= 1 && player.C.Res == 1) return "Alright round two baby let's go. I want to see you move, hustle man."}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 2 && player.C.Res == 1) return "I'll actually say what you did this time. You went to your local hardware store and bought a plank so you could stand outside said store and take a quick picture. Kinda weird."}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 3 && player.C.Res == 1) return "Ok, so you died, again... third times the charm I guess. Remember 50 Levels on each Job/Skill. Muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
+                ['display-text', 
+                function() { if (player.C.Lol >= 1 && player.C.Res == 2) return "This time is for real. No joke, no failure, no choice. I am literaly counting on you here."}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 2 && player.C.Res == 2) return "You gotta step it up man. This is really dragging and not in a good way. We don't got all day ya know?"}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 3 && player.C.Res == 2) return "Ya know, sometimes I guess ya just need a bit of motivation. How about this, get through it on this reset or you'll lose <h3 style='color: #ff0000'> ALL YOUR PROGRESS.</h3> 50 Levels Job/Skill, muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
+                ['display-text', 
+                function() { if (player.C.Lol >= 1 && player.C.Res == 3) return "Tick tock man, one third in and you should already be done. You're gonna see your progress gonzo soon."}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 2 && player.C.Res == 3) return "Dude... pick up the pace damn it. PICK UP THE PACE."}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 3 && player.C.Res == 3) return "Heh, guess that's it huh. Well, I guess that's the point of stakes. Climb back up I guess. I'll see you soon."}],
                 () => (player.C.Lol >= 3) ? ['clickable', 31] : "",
             ]
         },
@@ -5619,7 +5660,7 @@ player.C.Day= new Decimal(0),
                     "blank",
                     () => (player.C.No >= 1) ? "Job-gridz" : "",
                 ['display-text',
-                function() { if (player.C.No >= 1 && player.C.LevelD < 5) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.Levelp) + '/5</span>'}],
+                function() { if (player.C.No >= 1 && player.C.LevelD < 5) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/5</span>'}],
                 () => (player.C.LevelD >= 5) ? "blank" : "",
                 () => (player.C.LevelD >= 5) ? 'Job6-grid' : "",
                 ['display-text', 

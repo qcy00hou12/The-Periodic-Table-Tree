@@ -110,7 +110,14 @@
 			<layer-tab :layer="player.navTab == 'none' ? player.tab : player.navTab" :key="'left'"></layer-tab>
 			<bg :layer="player.navTab == 'none' ? player.tab : player.navTab" ></bg>
 		</div>
-
+		
+		<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 10px; margin-right: 13px; z-index: 1; display: inline-flex; align-items: center">
+			<display-text :layer="'tree-tab'" :data="tmp.C.OnOff > 0 ? 'Playing.' : 'Paused.'" style="text-align: right; min-height: 20px; margin: 4px"></display-text>
+			<display-text :layer="'tree-tab'" :data="player.C.Switch == 0 ? 'Must Select A Job' : ''" style="text-align: right; min-height: 20px; margin: 4px"></display-text>
+			<clickable :layer="'tree-tab'" :data="'pause'" style="margin: 4px; padding-bottom: 3px"></clickable>
+			<clickable :layer="'tree-tab'" :data="'play'" style="margin: 4px"></clickable>
+			</div>
+		
 		<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 10px; margin-right: 13px; z-index: 1; display: inline-flex; align-items: center">
 			<display-text :layer="'tree-tab'" :data="tmp.C.OnOff > 0 ? 'Playing.' : 'Paused.'" style="text-align: right; min-height: 20px; margin: 4px"></display-text>
 			<display-text :layer="'tree-tab'" :data="player.C.Switch == 0 ? 'Must Select A Job' : ''" style="text-align: right; min-height: 20px; margin: 4px"></display-text>
