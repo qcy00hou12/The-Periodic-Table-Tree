@@ -176,7 +176,7 @@ function showNavTab(name, prev) {
 
 function goBack(layer) {
 	let nextTab = "none"
-
+	if (player.tab == 'N') options.forceOneTab = false
 	if (player[layer].prevTab) nextTab = player[layer].prevTab
 	if (player.navTab === "none" && (tmp[layer]?.row == "side" || tmp[layer].row == "otherside")) nextTab = player.lastSafeTab
 

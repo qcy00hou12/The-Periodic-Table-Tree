@@ -36,7 +36,7 @@ addNode("Ex", {
 var _0x1200=["\x43\x68","\x73\x69\x64\x65","\x23\x30\x30\x30\x30\x30\x30","\x23\x66\x66\x66\x66\x66\x66","\x49\x54\x65\x78\x74","\x48\x65","\x48\x65\x69\x73\x65\x6E\x62\x75\x72\x67","\x49\x20\x6E\x65\x65\x64\x20\x61\x20\x6E\x65\x77\x20\x64\x75\x73\x74\x20\x66\x69\x6C\x74\x65\x72\x20\x66\x6F\x72\x20\x6D\x79\x20\x48\x6F\x6F\x76\x65\x72\x20\x4D\x61\x78\x20\x45\x78\x74\x72\x61\x63\x74\x20\x50\x72\x65\x73\x73\x75\x72\x65\x20\x50\x72\x6F\x20\x6D\x6F\x64\x65\x6C\x20\x36\x30","\x54\x65\x73\x74\x69\x63\x6C\x65","\x42\x61\x44\x20\x42\x72\x65\x61\x6B\x49\x6E\x47","\x49\x20\x61\x6D\x20\x6E\x6F\x74\x20\x74\x75\x72\x6E\x69\x6E\x67\x20\x64\x6F\x77\x6E\x20\x74\x68\x65\x20\x6D\x6F\x6E\x65\x79\x21\x20\x49\x20\x61\x6D\x20\x74\x75\x72\x6E\x69\x6E\x67\x20\x64\x6F\x77\x6E\x20\x79\x6F\x75\x21\x20\x59\x6F\x75\x20\x67\x65\x74\x20\x69\x74\x3F\x20\x49\x20\x77\x61\x6E\x74\x20\x6E\x6F\x74\x68\x69\x6E\x67\x20\x74\x6F\x20\x64\x6F\x20\x77\x69\x74\x68\x20\x79\x6F\x75\x21\x20\x45\x76\x65\x72\x20\x73\x69\x6E\x63\x65\x20\x49\x20\x6D\x65\x74\x20\x79\x6F\x75\x2C\x20\x65\x76\x65\x72\x79\x74\x68\x69\x6E\x67\x20\x49\x20\x65\x76\x65\x72\x20\x63\x61\x72\x65\x64\x20\x61\x62\x6F\x75\x74\x20\x69\x73\x20\x67\x6F\x6E\x65\x21\x20\x52\x75\x69\x6E\x65\x64\x2C\x20\x74\x75\x72\x6E\x65\x64\x20\x74\x6F\x20\x73\x2A\x2A\x74\x2C\x20\x64\x65\x61\x64\x2C\x20\x65\x76\x65\x72\x20\x73\x69\x6E\x63\x65\x20\x49\x20\x68\x6F\x6F\x6B\x65\x64\x20\x75\x70\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x67\x72\x65\x61\x74\x20\x48\x65\x69\x73\x65\x6E\x62\x65\x72\x67\x21","\x4C\x61\x62\x20\x4E\x6F\x74\x65\x73","\x4E\x6F\x74\x65\x20\x23\x31","\x20\x2D\x6A\x75\x73\x74\x20\x74\x68\x65\x20\x6F\x74\x68\x65\x72\x20\x64\x61\x79\x2C\x20\x68\x65\x20\x74\x6F\x6C\x64\x20\x6D\x65\x20\x69\x74\x20\x77\x61\x73\x20\x68\x69\x73\x20\x62\x69\x72\x74\x68\x64\x61\x79\x2E\x20\x49\x20\x6D\x65\x61\x6E\x2C\x20\x77\x68\x6F\x20\x63\x61\x72\x65\x73\x3F\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x27\x73\x20\x67\x6F\x69\x6E\x67\x20\x74\x6F\x20\x67\x65\x74\x20\x68\x69\x6D\x20\x61\x6E\x79\x74\x68\x69\x6E\x67\x20\x61\x6E\x79\x77\x61\x79\x2E\x20\x4E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x2E\x20\x54\x68\x65\x20\x64\x75\x64\x65\x73\x20\x61\x20\x77\x65\x69\x72\x64\x6F\x2C\x20\x79\x6F\x75\x20\x73\x68\x6F\x75\x6C\x64\x20\x73\x74\x61\x79\x20\x61\x77\x61\x79\x20\x66\x72\x6F\x6D\x20\x27\x65\x6D\x2E\x20\x41\x6E\x79\x77\x61\x79\x20\x67\x6F\x74\x74\x61\x20\x67\x6F\x2C\x20\x67\x6F\x74\x20\x61\x20\x63\x6C\x69\x65\x6E\x74\x20\x77\x68\x6F\x27\x73\x20\x70\x72\x6F\x62\x61\x62\x6C\x79\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x61\x74\x20\x4C\x69\x74\x68\x69\x75\x6D\x21","\x4E\x6F\x74\x65\x20\x23\x32","\x43\x6F\x63\x65\x6E\x74\x72\x61\x74\x65\x20\x74\x68\x65\x20\x70\x65\x72\x63\x69\x70\x69\x74\x61\x74\x65\x2E\x20\x46\x69\x6C\x74\x65\x72\x20\x6F\x75\x74\x20\x74\x6F\x20\x70\x75\x72\x69\x66\x79\x2E\x20\x50\x6F\x75\x72\x20\x74\x6F\x20\x63\x72\x79\x73\x74\x61\x6C\x69\x7A\x65\x2E\x20\x43\x75\x2D\x2E\x20\x44\x61\x6D\x6E\x20\x69\x74\x2E\x20\x49\x20\x63\x61\x6E\x27\x74\x20\x6B\x65\x65\x70\x20\x64\x6F\x69\x6E\x67\x20\x74\x68\x69\x73\x20\x69\x66\x20\x49\x20\x64\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x61\x20\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x73\x75\x70\x70\x6C\x79\x2E\x20\x54\x68\x61\x6E\x6B\x66\x75\x6C\x6C\x79\x2C\x20\x49\x20\x68\x61\x76\x2D","\x4E\x6F\x74\x65\x20\x23\x33","\x44\x69\x64\x20\x79\x6F\x75\x20\x70\x65\x72\x68\x61\x70\x73\x20\x66\x6F\x72\x67\x65\x74\x20\x74\x6F\x20\x74\x61\x6B\x65\x20\x79\x6F\x75\x72\x20\x70\x61\x69\x6E\x6B\x69\x6C\x6C\x65\x72\x73\x20\x74\x68\x69\x73\x20\x6D\x6F\x72\x6E\x69\x6E\x67\x3F\x20\x48\x61\x73\x20\x79\x6F\x75\x72\x20\x6D\x69\x6E\x64\x20\x67\x6F\x6E\x65\x20\x66\x75\x7A\x7A\x79\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x70\x61\x69\x6E\x3F\x20\x4F\x72\x20\x69\x73\x20\x74\x68\x69\x73\x20\x70\x65\x72\x68\x61\x70\x73\x20\x61\x20\x67\x65\x6E\x69\x74\x69\x63\x61\x6C\x20\x74\x68\x69\x6E\x67\x2C\x20\x62\x65\x63\x61\x75\x73\x65\x20\x72\x69\x67\x68\x74\x20\x6E\x6F\x77\x20\x6E\x6F\x20\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x20\x70\x6F\x73\x73\x69\x62\x6C\x65\x20\x63\x6F\x6D\x70\x72\x65\x68\x65\x6E\x64\x20\x77\x68\x61\x74\x27\x73\x20\x63\x6F\x6D\x69\x6E\x67\x20\x6F\x75\x74\x20\x6F\x66\x20\x79\x6F\x75\x72\x20\x6D\x6F\x75\x74\x68\x2E\x20\x45\x69\x74\x68\x65\x72\x20\x79\x6F\x75\x20\x67\x69\x76\x65\x20\x75\x70\x20\x61\x6E\x64\x20\x77\x65\x20\x64\x69\x65\x20\x6F\x72\x20\x79\x6F\x75\x20\x73\x65\x6E\x64\x20\x74\x68\x65\x6D\x20\x6F\x6E\x20\x74\x68\x65\x69\x72\x20\x6D\x65\x72\x72\x79\x20\x77\x61\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x6E\x65\x78\x74\x20\x6C\x61\x79\x65\x72\x2E","\x4E\x6F\x74\x65\x20\x23\x34","\x54\x68\x65\x20\x75\x6E\x69\x76\x65\x72\x73\x65\x20\x69\x73\x20\x72\x61\x6E\x64\x6F\x6D\x2E\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x69\x6E\x65\x76\x69\x74\x61\x62\x6C\x65\x2E\x20\x49\x74\x27\x73\x20\x73\x69\x6D\x70\x6C\x65\x20\x63\x68\x61\x6F\x73\x2E\x20\x49\x74\x27\x73\x20\x73\x75\x62\x61\x74\x6F\x6D\x69\x63\x20\x70\x61\x72\x74\x69\x63\x6C\x65\x73\x20\x69\x6E\x20\x65\x6E\x64\x6C\x65\x73\x73\x2C\x20\x61\x69\x6D\x6C\x65\x73\x73\x20\x63\x6F\x6C\x6C\x69\x73\x69\x6F\x6E\x2E\x20\x54\x68\x61\x74\x27\x73\x20\x77\x68\x61\x74\x20\x73\x63\x69\x65\x6E\x63\x65\x20\x74\x65\x61\x63\x68\x65\x73\x20\x75\x73\x2C\x20\x62\x75\x74\x20\x77\x68\x61\x74\x20\x69\x73\x20\x74\x68\x69\x73\x20\x73\x61\x79\x69\x6E\x67\x3F\x20\x57\x68\x61\x74\x20\x69\x73\x20\x69\x74\x20\x74\x65\x6C\x6C\x69\x6E\x67\x20\x75\x73\x2C\x20\x77\x68\x65\x6E\x20\x6F\x6E\x20\x74\x68\x65\x20\x76\x65\x72\x79\x20\x6E\x69\x67\x68\x74\x20\x74\x68\x61\x74\x20\x74\x68\x69\x73\x20\x6D\x61\x6E\x27\x73\x20\x64\x61\x75\x67\x68\x74\x65\x72\x20\x64\x69\x65\x73\x2C\x20\x69\x74\x27\x73\x20\x6D\x65\x20\x77\x68\x6F\x27\x73\x20\x68\x61\x76\x69\x6E\x67\x20\x61\x20\x64\x72\x69\x6E\x6B\x20\x77\x69\x74\x68\x20\x68\x69\x6D\x3F\x20\x48\x6F\x77\x20\x63\x61\x6E\x20\x74\x68\x61\x74\x20\x62\x65\x20\x72\x61\x6E\x64\x6F\x6D\x3F","\x4E\x6F\x74\x65\x20\x23\x35","\x48\x61\x73\x6E\x27\x74\x20\x69\x74\x20\x62\x65\x65\x6E\x20\x63\x6C\x65\x61\x72\x20\x73\x69\x6E\x63\x65\x20\x74\x68\x65\x20\x62\x65\x67\x69\x6E\x6E\x69\x6E\x67\x3F\x20\x43\x61\x6E\x27\x74\x20\x79\x6F\x75\x20\x73\x65\x65\x20\x74\x68\x65\x20\x77\x72\x69\x74\x74\x69\x6E\x67\x20\x6F\x6E\x20\x74\x68\x65\x20\x77\x61\x6C\x6C\x73\x3F\x20\x49\x27\x6D\x20\x6E\x6F\x74\x20\x69\x6E\x20\x74\x68\x65\x20\x6D\x6F\x6E\x65\x79\x20\x62\x75\x73\x69\x6E\x65\x73\x73\x20\x6E\x6F\x72\x20\x74\x68\x65\x20\x63\x68\x65\x6D\x69\x63\x61\x6C\x20\x6F\x6E\x65\x2E\x20\x49\x27\x6D\x20\x69\x6E\x20\x74\x68\x65\x20\x65\x6D\x70\x69\x72\x65\x20\x62\x75\x73\x69\x6E\x65\x73\x73\x20\x61\x6E\x64\x20\x74\x68\x65\x20\x6F\x6E\x6C\x79\x20\x77\x61\x79\x20\x74\x68\x69\x73\x20\x63\x61\x6E\x20\x66\x75\x6E\x63\x74\x69\x6F\x6E\x20\x69\x73\x20\x77\x69\x74\x68\x20\x79\x6F\x75\x20\x61\x73\x20\x74\x68\x65\x20\x64\x65\x61\x6C\x65\x72\x20\x61\x6E\x64\x20\x6D\x65\x20\x61\x73\x20\x74\x68\x65\x20\x63\x6F\x6F\x6B\x2E\x20\x49\x74\x27\x73\x20\x61\x20\x6F\x6E\x65\x2D\x77\x61\x79\x20\x73\x74\x72\x65\x65\x74\x20\x4A\x2D","\x72\x6F\x77","\x69\x6E\x66\x6F\x62\x6F\x78","\x6C\x6F\x72\x65","\x6C\x6F\x72\x65\x31","\x6C\x6F\x72\x65\x32","\x6C\x6F\x72\x65\x33","\x6C\x6F\x72\x65\x34"];addLayer(_0x1200[0],{row:_0x1200[1],color:_0x1200[2],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]},layerShown:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[6]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[7]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[8]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[9]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[10]){return true}else {return false}},tooltip:function(){return _0x1200[11]},infoboxes:{lore:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[6]){return true}},title:_0x1200[12],body:function(){return _0x1200[13]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore1:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[7]){return true}},title:_0x1200[14],body:function(){return _0x1200[15]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore2:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[8]){return true}},title:_0x1200[16],body:function(){return _0x1200[17]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore3:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[9]){return true}},title:_0x1200[18],body:function(){return _0x1200[19]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore4:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[10]){return true}},title:_0x1200[20],body:function(){return _0x1200[21]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}}},tabFormat:[[_0x1200[22],[[_0x1200[23],_0x1200[24]],[_0x1200[23],_0x1200[25]],[_0x1200[23],_0x1200[26]],[_0x1200[23],_0x1200[27]],[_0x1200[23],_0x1200[28]]]]]})
 
 addLayer("Per", {
-    branches: ['p', 'He', 'Li', 'Be', 'B', 'C'],
+    branches: ['p', 'He', 'Li', 'Be', 'B', 'C', 'N'],
     row: 1,
     position: 1,
     color: "#FFFFFF",
@@ -61,25 +61,25 @@ addLayer("Per", {
             function () { return 'Save files:' }],
             "blank",
         ["display-text",
-            function () { return `<a href="https://www.mediafire.com/file/zvllklnqa3eri29/Start_of_Hydrogen.txt/file" target="_blank" rel="noopener noreferrer">Start of Hydrogen</a>`}],
-        "blank"
-        ["display-text",
-            function () { return `<a href="https://www.mediafire.com/file/4iwro9j1n7o4naa/Start_of_Helium.txt/file" target="_blank" rel="noopener noreferrer">Start of Helium</a>`}],
+            function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/master/save-files/Start_of_Hydrogen.txt" target="_blank" rel="noopener noreferrer">Start of Hydrogen</a>`}],
         "blank",
         ["display-text",
-            function () { return `<a href="https://www.mediafire.com/file/c5i57pirt5wbogx/Start_of_Lithium.txt/file" target="_blank" rel="noopener noreferrer">Start of Lithium</a>`}],
+            function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/master/save-files/Start_of_Helium.txt" target="_blank" rel="noopener noreferrer">Start of Helium</a>`}],
         "blank",
         ["display-text",
-            function () { return `<a href="https://www.mediafire.com/file/skf3ypdxt0wu9l4/Start_of_Beryllium.txt/file" target="_blank" rel="noopener noreferrer">Start of Beryllium</a>`}],
+            function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/master/save-files/Start_of_Lithium.txt" target="_blank" rel="noopener noreferrer">Start of Lithium</a>`}],
         "blank",
         ["display-text",
-        function () { return `<a href="https://www.mediafire.com/file/rqd48xx4lxxrien/Start+of+Boron.txt/file" target="_blank" rel="noopener noreferrer">Start of Boron</a>`}],
+            function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/master/save-files/Start_of_Beryllium.txt" target="_blank" rel="noopener noreferrer">Start of Beryllium</a>`}],
         "blank",
         ["display-text",
-        function () { return `<a href="https://www.mediafire.com/file/b3k0vnbh94pamqh/Start+of+Carbon.txt/file" target="_blank" rel="noopener noreferrer">Start of Carbon</a>`}],
+        function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/master/save-files/Start_of_Boron.txt" target="_blank" rel="noopener noreferrer">Start of Boron</a>`}],
         "blank",
         ["display-text",
-        function () { return `<a href="https://www.mediafire.com/file/1jioh7k8p0281mh/Start+of+Nitrogen.txt/file" target="_blank" rel="noopener noreferrer">Start of Nitrogen</a>`}],
+        function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/master/save-files/Start_of_Carbon.txt" target="_blank" rel="noopener noreferrer">Start of Carbon</a>`}],
+        "blank",
+        ["display-text",
+        function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/master/save-files/Start_of_Nitrogen.txt" target="_blank" rel="noopener noreferrer">Start of Nitrogen</a>`}],
         "blank",
         ["display-text",
             function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer, <div> P🆎tfr, <div> JJP.' }],
@@ -1241,7 +1241,7 @@ addLayer("He", {
                 if (hasUpgrade('He', 25)) player.He.BalDiv1 = player.He.BalDiv1.add(player.He.Inflate)
                 if (hasMilestone('Li', 1)) player.He.BalDiv1 = player.He.BalDiv1.times(0)
                 if (options.mobileMode == true) player.He.BalDiv1 = player.He.BalDiv1.times(0)
-                if (hasUpgrade('He', 15) && options.mobileMode == true) InRate = 10
+                if (hasUpgrade('He', 15) && options.mobileMode == false) InRate = 10
                 if (hasUpgrade('He', 24)) InRate = 20
                 if (hasUpgrade('He', 14)) cap2 = 499
                 if (hasUpgrade('He', 23)) cap2 = 4999
@@ -2462,7 +2462,7 @@ addLayer("Be", {
         else return 1.6}, // Prestige currency exponent
     gainMult: new Decimal(1), 
     gainExp: new Decimal(1),
-    row: 0, // Row the layer is in on the tree (0 is the first row)
+    row: 3, // Row the layer is in on the tree (0 is the first row)
     displayRow: 1,
 
     hotkeys: [
@@ -3934,7 +3934,7 @@ addLayer("B", {
         else return 1}, // Prestige currency exponent
     gainMult: new Decimal(1), 
     gainExp: new Decimal(1),
-    row: 1, // Row the layer is in on the tree (0 is the first row)
+    row: 4, // Row the layer is in on the tree (0 is the first row)
     displayRow: 1,
 
     hotkeys: [
@@ -5856,6 +5856,87 @@ player.C.Day= new Decimal(0),
  if (player.C.Year.gte(20) && player.C.Lol == 1) player.C.Lol = 2
  if (player.C.Year.gte(30) && player.C.Lol == 2) player.C.Lol = 3, tmp.C.OnOff = tmp.C.OnOff.times(0), player.C.Day = player.C.Day.times(0)
 
+ if (player.C.Levelptm >= 100 && player.C.Levelftm >= 100 && player.C.LevelM >= 100 && player.C.LevelE >= 100 && player.C.LevelC >= 100 && player.C.Levelp >= 100 && player.C.LevelG >= 100 && player.C.LevelJ >= 100 && player.C.LevelB >= 100 && player.C.Levelf >= 100 && player.C.LevelJB >= 100 && player.C.Levelpe >= 100 && player.C.LevelR >= 100 && player.C.LevelD >= 100 && player.C.Levelt >= 100 && player.C.LevelW >= 100) tmp.N.complete = new Decimal(1)
  if (player.C.Res >= 1) tmp.C.eptm = getBaseLog(1000, player.C.Res) + 1 + player.C.maxptm / 10,  tmp.C.eftm = getBaseLog(1000, player.C.Res) + 1 + player.C.maxftm / 10, tmp.C.eM = getBaseLog(1000, player.C.Res) + 1 + player.C.maxM / 10, tmp.C.eE = getBaseLog(1000, player.C.Res) + 1 + player.C.maxE / 10, tmp.C.eC = getBaseLog(1000, player.C.Res) + 1 + player.C.maxC / 10, tmp.C.ep = getBaseLog(1000, player.C.Res) + 1 + player.C.maxp / 10, tmp.C.eG = getBaseLog(1000, player.C.Res) + 1 + player.C.maxG / 10, tmp.C.eJ = getBaseLog(1000, player.C.Res) + 1 + player.C.maxJ / 10, tmp.C.eB = getBaseLog(1000, player.C.Res) + 1 + player.C.maxB / 10, tmp.C.ef = getBaseLog(1000, player.C.Res) + 1 + player.C.maxf / 10, tmp.C.eJB = getBaseLog(1000, player.C.Res) + 1 + player.C.maxJB / 10, tmp.C.epe = getBaseLog(1000, player.C.Res) + 1 + player.C.maxpe / 10, tmp.C.eR = getBaseLog(1000, player.C.Res) + 1 + player.C.maxR / 10, tmp.C.eD = getBaseLog(1000, player.C.Res) + 1 + player.C.maxD / 10, tmp.C.et = getBaseLog(1000, player.C.Res) + 1 + player.C.maxt / 10, tmp.C.eW = getBaseLog(1000, player.C.Res) + 1 + player.C.maxW / 10
     },
+})
+
+addLayer("N", {
+
+    symbol() { return options.toggleButtonAnimations ? '' : 'N' },
+    nodeStyle() {
+        return options.toggleButtonAnimations ? {
+            'color': '#301934',
+            'background-image': 'url("resources/Nitrogen.gif")',
+            'background-position': 'center center',
+            'background-size': '220%',
+            'border': '1px solid #301934'
+        } : {
+            'background-position': 'center center',
+            'background-size': '100%'
+        }
+    },
+    
+    image: "https://i.postimg.cc/d3jYWgST/Screenshot-2022-07-23-021248-prev-ui.png",
+    name: "Nitrogen", // This is optional, only used in a few places, If absent it just uses the layer id.
+    position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
+    startData() {
+        return {
+            unlocked: false,
+            total: new Decimal(0),
+            points: new Decimal(0),
+            resets: new Decimal(0),   
+        }
+    },
+
+   complete: new Decimal(0),
+    
+    color: '#301934',
+    layerShown() {
+        if (player.N.resets.gte(1)) return true
+        if (player.C.Levelptm >= 100 && player.C.Levelftm >= 100 && player.C.LevelM >= 100 && player.C.LevelE >= 100 && player.C.LevelC >= 100 && player.C.Levelp >= 100 && player.C.LevelG >= 100 && player.C.LevelJ >= 100 && player.C.LevelB >= 100 && player.C.Levelf >= 100 && player.C.LevelJB >= 100 && player.C.Levelpe >= 100 && player.C.LevelR >= 100 && player.C.LevelD >= 100 && player.C.Levelt >= 100 && player.C.LevelW >= 100) return true
+        else return false
+    },
+
+    onPrestige() {
+        player.N.resets = player.N.resets.add(1)
+    },
+
+    requires: new Decimal(1), // Can be a function that takes requirement increases into account
+    resource: "Nitrogen", // Name of prestige currency
+    baseResource: "complete", // Name of resource prestige is based on
+    baseAmount() { return tmp.N.complete }, // Get the current amount of baseResource
+    requires: new Decimal(100000),
+    type: "static", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
+    exponent: new Decimal(1), // Prestige currency exponent
+    gainMult: new Decimal(1), 
+    gainExp: new Decimal(1),
+    row: 1, // Row the layer is in on the tree (0 is the first row)
+    displayRow: 2,
+
+    hotkeys: [
+        { key: "n", description: "N: Reset for Nitrogen", onPress() { if (canReset(this.layer)) doReset(this.layer)}, 
+        unlocked() { if (hasUpgrade('B', 210)) return false
+        else return true}},
+    ],
+
+    tooltip() { return formatWhole(player.N.points) + "  Nitrogen" },
+    tooltipLocked() { return formatWhole(player.N.points) + " Nitrogen (IGNORE THIS, ORGANIC CHEMISTRY IS TO COME)" },
+    
+    milestones: {
+        1: {
+            style: { "color": "#ededed" },
+            requirementDescription: "1 Nitrogen",
+            effectDescription: "Carbon restart multiplier uses a better formula.",
+            done() { return player.N.points.gte(1) },
+            onComplete() { player.E.points = player.E.points.add(1) },
+        },
+    },
+
+onClick(){
+    options.forceOneTab = true
+},
+    update(){
+        if (needCanvasUpdate = true && player.tab == 'N')   options.forceOneTab = true
+    }
 })
