@@ -90,7 +90,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	if (player.C.Levelptm >= 200 && player.C.Levelftm >= 200 && player.C.LevelM >= 200 && player.C.LevelE >= 200 && player.C.LevelC >= 200 && player.C.Levelp >= 200 && player.C.LevelG >= 200 && player.C.LevelJ >= 200 && player.C.LevelB >= 200 && player.C.Levelf >= 200 && player.C.LevelJB >= 200 && player.C.Levelpe >= 200 && player.C.LevelR >= 200 && player.C.LevelD >= 200 && player.C.Levelt >= 200 && player.C.LevelW >= 200) return true
+	if (player.C.Levelptm >= 100 && player.C.Levelftm >= 100 && player.C.LevelM >= 100 && player.C.LevelE >= 100 && player.C.LevelC >= 100 && player.C.Levelp >= 100 && player.C.LevelG >= 100 && player.C.LevelJ >= 100 && player.C.LevelB >= 100 && player.C.Levelf >= 100 && player.C.LevelJB >= 100 && player.C.Levelpe >= 100 && player.C.LevelR >= 100 && player.C.LevelD >= 100 && player.C.Levelt >= 100 && player.C.LevelW >= 100) return true
 }
 
 
