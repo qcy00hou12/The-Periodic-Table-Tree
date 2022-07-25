@@ -116,32 +116,14 @@ addLayer("Per", {
             function () { return 'A fun little periodic table:' }],
         "blank",
         ["display-image",
-            function () { return 'https://i.postimg.cc/59DXKHnn/6ce621c1-37d7-4aa1-8068-18a856d6c523.jpg' }],
+            function () { return 'https://github.com/BilboyX/The-Periodic-Table-Tree/tree/master/save-files' }],
         "blank",
         ["display-text",
             function () { return 'Save files:' }],
             "blank",
         ["display-text",
-            function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/tree/master/save-files/Start%20of%20Hydrogen.txt" target="_blank" rel="noopener noreferrer">Start of Hydrogen</a>`}],
-        "blank",
-        ["display-text",
-            function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/tree/master/save-files/Start%20of%20Helium.txt" target="_blank" rel="noopener noreferrer">Start of Helium</a>`}],
-        "blank",
-        ["display-text",
-            function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/tree/master/save-files/Start%20of%20Lithium.txt" target="_blank" rel="noopener noreferrer">Start of Lithium</a>`}],
-        "blank",
-        ["display-text",
-            function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/tree/master/save-files/Start%20of%20Beryllium.txt" target="_blank" rel="noopener noreferrer">Start of Beryllium</a>`}],
-        "blank",
-        ["display-text",
-        function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/tree/master/save-files/Start%20of%20Boron.txt" target="_blank" rel="noopener noreferrer">Start of Boron</a>`}],
-        "blank",
-        ["display-text",
-        function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/tree/master/save-files/Start%20of%20Carbon.txt" target="_blank" rel="noopener noreferrer">Start of Carbon</a>`}],
-        "blank",
-        ["display-text",
-        function () { return `<a href="https://github.com/BilboyX/The-Periodic-Table-Tree/tree/master/save-files/Start%20of%20Nitrogen.txt" target="_blank" rel="noopener noreferrer">Start of Nitrogen</a>`}],
-        "blank",
+            function () { return `<a href="" target="_blank" rel="noopener noreferrer">Savefiles</a>`}],
+       "blank",
         ["display-text",
             function () { return 'Credits: <div> Escapee, <div> smiley, <div> Jakub, <div> g🆎ples2, <div> Acamaeda, <div> incremental_gamer, <div> P🆎tfr, <div> JJP.' }],
             ["display-image", 'https://i.postimg.cc/x1b6Q644/c8b42708505611e88f6702e6256ec5c3-1-removebg-preview.png', { 'height': `30px`, 'width': `30px`, position: 'relative', right: '-50px', top: '-148px'}],
@@ -6579,7 +6561,7 @@ addLayer("N", {
         if(hasUpgrade('N', 12)) tmp.N.Zero = 4
         if(hasUpgrade('N', 12)) tmp.N.Five = 5
         if(hasUpgrade('N', 16)) tmp.N.CG = 2
-        if(hasMilestone('N', 4)) player.C.Switch = 1, tmp.N.div1 = new Decimal(9)
+        if(hasMilestone('N', 4)) player.C.Switch = new Decimal(1), tmp.N.div1 = new Decimal(9)
         if (hasUpgrade('N', 15) && player.N.ticks < 50) player.C.Switch2 = 5, player.C.Mis1 = 1, player.C.Mis2 = 1, player.C.Mis3 = 1, player.C.Mis4 = 1, player.C.Mis5 = 1, player.C.ME5 = (player.C.ME5 + 400 * player.N.days * tmp.N.Five * temp['C'].bars['Persuasion'].effect) * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME4 = (player.C.ME4 + 150 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME3 = (player.C.ME3 + 30 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME2 = (player.C.ME2 + 10 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME1 = (player.C.ME1 + 2 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div
         if (hasUpgrade('N', 16) && player.N.ticks < 10) tmp.C.OnOff = new Decimal(1)
     }
