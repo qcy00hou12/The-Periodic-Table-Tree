@@ -13,13 +13,19 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "1.6.1",
-	name: "Carbon-Hover",
+	num: "1.6.5",
+	name: "Nitrogen V1",
 }
 
 let changelog = `<h1>Changelog:</h1><br><br>
+<h3>v1.6.5</h3><br>
+		- Added new layer<br>
+		- Changed savefiles<br>
+		- Fixed Layer Resets<br>
+		- Added Mature Mode in settings<br>
+		- Holdable Helium Button + Life Button (for Low Quality mode)<br>
 <h3>v1.6.1</h3><br>
-		- Added Hover on Low Quality Mode<br>
+		- Added Hover on High Quality Mode<br>
 		- Changed repository name<br>
 		- Other fixes<br>
 <h3>v1.6</h3><br>
@@ -55,7 +61,7 @@ let changelog = `<h1>Changelog:</h1><br><br>
 		- Added new layers.<br>
 		- Fixed some performance and visual issues.`
 
-let winText = `Congratulations! You have reached the end and beaten this game, but what have you missed and what will you gain from going further in? Holy, you actually did that? You're a trooper. Anyway, for now...`
+let winText = `Congratulations! You have reached the end and beaten this game, but what have you missed and what will you gain from going further in? Anyway, for now...`
 
 // If you add new functions anywhere inside of a layer, and those functions have an effect when called, add them here.
 // (The ones here are examples, all official functions are already taken care of)
@@ -90,7 +96,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	if (player.C.Levelptm >= 100 && player.C.Levelftm >= 100 && player.C.LevelM >= 100 && player.C.LevelE >= 100 && player.C.LevelC >= 100 && player.C.Levelp >= 100 && player.C.LevelG >= 100 && player.C.LevelJ >= 100 && player.C.LevelB >= 100 && player.C.Levelf >= 100 && player.C.LevelJB >= 100 && player.C.Levelpe >= 100 && player.C.LevelR >= 100 && player.C.LevelD >= 100 && player.C.Levelt >= 100 && player.C.LevelW >= 100) return true
+	
 }
 
 

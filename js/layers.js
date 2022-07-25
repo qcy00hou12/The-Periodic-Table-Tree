@@ -33,7 +33,68 @@ addNode("Ex", {
     },
 })
 
-var _0x1200=["\x43\x68","\x73\x69\x64\x65","\x23\x30\x30\x30\x30\x30\x30","\x23\x66\x66\x66\x66\x66\x66","\x49\x54\x65\x78\x74","\x48\x65","\x48\x65\x69\x73\x65\x6E\x62\x75\x72\x67","\x49\x20\x6E\x65\x65\x64\x20\x61\x20\x6E\x65\x77\x20\x64\x75\x73\x74\x20\x66\x69\x6C\x74\x65\x72\x20\x66\x6F\x72\x20\x6D\x79\x20\x48\x6F\x6F\x76\x65\x72\x20\x4D\x61\x78\x20\x45\x78\x74\x72\x61\x63\x74\x20\x50\x72\x65\x73\x73\x75\x72\x65\x20\x50\x72\x6F\x20\x6D\x6F\x64\x65\x6C\x20\x36\x30","\x54\x65\x73\x74\x69\x63\x6C\x65","\x42\x61\x44\x20\x42\x72\x65\x61\x6B\x49\x6E\x47","\x49\x20\x61\x6D\x20\x6E\x6F\x74\x20\x74\x75\x72\x6E\x69\x6E\x67\x20\x64\x6F\x77\x6E\x20\x74\x68\x65\x20\x6D\x6F\x6E\x65\x79\x21\x20\x49\x20\x61\x6D\x20\x74\x75\x72\x6E\x69\x6E\x67\x20\x64\x6F\x77\x6E\x20\x79\x6F\x75\x21\x20\x59\x6F\x75\x20\x67\x65\x74\x20\x69\x74\x3F\x20\x49\x20\x77\x61\x6E\x74\x20\x6E\x6F\x74\x68\x69\x6E\x67\x20\x74\x6F\x20\x64\x6F\x20\x77\x69\x74\x68\x20\x79\x6F\x75\x21\x20\x45\x76\x65\x72\x20\x73\x69\x6E\x63\x65\x20\x49\x20\x6D\x65\x74\x20\x79\x6F\x75\x2C\x20\x65\x76\x65\x72\x79\x74\x68\x69\x6E\x67\x20\x49\x20\x65\x76\x65\x72\x20\x63\x61\x72\x65\x64\x20\x61\x62\x6F\x75\x74\x20\x69\x73\x20\x67\x6F\x6E\x65\x21\x20\x52\x75\x69\x6E\x65\x64\x2C\x20\x74\x75\x72\x6E\x65\x64\x20\x74\x6F\x20\x73\x2A\x2A\x74\x2C\x20\x64\x65\x61\x64\x2C\x20\x65\x76\x65\x72\x20\x73\x69\x6E\x63\x65\x20\x49\x20\x68\x6F\x6F\x6B\x65\x64\x20\x75\x70\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x67\x72\x65\x61\x74\x20\x48\x65\x69\x73\x65\x6E\x62\x65\x72\x67\x21","\x4C\x61\x62\x20\x4E\x6F\x74\x65\x73","\x4E\x6F\x74\x65\x20\x23\x31","\x20\x2D\x6A\x75\x73\x74\x20\x74\x68\x65\x20\x6F\x74\x68\x65\x72\x20\x64\x61\x79\x2C\x20\x68\x65\x20\x74\x6F\x6C\x64\x20\x6D\x65\x20\x69\x74\x20\x77\x61\x73\x20\x68\x69\x73\x20\x62\x69\x72\x74\x68\x64\x61\x79\x2E\x20\x49\x20\x6D\x65\x61\x6E\x2C\x20\x77\x68\x6F\x20\x63\x61\x72\x65\x73\x3F\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x27\x73\x20\x67\x6F\x69\x6E\x67\x20\x74\x6F\x20\x67\x65\x74\x20\x68\x69\x6D\x20\x61\x6E\x79\x74\x68\x69\x6E\x67\x20\x61\x6E\x79\x77\x61\x79\x2E\x20\x4E\x6F\x74\x20\x6C\x69\x6B\x65\x20\x61\x6E\x79\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x2E\x20\x54\x68\x65\x20\x64\x75\x64\x65\x73\x20\x61\x20\x77\x65\x69\x72\x64\x6F\x2C\x20\x79\x6F\x75\x20\x73\x68\x6F\x75\x6C\x64\x20\x73\x74\x61\x79\x20\x61\x77\x61\x79\x20\x66\x72\x6F\x6D\x20\x27\x65\x6D\x2E\x20\x41\x6E\x79\x77\x61\x79\x20\x67\x6F\x74\x74\x61\x20\x67\x6F\x2C\x20\x67\x6F\x74\x20\x61\x20\x63\x6C\x69\x65\x6E\x74\x20\x77\x68\x6F\x27\x73\x20\x70\x72\x6F\x62\x61\x62\x6C\x79\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x61\x74\x20\x4C\x69\x74\x68\x69\x75\x6D\x21","\x4E\x6F\x74\x65\x20\x23\x32","\x43\x6F\x63\x65\x6E\x74\x72\x61\x74\x65\x20\x74\x68\x65\x20\x70\x65\x72\x63\x69\x70\x69\x74\x61\x74\x65\x2E\x20\x46\x69\x6C\x74\x65\x72\x20\x6F\x75\x74\x20\x74\x6F\x20\x70\x75\x72\x69\x66\x79\x2E\x20\x50\x6F\x75\x72\x20\x74\x6F\x20\x63\x72\x79\x73\x74\x61\x6C\x69\x7A\x65\x2E\x20\x43\x75\x2D\x2E\x20\x44\x61\x6D\x6E\x20\x69\x74\x2E\x20\x49\x20\x63\x61\x6E\x27\x74\x20\x6B\x65\x65\x70\x20\x64\x6F\x69\x6E\x67\x20\x74\x68\x69\x73\x20\x69\x66\x20\x49\x20\x64\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x61\x20\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x73\x75\x70\x70\x6C\x79\x2E\x20\x54\x68\x61\x6E\x6B\x66\x75\x6C\x6C\x79\x2C\x20\x49\x20\x68\x61\x76\x2D","\x4E\x6F\x74\x65\x20\x23\x33","\x44\x69\x64\x20\x79\x6F\x75\x20\x70\x65\x72\x68\x61\x70\x73\x20\x66\x6F\x72\x67\x65\x74\x20\x74\x6F\x20\x74\x61\x6B\x65\x20\x79\x6F\x75\x72\x20\x70\x61\x69\x6E\x6B\x69\x6C\x6C\x65\x72\x73\x20\x74\x68\x69\x73\x20\x6D\x6F\x72\x6E\x69\x6E\x67\x3F\x20\x48\x61\x73\x20\x79\x6F\x75\x72\x20\x6D\x69\x6E\x64\x20\x67\x6F\x6E\x65\x20\x66\x75\x7A\x7A\x79\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x70\x61\x69\x6E\x3F\x20\x4F\x72\x20\x69\x73\x20\x74\x68\x69\x73\x20\x70\x65\x72\x68\x61\x70\x73\x20\x61\x20\x67\x65\x6E\x69\x74\x69\x63\x61\x6C\x20\x74\x68\x69\x6E\x67\x2C\x20\x62\x65\x63\x61\x75\x73\x65\x20\x72\x69\x67\x68\x74\x20\x6E\x6F\x77\x20\x6E\x6F\x20\x6F\x6E\x65\x20\x63\x6F\x75\x6C\x64\x20\x70\x6F\x73\x73\x69\x62\x6C\x65\x20\x63\x6F\x6D\x70\x72\x65\x68\x65\x6E\x64\x20\x77\x68\x61\x74\x27\x73\x20\x63\x6F\x6D\x69\x6E\x67\x20\x6F\x75\x74\x20\x6F\x66\x20\x79\x6F\x75\x72\x20\x6D\x6F\x75\x74\x68\x2E\x20\x45\x69\x74\x68\x65\x72\x20\x79\x6F\x75\x20\x67\x69\x76\x65\x20\x75\x70\x20\x61\x6E\x64\x20\x77\x65\x20\x64\x69\x65\x20\x6F\x72\x20\x79\x6F\x75\x20\x73\x65\x6E\x64\x20\x74\x68\x65\x6D\x20\x6F\x6E\x20\x74\x68\x65\x69\x72\x20\x6D\x65\x72\x72\x79\x20\x77\x61\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x6E\x65\x78\x74\x20\x6C\x61\x79\x65\x72\x2E","\x4E\x6F\x74\x65\x20\x23\x34","\x54\x68\x65\x20\x75\x6E\x69\x76\x65\x72\x73\x65\x20\x69\x73\x20\x72\x61\x6E\x64\x6F\x6D\x2E\x20\x49\x74\x27\x73\x20\x6E\x6F\x74\x20\x69\x6E\x65\x76\x69\x74\x61\x62\x6C\x65\x2E\x20\x49\x74\x27\x73\x20\x73\x69\x6D\x70\x6C\x65\x20\x63\x68\x61\x6F\x73\x2E\x20\x49\x74\x27\x73\x20\x73\x75\x62\x61\x74\x6F\x6D\x69\x63\x20\x70\x61\x72\x74\x69\x63\x6C\x65\x73\x20\x69\x6E\x20\x65\x6E\x64\x6C\x65\x73\x73\x2C\x20\x61\x69\x6D\x6C\x65\x73\x73\x20\x63\x6F\x6C\x6C\x69\x73\x69\x6F\x6E\x2E\x20\x54\x68\x61\x74\x27\x73\x20\x77\x68\x61\x74\x20\x73\x63\x69\x65\x6E\x63\x65\x20\x74\x65\x61\x63\x68\x65\x73\x20\x75\x73\x2C\x20\x62\x75\x74\x20\x77\x68\x61\x74\x20\x69\x73\x20\x74\x68\x69\x73\x20\x73\x61\x79\x69\x6E\x67\x3F\x20\x57\x68\x61\x74\x20\x69\x73\x20\x69\x74\x20\x74\x65\x6C\x6C\x69\x6E\x67\x20\x75\x73\x2C\x20\x77\x68\x65\x6E\x20\x6F\x6E\x20\x74\x68\x65\x20\x76\x65\x72\x79\x20\x6E\x69\x67\x68\x74\x20\x74\x68\x61\x74\x20\x74\x68\x69\x73\x20\x6D\x61\x6E\x27\x73\x20\x64\x61\x75\x67\x68\x74\x65\x72\x20\x64\x69\x65\x73\x2C\x20\x69\x74\x27\x73\x20\x6D\x65\x20\x77\x68\x6F\x27\x73\x20\x68\x61\x76\x69\x6E\x67\x20\x61\x20\x64\x72\x69\x6E\x6B\x20\x77\x69\x74\x68\x20\x68\x69\x6D\x3F\x20\x48\x6F\x77\x20\x63\x61\x6E\x20\x74\x68\x61\x74\x20\x62\x65\x20\x72\x61\x6E\x64\x6F\x6D\x3F","\x4E\x6F\x74\x65\x20\x23\x35","\x48\x61\x73\x6E\x27\x74\x20\x69\x74\x20\x62\x65\x65\x6E\x20\x63\x6C\x65\x61\x72\x20\x73\x69\x6E\x63\x65\x20\x74\x68\x65\x20\x62\x65\x67\x69\x6E\x6E\x69\x6E\x67\x3F\x20\x43\x61\x6E\x27\x74\x20\x79\x6F\x75\x20\x73\x65\x65\x20\x74\x68\x65\x20\x77\x72\x69\x74\x74\x69\x6E\x67\x20\x6F\x6E\x20\x74\x68\x65\x20\x77\x61\x6C\x6C\x73\x3F\x20\x49\x27\x6D\x20\x6E\x6F\x74\x20\x69\x6E\x20\x74\x68\x65\x20\x6D\x6F\x6E\x65\x79\x20\x62\x75\x73\x69\x6E\x65\x73\x73\x20\x6E\x6F\x72\x20\x74\x68\x65\x20\x63\x68\x65\x6D\x69\x63\x61\x6C\x20\x6F\x6E\x65\x2E\x20\x49\x27\x6D\x20\x69\x6E\x20\x74\x68\x65\x20\x65\x6D\x70\x69\x72\x65\x20\x62\x75\x73\x69\x6E\x65\x73\x73\x20\x61\x6E\x64\x20\x74\x68\x65\x20\x6F\x6E\x6C\x79\x20\x77\x61\x79\x20\x74\x68\x69\x73\x20\x63\x61\x6E\x20\x66\x75\x6E\x63\x74\x69\x6F\x6E\x20\x69\x73\x20\x77\x69\x74\x68\x20\x79\x6F\x75\x20\x61\x73\x20\x74\x68\x65\x20\x64\x65\x61\x6C\x65\x72\x20\x61\x6E\x64\x20\x6D\x65\x20\x61\x73\x20\x74\x68\x65\x20\x63\x6F\x6F\x6B\x2E\x20\x49\x74\x27\x73\x20\x61\x20\x6F\x6E\x65\x2D\x77\x61\x79\x20\x73\x74\x72\x65\x65\x74\x20\x4A\x2D","\x72\x6F\x77","\x69\x6E\x66\x6F\x62\x6F\x78","\x6C\x6F\x72\x65","\x6C\x6F\x72\x65\x31","\x6C\x6F\x72\x65\x32","\x6C\x6F\x72\x65\x33","\x6C\x6F\x72\x65\x34"];addLayer(_0x1200[0],{row:_0x1200[1],color:_0x1200[2],textStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]},layerShown:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[6]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[7]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[8]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[9]){return true};if(player[_0x1200[5]][_0x1200[4]]== _0x1200[10]){return true}else {return false}},tooltip:function(){return _0x1200[11]},infoboxes:{lore:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[6]){return true}},title:_0x1200[12],body:function(){return _0x1200[13]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore1:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[7]){return true}},title:_0x1200[14],body:function(){return _0x1200[15]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore2:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[8]){return true}},title:_0x1200[16],body:function(){return _0x1200[17]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore3:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[9]){return true}},title:_0x1200[18],body:function(){return _0x1200[19]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}},lore4:{unlocked:function(){if(player[_0x1200[5]][_0x1200[4]]== _0x1200[10]){return true}},title:_0x1200[20],body:function(){return _0x1200[21]},titleStyle:{"\x63\x6F\x6C\x6F\x72":_0x1200[3]}}},tabFormat:[[_0x1200[22],[[_0x1200[23],_0x1200[24]],[_0x1200[23],_0x1200[25]],[_0x1200[23],_0x1200[26]],[_0x1200[23],_0x1200[27]],[_0x1200[23],_0x1200[28]]]]]})
+addLayer("Ch", {
+    row: "side",
+    color: "#000000",
+    textStyle: { "color": "#ffffff" },
+    layerShown() {
+        if (player.He.IText == "Heisenburg") return true
+        if (player.He.IText == "I need a new dust filter for my Hoover Max Extract Pressure Pro model 60") return true
+        if (player.He.IText == "Testicle") return true
+        if (player.He.IText == "BaD BreakInG") return true
+        if (player.He.IText == "I am not turning down the money! I am turning down you! You get it? I want nothing to do with you! Ever since I met you, everything I ever cared about is gone! Ruined, turned to s**t, dead, ever since I hooked up with the great Heisenberg!") return true
+        else return false
+    },
+
+    tooltip() { return "Lab Notes" },
+
+    infoboxes: {
+        lore: {
+            unlocked() { if (player.He.IText == "Heisenburg" ) return true },
+            title: "Note #1",
+            body() { return " -just the other day, he told me it was his birthday. I mean, who cares? It's not like anyone's going to get him anything anyway. Not like anyone could. The dudes a weirdo, you should stay away from 'em. Anyway gotta go, got a client who's probably already at Lithium!" },
+            titleStyle: { "color": "#ffffff" },
+
+        },
+        lore1: {
+            unlocked() { if (player.He.IText == "I need a new dust filter for my Hoover Max Extract Pressure Pro model 60") return true },
+            title: "Note #2",
+            body() { return "Cocentrate the percipitate. Filter out to purify. Pour to crystalize. Cu-. Damn it. I can't keep doing this if I don't have a sufficient supply. Thankfully, I hav-" },
+            titleStyle: { "color": "#ffffff" },
+
+        },
+        lore2: {
+            unlocked() { if (player.He.IText == "Testicle" ) return true },
+            title: "Note #3",
+            body() { return "Did you perhaps forget to take your painkillers this morning? Has your mind gone fuzzy from the pain? Or is this perhaps a genitical thing, because right now no one could possible comprehend what's coming out of your mouth. Either you give up and we die or you send them on their merry way to the next layer." },
+            titleStyle: { "color": "#ffffff" },
+
+        },
+        lore3: {
+            unlocked() { if (player.He.IText == "BaD BreakInG" ) return true },
+            title: "Note #4",
+            body() { return "The universe is random. It's not inevitable. It's simple chaos. It's subatomic particles in endless, aimless collision. That's what science teaches us, but what is this saying? What is it telling us, when on the very night that this man's daughter dies, it's me who's having a drink with him? How can that be random?" },
+            titleStyle: { "color": "#ffffff" },
+
+        },
+        lore4: {
+            unlocked() { if (player.He.IText == "I am not turning down the money! I am turning down you! You get it? I want nothing to do with you! Ever since I met you, everything I ever cared about is gone! Ruined, turned to s**t, dead, ever since I hooked up with the great Heisenberg!" ) return true },
+            title: "Note #5",
+            body() { return "Hasn't it been clear since the beginning? Can't you see the writting on the walls? I'm not in the money business nor the chemical one. I'm in the empire business and the only way this can function is with you as the dealer and me as the cook. It's a one-way street J-" },
+            titleStyle: { "color": "#ffffff" },
+
+        },
+    },
+
+    tabFormat: [
+        ["row", [
+       ["infobox", "lore"],
+       ["infobox", "lore1"],
+       ["infobox", "lore2"],
+       ["infobox", "lore3"],
+       ["infobox", "lore4"],
+       ]]],
+})
 
 addLayer("Per", {
     branches: ['p', 'He', 'Li', 'Be', 'B', 'C', 'N'],
@@ -45,7 +106,7 @@ addLayer("Per", {
     infoboxes: {
         lore: {
             title: "Welcome To The Periodic Table Tree",
-            body() { return "Here you will advance from element to element until I decide to stop. That's about it, not one for lore I guess... Save files if you want to skip a section or your savefile gets corrupted." },
+            body() { return "Here you will advance from element to element until I decide to stop. That's about it, not much else to say...There's save files under this if you want to skip a section or your savefile gets corrupted." },
         },
     },
 
@@ -588,6 +649,51 @@ addLayer("A", {
             done() { return player.C.Levelptm >= 100 && player.C.Levelftm >= 100 && player.C.LevelM >= 100 && player.C.LevelE >= 100 && player.C.LevelC >= 100 && player.C.Levelp >= 100 && player.C.LevelG >= 100 && player.C.LevelJ >= 100 && player.C.LevelB >= 100 && player.C.Levelf >= 100 && player.C.LevelJB >= 100 && player.C.Levelpe >= 100 && player.C.LevelR >= 100 && player.C.LevelD >= 100 && player.C.Levelt >= 100 && player.C.LevelW >= 100},
             image() { if (hasAchievement('A', 115)) return "https://i.postimg.cc/K8ygRdSX/ce06b00e5f5b305c46d85ad0727b5ada-amc-breaking-bad-crawl-spaces-removebg-preview-modified-2.png" }
         },
+        121: {
+            unlocked() { if (hasAchievement('A', 115)) return true},
+            name: "Lucky Number Nitrogen?",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: "The 7th Element rests in your hands.",
+            done() { return player.E.points.gte(7)},
+            image() { if (hasAchievement('A', 121)) return "https://i.postimg.cc/T274TNjV/nitrogen-prev-ui.png" }
+        },
+        122: {
+            unlocked() { if (hasAchievement('A', 115)) return true},
+            name: "Nitrogen Chemical Reactions",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "150% 100%", "background-position": "center center"},
+            tooltip: `Get Upgrade, "Rapid Decompression"`,
+            done() { return hasUpgrade('N', 12)},
+            image() { if (hasAchievement('A', 122)) return "https://i.postimg.cc/hj31R6Fh/maxresdefault-4-prev-ui.png" }
+        },
+        123: {
+            unlocked() { if (hasAchievement('A', 115)) return true},
+            name: "Nitrogen Expansion",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: `Get Upgrade, "Organic Matter"`,
+            done() { return hasUpgrade('N', 14)},
+            image() { if (hasAchievement('A', 123)) return "https://i.postimg.cc/KzKJjxDt/Liquid-Nitrogen-Explosion-finale-prev-ui.png" }
+        },
+        124: {
+            unlocked() { if (hasAchievement('A', 115)) return true},
+            name: "Nitrogen Decay",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: `Get Upgrade, "Thermal Decomposition"`,
+            done() { return hasUpgrade('N', 15)},
+            image() { if (hasAchievement('A', 124)) return "https://i.postimg.cc/qvJfR6hn/farmer-spreading-fertilizer-by-hand-prev-ui.png" }
+        },
+        125: {
+            unlocked() { if (hasAchievement('A', 115)) return true},
+            name: "Nitrogen Nimbility",
+            textStyle: { "color": "#000000" },
+            style: { "background-size": "100% 100%", "background-position": "center center"},
+            tooltip: "Get the Golden Trophy.",
+            done() { return hasMilestone('N', 8)},
+            image() { if (hasAchievement('A', 125)) return "https://i.postimg.cc/pX0CfmcK/maxresdefault-5-prev-ui.png" }
+        },
     },
 
     clickables: {
@@ -962,8 +1068,8 @@ addLayer("p", {
         11: {
             title: "Hydrogen Gas",
             display() {
-                if(options.mobileMode == false) return "Produce Hydrogen Gas on hold."
-                if(options.mobileMode == true) return "Produce Hydrogen Gas on hover."
+                if(options.mobileMode == true) return "Produce Hydrogen Gas on hold."
+                if(options.mobileMode == false) return "Produce Hydrogen Gas on hover."
             },
             style: { "background-color": "#0000ff" },
             canClick() {
@@ -1012,14 +1118,14 @@ addLayer("p", {
                 if (hasUpgrade('p', 14)) player.p.Clic = player.p.Clic.add(1)
             },
             onHover() {
-                if(options.mobileMode == true){
+                if(options.mobileMode == false){
                     player.p.GasTicks = player.p.GasTicks.add(1)
                 if (player.p.Node < 1) player.p.HydroGain = player.p.HydroGain.add(1)
                 player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)).times(player.Li.points.add(1).pow(tmp.p.effect5).times(tmp.p.effect6)))
                 player.p.Gas = player.p.Gas.add(temp['p'].clickables[11].effect)}
             },
             onHold() {
-                if(options.mobileMode == false){
+                if(options.mobileMode == true){
                 player.p.GasTicks = player.p.GasTicks.add(1)
                 if (player.p.Node < 1) player.p.HydroGain = player.p.HydroGain.add(1)
                 player.p.HydrogenGas = player.p.HydrogenGas.add((temp['p'].clickables[11].effect).times(player.p.HydrogenMult.add(1)).times(player.Li.points.add(1).pow(tmp.p.effect5).times(tmp.p.effect6)))
@@ -1029,8 +1135,8 @@ addLayer("p", {
         12: {
             title: "Hydrogen Multiplier",
             display() {
-                if(options.mobileMode == false) return "Multiply Hydrogen Gas gain on hold."
-                if(options.mobileMode == true) return "Multiply Hydrogen Gas gain on hover."
+                if(options.mobileMode == true) return "Multiply Hydrogen Gas gain on hold."
+                if(options.mobileMode == false) return "Multiply Hydrogen Gas gain on hover."
             },
             style: { "color": "#ededed" },
             unlocked() {
@@ -1065,28 +1171,33 @@ addLayer("p", {
                 return tmp.p.effectM
             },
             onHover(){
-                if (options.mobileMode == true){
+                if (options.mobileMode == false){
                 player.p.HydrogenMult = player.p.HydrogenMult.add(temp['p'].clickables[12].effect)
                 if (player.p.HydrogenMult > tmp.p.cap) player.p.HydrogenMult = player.p.HydrogenMult.add(tmp.p.effectM.times(-1))}
             },
             onHold() {
-                if(options.mobileMode == false){
+                if(options.mobileMode == true){
                 player.p.HydrogenMult = player.p.HydrogenMult.add(temp['p'].clickables[12].effect)
                 if (player.p.HydrogenMult > tmp.p.cap) player.p.HydrogenMult = player.p.HydrogenMult.add(tmp.p.effectM.times(-1))}
             }
-        }
+        },
     },
 
     infoboxes: {
         lore: {
             titleStyle: { "color": "#ededed" },
             title: "Hydrogen",
-            body() { return "This is a periodic table tree and it all starts with hydrogen because of its- well, its atomic properties technically. Anyway, start producing some hydrogen gas so we can convert it into energy or something." },
+            body() { return "This is a periodic table tree and it all starts with hydrogen because of its- well, I guess it's atomic properties or something. Anyway, start producing some hydrogen gas so we can convert it into energy or something." },
         },
+        lore1: { 
+        titleStyle: { "color": "#ededed" },
+        title: "Hydrogen",
+        body() { return "This is a periodic table tree and it all starts with hydrogen because of its- well, it's atomic properties or something. Anyway, start producing some hydrogen gas so we can convert it into energy or shit, I don't know, you figure it out." },
+    },
     },
 
     tabFormat: [
-        ["infobox", "lore"],
+        () => (options.matureMode == true) ? ["infobox", "lore1"] : ["infobox", "lore"],
         ["display-text",
             function () { if (player.p.Node < 1) return 'Hydrogen increases Hydrogen Power gain by ' + formatWhole(player.p.points.add(player.p.points)) }],
         "blank",
@@ -1115,8 +1226,7 @@ addLayer("p", {
         "upgrades",
     ],
 
-    doReset(resettingLayer) {
-        if (layers[this.layer].row >= layers[resettingLayer].row) return
+    doReset() {
         let keptMilestones = []
         let keptUpgrades = []
         if (player.He.resets > 0) keptMilestones.push(...player.p.milestones.slice(0, player.He.resets))
@@ -1192,8 +1302,7 @@ addLayer("He", {
     gainExp() { // Calculate the exponent on main currency from bonuses
         return new Decimal(1)
     },
-    row: 11, // Row the layer is in on the tree (0 is the first row)
-    displayRow: 0,
+    row: 0, // Row the layer is in on the tree (0 is the first row)
 
     hotkeys: [
         { key: "e", description: "E: Reset for Helium", onPress() { if (canReset(this.layer)) doReset(this.layer)},
@@ -1278,7 +1387,23 @@ addLayer("He", {
             onClick() {
                 player.He.State = player.He.State.times(0)
             }
-        }
+        },
+        13: {
+            title: "Reset for Helium",
+            display: "Hold",
+            style: { "background-color": "#0000ff" },
+            canClick() {
+                return true
+            },
+            style: { "color": "#ededed" },
+            unlocked() {
+                if (options.mobileMode == true && !hasMilestone('Li', 2)) return true
+                else return false
+            },
+            onHold() {
+                if (canReset(this.layer)) doReset(this.layer)
+            },
+        },
     },
 
     automate() {
@@ -1527,8 +1652,7 @@ addLayer("He", {
         if (hasMilestone('Li', 2)) return 4
     },
 
-    doReset(resettingLayer) {
-        if (layers[this.layer].row >= layers[resettingLayer].row) return
+    doReset() {
         let keptMilestones = []
         let keptUpgrades = []
         if (player.Li.resets > 0) keptMilestones.push(...player.He.milestones.slice(0, player.Li.resets))
@@ -1635,8 +1759,7 @@ addLayer("Li", {
     gainExp() { // Calculate the exponent on main currency from bonuses
         return new Decimal(1)
     },
-    row: 12, // Row the layer is in on the tree (0 is the first row)
-    displayRow: 0,
+    row: 0, // Row the layer is in on the tree (0 is the first row)
 
     hotkeys: [
         { key: "l", description: "L: Reset for Lithium", onPress() { if (canReset(this.layer)) doReset(this.layer)}, 
@@ -1702,12 +1825,17 @@ addLayer("Li", {
         lore: {
             titleStyle: { "color": "#ededed" },
             title: "Lithium",
-            body() { return "We've struck Lithium! I'll- We'll be able to make phones and electric cars with them. All ya gotta do is mine that Lepoidolite over there (once you can)." },
+            body() { return "We've struck Lithium! I'll- I'll be able to- We'll be able to make phones and electric cars with them. All ya gotta do is mine that Lepoidolite over there. Yeah, I'm gonna be rich!" },
         },
         lore1: {
             titleStyle: { "color": "#ededed" },
             title: "",
             body() { return "I need a new dust filter for my Hoover Max Extract Pressure Pro model 60" }
+        },
+        lore2: {
+            titleStyle: { "color": "#ededed" },
+            title: "Lithium",
+            body() { return "Holy Shit, we've struck Lithium! I'll- I'll be able to- We'll be able to make phones and electric cars with them. All ya gotta do is mine that Lepoidolite over there. Yeah bitch, I'm gonna be rich!" },
         },
     },
 
@@ -1907,7 +2035,9 @@ addLayer("Li", {
     tabFormat: {
         "MainTab": {
             content: [
-        () => (player.p.Node < 1) ? ['infobox', 'lore'] : ['infobox', 'lore1'],
+        () => (player.p.Node < 1 && options.matureMode == false) ? ['infobox', 'lore'] : '',
+        () => (player.p.Node < 1 && options.matureMode == true) ? ['infobox', 'lore2'] : '',
+        () => (player.p.Node >= 1) ? ['infobox', 'lore1'] : '',
         ["display-text",
             function () { if (player.p.Node < 1) return 'Lithium boosts Helium Expunged and Hydrogen Gas + Power gain by ' + formatWhole(player.Li.points.add(1).pow(tmp.p.effect5).times(tmp.p.effect6)) }],
         "blank",
@@ -2462,8 +2592,7 @@ addLayer("Be", {
         else return 1.6}, // Prestige currency exponent
     gainMult: new Decimal(1), 
     gainExp: new Decimal(1),
-    row: 3, // Row the layer is in on the tree (0 is the first row)
-    displayRow: 1,
+    row: 1, // Row the layer is in on the tree (0 is the first row)
 
     hotkeys: [
         { key: "b", description: "B: Reset for Beryllium Scraps", onPress() { if (canReset(this.layer)) doReset(this.layer)}, 
@@ -3344,6 +3473,11 @@ onPrestige() {
             title: "Le Universe",
             body() { return "Damn, you actually managed to get all those rocketship parts. Sadly, that's not the end. Ya gotta go over to the next tab and go build more rocketship's my man! This tab is just for a visiual aid anyway. Go uh, go colonize some planets or something, you're good at that right?" },
         },
+        lore2: {
+            titleStyle: { "color": "#ededed" },
+            title: "Beryllium",
+            body() { return "Oh shit, seems like society has turned against you. Luckily, Beryllium has many properties that makes it great for manufacturing space craft. First and foremost, ya gotta build the rocketship. (Also it's important to note that layers only reset other layers that are to the left of them.)" },
+        },
     },
 
 componentStyles: {
@@ -3353,7 +3487,7 @@ componentStyles: {
     tabFormat: {
         "MainTab": {
             content: [
-                ['infobox', 'lore'],
+                () => (options.matureMode == false) ? ['infobox', 'lore'] : ['infobox', 'lore2'],
                 "main-display",
                 () => (hasMilestone('Be', 2)) ? "" : "prestige-button",
                 "blank",
@@ -3831,8 +3965,7 @@ componentStyles: {
         if (hasMilestone('B', 2)) player.Li.Li1 = player.Li.Li1.times(0).add(71), player.Li.H1 = player.Li.H1.times(0).add(73)
     },
 
-    doReset(resettingLayer) {
-        if (layers[this.layer].row >= layers[resettingLayer].row) return
+    doReset() {
         let keptUpgrades = []
         let keptMilestones = []
         if (player.B.resets > 0) keptUpgrades.push(...player.Be.upgrades.slice(0, player.B.resets)), setBuyableAmount('Be', 11, 50)
@@ -3934,8 +4067,7 @@ addLayer("B", {
         else return 1}, // Prestige currency exponent
     gainMult: new Decimal(1), 
     gainExp: new Decimal(1),
-    row: 4, // Row the layer is in on the tree (0 is the first row)
-    displayRow: 1,
+    row: 1, // Row the layer is in on the tree (0 is the first row)
 
     hotkeys: [
         { key: "r", description: "R: Reset for Boron", onPress() { if (canReset(this.layer)) doReset(this.layer)}, 
@@ -4158,8 +4290,8 @@ addLayer("B", {
                 else return "Drill"
             },
             display() { 
-                if (options.mobileMode == false && !hasUpgrade('B', 21)) return 'HOLD TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'
-                if (options.mobileMode == true && !hasUpgrade('B', 21)) return 'HOVER TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'
+                if (options.mobileMode == true && !hasUpgrade('B', 21)) return 'Hover TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'
+                if (options.mobileMode == false && !hasUpgrade('B', 21)) return 'Hold TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'
                 if (hasUpgrade('B', 21)) return 'CLICK TO DRILL.<div>Drilling through ' + formatWhole(player.B.TicksMax) + ' Ticks/tick'},
             canClick() { return true},
             effect() {
@@ -4174,7 +4306,7 @@ addLayer("B", {
                 if (hasUpgrade('B', 21) && player.B.State == 1) return player.B.State = player.B.State.times(0)
             },
             onHold() {  
-                if(options.mobileMode == false){
+                if(options.mobileMode == true){
                 if (hasUpgrade('B', 21)) return ''
                 player.B.TicksMax = temp['B'].clickables[11].effect
                 player.B.SDeg = player.B.SDeg.add(1)
@@ -4183,7 +4315,7 @@ addLayer("B", {
                 if (player.B.Ticks.gte(1) && player.B.Deg.gte(101)) player.B.Deg = player.B.Deg.add(10)}
             },
             onHover() {
-                if(options.mobileMode == true){
+                if(options.mobileMode == false){
                 if (hasUpgrade('B', 21)) return ''
                 player.B.TicksMax = temp['B'].clickables[11].effect
                 player.B.SDeg = player.B.SDeg.add(1)
@@ -4441,12 +4573,17 @@ addLayer("B", {
         lore: {
             titleStyle: { "color": "#ededed" },
             title: "Boron",
-            body() { return "Woah man, that was quite the crash landing! Something must of hit your ship. Hey wait, what's that over there? That, you know, that massive crater. Wait, yoooo. There's some meteorite debris over there. Go check that stuff out! We'll get Boron! Actually, first of all, we need to create a electric diamond hand saw. Anyway, do whatever it is you do and when you're ready let's start crafting." },
+            body() { return "Woah man, that was quite the crash landing! Something must of hit your ship hard. Hey wait, what's that over there? That, you know, that massive crater. Wait, yoooo. There's some meteorite debris over there. Go check that stuff out! We'll get Boron! Actually, first of all, we need to create an electric diamond hand saw. Anyway, do whatever it is you do and when you're ready let's start crafting." },
         },
         lore1: {
             titleStyle: { "color": "#ededed" },
             title: "The Workshop",
             body() { return "Nice going. You got the diamond hand saw with ease. Now comes the fun part. Use that saw and start drilling into the meteorites. Remember: The bigger they are, the more abundant they are in Boron." },
+        },
+        lore2: {
+            titleStyle: { "color": "#ededed" },
+            title: "Boron",
+            body() { return "Holy shit man, you just crash landed like that?! Something must of hit your ship hard. Hey wait, what's that over there? That, you know, that massive crater. Wait, yoooo. Yeah bitch! There's some meteorite debris over there. Go check that shit out! We'll get Boron! Actually, first of all, we need to create an electric diamond hand saw. Anyway, do whatever it is you do and when you're ready let's start crafting." },
         },
     },
 
@@ -4457,7 +4594,7 @@ componentStyles: {
     tabFormat: {
         "MainTab": {
             content: [
-                ['infobox', 'lore'],
+                () => (options.matureMode == false) ? ['infobox', 'lore'] : ['infobox', 'lore2'],
                 ['display-text',
             function() { if (player.p.Node < 1) return 'Prisms boosts all Beryllium resources by ' + formatWhole(player.B.points.add(1)) + '. Cost scales at 100 rainbownium.'}],
             "blank",
@@ -4704,6 +4841,9 @@ addLayer("C", {
     position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
     startData() {
         return {
+            ticks: new Decimal(5),
+            auto: new Decimal(0),
+            auto1: new Decimal(0),
             unlocked: false,
             points: new Decimal(0),
             fragements: new Decimal(0),
@@ -4855,8 +4995,7 @@ addLayer("C", {
         else return false
     },
 
-    row: 1, // Row the layer is in on the tree (0 is the first row)
-    displayRow: 2,
+    row: 2, // Row the layer is in on the tree (0 is the first row)
 
 
     tooltip() { return formatWhole(player.C.points) + " Carbon and " + formatWhole(player.C.fragements) + " Carbon Fragments."},
@@ -4875,17 +5014,18 @@ addLayer("C", {
             height: 35,
             progress() {
                 let progPM = []
-                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1 && -getBaseLog(10, player.C.Levelptm) + 2 >= 0.1) player.C.Carbonptm = player.C.Carbonptm -getBaseLog(10, player.C.Levelptm) + 2
-                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1 && -getBaseLog(10, player.C.Levelptm) + 2 < 0.1) player.C.Carbonptm = player.C.Carbonptm + 0.1
-                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1) player.C.Levelptm = player.C.Levelptm + 1, player.C.Xpmaxptm = player.C.Truemaxptm + (player.C.Levelptm*1.6 + 40), player.C.Truemaxptm = player.C.Xpmaxptm, player.C.XpToptm = 0
+                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1 && -getBaseLog(10, player.C.Levelptm) + 2 >= 0.1 || player.C.Xpmaxptm <= 0 && player.N.resets >= 10  && -getBaseLog(10, player.C.Levelptm) + 2 >= 0.1) player.C.Carbonptm = player.C.Carbonptm -getBaseLog(10, player.C.Levelptm) + 2 * tmp.N.CB
+                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1 && -getBaseLog(10, player.C.Levelptm) + 2 < 0.1 || player.C.Xpmaxptm <= 0 && player.N.resets >= 10  && -getBaseLog(10, player.C.Levelptm) + 2 < 0.1) player.C.Carbonptm = player.C.Carbonptm + 0.1 * tmp.N.CB
+                if (player.C.Xpmaxptm <= 0 && player.C.Switch == 1 || player.C.Xpmaxptm <= 0 && player.N.resets >= 10 ) player.C.Levelptm = player.C.Levelptm + 1, player.C.Xpmaxptm = player.C.Truemaxptm + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.Levelptm)*1.6 + 40), player.C.Truemaxptm = player.C.Xpmaxptm, player.C.XpToptm = 0
                 progPM = player.C.XpToptm / player.C.Truemaxptm
                 return progPM
             },
             display() { return "Part-time Miner<div>-0.2 Health" },
-            fillStyle() {if (player.C.Switch == 1) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch == 1 || player.N.resets >= 10 ) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch == 1) return {'border-radius': '0%'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch == 1 || player.N.resets >= 10 ) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}},
+            
         },
         FullMBar: {
             tooltip() {
@@ -4898,18 +5038,19 @@ addLayer("C", {
             width: 150,
             height: 35,
             progress() {
-                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2 && -getBaseLog(3, player.C.Levelftm) + 4 >= 0.1) player.C.Carbonftm = player.C.Carbonftm -getBaseLog(3, player.C.Levelftm) + 4
-                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2 && -getBaseLog(3, player.C.Levelftm) + 4 < 0.1) player.C.Carbonftm = player.C.Carbonftm + 0.1
+                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2 && -getBaseLog(3, player.C.Levelftm) + 4 >= 0.1 || player.C.Xpmaxftm <= 0 && player.N.resets >= 10  && -getBaseLog(3, player.C.Levelftm) + 4 >= 0.1) player.C.Carbonftm = player.C.Carbonftm -getBaseLog(3, player.C.Levelftm) + 4 * tmp.N.CB
+                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2 && -getBaseLog(3, player.C.Levelftm) + 4 < 0.1 || player.C.Xpmaxftm <= 0 && player.N.resets >= 10  && -getBaseLog(3, player.C.Levelftm) + 4 < 0.1) player.C.Carbonftm = player.C.Carbonftm + 0.1 * tmp.N.CB
                 let progFM = []
-                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2) player.C.Levelftm = player.C.Levelftm + 1, player.C.Xpmaxftm = player.C.Truemaxftm + (player.C.Levelftm*1.4 + 100), player.C.Truemaxftm = player.C.Xpmaxftm, player.C.XpToftm = 0
+                if (player.C.Xpmaxftm <= 0 && player.C.Switch == 2 || player.C.Xpmaxftm <= 0 && player.N.resets >= 10 ) player.C.Levelftm = player.C.Levelftm + 1, player.C.Xpmaxftm = player.C.Truemaxftm + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.Levelftm)*1.4 + 100), player.C.Truemaxftm = player.C.Xpmaxftm, player.C.XpToftm = 0
                 progFM = player.C.XpToftm / player.C.Truemaxftm
                 return progFM
             },
             display() { return "Full-time Miner<div>-0.5 Health" },
-            fillStyle() {if (player.C.Switch == 2) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch == 2 || player.N.resets >= 10 ) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch == 2) return {'border-radius': '0'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch == 2 || player.N.resets >= 10 ) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}},
+            
         },
         MineManager: {
             tooltip() {
@@ -4922,18 +5063,19 @@ addLayer("C", {
             width: 150,
             height: 35,
             progress() {
-                if (player.C.XpmaxM <= 0 && player.C.Switch == 3 && -getBaseLog(2, player.C.LevelM) + 5 >= 0.1) player.C.CarbonM = player.C.CarbonM -getBaseLog(2, player.C.LevelM) + 5
-                if (player.C.XpmaxM <= 0 && player.C.Switch == 3 && -getBaseLog(2, player.C.LevelM) + 5 < 0.1) player.C.CarbonM = player.C.CarbonM + 0.1
+                if (player.C.XpmaxM <= 0 && player.C.Switch == 3 && -getBaseLog(2, player.C.LevelM) + 5 >= 0.1 || player.C.XpmaxM <= 0 && player.N.resets >= 10  && -getBaseLog(2, player.C.LevelM) + 5 >= 0.1) player.C.CarbonM = player.C.CarbonM -getBaseLog(2, player.C.LevelM) + 5 * tmp.N.CB
+                if (player.C.XpmaxM <= 0 && player.C.Switch == 3 && -getBaseLog(2, player.C.LevelM) + 5 < 0.1 || player.C.XpmaxM <= 0 && player.N.resets >= 10  && -getBaseLog(2, player.C.LevelM) + 5 < 0.1) player.C.CarbonM = player.C.CarbonM + 0.1 * tmp.N.CB
                 let progM = []
-                if (player.C.XpmaxM <= 0 && player.C.Switch == 3) player.C.LevelM = player.C.LevelM + 1, player.C.XpmaxM = player.C.TruemaxM + (player.C.LevelM*1.6 + 200), player.C.TruemaxM = player.C.XpmaxM, player.C.XpToM = 0
+                if (player.C.XpmaxM <= 0 && player.C.Switch == 3 || player.C.XpmaxM <= 0 && player.N.resets >= 10 ) player.C.LevelM = player.C.LevelM + 1, player.C.XpmaxM = player.C.TruemaxM + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelM)*1.6 + 200), player.C.TruemaxM = player.C.XpmaxM, player.C.XpToM = 0
                 progM = player.C.XpToM / player.C.TruemaxM
                 return progM
             },
             display() { return "Mine Manager<div>-0.3 Health" },
-            fillStyle() {if (player.C.Switch == 3) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch == 3 || player.N.resets >= 10 ) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch == 3) return {'border-radius': '0'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch == 3 || player.N.resets >= 10 ) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}},
+            
         },
         EVP: {
             tooltip() {
@@ -4946,18 +5088,19 @@ addLayer("C", {
             width: 150,
             height: 35,
             progress() {
-                if (player.C.XpmaxE <= 0 && player.C.Switch == 4 && -getBaseLog(1.45, player.C.LevelE) + 7 >= 0.1) player.C.CarbonE = player.C.CarbonE -getBaseLog(1.45, player.C.LevelE) + 7
-                if (player.C.XpmaxE <= 0 && player.C.Switch == 4 && -getBaseLog(1.45, player.C.LevelE) + 7 < 0.1) player.C.CarbonE = player.C.CarbonE + 0.1
+                if (player.C.XpmaxE <= 0 && player.C.Switch == 4 && -getBaseLog(1.45, player.C.LevelE) + 7 >= 0.1 || player.C.XpmaxE <= 0 && player.N.resets >= 10  && -getBaseLog(1.45, player.C.LevelE) + 7 >= 0.1) player.C.CarbonE = player.C.CarbonE -getBaseLog(1.45, player.C.LevelE) + 7 * tmp.N.CB
+                if (player.C.XpmaxE <= 0 && player.C.Switch == 4 && -getBaseLog(1.45, player.C.LevelE) + 7 < 0.1 || player.C.XpmaxE <= 0 && player.N.resets >= 10  && -getBaseLog(1.45, player.C.LevelE) + 7 < 0.1) player.C.CarbonE = player.C.CarbonE + 0.1 * tmp.N.CB
                 let progE = []
-                if (player.C.XpmaxE <= 0 && player.C.Switch == 4) player.C.LevelE = player.C.LevelE + 1, player.C.XpmaxE = player.C.TruemaxE + (player.C.LevelE*1.7 + 600), player.C.TruemaxE = player.C.XpmaxE, player.C.XpToE = 0
+                if (player.C.XpmaxE <= 0 && player.C.Switch == 4 || player.C.XpmaxE <= 0 && player.N.resets >= 10 ) player.C.LevelE = player.C.LevelE + 1, player.C.XpmaxE = player.C.TruemaxE + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelE)*1.7 + 600), player.C.TruemaxE = player.C.XpmaxE, player.C.XpToE = 0
                 progE = player.C.XpToE / player.C.TruemaxE
                 return progE
             },
             display() { return "Executive Vice President" },
-            fillStyle() {if (player.C.Switch == 4) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch == 4 || player.N.resets >= 10 ) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch == 4) return {'border-radius': '0'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch == 4 || player.N.resets >= 10 ) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}},
+            
         },
         CEO: {
             tooltip() {
@@ -4970,18 +5113,19 @@ addLayer("C", {
             width: 150,
             height: 35,
             progress() {
-                if (player.C.XpmaxC <= 0 && player.C.Switch == 5 && -getBaseLog(1.075, player.C.LevelC) + 24 >= 1) player.C.CarbonC = player.C.CarbonC -getBaseLog(1.075, player.C.LevelC) + 24
-                if (player.C.XpmaxC <= 0 && player.C.Switch == 5 && -getBaseLog(1.075, player.C.LevelC) + 24 < 1) player.C.CarbonC = player.C.CarbonC + 1
+                if (player.C.XpmaxC <= 0 && player.C.Switch == 5 && -getBaseLog(1.075, player.C.LevelC) + 24 >= 1 || player.C.XpmaxC <= 0 && player.N.resets >= 10  && -getBaseLog(1.075, player.C.LevelC) + 24 >= 1) player.C.CarbonC = player.C.CarbonC -getBaseLog(1.075, player.C.LevelC) + 24  * tmp.N.CB
+                if (player.C.XpmaxC <= 0 && player.C.Switch == 5 && -getBaseLog(1.075, player.C.LevelC) + 24 < 1 || player.C.XpmaxC <= 0 && player.N.resets >= 10  && -getBaseLog(1.075, player.C.LevelC) + 24 < 1) player.C.CarbonC = player.C.CarbonC + 1 * tmp.N.CB
                 let progC = []
-                if (player.C.XpmaxC <= 0 && player.C.Switch == 5) player.C.LevelC = player.C.LevelC + 1, player.C.XpmaxC = player.C.TruemaxC + (player.C.LevelC*1.7 + 800), player.C.TruemaxC = player.C.XpmaxC, player.C.XpToC = 0
+                if (player.C.XpmaxC <= 0 && player.C.Switch == 5 || player.C.XpmaxC <= 0 && player.N.resets >= 10 ) player.C.LevelC = player.C.LevelC + 1, player.C.XpmaxC = player.C.TruemaxC + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelC)*1.7 + 800), player.C.TruemaxC = player.C.XpmaxC, player.C.XpToC = 0
                 progC = player.C.XpToC / player.C.TruemaxC
                 return progC
             },
             display() { return "CEO" },
-            fillStyle() {if (player.C.Switch == 5) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch == 5 || player.N.resets >= 10 ) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch == 5) return {'border-radius': '0'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch == 5 || player.N.resets >= 10 ) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}},
+            
         },
         PickBar: {
             tooltip() {
@@ -4994,18 +5138,19 @@ addLayer("C", {
             width: 150,
             height: 35,
             progress() {
-                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6 && -getBaseLog(5, player.C.Levelp) + 1.75 >= 0.1) player.C.Carbonp = player.C.Carbonp -getBaseLog(5, player.C.Levelp) + 1.75
-                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6 && -getBaseLog(1.45, player.C.Levelp) + 1.75 < 0.1) player.C.Carbonp = player.C.Carbonp + 0.1
+                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6 && -getBaseLog(5, player.C.Levelp) + 1.75 >= 0.1 || player.C.Xpmaxp <= 0 && player.N.resets >= 10  && -getBaseLog(5, player.C.Levelp) + 1.75 >= 0.1) player.C.Carbonp = player.C.Carbonp -getBaseLog(5, player.C.Levelp) + 1.75  * tmp.N.CB
+                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6 && -getBaseLog(1.45, player.C.Levelp) + 1.75 < 0.1 || player.C.Xpmaxp <= 0 && player.N.resets >= 10  && -getBaseLog(1.45, player.C.Levelp) + 1.75 < 0.1) player.C.Carbonp = player.C.Carbonp + 0.1 * tmp.N.CB
                 let progp = []
-                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6) player.C.Levelp = player.C.Levelp + 1, player.C.Xpmaxp = player.C.Truemaxp + (player.C.Levelp*1.8 + 120), player.C.Truemaxp = player.C.Xpmaxp, player.C.XpTop = 0
+                if (player.C.Xpmaxp <= 0 && player.C.Switch == 6 || player.C.Xpmaxp <= 0 && player.N.resets >= 10 ) player.C.Levelp = player.C.Levelp + 1, player.C.Xpmaxp = player.C.Truemaxp + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.Levelp)*1.8 + 120), player.C.Truemaxp = player.C.Xpmaxp, player.C.XpTop = 0
                 progp = player.C.XpTop / player.C.Truemaxp
                 return progp
             },
             display() { return "Pickpocket<div>-0.1 Health" },
-            fillStyle() {if (player.C.Switch == 6) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch == 6 || player.N.resets >= 10 ) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch == 6) return {'border-radius': '0'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch == 6 || player.N.resets >= 10 ) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}},
+            
         },
         Gas: {
             tooltip() {
@@ -5018,18 +5163,19 @@ addLayer("C", {
             width: 150,
             height: 35,
             progress() {
-                if (player.C.XpmaxG <= 0 && player.C.Switch == 7 &&  -getBaseLog(1.105, player.C.LevelG) + 19 >= 2) player.C.CarbonG = player.C.CarbonG -getBaseLog(1.105, player.C.LevelG) + 19
-                if (player.C.XpmaxG <= 0 && player.C.Switch == 7 && -getBaseLog(1.105, player.C.LevelG) + 19 < 2) player.C.CarbonG = player.C.CarbonG + 2
+                if (player.C.XpmaxG <= 0 && player.C.Switch == 7 &&  -getBaseLog(1.105, player.C.LevelG) + 19 >= 2 || player.C.XpmaxG <= 0 && player.N.resets >= 10  && -getBaseLog(1.105, player.C.LevelG) + 19 >= 2) player.C.CarbonG = player.C.CarbonG  -getBaseLog(1.105, player.C.LevelG) + 19 * tmp.N.CB
+                if (player.C.XpmaxG <= 0 && player.C.Switch == 7 && -getBaseLog(1.105, player.C.LevelG) + 19 < 2 || player.C.XpmaxG <= 0 && player.N.resets >= 10  && -getBaseLog(1.105, player.C.LevelG) + 19 < 2) player.C.CarbonG = player.C.CarbonG  + 2 * tmp.N.CB
                 let progG = []
-                if (player.C.XpmaxG <= 0 && player.C.Switch == 7) player.C.LevelG = player.C.LevelG + 1, player.C.XpmaxG = player.C.TruemaxG + (player.C.LevelG*1.8 + 1000), player.C.TruemaxG = player.C.XpmaxG, player.C.XpToG = 0
+                if (player.C.XpmaxG <= 0 && player.C.Switch == 7 || player.C.XpmaxG <= 0 && player.N.resets >= 10 ) player.C.LevelG = player.C.LevelG + 1, player.C.XpmaxG = player.C.TruemaxG + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelG)*1.8 + 1000), player.C.TruemaxG = player.C.XpmaxG, player.C.XpToG = 0
                 progG = player.C.XpToG / player.C.TruemaxG
                 return progG
             },
             display() { return "Gas Station<div>-0.4 Health" },
-            fillStyle() {if (player.C.Switch == 7) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch == 7 || player.N.resets >= 10 ) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch == 7) return {'border-radius': '0'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch == 7 || player.N.resets >= 10 ) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}},
+            
         },
         Jewelry: {
             tooltip() {
@@ -5042,18 +5188,19 @@ addLayer("C", {
             width: 150,
             height: 35,
             progress() {
-                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8 &&  -getBaseLog(1.034, player.C.LevelJ) + 48 >= 5) player.C.CarbonJ = player.C.CarbonJ -getBaseLog(1.034, player.C.LevelJ) + 48
-                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8 && -getBaseLog(1.034, player.C.LevelJ) + 48 < 5) player.C.CarbonJ = player.C.CarbonJ + 5
+                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8 &&  -getBaseLog(1.034, player.C.LevelJ) + 48 >= 5 || player.C.XpmaxJ <= 0 && player.N.resets >= 10  && -getBaseLog(1.034, player.C.LevelJ) + 48 >= 5) player.C.CarbonJ = player.C.CarbonJ  -getBaseLog(1.034, player.C.LevelJ) + 48 * tmp.N.CB
+                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8 && -getBaseLog(1.034, player.C.LevelJ) + 48 < 5 || player.C.XpmaxJ <= 0 && player.N.resets >= 10  && -getBaseLog(1.034, player.C.LevelJ) + 48 < 5) player.C.CarbonJ = player.C.CarbonJ + 5 * tmp.N.CB
                 let progJ = []
-                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8) player.C.LevelJ = player.C.LevelJ + 1, player.C.XpmaxJ = player.C.TruemaxJ + (player.C.LevelJ*3 + 10000), player.C.TruemaxJ = player.C.XpmaxJ, player.C.XpToJ = 0
+                if (player.C.XpmaxJ <= 0 && player.C.Switch == 8 || player.C.XpmaxJ <= 0 && player.N.resets >= 10 ) player.C.LevelJ = player.C.LevelJ + 1, player.C.XpmaxJ = player.C.TruemaxJ + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelJ)*3 + 10000), player.C.TruemaxJ = player.C.XpmaxJ, player.C.XpToJ = 0
                 progJ = player.C.XpToJ / player.C.TruemaxJ
                 return progJ
             },
             display() { return "Jewelry Store<div>-1 Health" },
-            fillStyle() {if (player.C.Switch == 8) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch == 8 || player.N.resets >= 10 ) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch == 8) return {'border-radius': '0'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch == 8 || player.N.resets >= 10 ) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}},
+            
         },
         BankHeist: {
             tooltip() {
@@ -5066,18 +5213,19 @@ addLayer("C", {
             width: 150,
             height: 35,
             progress() {
-                if (player.C.XpmaxB <= 0 && player.C.Switch == 9 &&  -getBaseLog(1.034, player.C.LevelB) + 200 >= 10) player.C.CarbonB = player.C.CarbonB -getBaseLog(1.034, player.C.LevelB) + 200
-                if (player.C.XpmaxB <= 0 && player.C.Switch == 9 && -getBaseLog(1.034, player.C.LevelB) + 200 < 10) player.C.CarbonB = player.C.CarbonB + 10
+                if (player.C.XpmaxB <= 0 && player.C.Switch == 9 &&  -getBaseLog(1.034, player.C.LevelB) + 200 >= 10 || player.C.XpmaxJ <= 0 && player.N.resets >= 10  && -getBaseLog(1.034, player.C.LevelB) + 200 >= 10) player.C.CarbonB = player.C.CarbonB -getBaseLog(1.034, player.C.LevelB) + 200 * tmp.N.CB
+                if (player.C.XpmaxB <= 0 && player.C.Switch == 9 && -getBaseLog(1.034, player.C.LevelB) + 200 < 10 || player.C.XpmaxJ <= 0 && player.N.resets >= 10  && -getBaseLog(1.034, player.C.LevelB) + 200 < 10) player.C.CarbonB = player.C.CarbonB + 10 * tmp.N.CB
                 let progB = []
-                if (player.C.XpmaxB <= 0 && player.C.Switch == 9) player.C.LevelB = player.C.LevelB + 1, player.C.XpmaxB = player.C.TruemaxB + (player.C.LevelB*3 + 10000), player.C.TruemaxB = player.C.XpmaxB, player.C.XpToB = 0
+                if (player.C.XpmaxB <= 0 && player.C.Switch == 9 || player.C.XpmaxB <= 0 && player.N.resets >= 10 ) player.C.LevelB = player.C.LevelB + 1, player.C.XpmaxB = player.C.TruemaxB + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelB)*3 + 10000), player.C.TruemaxB = player.C.XpmaxB, player.C.XpToB = 0
                 progB = player.C.XpToB / player.C.TruemaxB
                 return progB
             },
             display() { return "Bank Heist<div>-2 Health" },
-            fillStyle() {if (player.C.Switch == 9) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch == 9 || player.N.resets >= 10 ) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch == 9) return {'border-radius': '0'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch == 9 || player.N.resets >= 10 ) return {'border-radius': '0'}
+            else return {'border-radius': '0%'}},
+            
         },
         Focus: {
             onClick(){
@@ -5092,20 +5240,21 @@ addLayer("C", {
             effect(){
                 let effect = []
                 effect = player.C.Levelf * 0.01 + 0.01 + 1 - 0.02
-                player.C.Xpskill = 2 * effect * tmp.C.Health
+                player.C.Xpskill = player.N.Xp * effect * tmp.C.Health
                 return effect
             },
             progress() {
                 let progF = []
-                if (player.C.Xpmaxf <= 0 && player.C.Switch1 == 1) player.C.Levelf = player.C.Levelf + 1, player.C.Xpmaxf = player.C.Truemaxf + (player.C.Levelf*1.9 + 100), player.C.Truemaxf = player.C.Xpmaxf, player.C.XpTof = 0
+                if (player.C.Xpmaxf <= 0 && player.C.Switch1 == 1 || player.C.Xpmaxf <= 0 && player.N.resets >= 2 && player.C.auto1) player.C.Levelf = player.C.Levelf + 1, player.C.Xpmaxf = player.C.Truemaxf + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.Levelf)*1.9 + 100), player.C.Truemaxf = player.C.Xpmaxf, player.C.XpTof = 0
                 progF = player.C.XpTof / player.C.Truemaxf
                 return progF
             },
             display() { return "Focus" },
-            fillStyle() {if (player.C.Switch1 == 1) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch1 == 1 || player.N.resets >= 2 && player.C.auto1) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch1 == 1) return {'border-radius': '0%'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch1 == 1 || player.N.resets >= 2 && player.C.auto1) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}},
+            
         },
         JobExperience: {
             tooltip() {
@@ -5120,20 +5269,21 @@ addLayer("C", {
             effect(){
                 let effect = []
                 effect = player.C.LevelJB * 0.01 + 0.01 + 1 - 0.02
-                player.C.Xpptm = 2 * effect * tmp.C.Health * temp['C'].clickables[23].effect
+                player.C.Xpptm = player.N.Xp * effect * tmp.C.Health * temp['C'].clickables[23].effect
                 return effect
             },
             progress() {
                 let progJE = []
-                if (player.C.XpmaxJB <= 0 && player.C.Switch1 == 2) player.C.LevelJB = player.C.LevelJB + 1, player.C.XpmaxJB = player.C.TruemaxJB + (player.C.LevelJB*2.1 + 100), player.C.TruemaxJB = player.C.XpmaxJB, player.C.XpToJB = 0
+                if (player.C.XpmaxJB <= 0 && player.C.Switch1 == 2 || player.C.XpmaxJB <= 0 && player.N.resets >= 3 && player.C.auto1) player.C.LevelJB = player.C.LevelJB + 1, player.C.XpmaxJB = player.C.TruemaxJB + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelJB)*2.1 + 100), player.C.TruemaxJB = player.C.XpmaxJB, player.C.XpToJB = 0
                 progJE = player.C.XpToJB / player.C.TruemaxJB
                 return progJE
             },
             display() { return "Job Experience" },
-            fillStyle() {if (player.C.Switch1 == 2) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch1 == 2  || player.N.resets >= 3 && player.C.auto1) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch1 == 2) return {'border-radius': '0%'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch1 == 2  || player.N.resets >= 3 && player.C.auto1) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}},
+            
         },
         Persuasion: {
             tooltip() {
@@ -5155,15 +5305,16 @@ addLayer("C", {
             },
             progress() {
                 let progpe = []
-                if (player.C.Xpmaxpe <= 0 && player.C.Switch1 == 3) player.C.Levelpe = player.C.Levelpe + 1, player.C.Xpmaxpe = player.C.Truemaxpe + (player.C.Levelpe*2.4 + 100), player.C.Truemaxpe = player.C.Xpmaxpe, player.C.XpTope = 0
+                if (player.C.Xpmaxpe <= 0 && player.C.Switch1 == 3 || player.C.Xpmaxpe <= 0 && player.N.resets >= 4 && player.C.auto1) player.C.Levelpe = player.C.Levelpe + 1, player.C.Xpmaxpe = player.C.Truemaxpe + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.Levelpe)*2.4 + 100), player.C.Truemaxpe = player.C.Xpmaxpe, player.C.XpTope = 0
                 progpe = player.C.XpTope / player.C.Truemaxpe
                 return progpe
             },
             display() { return "Persuasion" },
-            fillStyle() {if (player.C.Switch1 == 3) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch1 == 3  || player.N.resets >= 4 && player.C.auto1) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch1 == 3) return {'border-radius': '0%'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch1 == 3  || player.N.resets >= 4 && player.C.auto1) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}},
+            
         },
         Relaxation: {
             tooltip() {
@@ -5182,15 +5333,16 @@ addLayer("C", {
             },
             progress() {
                 let progR = []
-                if (player.C.XpmaxR <= 0 && player.C.Switch1 == 4) player.C.LevelR = player.C.LevelR + 1, player.C.XpmaxR = player.C.TruemaxR + (player.C.LevelR*2.7 + 150), player.C.TruemaxR = player.C.XpmaxR, player.C.XpToR = 0
+                if (player.C.XpmaxR <= 0 && player.C.Switch1 == 4 || player.C.XpmaxR <= 0 && player.N.resets >= 5 && player.C.auto1) player.C.LevelR = player.C.LevelR + 1, player.C.XpmaxR = player.C.TruemaxR + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelR)*2.7 + 150), player.C.TruemaxR = player.C.XpmaxR, player.C.XpToR = 0
                 progR = player.C.XpToR / player.C.TruemaxR
                 return progR
             },
             display() { return "Relaxation" },
-            fillStyle() {if (player.C.Switch1 == 4) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch1 == 4  || player.N.resets >= 5 && player.C.auto1) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch1 == 4) return {'border-radius': '0%'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch1 == 4  || player.N.resets >= 5 && player.C.auto1) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}},
+            
         },
         Dummy: {
             tooltip() {
@@ -5209,15 +5361,16 @@ addLayer("C", {
             },
             progress() {
                 let progD = []
-                if (player.C.XpmaxD <= 0 && player.C.Switch1 == 6) player.C.LevelD = player.C.LevelD + 1, player.C.XpmaxD = player.C.TruemaxD + (player.C.LevelD*1.4 + 100), player.C.TruemaxD = player.C.XpmaxD, player.C.XpToD = 0
+                if (player.C.XpmaxD <= 0 && player.C.Switch1 == 6 || player.C.XpmaxD <= 0 && player.N.resets >= 6 && player.C.auto1) player.C.LevelD = player.C.LevelD + 1, player.C.XpmaxD = player.C.TruemaxD + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelD)*1.4 + 100), player.C.TruemaxD = player.C.XpmaxD, player.C.XpToD = 0
                 progD = player.C.XpToD / player.C.TruemaxD
                 return progD
             },
             display() { return "Dummy" },
-            fillStyle() {if (player.C.Switch1 == 6) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch1 == 6  || player.N.resets >= 6 && player.C.auto1) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch1 == 6) return {'border-radius': '0%'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch1 == 6  || player.N.resets >= 6 && player.C.auto1) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}},
+            
         },
         ThievingTactics: {
             tooltip() {
@@ -5236,15 +5389,16 @@ addLayer("C", {
             },
             progress() {
                 let progt = []
-                if (player.C.Xpmaxt <= 0 && player.C.Switch1 == 7) player.C.Levelt = player.C.Levelt + 1, player.C.Xpmaxt = player.C.Truemaxt + (player.C.Levelt*2 + 100), player.C.Truemaxt = player.C.Xpmaxt, player.C.XpTot = 0
+                if (player.C.Xpmaxt <= 0 && player.C.Switch1 == 7 || player.C.Xpmaxt <= 0 && player.N.resets >= 7 && player.C.auto1) player.C.Levelt = player.C.Levelt + 1, player.C.Xpmaxt = player.C.Truemaxt + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.Levelt)*2 + 100), player.C.Truemaxt = player.C.Xpmaxt, player.C.XpTot = 0
                 progt = player.C.XpTot / player.C.Truemaxt
                 return progt
             },
             display() { return "Thieving Tatics" },
-            fillStyle() {if (player.C.Switch1 == 7) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch1 == 7  || player.N.resets >= 7 && player.C.auto1) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch1 == 7) return {'border-radius': '0%'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch1 == 7  || player.N.resets >= 7 && player.C.auto1) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}},
+            
         },
         WeaponsTools: {
             tooltip() {
@@ -5263,15 +5417,16 @@ addLayer("C", {
             },
             progress() {
                 let progW = []
-                if (player.C.XpmaxW <= 0 && player.C.Switch1 == 8) player.C.LevelW = player.C.LevelW + 1, player.C.XpmaxW = player.C.TruemaxW + (player.C.LevelW*2.4 + 200), player.C.TruemaxW = player.C.XpmaxW, player.C.XpToW = 0
+                if (player.C.XpmaxW <= 0 && player.C.Switch1 == 8 || player.C.XpmaxW <= 0 && player.N.resets >= 8 && player.C.auto1) player.C.LevelW = player.C.LevelW + 1, player.C.XpmaxW = player.C.TruemaxW + (player.N.complete.times(player.N.complete.times(5.6)).add(1).times(player.C.LevelW)*2.4 + 200), player.C.TruemaxW = player.C.XpmaxW, player.C.XpToW = 0
                 progW = player.C.XpToW / player.C.TruemaxW
                 return progW
             },
             display() { return "Weapons/Tools" },
-            fillStyle() {if (player.C.Switch1 == 8) return {"background-color": "#00e600"}
+            fillStyle() {if (player.C.Switch1 == 8  || player.N.resets >= 8 && player.C.auto1) return {"background-color": "#00e600"}
             else return {"background-color": "#0000ff"}},
-            style() { if (player.C.Switch1 == 8) return {'border-radius': '0%'}
-            else return {'border-radius': '0%'}}
+            style() { if (player.C.Switch1 == 8  || player.N.resets >= 8 && player.C.auto1) return {'border-radius': '0%'}
+            else return {'border-radius': '0%'}},
+            
         },
     },
 
@@ -5283,7 +5438,7 @@ addLayer("C", {
                 return 'Rough start huh?'
             },
             effect() {
-                if (player.C.Switch2 == 1) tmp.C.Health = 1 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+                if (player.C.Switch2 == 1) tmp.C.Health = 1 * tmp.N.HB * temp['C'].clickables[25].effect * player.N.days * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
             },
             canClick() { return true},
             onClick() {
@@ -5298,7 +5453,7 @@ addLayer("C", {
             return 'Snake, snaaaaaake!'
         },
         effect() {
-           if (player.C.Switch2 == 2) tmp.C.Health = 1.5 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+           if (player.C.Switch2 == 2) tmp.C.Health = 1.5 * tmp.N.HB * temp['C'].clickables[25].effect * player.N.days * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
         },
         onClick() {
          player.C.Switch2 = 2
@@ -5312,7 +5467,7 @@ addLayer("C", {
         return 'Deep in the wooded forest lies a oak wood shack stained by time. The musky smell waftes over you as you take a look at your new home.'
     },
     effect() {
-       if (player.C.Switch2 == 3) tmp.C.Health = 2 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+       if (player.C.Switch2 == 3) tmp.C.Health = 2 * tmp.N.HB * temp['C'].clickables[25].effect * player.N.days * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
     },
     onClick() {
      player.C.Switch2 = 3
@@ -5326,7 +5481,7 @@ addLayer("C", {
         return `Fresh off the market, this house can easily support 8 people, though you probably don't have any friends. Gaze over the wooden balcony and feel the height of a second floor!`
     },
     effect() {
-       if (player.C.Switch2 == 4) tmp.C.Health = 3.5 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+       if (player.C.Switch2 == 4) tmp.C.Health = 3.5 * tmp.N.HB * temp['C'].clickables[25].effect * player.N.days * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
     },
     onClick() {
      player.C.Switch2 = 4
@@ -5340,7 +5495,7 @@ addLayer("C", {
         return `An inprint of your success. Lavish rooms, decadent hallways, marble tiling. What's not to love? You can even buy friends if you want!`
     },
     effect() {
-       if (player.C.Switch2 == 5) tmp.C.Health = 5 * temp['C'].clickables[25].effect * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
+       if (player.C.Switch2 == 5) tmp.C.Health = 5 * tmp.N.HB * temp['C'].clickables[25].effect * player.N.days * temp['C'].bars['Relaxation'].effect - tmp.C.JHealth
     },
     onClick() {
      player.C.Switch2 = 5
@@ -5359,7 +5514,7 @@ addLayer("C", {
             },
             canClick() { return true},
             onClick() {
-             if (player.C.Mis1 == 0) player.C.Mis1 = 1, player.C.ME1 = player.C.ME1 + 2 * temp['C'].bars['Persuasion'].effect
+             if (player.C.Mis1 == 0) player.C.Mis1 = 1, player.C.ME1 = (player.C.ME1 + 2 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div
              else player.C.Mis1 = 0, player.C.ME1 = 0
             },
     },
@@ -5376,7 +5531,7 @@ addLayer("C", {
         },
         canClick() { return true},
         onClick() {
-         if (player.C.Mis2 == 0) player.C.Mis2 = 1, player.C.ME2 = player.C.ME2 + 10 * temp['C'].bars['Persuasion'].effect
+         if (player.C.Mis2 == 0) player.C.Mis2 = 1, player.C.ME2 = (player.C.ME2 + 10 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div
          else player.C.Mis2 = 0, player.C.ME2 = 0
         },
 },
@@ -5393,7 +5548,7 @@ addLayer("C", {
     },
     canClick() { return true},
     onClick() {
-     if (player.C.Mis3 == 0) player.C.Mis3 = 1, player.C.ME3 = player.C.ME3 + 30 * temp['C'].bars['Persuasion'].effect
+     if (player.C.Mis3 == 0) player.C.Mis3 = 1, player.C.ME3 = (player.C.ME3 + 30 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div
      else player.C.Mis3 = 0, player.C.ME3 = 0
     },
 },
@@ -5410,7 +5565,7 @@ addLayer("C", {
     },
     canClick() { return true},
     onClick() {
-     if (player.C.Mis4 == 0) player.C.Mis4 = 1, player.C.ME4 = player.C.ME4 + 150 * temp['C'].bars['Persuasion'].effect
+     if (player.C.Mis4 == 0) player.C.Mis4 = 1, player.C.ME4 = (player.C.ME4 + 150 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div
      else player.C.Mis4 = 0, player.C.ME4 = 0
     },
 },
@@ -5427,7 +5582,7 @@ addLayer("C", {
     },
     canClick() { return true},
     onClick() {
-     if (player.C.Mis5 == 0) player.C.Mis5 = 1, player.C.ME5 = player.C.ME5 + 400 * temp['C'].bars['Persuasion'].effect
+     if (player.C.Mis5 == 0) player.C.Mis5 = 1, player.C.ME5 = (player.C.ME5 + 400 * player.N.days * tmp.N.Five * temp['C'].bars['Persuasion'].effect) * ((player.N.complete * 20.5) + 1) / tmp.N.div
      else player.C.Mis5 = 0, player.C.ME5 = 0
     },
 },
@@ -5435,10 +5590,7 @@ addLayer("C", {
     style: {color: "#ededed", 'border-radius': '0%', 'min-height': '25px', width: '80px'},
     title: "Restart",
     canClick() { return true},
-    onClick() {
-        if (player.C.Res == 3){player = null
-        save(true);
-        window.location.reload()};
+    onClick() {    
         if (player.C.maxptm < player.C.Levelptm) player.C.maxptm = player.C.Levelptm
         if (player.C.maxftm < player.C.Levelftm) player.C.maxftm = player.C.Levelftm
         if (player.C.maxM < player.C.LevelM) player.C.maxM = player.C.LevelM
@@ -5466,7 +5618,6 @@ player.C.Switch1= new Decimal(0),
 player.C.Switch2= new Decimal(1),
 player.C.Year= new Decimal(1),
 player.C.Day= new Decimal(0),
-        player.C.Res = player.C.Res + 1
         player.C.Levelptm= 1
         player.C.Xpmaxptm= 100
         player.C.Truemaxptm= 100
@@ -5552,8 +5703,142 @@ player.C.Day= new Decimal(0),
         player.C.ME3 = 0
         player.C.ME4 = 0
         player.C.ME5 = 0
+        if (player.C.Res != 3  && player.N.resets == 0) player.C.Res = player.C.Res + 1
+        if (player.N.resets > 0) player.C.Res = player.C.Res + 1
+        if (player.C.Res == 3 && player.N.resets == 0){
+            player.C.Res = 1
+            if (!confirm("You're going to lose everything now, Wait, why is there a cancel button? This doesn't feel right at all.")) return ''}
     },
 },
+32: {
+    title: "Reset Your Life",
+    display: "Click",
+    style: { "background-color": "#0000ff" },
+    canClick() {
+        return true
+    },
+    style: { "color": "#ededed" },
+    unlocked() {
+        if (options.mobileMode == true) return true
+        else return false
+    },
+    onClick() {
+        if (player.C.Year >= 30 && hasUpgrade('N', 13)){
+            if (player.C.maxptm < player.C.Levelptm) player.C.maxptm = player.C.Levelptm
+            if (player.C.maxftm < player.C.Levelftm) player.C.maxftm = player.C.Levelftm
+            if (player.C.maxM < player.C.LevelM) player.C.maxM = player.C.LevelM
+            if (player.C.maxE < player.C.LevelE) player.C.maxE = player.C.LevelE
+            if (player.C.maxC < player.C.LevelC) player.C.maxC = player.C.LevelC
+            if (player.C.maxp < player.C.Levelp) player.C.maxp = player.C.Levelp
+            if (player.C.maxG < player.C.LevelG) player.C.maxG = player.C.LevelG
+            if (player.C.maxJ < player.C.LevelJ) player.C.maxJ = player.C.LevelJ
+            if (player.C.maxB < player.C.LevelB) player.C.maxB = player.C.LevelB
+            if (player.C.maxf < player.C.Levelf) player.C.maxf = player.C.Levelf
+            if (player.C.maxJB < player.C.LevelJB) player.C.maxJB = player.C.LevelJB
+            if (player.C.maxpe < player.C.Levelpe) player.C.maxpe = player.C.Levelpe
+            if (player.C.maxR < player.C.LevelR) player.C.maxR = player.C.LevelR
+            if (player.C.maxD < player.C.LevelD) player.C.maxD = player.C.LevelD
+            if (player.C.maxt < player.C.Levelt) player.C.maxt = player.C.Levelt
+            if (player.C.maxW < player.C.LevelW) player.C.maxW = player.C.LevelW
+    player.C.points= new Decimal(0)
+    player.C.fragements= new Decimal(0)
+    player.C.Nay= new Decimal(1), 
+    player.C.No= new Decimal(1),
+    player.C.Yes= new Decimal(0),
+    player.C.Lol= 0,
+    player.C.Switch= new Decimal(0),
+    player.C.Switch1= new Decimal(0),
+    player.C.Switch2= new Decimal(1),
+    player.C.Year= new Decimal(1),
+    player.C.Day= new Decimal(0),
+            player.C.Levelptm= 1
+            player.C.Xpmaxptm= 100
+            player.C.Truemaxptm= 100
+            player.C.Xpptm= 5
+            player.C.XpToptm= 0
+            player.C.Carbonptm= 5
+            player.C.Levelftm= 1
+            player.C.Xpmaxftm= 100
+            player.C.Truemaxftm= 100
+            player.C.XpToftm= 0
+            player.C.Carbonftm= 9
+            player.C.LevelM= 1
+            player.C.XpmaxM= 200
+            player.C.TruemaxM= 200
+            player.C.XpToM= 0
+            player.C.CarbonM= 18
+            player.C.LevelE= 1
+            player.C.XpmaxE= 600
+            player.C.TruemaxE= 600
+            player.C.XpToE= 0
+            player.C.CarbonE= 52
+            player.C.LevelC= 1
+            player.C.XpmaxC= 800
+            player.C.TruemaxC= 800
+            player.C.XpToC= 0
+            player.C.CarbonC= 200
+            player.C.Levelp= 1
+            player.C.Xpmaxp= 100
+            player.C.Truemaxp= 100
+            player.C.XpTop= 0
+            player.C.Carbonp= 9
+            player.C.LevelG= 1
+            player.C.XpmaxG= 1000
+            player.C.TruemaxG= 1000
+            player.C.XpToG= 0
+            player.C.CarbonG= 66
+            player.C.LevelJ= 1
+            player.C.XpmaxJ= 10000
+            player.C.TruemaxJ= 10000
+            player.C.XpToJ= 0
+            player.C.CarbonJ= 157
+            player.C.LevelB= 1
+            player.C.XpmaxB= 10000
+            player.C.TruemaxB= 10000
+            player.C.XpToB= 0
+            player.C.CarbonB= 544
+            player.C.Levelf= 1
+            player.C.Xpmaxf= 100
+            player.C.Truemaxf= 100
+            player.C.Xpskill= 5
+            player.C.XpTof= 0
+            player.C.LevelJB= 1
+            player.C.XpmaxJB= 100
+            player.C.TruemaxJB= 100
+            player.C.XpToJB= 0    
+            player.C.Levelpe= 1
+            player.C.Xpmaxpe= 200
+            player.C.Truemaxpe= 200
+            player.C.XpTope= 0
+            player.C.LevelR= 1
+            player.C.XpmaxR= 50
+            player.C.TruemaxR= 50
+            player.C.XpToR= 0
+            player.C.LevelD= 1
+            player.C.XpmaxD= 100
+            player.C.TruemaxD= 100
+            player.C.XpToD= 0
+            player.C.Levelt= 1
+            player.C.Xpmaxt= 200
+            player.C.Truemaxt= 200
+            player.C.XpTot= 0
+            player.C.LevelW= 1
+            player.C.XpmaxW= 100
+            player.C.TruemaxW= 100
+            player.C.XpToW= 0
+            player.C.Mis1= new Decimal(0)
+            player.C.Mis2= new Decimal(0)
+            player.C.Mis3= new Decimal(0)
+            player.C.Mis4 = new Decimal(0)
+            player.C.Mis5 = new Decimal(0)
+            player.C.ME1 = 0
+            player.C.ME2 = 0
+            player.C.ME3 = 0
+            player.C.ME4 = 0
+            player.C.ME5 = 0
+            if (player.C.Res != 3  && player.N.resets == 0) player.C.Res = player.C.Res + 1
+            if (player.N.resets > 0) player.C.Res = player.C.Res + 1}},
+        },
         41: {
             style: {color: "#ededed", 'border-radius': '44%'},
             title: "Screw That! Screw You!",
@@ -5573,52 +5858,72 @@ player.C.Day= new Decimal(0),
             title: "Carbon",
             body() { return "Alright, cool, cool, cool. Now, I'm going to need you to get employed in a mining company. Start mining some carbon-rich rock- I mean minerals." },
         },
+        lore1: {
+            titleStyle: { "color": "#ededed" },
+            title: "Carbon",
+            body() { return "Alright, cool, cool, cool. Now, I'm going to need you to get employed in a mining company. Start mining some carbon-rich rock- I mean minerals. Fuck!" },
+        },
     },
 
     tabFormat: {
         "MainTab": {
             content: [
-                ['infobox', 'lore'],
-                    ['clickable', 41],                   
+                () => (options.matureMode == false) ? ['infobox', 'lore'] : ['infobox', 'lore1'],
+                    ['clickabe', 32],
+                    ['clickable', 41],  
+                    ['display-text',
+                    function() { if (hasMilestone('N', 3)) return '<h2>You have ' + formatWhole(player.N.complete) + ' completon(s) and need ' + formatWhole(100 * (player.N.complete.times(player.N.complete).times(3).add(1))) + ' of all Jobs and Skills for ' + formatWhole(tmp.N.CG) +' more completion(s).</h2>'}],                 
                 ['display-text',
                 function() { return 'Random Stats That Nobody Cares About (RSTNCA): <div> Total Days: ' + formatWhole(player.C.TotalD) + '<div> Total Years: ' + formatWhole(player.C.TotalY) + '<div> Total Carbon Fragments: <span style="color: #00e600">' + formatWhole(player.C.TotalCf) + 'g</span><div> Total Carbon: <span style="color: #00e600">' + formatWhole(player.C.TotalC) + 'g</span><div>Total Resets: ' + formatWhole(player.C.Res)}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.No >= 1 && player.C.Res == 0) return "Ok, wow. Screw you too. What are you going do to then? Rob a bank? Heh, get a load of this guy. Ok fine, we'll go with your plan, genius. Go rob a bank."}],
+                function() { if (player.C.No >= 1 && player.C.Res == 0 && options.matureMode == false) return "Ok, wow. Screw you too. What are you going do to then? Rob a bank? Heh, get a load of this guy. Ok fine, we'll go with your plan, genius. Go rob a bank."}],
+                ['display-text', 
+                function() { if (player.C.No >= 1 && player.C.Res == 0 && options.matureMode == true) return "Ok, wow. Fuck you too. What are you going do to then? Rob a bank? Heh, get a load of this guy. Ok fine, we'll go with your plan, genius. Go rob a bank, bitch."}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 1 && player.C.Res == 0) return "Uh, on your 10th anniversary of doing whatever you do, you got icecream or something."}],
+                function() { if (player.C.Lol >= 1 && player.C.Res == 0 && player.N.resets == 0) return "Uh, on your 10th anniversary of doing whatever you do, you got icecream or something."}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 2 && player.C.Res == 0) return "20 years in, 20 years down the drain. Keep going buddy. What? You expected me to talk about some sort of thing you did or something?"}],
+                function() { if (player.C.Lol >= 2 && player.C.Res == 0 && player.N.resets == 0) return "20 years in, 20 years down the drain. Keep going buddy. What? You expected me to talk about some sort of thing you did or something?"}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 3 && player.C.Res == 0) return "Alright no more games, you died. It doesn't matter how, you just did. Now you'll have to restart from the beginning but hey, atleast you'll be boosted by your max levels. I'm gonna like 100 Levels on all the Jobs and Skills. Just hit the button below to start fresh, nothing broken. Muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
+                function() { if (player.C.Lol >= 3 && player.C.Res == 0 && player.N.resets == 0) return "Alright no more games, you died. It doesn't matter how, you just did. Now you'll have to restart from the beginning but hey, atleast you'll be boosted by your max levels. I'm gonna like 100 Levels on all the Jobs and Skills. Just hit the button below to start fresh, nothing broken. Muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
                 ['display-text', 
-                function() { if (player.C.Lol >= 1 && player.C.Res == 1) return "Alright round two baby let's go. I want to see you move, hustle man."}],
+                function() { if (player.C.Lol >= 1 && player.C.Res == 0 && player.N.resets >= 1) return "Back for more huh, this one sure is a glutton for punishment."}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 2 && player.C.Res == 1) return "I'll actually say what you did this time. You went to your local hardware store and bought a plank so you could stand outside said store and take a quick picture. Kinda weird."}],
+                function() { if (player.C.Lol >= 2 && player.C.Res == 0 && player.N.resets >= 1) return "Keep going, Nitrogen awaits."}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 3 && player.C.Res == 1) return "Ok, so you died, again... third times the charm I guess. Remember 100 Levels on each Job/Skill. Muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
+                function() { if (player.C.Lol >= 3 && player.C.Res == 0 && player.N.resets >= 1) return "Ok, yada, yada, yada, I'm gonna need like 100 Levels on all the Jobs and Skills yada, yada, yada, muliplier formula is: log1000(Resets) + Total Nitrogen + 1 + Job/Skill / 10"}],
                 ['display-text', 
-                function() { if (player.C.Lol >= 1 && player.C.Res == 2) return "This time is for real. No joke, no failure, no choice. I am literaly counting on you here."}],
+                function() { if (player.C.Lol >= 1 && player.C.Res == 1 && player.N.resets == 0) return "Alright round two baby let's go. I want to see you move, hustle man."}],
+                ['display-text', 
+                function() { if (player.C.Lol >= 1 && player.C.Res == 1 && player.N.resets >= 1) return "Alright this is the last stuff I'll say here, just get back to Nirogen, no reset stuff."}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 2 && player.C.Res == 2) return "You gotta step it up man. This is really dragging and not in a good way. We don't got all day ya know?"}],
+                function() { if (player.C.Lol >= 2 && player.C.Res == 1 && player.N.resets == 0) return "I'll actually say what you did this time. You went to your local hardware store and bought a plank so you could stand outside said store and take a quick picture. Kinda weird."}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 3 && player.C.Res == 2) return "Ya know, sometimes I guess ya just need a bit of motivation. How about this, get through it on this reset or you'll lose <h3 style='color: #ff0000'> ALL YOUR PROGRESS.</h3> 100 Levels Job/Skill, muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
+                function() { if (player.C.Lol >= 3 && player.C.Res == 1 && player.N.resets == 0) return "Ok, so you died, again... third times the charm I guess. Remember 100 Levels on each Job/Skill. Muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
                 ['display-text', 
-                function() { if (player.C.Lol >= 1 && player.C.Res == 3) return "Tick tock man, one third in and you should already be done. You're gonna see your progress gonzo soon."}],
+                function() { if (player.C.Lol >= 1 && player.C.Res == 2 && player.N.resets == 0) return "This time is for real. No joke, no failure, no choice. I am literaly counting on you here."}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 2 && player.C.Res == 3) return "Dude... pick up the pace damn it. PICK UP THE PACE."}],
+                function() { if (player.C.Lol >= 2 && player.C.Res == 2 && player.N.resets == 0) return "You gotta step it up man. This is really dragging and not in a good way. We don't got all day ya know?"}],
                 "blank",
                 ['display-text', 
-                function() { if (player.C.Lol >= 3 && player.C.Res == 3) return "Heh, guess that's it huh. Well, I guess that's the point of stakes. Climb back up I guess. I'll see you soon."}],
-                () => (player.C.Lol >= 3) ? ['clickable', 31] : "",
+                function() { if (player.C.Lol >= 3 && player.C.Res == 2 && player.N.resets == 0) return "Ya know, sometimes I guess ya just need a bit of motivation. How about this, get through it on this reset or you'll lose <h3 style='color: #ff0000'> ALL YOUR PROGRESS.</h3> 100 Levels Job/Skill, muliplier formula is: log1000(Resets) + 1 + Job/Skill / 10"}],
+                ['display-text', 
+                function() { if (player.C.Lol >= 1 && player.C.Res == 3 && player.N.resets == 0) return "Tick tock man, one third in and you should already be done. You're gonna see your progress gonzo soon."}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 2 && player.C.Res == 3 && player.N.resets == 0) return "Dude... pick up the pace damn it. PICK UP THE PACE."}],
+                "blank",
+                ['display-text', 
+                function() { if (player.C.Lol >= 3 && player.C.Res == 3 && player.N.resets == 0) return "Heh, guess that's it huh. Well, I guess that's the point of stakes. Climb back up I guess. I'll see you soon."}],
+                () => (player.C.Lol >= 3 && !hasUpgrade('N', 13)) ? ['clickable', 31] : "",
             ]
         },
         "Jobs": {
@@ -5626,63 +5931,68 @@ player.C.Day= new Decimal(0),
                 "blank",
                 ['display-text', 
                 function() { return '<h3>Year: ' + formatWhole(player.C.Year) + ' Day: ' + formatWhole(player.C.Day) + '</h3>'}],
+                "blank",
                 ['display-text', 
-                function() { return `<span style="color: #70716B"> You'll die at 30 years, view MainTab for Updates</span>`}],
+                function() { 
+                    if (!hasUpgrade('N', 13) && player.C.Year < 30) return `<span style="color: #70716B"> You'll die at 30 years, view the MainTab for Updates</span>`
+                    if (!hasUpgrade('N', 13) && player.C.Year == 30) return `<span style="color: #70716B"> You died, view the MainTab NOW</span>`
+                    if (hasUpgrade('N', 13) && player.C.Year < 70) return `<span style="color: #70716B"> You'll die at 70 years or when you press D after 30 years, view the MainTab for Updates</span>`
+                    if (hasUpgrade('N', 13) && player.C.Year == 70) return `<span style="color: #70716B"> You died, view the MainTab NOW</span>`}],
                 "blank",
                 'Job-grid',
                 "blank",
                 'Job1-grid',
                 ['display-text', '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
                 ['display-text',
-                    function() { if (player.C.Levelptm < 10) return '<span style="color: #70716B">Required: Part-time Miner level ' + formatWhole(player.C.Levelptm) + '/10</span>'}],
+                    function() { if (player.C.Levelptm < 10 && player.N.resets < 10) return '<span style="color: #70716B">Required: Part-time Miner level ' + formatWhole(player.C.Levelptm) + '/10</span>'}],
                 "blank",
-                () => (player.C.Levelptm >= 10) ? 'Job2-grid' : "",
+                () => (player.C.Levelptm >= 10 || player.N.resets >= 10) ? 'Job2-grid' : "",
                 ['display-text', 
-                    function() { if (player.C.Levelptm >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    function() { if (player.C.Levelptm >= 10 || player.N.resets >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                 ['display-text',
-                    function() { if (player.C.Levelptm >= 10 && player.C.Levelftm < 10) return '<span style="color: #70716B">Required: Full-time Miner level ' + formatWhole(player.C.Levelftm) + '/10</span>'}],
-                () => (player.C.Levelftm >= 10) ? "blank" : "",
-                () => (player.C.Levelftm >= 10) ? 'Job3-grid' : "",
+                    function() { if (player.C.Levelptm >= 10 && player.C.Levelftm < 10 && player.N.resets < 10) return '<span style="color: #70716B">Required: Full-time Miner level ' + formatWhole(player.C.Levelftm) + '/10</span>'}],
+                () => (player.C.Levelftm >= 10 || player.N.resets >= 10) ? "blank" : "",
+                () => (player.C.Levelftm >= 10 || player.N.resets >= 10) ? 'Job3-grid' : "",
                 ['display-text', 
-                    function() { if (player.C.Levelftm >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    function() { if (player.C.Levelftm >= 10 || player.N.resets >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                 ['display-text',
-                    function() { if (player.C.Levelftm >= 10 && player.C.LevelD < 10 || player.C.Levelftm >= 10 && player.C.LevelM < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/10 and Mine Manager level ' + formatWhole(player.C.LevelM) + '/10</span>'}],
-                    () => (player.C.LevelD >= 10 && player.C.LevelM >= 10) ? "blank" : "",
-                    () => (player.C.LevelD >= 10 && player.C.LevelM >= 10) ? 'Job4-grid' : "",
+                    function() { if (player.C.Levelftm >= 10 && player.C.LevelD < 10 && player.N.resets < 10 || player.C.Levelftm >= 10 && player.C.LevelM < 10 && player.N.resets < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/10 and Mine Manager level ' + formatWhole(player.C.LevelM) + '/10</span>'}],
+                    () => (player.C.LevelD >= 10 && player.C.LevelM >= 10 || player.N.resets >= 10) ? "blank" : "",
+                    () => (player.C.LevelD >= 10 && player.C.LevelM >= 10 || player.N.resets >= 10) ? 'Job4-grid' : "",
                     ['display-text', 
-                        function() { if (player.C.LevelD >= 10 && player.C.LevelM >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                        function() { if (player.C.LevelD >= 10 && player.C.LevelM >= 10 || player.N.resets >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                     ['display-text',
-                        function() { if (player.C.LevelM >= 10 && player.C.LevelD >= 10 && player.C.LevelD < 30 || player.C.LevelM >= 10 && player.C.LevelD >= 10 && player.C.LevelE < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/30 and Excutive Vise President level ' + formatWhole(player.C.LevelE) + '/10</span>'}],
-                        () => (player.C.LevelE >= 10 && player.C.LevelD >= 30) ? "blank" : "",
-                    () => (player.C.LevelE >= 10 && player.C.LevelD >= 30) ? 'Job5-grid' : "",
+                        function() { if (player.C.LevelM >= 10 && player.C.LevelD >= 10 && player.C.LevelD < 30 && player.N.resets < 10 || player.C.LevelM >= 10 && player.C.LevelD >= 10 && player.C.LevelE < 10 && player.N.resets < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/30 and Excutive Vise President level ' + formatWhole(player.C.LevelE) + '/10</span>'}],
+                        () => (player.C.LevelE >= 10 && player.C.LevelD >= 30 || player.N.resets >= 10) ? "blank" : "",
+                    () => (player.C.LevelE >= 10 && player.C.LevelD >= 30 || player.N.resets >= 10) ? 'Job5-grid' : "",
                     ['display-text', 
-                        function() { if (player.C.LevelE >= 10 && player.C.LevelD >= 30) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                        function() { if (player.C.LevelE >= 10 && player.C.LevelD >= 30 || player.N.resets >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                     "blank",
                     () => (player.C.No >= 1) ? "Job-gridz" : "",
                 ['display-text',
-                function() { if (player.C.No >= 1 && player.C.LevelD < 5) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/5</span>'}],
-                () => (player.C.LevelD >= 5) ? "blank" : "",
-                () => (player.C.LevelD >= 5) ? 'Job6-grid' : "",
+                function() { if (player.C.No >= 1 && player.C.LevelD < 5 && player.N.resets < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/5</span>'}],
+                () => (player.C.LevelD >= 5 || player.N.resets >= 10) ? "blank" : "",
+                () => (player.C.LevelD >= 5 || player.N.resets >= 10) ? 'Job6-grid' : "",
                 ['display-text', 
-                    function() { if (player.C.LevelD >= 5) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    function() { if (player.C.LevelD >= 5 || player.N.resets >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                 ['display-text',
-                    function() { if (player.C.LevelD >= 5 && player.C.LevelD < 20 || player.C.LevelD >= 5 && player.C.Levelp < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/20 and Pickpocket level ' + formatWhole(player.C.Levelp) + '/10</span>'}],
-                    () => (player.C.LevelD >= 20 && player.C.Levelp >= 10) ? "blank" : "",
-                    () => (player.C.LevelD >= 20 && player.C.Levelp >= 10) ? 'Job7-grid' : "",
+                    function() { if (player.C.LevelD >= 5 && player.C.LevelD < 20 && player.N.resets < 10|| player.C.LevelD >= 5 && player.C.Levelp < 10 && player.N.resets < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/20 and Pickpocket level ' + formatWhole(player.C.Levelp) + '/10</span>'}],
+                    () => (player.C.LevelD >= 20 && player.C.Levelp >= 10 || player.N.resets >= 10) ? "blank" : "",
+                    () => (player.C.LevelD >= 20 && player.C.Levelp >= 10 || player.N.resets >= 10) ? 'Job7-grid' : "",
                     ['display-text', 
-                        function() { if (player.C.LevelD >= 20 && player.C.Levelp >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                        function() { if (player.C.LevelD >= 20 && player.C.Levelp >= 10 || player.N.resets >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                     ['display-text',
-                        function() { if (player.C.LevelD >= 20 && player.C.Levelp >= 10 && player.C.Levelt < 40 || player.C.LevelD >= 20 && player.C.Levelp >= 10 && player.C.LevelG < 10) return '<span style="color: #70716B">Required: Thieving Tactics level ' + formatWhole(player.C.Levelt) + '/40 and Gas Station level ' + formatWhole(player.C.LevelG) + '/10</span>'}],
-                         () => (player.C.Levelt >= 40 && player.C.LevelG >= 10) ? "blank" : "",
-                    () => (player.C.Levelt >= 40 && player.C.LevelG >= 10) ? 'Job8-grid' : "",
+                        function() { if (player.C.LevelD >= 20 && player.C.Levelp >= 10 && player.C.Levelt < 40 && player.N.resets < 10 || player.C.LevelD >= 20 && player.C.Levelp >= 10 && player.C.LevelG < 10 && player.N.resets < 10) return '<span style="color: #70716B">Required: Thieving Tactics level ' + formatWhole(player.C.Levelt) + '/40 and Gas Station level ' + formatWhole(player.C.LevelG) + '/10</span>'}],
+                         () => (player.C.Levelt >= 40 && player.C.LevelG >= 10 || player.N.resets >= 10) ? "blank" : "",
+                    () => (player.C.Levelt >= 40 && player.C.LevelG >= 10 || player.N.resets >= 10) ? 'Job8-grid' : "",
                     ['display-text', 
-                        function() { if (player.C.Levelt >= 40 && player.C.LevelG >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                        function() { if (player.C.Levelt >= 40 && player.C.LevelG >= 10 || player.N.resets >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                     ['display-text',
-                        function() { if (player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelD < 100 || player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelJ < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/100 and Jewelry Store level ' + formatWhole(player.C.LevelJ) + '/10</span>'}],
-                        () => (player.C.LevelD >= 100 && player.C.LevelJ >= 10) ? "blank" : "",
-                        () => (player.C.LevelD >= 100 && player.C.LevelJ >= 10) ? 'Job9-grid' : "",
+                        function() { if (player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelD < 100 && player.N.resets < 10 || player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelJ < 10 ) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/100 and Jewelry Store level ' + formatWhole(player.C.LevelJ) + '/10</span>'}],
+                        () => (player.C.LevelD >= 100 && player.C.LevelJ >= 10 || player.N.resets >= 10) ? "blank" : "",
+                        () => (player.C.LevelD >= 100 && player.C.LevelJ >= 10 || player.N.resets >= 10) ? 'Job9-grid' : "",
                         ['display-text', 
-                            function() { if (player.C.LevelD >= 100 && player.C.LevelJ >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                            function() { if (player.C.LevelD >= 100 && player.C.LevelJ >= 10 || player.N.resets >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                 "blank",
                 ['display-text', 
                 function() { return 'You have <span style="color: #00e600">' + formatWhole(player.C.fragements) + 'g</span> of Carbon Fragments<div> <span style="color: #00e600">1000g</span> of Carbon Fragments = <span style="color: #00e600">1g</span> of Carbon'}],
@@ -5693,8 +6003,13 @@ player.C.Day= new Decimal(0),
                 "blank",
                 ['display-text', 
                 function() { return '<h3>Year: ' + formatWhole(player.C.Year) + ' Day: ' + formatWhole(player.C.Day) + '</h3>'}],
+                "blank",
                 ['display-text', 
-                function() { return `<span style="color: #70716B"> You'll die at 30 years, view MainTab for Updates</span>`}],
+                function() { 
+                    if (!hasUpgrade('N', 13) && player.C.Year < 30) return `<span style="color: #70716B"> You'll die at 30 years, view the MainTab for Updates</span>`
+                    if (!hasUpgrade('N', 13) && player.C.Year == 30) return `<span style="color: #70716B"> You died, view the MainTab NOW</span>`
+                    if (hasUpgrade('N', 13) && player.C.Year < 70) return `<span style="color: #70716B"> You'll die at 70 years or when you press D after 30 years, view the MainTab for Updates</span>`
+                    if (hasUpgrade('N', 13) && player.C.Year == 70) return `<span style="color: #70716B"> You died, view the MainTab NOW</span>`}],
                 "blank",
                 'Skill-grid',
                 "blank",
@@ -5704,35 +6019,35 @@ player.C.Day= new Decimal(0),
                 'Skill2-grid',
                 ['display-text', '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
                 ['display-text',
-                    function() { if (player.C.Levelf < 20) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/20</span>'}],
-                    () => (player.C.Levelf >= 20) ? "blank" : "",
-                () => (player.C.Levelf >= 20) ? 'Skill3-grid' : "",
+                    function() { if (player.C.Levelf < 20 && player.N.resets < 4) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/20</span>'}],
+                    () => (player.C.Levelf >= 20 || player.N.resets >= 4) ? "blank" : "",
+                () => (player.C.Levelf >= 20 || player.N.resets >= 4) ? 'Skill3-grid' : "",
                 ['display-text', 
-                    function() { if (player.C.Levelf >= 20) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    function() { if (player.C.Levelf >= 20 || player.N.resets >= 4) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                     ['display-text',
-                    function() { if (player.C.Levelf >= 20 && player.C.Levelf < 30 ||  player.C.Levelf >= 20 && player.C.LevelJB < 20) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/30 and Job Experience level ' + formatWhole(player.C.LevelJB) + '/20</span>'}],
-                    () => (player.C.Levelf >= 30 &&  player.C.LevelJB >= 20) ? "blank" : "",
-                    () => (player.C.Levelf >= 30 &&  player.C.LevelJB >= 20) ? 'Skill4-grid' : "",
+                    function() { if (player.C.Levelf >= 20 && player.C.Levelf < 30 && player.N.resets < 5 ||  player.C.Levelf >= 20 && player.C.LevelJB < 20 && player.N.resets < 5) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/30 and Job Experience level ' + formatWhole(player.C.LevelJB) + '/20</span>'}],
+                    () => (player.C.Levelf >= 30 &&  player.C.LevelJB >= 20 || player.N.resets >= 5) ? "blank" : "",
+                    () => (player.C.Levelf >= 30 &&  player.C.LevelJB >= 20 || player.N.resets >= 5) ? 'Skill4-grid' : "",
                     ['display-text', 
-                        function() { if (player.C.Levelf >= 30 && player.C.LevelJB >= 20) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                        function() { if (player.C.Levelf >= 30 && player.C.LevelJB >= 20 || player.N.resets >= 5) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                     "blank",
                     () => (player.C.No >= 1) ? "Skillz-grid" : "",
                     () => (player.C.No >= 1) ? "blank" : "",
                 () => (player.C.No >= 1) ? 'Skill6-grid' : "",
                 ['display-text', 
                     function()  {if (player.C.No >= 1) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
-                    () => (player.C.No >= 1 && player.C.Levelf >= 20) ? "blank" : "",
+                    () => (player.C.No >= 1 && player.C.Levelf >= 20 || player.N.resets >= 7) ? "blank" : "",
                     ['display-text',
-                    function() { if (player.C.No >= 1 && player.C.Levelf < 20) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/20</span>'}],
-                () => (player.C.No >= 1 && player.C.Levelf >= 20) ? 'Skill7-grid' : "",
+                    function() { if (player.C.No >= 1 && player.C.Levelf < 20 && player.N.resets < 7) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/20</span>'}],
+                () => (player.C.No >= 1 && player.C.Levelf >= 20 || player.N.resets >= 7) ? 'Skill7-grid' : "",
                 ['display-text', 
-                    function()  {if (player.C.No >= 1 && player.C.Levelf >= 20) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                    function()  {if (player.C.No >= 1 && player.C.Levelf >= 20 || player.N.resets >= 7) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                     ['display-text',
-                    function() { if (player.C.No >= 1 && player.C.Levelf >= 20 && player.C.Levelf < 30 || player.C.No >= 1 && player.C.Levelf >= 20 && player.C.LevelD < 30) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/30 and Dummy level ' + formatWhole(player.C.LevelD) + '/30</span>'}],
-                    () => (player.C.No >= 1 && player.C.Levelf >= 30 && player.C.LevelD >= 30) ? "blank" : "",
-                    () => (player.C.No >= 1 && player.C.Levelf >= 30 && player.C.LevelD >= 30) ? 'Skill8-grid' : "",
+                    function() { if (player.C.No >= 1 && player.C.Levelf >= 20 && player.C.Levelf < 30 && player.N.resets < 8 || player.C.No >= 1 && player.C.Levelf >= 20 && player.C.LevelD < 30 && player.N.resets < 8) return '<span style="color: #70716B">Required: Focus level ' + formatWhole(player.C.Levelf) + '/30 and Dummy level ' + formatWhole(player.C.LevelD) + '/30</span>'}],
+                    () => (player.C.No >= 1 && player.C.Levelf >= 30 && player.C.LevelD >= 30 || player.N.resets >= 8) ? "blank" : "",
+                    () => (player.C.No >= 1 && player.C.Levelf >= 30 && player.C.LevelD >= 30 || player.N.resets >= 8) ? 'Skill8-grid' : "",
                     ['display-text', 
-                        function()  {if (player.C.No >= 1 && player.C.Levelf >= 30 && player.C.LevelD >= 30) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                        function()  {if (player.C.No >= 1 && player.C.Levelf >= 30 && player.C.LevelD >= 30 || player.N.resets >= 8) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
             ]
         },
         "Shop": {
@@ -5751,23 +6066,23 @@ player.C.Day= new Decimal(0),
                 'Shop2-grid',
                 ['display-text', '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
                 ['display-text', 
-                function() { if (player.C.Nay < 2) return '<span style="color: #70716B">Required: <span style="color: #70716B">1g</span> of Carbon</span>'}],
-                () => (player.C.Nay >= 2) ? "blank" : "",
-                () => (player.C.Nay >= 2) ? 'Shop3-grid' : "",
+                function() { if (player.C.Nay < 2 && !hasUpgrade('N', 15)) return '<span style="color: #70716B">Required: <span style="color: #70716B">1g</span> of Carbon</span>'}],
+                () => (player.C.Nay >= 2 || hasUpgrade('N', 15)) ? "blank" : "",
+                () => (player.C.Nay >= 2 || hasUpgrade('N', 15)) ? 'Shop3-grid' : "",
                 ['display-text', 
-                function() { if (player.C.Nay > 1) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                function() { if (player.C.Nay > 1 || hasUpgrade('N', 15)) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                 ['display-text', 
-                function() { if (player.C.Nay >= 2 && player.C.Nay < 3) return '<span style="color: #70716B">Required: <span style="color: #70716B">10g</span> of Carbon</span>'}],
-                () => (player.C.Nay >= 3) ? "blank" : "",
-                () => (player.C.Nay >= 3) ? 'Shop4-grid' : "",
+                function() { if (player.C.Nay >= 2 && player.C.Nay < 3 && !hasUpgrade('N', 15)) return '<span style="color: #70716B">Required: <span style="color: #70716B">10g</span> of Carbon</span>'}],
+                () => (player.C.Nay >= 3 || hasUpgrade('N', 15)) ? "blank" : "",
+                () => (player.C.Nay >= 3 || hasUpgrade('N', 15)) ? 'Shop4-grid' : "",
                 ['display-text', 
-                function() { if (player.C.Nay >= 3) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                function() { if (player.C.Nay >= 3 || hasUpgrade('N', 15)) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                 ['display-text', 
-                function() { if (player.C.Nay >= 3 && player.C.Nay < 4) return '<span style="color: #70716B">Required: <span style="color: #70716B">100g</span> of Carbon</span>'}],
-                () => (player.C.Nay >= 4) ? "blank" : "",
-                () => (player.C.Nay >= 4) ? 'Shop5-grid' : "",
+                function() { if (player.C.Nay >= 3 && player.C.Nay < 4 && !hasUpgrade('N', 15)) return '<span style="color: #70716B">Required: <span style="color: #70716B">100g</span> of Carbon</span>'}],
+                () => (player.C.Nay >= 4 || hasUpgrade('N', 15)) ? "blank" : "",
+                () => (player.C.Nay >= 4 || hasUpgrade('N', 15)) ? 'Shop5-grid' : "",
                 ['display-text', 
-                function() { if (player.C.Nay >= 4) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                function() { if (player.C.Nay >= 4 || hasUpgrade('N', 15)) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                 "blank",
                 ['display-text', '<b>&nbsp&nbsp&nbsp&nbsp<span style="background-color: #800080">&nbsp&nbspMisc&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspActive&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEffect&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCarbon/day&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>&nbsp</b>'],
                 "blank",
@@ -5777,73 +6092,75 @@ player.C.Day= new Decimal(0),
                 'Shop7-grid',
                 ['display-text', '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'],
                 ['display-text', 
-                function() { if (player.C.Yes < 1) return '<span style="color: #70716B">Required: <span style="color: #70716B">2g</span> of Carbon</span>'}],
-                () => (player.C.Yes >= 1) ? "blank" : "",
-                () => (player.C.Yes >= 1) ? 'Shop8-grid' : "",
+                function() { if (player.C.Yes < 1 && !hasUpgrade('N', 15)) return '<span style="color: #70716B">Required: <span style="color: #70716B">2g</span> of Carbon</span>'}],
+                () => (player.C.Yes >= 1 || hasUpgrade('N', 15)) ? "blank" : "",
+                () => (player.C.Yes >= 1 || hasUpgrade('N', 15)) ? 'Shop8-grid' : "",
                 ['display-text', 
-                function() { if (player.C.Yes >= 1) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                function() { if (player.C.Yes >= 1 || hasUpgrade('N', 15)) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                 ['display-text', 
-                function() { if (player.C.Yes >= 1 && player.C.Yes < 2) return '<span style="color: #70716B">Required: <span style="color: #70716B">20g</span> of Carbon</span>'}],
-                () => (player.C.Yes >= 2) ? "blank" : "",
-                () => (player.C.Yes >= 2) ? 'Shop9-grid' : "",
+                function() { if (player.C.Yes >= 1 && player.C.Yes < 2 && !hasUpgrade('N', 15)) return '<span style="color: #70716B">Required: <span style="color: #70716B">20g</span> of Carbon</span>'}],
+                () => (player.C.Yes >= 2 || hasUpgrade('N', 15)) ? "blank" : "",
+                () => (player.C.Yes >= 2 || hasUpgrade('N', 15)) ? 'Shop9-grid' : "",
                 ['display-text', 
-                function() { if (player.C.Yes >= 2) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                function() { if (player.C.Yes >= 2 || hasUpgrade('N', 15)) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                 ['display-text', 
-                function() { if (player.C.Yes >= 2 && player.C.Yes < 3) return '<span style="color: #70716B">Required: <span style="color: #70716B">200g</span> of Carbon</span>'}],
-                () => (player.C.Yes >= 3) ? "blank" : "",
-                () => (player.C.Yes >= 3) ? 'Shop10-grid' : "",
+                function() { if (player.C.Yes >= 2 && player.C.Yes < 3 && !hasUpgrade('N', 15)) return '<span style="color: #70716B">Required: <span style="color: #70716B">200g</span> of Carbon</span>'}],
+                () => (player.C.Yes >= 3 || hasUpgrade('N', 15)) ? "blank" : "",
+                () => (player.C.Yes >= 3 || hasUpgrade('N', 15)) ? 'Shop10-grid' : "",
                 ['display-text', 
-                function() { if (player.C.Yes >= 3) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
+                function() { if (player.C.Yes >= 3 || hasUpgrade('N', 15)) return '&nbsp&nbsp&nbsp&nbsp<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
             ]
         }
     },
 
     update() {
-        if (player.C.Switch == 0) tmp.C.OnOff = tmp.C.OnOff.times(0)
+        if (player.C.Switch == 0) tmp.C.OnOff = tmp.C.OnOff.times(0) 
         if (player.B.Next.gte(1)) player.C.unlocked = true
-        tmp.C.Net = tmp.C.Income - tmp.C.Expenses * 5
+        tmp.C.Net = tmp.C.Income - tmp.C.Expenses * (5 - tmp.N.Zero)
  if (tmp.C.OnOff == 1) player.C.Ticks = player.C.Ticks.add(1)
- if (tmp.C.OnOff == 1 && player.C.Ticks.gte(5)) player.C.Ticks = player.C.Ticks.times(0), player.C.Day = player.C.Day.add(1), player.C.TotalD = player.C.TotalD.add(1)
- if (tmp.C.OnOff == 1 && player.C.Day == 365) player.C.Day = player.C.Day.times(0), player.C.Year = player.C.Year.add(1), player.C.TotalY = player.C.TotalY.add(1)
+ if (tmp.C.OnOff == 1 && player.C.Ticks.gte(player.C.ticks)) player.C.Ticks = player.C.Ticks.times(0), player.C.Day = player.C.Day.add(player.N.days), player.C.TotalD = player.C.TotalD.add(player.N.days)
+ if (tmp.C.OnOff == 1 && player.C.Day >= 365) player.C.Day = player.C.Day.times(0), player.C.Year = player.C.Year.add(1), player.C.TotalY = player.C.TotalY.add(1)
 
  if (player.C.Switch2 == 1) tmp.C.Expenses = 0 + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
- if (player.C.Switch2 == 2) tmp.C.Expenses = 3 * temp['C'].bars['Persuasion'].effect + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
- if (player.C.Switch2 == 3) tmp.C.Expenses = 20 * temp['C'].bars['Persuasion'].effect + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
- if (player.C.Switch2 == 4) tmp.C.Expenses = 100 * temp['C'].bars['Persuasion'].effect + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
- if (player.C.Switch2 == 5) tmp.C.Expenses = 200 * temp['C'].bars['Persuasion'].effect + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
+ if (player.C.Switch2 == 2) tmp.C.Expenses = ((3 * player.N.days * tmp.N.Five * temp['C'].bars['Persuasion'].effect) * ((player.N.complete * 20.5) + 1) / tmp.N.div) + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
+ if (player.C.Switch2 == 3) tmp.C.Expenses = ((20 * player.N.days * ((player.N.complete * 20.5) + 1) * tmp.N.Five * temp['C'].bars['Persuasion'].effect) / tmp.N.div) + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
+ if (player.C.Switch2 == 4) tmp.C.Expenses = ((100 * player.N.days * ((player.N.complete * 20.5) + 1) * tmp.N.Five * temp['C'].bars['Persuasion'].effect) / tmp.N.div) + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
+ if (player.C.Switch2 == 5) tmp.C.Expenses = ((200 * player.N.days * ((player.N.complete * 20.5) + 1) * tmp.N.Five * temp['C'].bars['Persuasion'].effect) / tmp.N.div) + player.C.ME1 + player.C.ME2 + player.C.ME3 + player.C.ME4 + player.C.ME5
 
- if (tmp.C.OnOff == 1 && player.C.Switch == 1) player.C.fragements = player.C.fragements.add((player.C.Carbonptm / 5) - tmp.C.Expenses), player.C.Xpmaxptm = player.C.Xpmaxptm - player.C.Xpptm * tmp.C.eptm, player.C.XpToptm = player.C.XpToptm + player.C.Xpptm * tmp.C.eptm, player.C.TotalCf = player.C.TotalCf.add(player.C.Carbonptm / 5)
- if (tmp.C.OnOff == 1 && player.C.Switch == 2) player.C.fragements = player.C.fragements.add((player.C.Carbonftm / 5) - tmp.C.Expenses), player.C.Xpmaxftm = player.C.Xpmaxftm - player.C.Xpptm * tmp.C.eftm, player.C.XpToftm = player.C.XpToftm + player.C.Xpptm * tmp.C.eftm, player.C.TotalCf = player.C.TotalCf.add(player.C.Carbonftm / 5)
- if (tmp.C.OnOff == 1 && player.C.Switch == 3) player.C.fragements = player.C.fragements.add((player.C.CarbonM / 5) - tmp.C.Expenses), player.C.XpmaxM = player.C.XpmaxM - player.C.Xpptm * tmp.C.eM, player.C.XpToM = player.C.XpToM + player.C.Xpptm * tmp.C.eM, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonM / 5)
- if (tmp.C.OnOff == 1 && player.C.Switch == 4) player.C.fragements = player.C.fragements.add((player.C.CarbonE / 5) - tmp.C.Expenses), player.C.XpmaxE = player.C.XpmaxE - player.C.Xpptm * tmp.C.eE, player.C.XpToE = player.C.XpToE + player.C.Xpptm * tmp.C.eE, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonE / 5)
- if (tmp.C.OnOff == 1 && player.C.Switch == 5) player.C.fragements = player.C.fragements.add((player.C.CarbonC / 5) - tmp.C.Expenses), player.C.XpmaxC = player.C.XpmaxC - player.C.Xpptm * tmp.C.eC, player.C.XpToC = player.C.XpToC + player.C.Xpptm * tmp.C.eC, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonC / 5)
- if (tmp.C.OnOff == 1 && player.C.Switch == 6) player.C.fragements = player.C.fragements.add((player.C.Carbonp * temp['C'].bars['Dummy'].effect / 5) - tmp.C.Expenses), player.C.Xpmaxp = player.C.Xpmaxp - player.C.Xpptm * tmp.C.ep * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpTop = player.C.XpTop + player.C.Xpptm * tmp.C.ep * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.Carbonp * temp['C'].bars['Dummy'].effect / 5)
- if (tmp.C.OnOff == 1 && player.C.Switch == 7) player.C.fragements = player.C.fragements.add((player.C.CarbonG * temp['C'].bars['Dummy'].effect / 5) - tmp.C.Expenses), player.C.XpmaxG = player.C.XpmaxG - player.C.Xpptm * tmp.C.eG * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpToG = player.C.XpToG + player.C.Xpptm * tmp.C.eG * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonG * temp['C'].bars['Dummy'].effect / 5)
- if (tmp.C.OnOff == 1 && player.C.Switch == 8) player.C.fragements = player.C.fragements.add((player.C.CarbonJ * temp['C'].bars['Dummy'].effect / 5) - tmp.C.Expenses), player.C.XpmaxJ = player.C.XpmaxJ - player.C.Xpptm * tmp.C.eJ * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpToJ = player.C.XpToJ + player.C.Xpptm * tmp.C.eJ * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonJ * temp['C'].bars['Dummy'].effect / 5)
- if (tmp.C.OnOff == 1 && player.C.Switch == 9) player.C.fragements = player.C.fragements.add((player.C.CarbonB * temp['C'].bars['Dummy'].effect / 5) - tmp.C.Expenses), player.C.XpmaxB = player.C.XpmaxB - player.C.Xpptm * tmp.C.eB * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpToB = player.C.XpToB + player.C.Xpptm * tmp.C.eB * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonJ * temp['C'].bars['Dummy'].effect / 5)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 1 || tmp.C.OnOff == 1 && player.N.resets >= 10) player.C.fragements = player.C.fragements.add((player.C.Carbonptm * player.N.days / player.C.ticks) - (tmp.C.Expenses / tmp.N.div1)), player.C.Xpmaxptm = player.C.Xpmaxptm - player.C.Xpptm * tmp.C.eptm, player.C.XpToptm = player.C.XpToptm + player.C.Xpptm * tmp.C.eptm, player.C.TotalCf = player.C.TotalCf.add(player.C.Carbonptm * player.N.days / player.C.ticks)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 2 || tmp.C.OnOff == 1 && player.N.resets >= 10) player.C.fragements = player.C.fragements.add((player.C.Carbonftm * player.N.days / player.C.ticks) - (tmp.C.Expenses / tmp.N.div1)), player.C.Xpmaxftm = player.C.Xpmaxftm - player.C.Xpptm * tmp.C.eftm, player.C.XpToftm = player.C.XpToftm + player.C.Xpptm * tmp.C.eftm, player.C.TotalCf = player.C.TotalCf.add(player.C.Carbonftm * player.N.days / player.C.ticks)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 3 || tmp.C.OnOff == 1 && player.N.resets >= 10) player.C.fragements = player.C.fragements.add((player.C.CarbonM  * player.N.days / player.C.ticks) - (tmp.C.Expenses / tmp.N.div1)), player.C.XpmaxM = player.C.XpmaxM - player.C.Xpptm * tmp.C.eM, player.C.XpToM = player.C.XpToM + player.C.Xpptm * tmp.C.eM, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonM * player.N.days / player.C.ticks)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 4 || tmp.C.OnOff == 1 && player.N.resets >= 10) player.C.fragements = player.C.fragements.add((player.C.CarbonE * player.N.days / player.C.ticks) - (tmp.C.Expenses / tmp.N.div1)), player.C.XpmaxE = player.C.XpmaxE - player.C.Xpptm * tmp.C.eE, player.C.XpToE = player.C.XpToE + player.C.Xpptm * tmp.C.eE, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonE * player.N.days / player.C.ticks)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 5 || tmp.C.OnOff == 1 && player.N.resets >= 10) player.C.fragements = player.C.fragements.add((player.C.CarbonC * player.N.days / player.C.ticks) - (tmp.C.Expenses / tmp.N.div1)), player.C.XpmaxC = player.C.XpmaxC - player.C.Xpptm * tmp.C.eC, player.C.XpToC = player.C.XpToC + player.C.Xpptm * tmp.C.eC, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonC * player.N.days / player.C.ticks)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 6 || tmp.C.OnOff == 1 && player.N.resets >= 10) player.C.fragements = player.C.fragements.add((player.C.Carbonp * temp['C'].bars['Dummy'].effect * player.N.days / player.C.ticks) - (tmp.C.Expenses / tmp.N.div1)), player.C.Xpmaxp = player.C.Xpmaxp - player.C.Xpptm * tmp.C.ep * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpTop = player.C.XpTop + player.C.Xpptm * tmp.C.ep * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.Carbonp * temp['C'].bars['Dummy'].effect * player.N.days / player.C.ticks)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 7 || tmp.C.OnOff == 1 && player.N.resets >= 10) player.C.fragements = player.C.fragements.add((player.C.CarbonG * temp['C'].bars['Dummy'].effect * player.N.days / player.C.ticks) - (tmp.C.Expenses / tmp.N.div1)), player.C.XpmaxG = player.C.XpmaxG - player.C.Xpptm * tmp.C.eG * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpToG = player.C.XpToG + player.C.Xpptm * tmp.C.eG * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonG * temp['C'].bars['Dummy'].effect * player.N.days / player.C.ticks)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 8 || tmp.C.OnOff == 1 && player.N.resets >= 10) player.C.fragements = player.C.fragements.add((player.C.CarbonJ * temp['C'].bars['Dummy'].effect * player.N.days / player.C.ticks) - (tmp.C.Expenses / tmp.N.div1)), player.C.XpmaxJ = player.C.XpmaxJ - player.C.Xpptm * tmp.C.eJ * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpToJ = player.C.XpToJ + player.C.Xpptm * tmp.C.eJ * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonJ * temp['C'].bars['Dummy'].effect * player.N.days / player.C.ticks)
+ if (tmp.C.OnOff == 1 && player.C.Switch == 9 || tmp.C.OnOff == 1 && player.N.resets >= 10) player.C.fragements = player.C.fragements.add((player.C.CarbonB * temp['C'].bars['Dummy'].effect * player.N.days / player.C.ticks) - (tmp.C.Expenses / tmp.N.div1)), player.C.XpmaxB = player.C.XpmaxB - player.C.Xpptm * tmp.C.eB * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.XpToB = player.C.XpToB + player.C.Xpptm * tmp.C.eB * temp['C'].clickables[24].effect * temp['C'].bars['ThievingTactics'].effect, player.C.TotalCf = player.C.TotalCf.add(player.C.CarbonJ * temp['C'].bars['Dummy'].effect * player.N.days / player.C.ticks)
 
- if (tmp.C.OnOff == 1 && player.C.Switch1 == 1) player.C.Xpmaxf = player.C.Xpmaxf - player.C.Xpskill * tmp.C.ef * temp['C'].clickables[21].effect, player.C.XpTof = player.C.XpTof + player.C.Xpskill * tmp.C.ef * temp['C'].clickables[21].effect
- if (tmp.C.OnOff == 1 && player.C.Switch1 == 2) player.C.XpmaxJB = player.C.XpmaxJB - player.C.Xpskill * tmp.C.eJB * temp['C'].clickables[21].effect, player.C.XpToJB = player.C.XpToJB + player.C.Xpskill * tmp.C.eJB * temp['C'].clickables[21].effect
- if (tmp.C.OnOff == 1 && player.C.Switch1 == 3) player.C.Xpmaxpe = player.C.Xpmaxpe - player.C.Xpskill * tmp.C.epe * temp['C'].clickables[21].effect, player.C.XpTope = player.C.XpTope + player.C.Xpskill * tmp.C.epe * temp['C'].clickables[21].effect
- if (tmp.C.OnOff == 1 && player.C.Switch1 == 4) player.C.XpmaxR = player.C.XpmaxR - player.C.Xpskill * tmp.C.eR * temp['C'].clickables[21].effect, player.C.XpToR = player.C.XpToR + player.C.Xpskill * tmp.C.eR * temp['C'].clickables[21].effect
- if (tmp.C.OnOff == 1 && player.C.Switch1 == 6) player.C.XpmaxD = player.C.XpmaxD - player.C.Xpskill * tmp.C.eD * temp['C'].clickables[22].effect * temp['C'].clickables[21].effect * temp['C'].bars['WeaponsTools'].effect, player.C.XpToD = player.C.XpToD + player.C.Xpskill * tmp.C.eD * temp['C'].clickables[22].effect * temp['C'].clickables[21].effect * temp['C'].bars['WeaponsTools'].effect
- if (tmp.C.OnOff == 1 && player.C.Switch1 == 7) player.C.Xpmaxt = player.C.Xpmaxt - player.C.Xpskill * tmp.C.et * temp['C'].clickables[21].effect, player.C.XpTot = player.C.XpTot + player.C.Xpskill * tmp.C.et * temp['C'].clickables[21].effect
- if (tmp.C.OnOff == 1 && player.C.Switch1 == 8) player.C.XpmaxW = player.C.XpmaxW - player.C.Xpskill * tmp.C.eW * temp['C'].clickables[21].effect, player.C.XpToW = player.C.XpToW + player.C.Xpskill * tmp.C.eW * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 1 || tmp.C.OnOff == 1 && player.N.resets >= 2 && player.C.auto1) player.C.Xpmaxf = player.C.Xpmaxf - player.C.Xpskill * tmp.C.ef * temp['C'].clickables[21].effect, player.C.XpTof = player.C.XpTof + player.C.Xpskill * tmp.C.ef * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 2 || tmp.C.OnOff == 1 && player.N.resets >= 3 && player.C.auto1) player.C.XpmaxJB = player.C.XpmaxJB - player.C.Xpskill * tmp.C.eJB * temp['C'].clickables[21].effect, player.C.XpToJB = player.C.XpToJB + player.C.Xpskill * tmp.C.eJB * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 3 || tmp.C.OnOff == 1 && player.N.resets >= 4 && player.C.auto1) player.C.Xpmaxpe = player.C.Xpmaxpe - player.C.Xpskill * tmp.C.epe * temp['C'].clickables[21].effect, player.C.XpTope = player.C.XpTope + player.C.Xpskill * tmp.C.epe * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 4 || tmp.C.OnOff == 1 && player.N.resets >= 5 && player.C.auto1) player.C.XpmaxR = player.C.XpmaxR - player.C.Xpskill * tmp.C.eR * temp['C'].clickables[21].effect, player.C.XpToR = player.C.XpToR + player.C.Xpskill * tmp.C.eR * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 6 || tmp.C.OnOff == 1 && player.N.resets >= 6 && player.C.auto1) player.C.XpmaxD = player.C.XpmaxD - player.C.Xpskill * tmp.C.eD * temp['C'].clickables[22].effect * temp['C'].clickables[21].effect * temp['C'].bars['WeaponsTools'].effect, player.C.XpToD = player.C.XpToD + player.C.Xpskill * tmp.C.eD * temp['C'].clickables[22].effect * temp['C'].clickables[21].effect * temp['C'].bars['WeaponsTools'].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 7 || tmp.C.OnOff == 1 && player.N.resets >= 7 && player.C.auto1) player.C.Xpmaxt = player.C.Xpmaxt - player.C.Xpskill * tmp.C.et * temp['C'].clickables[21].effect, player.C.XpTot = player.C.XpTot + player.C.Xpskill * tmp.C.et * temp['C'].clickables[21].effect
+ if (tmp.C.OnOff == 1 && player.C.Switch1 == 8 || tmp.C.OnOff == 1 && player.N.resets >= 8 && player.C.auto1) player.C.XpmaxW = player.C.XpmaxW - player.C.Xpskill * tmp.C.eW * temp['C'].clickables[21].effect, player.C.XpToW = player.C.XpToW + player.C.Xpskill * tmp.C.eW * temp['C'].clickables[21].effect
 
- if (player.C.Switch == 0)  tmp.C.Income = 0, tmp.C.JHealth = 0
- if (player.C.Switch == 1)  tmp.C.Income = player.C.Carbonptm, tmp.C.JHealth = 0.2 
- if (player.C.Switch == 2)  tmp.C.Income = player.C.Carbonftm, tmp.C.JHealth = 0.5
- if (player.C.Switch == 3)  tmp.C.Income = player.C.CarbonM, tmp.C.JHealth = 0.3
- if (player.C.Switch == 4)  tmp.C.Income = player.C.CarbonE, tmp.C.JHealth = 0
- if (player.C.Switch == 5)  tmp.C.Income = player.C.CarbonC, tmp.C.JHealth = 0
- if (player.C.Switch == 6)  tmp.C.Income = player.C.Carbonp * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 0.1
- if (player.C.Switch == 7)  tmp.C.Income = player.C.CarbonG * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 0.4
- if (player.C.Switch == 8)  tmp.C.Income = player.C.CarbonJ * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 1
- if (player.C.Switch == 9)  tmp.C.Income = player.C.CarbonB * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 2
+ if (player.C.Switch == 0 && player.N.resets < 10)  tmp.C.Income = 0, tmp.C.JHealth = 0
+ if (player.C.Switch == 1 && player.N.resets < 10)  tmp.C.Income = player.C.Carbonptm * player.N.days, tmp.C.JHealth = 0.2 
+ if (player.C.Switch == 2 && player.N.resets < 10)  tmp.C.Income = player.C.Carbonftm * player.N.days, tmp.C.JHealth = 0.5
+ if (player.C.Switch == 3 && player.N.resets < 10)  tmp.C.Income = player.C.CarbonM * player.N.days, tmp.C.JHealth = 0.3
+ if (player.C.Switch == 4 && player.N.resets < 10)  tmp.C.Income = player.C.CarbonE * player.N.days, tmp.C.JHealth = 0
+ if (player.C.Switch == 5 && player.N.resets < 10)  tmp.C.Income = player.C.CarbonC * player.N.days, tmp.C.JHealth = 0
+ if (player.C.Switch == 6 && player.N.resets < 10)  tmp.C.Income = player.C.Carbonp * player.N.days * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 0.1
+ if (player.C.Switch == 7 && player.N.resets < 10)  tmp.C.Income = player.C.CarbonG * player.N.days * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 0.4
+ if (player.C.Switch == 8 && player.N.resets < 10)  tmp.C.Income = player.C.CarbonJ * player.N.days * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 1
+ if (player.C.Switch == 9 && player.N.resets < 10)  tmp.C.Income = player.C.CarbonB * player.N.days * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 2
 
- if (player.C.fragements.gte(1000)) player.C.points = player.C.points.add(1), player.C.fragements = player.C.fragements.sub(1000), player.C.TotalC = player.C.TotalC.add(1)
- if (player.C.fragements.lt(0) && player.C.points.gt(0)) player.C.points = player.C.points.sub(1), player.C.fragements = player.C.fragements.add(1000)
- if (player.C.fragements.lte(0) && player.C.points.lte(0)) player.C.fragements = player.C.fragements.times(0), player.C.Switch2 = 1, player.C.Mis1 = 0, player.C.Mis2 = 0, player.C.Mis3 = 0, player.C.Mis4 = 0, player.C.Mis5 = 0, player.C.ME1 = 0, player.C.ME2 = 0, player.C.ME3 = 0, player.C.ME4 = 0, player.C.ME5 = 0
+ if (player.N.resets >= 10)  tmp.C.Income = player.C.Carbonptm * player.N.days + player.C.Carbonftm * player.N.days + player.C.CarbonM * player.N.days + player.C.CarbonE * player.N.days + player.C.CarbonC * player.N.days + player.C.Carbonp * player.N.days * temp['C'].bars['Dummy'].effect + player.C.CarbonG * player.N.days * temp['C'].bars['Dummy'].effect + player.C.CarbonJ * player.N.days * temp['C'].bars['Dummy'].effect + player.C.CarbonB * player.N.days * temp['C'].bars['Dummy'].effect, tmp.C.JHealth = 4.5
+ 
+ if (player.C.fragements.gte(1000)) player.C.points = player.C.points.add(player.C.fragements / 1000), player.C.TotalC = player.C.TotalC.add(player.C.fragements / 1000), player.C.fragements = player.C.fragements.times(0)
+ if (player.C.fragements.lt(0) && player.C.points.gt(0)) player.C.points = player.C.points.add((player.C.fragements - 1000) / 1000), player.C.fragements = player.C.fragements.times(-1)
+ if (player.C.fragements.lte(0) && player.C.points.lte(0)) player.C.points = player.C.points.times(0), player.C.fragements = player.C.fragements.times(0), player.C.Switch2 = 1, player.C.Mis1 = 0, player.C.Mis2 = 0, player.C.Mis3 = 0, player.C.Mis4 = 0, player.C.Mis5 = 0, player.C.ME1 = 0, player.C.ME2 = 0, player.C.ME3 = 0, player.C.ME4 = 0, player.C.ME5 = 0
 
  if (player.C.points >= 1 && player.C.Nay == 1) player.C.Nay = 2
  if (player.C.points >= 10 && player.C.Nay == 2) player.C.Nay = 3
@@ -5854,10 +6171,13 @@ player.C.Day= new Decimal(0),
 
  if (player.C.Year.gte(10) && player.C.Lol == 0) player.C.Lol = 1
  if (player.C.Year.gte(20) && player.C.Lol == 1) player.C.Lol = 2
- if (player.C.Year.gte(30) && player.C.Lol == 2) player.C.Lol = 3, tmp.C.OnOff = tmp.C.OnOff.times(0), player.C.Day = player.C.Day.times(0)
+ if (player.C.Year.gte(30) && player.C.Lol == 2 && !hasUpgrade('N', 13)) player.C.Lol = 3, tmp.C.OnOff = tmp.C.OnOff.times(0), player.C.Day = player.C.Day.times(0)
+ if (player.C.Year.gte(70)) player.C.Lol = 3, tmp.C.OnOff = tmp.C.OnOff.times(0), player.C.Day = player.C.Day.times(0)
 
- if (player.C.Levelptm >= 100 && player.C.Levelftm >= 100 && player.C.LevelM >= 100 && player.C.LevelE >= 100 && player.C.LevelC >= 100 && player.C.Levelp >= 100 && player.C.LevelG >= 100 && player.C.LevelJ >= 100 && player.C.LevelB >= 100 && player.C.Levelf >= 100 && player.C.LevelJB >= 100 && player.C.Levelpe >= 100 && player.C.LevelR >= 100 && player.C.LevelD >= 100 && player.C.Levelt >= 100 && player.C.LevelW >= 100) tmp.N.complete = new Decimal(1)
- if (player.C.Res >= 1) tmp.C.eptm = getBaseLog(1000, player.C.Res) + 1 + player.C.maxptm / 10,  tmp.C.eftm = getBaseLog(1000, player.C.Res) + 1 + player.C.maxftm / 10, tmp.C.eM = getBaseLog(1000, player.C.Res) + 1 + player.C.maxM / 10, tmp.C.eE = getBaseLog(1000, player.C.Res) + 1 + player.C.maxE / 10, tmp.C.eC = getBaseLog(1000, player.C.Res) + 1 + player.C.maxC / 10, tmp.C.ep = getBaseLog(1000, player.C.Res) + 1 + player.C.maxp / 10, tmp.C.eG = getBaseLog(1000, player.C.Res) + 1 + player.C.maxG / 10, tmp.C.eJ = getBaseLog(1000, player.C.Res) + 1 + player.C.maxJ / 10, tmp.C.eB = getBaseLog(1000, player.C.Res) + 1 + player.C.maxB / 10, tmp.C.ef = getBaseLog(1000, player.C.Res) + 1 + player.C.maxf / 10, tmp.C.eJB = getBaseLog(1000, player.C.Res) + 1 + player.C.maxJB / 10, tmp.C.epe = getBaseLog(1000, player.C.Res) + 1 + player.C.maxpe / 10, tmp.C.eR = getBaseLog(1000, player.C.Res) + 1 + player.C.maxR / 10, tmp.C.eD = getBaseLog(1000, player.C.Res) + 1 + player.C.maxD / 10, tmp.C.et = getBaseLog(1000, player.C.Res) + 1 + player.C.maxt / 10, tmp.C.eW = getBaseLog(1000, player.C.Res) + 1 + player.C.maxW / 10
+ if (hasUpgrade('N', 12)) player.C.ticks = new Decimal(1)
+ if (hasMilestone('N', 3) && player.C.Levelptm >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.Levelftm >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelM >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelE >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelC >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.Levelp >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelG >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelJ >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelB >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.Levelf >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelJB >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.Levelpe >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelR >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelD >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.Levelt >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1)) && player.C.LevelW >= 100 * (player.N.complete.times(player.N.complete).times(3).add(1))) player.N.complete = player.N.complete.add(tmp.N.CG)
+ if (!hasMilestone('N', 3) && player.C.Levelptm >= 100 && player.C.Levelftm >= 100 && player.C.LevelM >= 100 && player.C.LevelE >= 100 && player.C.LevelC >= 100 && player.C.Levelp >= 100 && player.C.LevelG >= 100 && player.C.LevelJ >= 100 && player.C.LevelB >= 100 && player.C.Levelf >= 100 && player.C.LevelJB >= 100 && player.C.Levelpe >= 100 && player.C.LevelR >= 100 && player.C.LevelD >= 100 && player.C.Levelt >= 100 && player.C.LevelW >= 100) player.N.complete = new Decimal(1)
+ if (player.C.Res >= 1) tmp.C.eptm = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxptm) / 10,  tmp.C.eftm = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxftm) / 10, tmp.C.eM = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxM) / 10, tmp.C.eE = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxE) / 10, tmp.C.eC = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxC) / 10, tmp.C.ep = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxp) / 10, tmp.C.eG = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxG) / 10, tmp.C.eJ = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxJ) / 10, tmp.C.eB = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxB) / 10, tmp.C.ef = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxf) / 10, tmp.C.eJB = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxJB) / 10, tmp.C.epe = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxpe) / 10, tmp.C.eR = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxR) / 10, tmp.C.eD = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxD) / 10, tmp.C.et = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxt) / 10, tmp.C.eW = getBaseLog(1000, player.C.Res) + player.N.total.add(1).add(player.C.maxW) / 10
     },
 })
 
@@ -5866,11 +6186,11 @@ addLayer("N", {
     symbol() { return options.toggleButtonAnimations ? '' : 'N' },
     nodeStyle() {
         return options.toggleButtonAnimations ? {
-            'color': '#301934',
+            'color': '#FF00FF',
             'background-image': 'url("resources/Nitrogen.gif")',
             'background-position': 'center center',
             'background-size': '220%',
-            'border': '1px solid #301934'
+            'border': '1px solid #FF00FF'
         } : {
             'background-position': 'center center',
             'background-size': '100%'
@@ -5882,16 +6202,29 @@ addLayer("N", {
     position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
     startData() {
         return {
-            unlocked: false,
+            unlocked: true,
             total: new Decimal(0),
             points: new Decimal(0),
-            resets: new Decimal(0),   
+            resets: new Decimal(0),  
+            complete: new Decimal(0),
+            timer: new Decimal(0),
+            days: new Decimal(1),
+            ticks: new Decimal(0),
+            Xp: new Decimal(2),
         }
     },
 
-   complete: new Decimal(0),
+    medal: new Decimal(0),
+    div: new Decimal(1),
+    swap: new Decimal(0),
+    HB: new Decimal(1), 
+    CB: new Decimal(1),
+    Zero: new Decimal(0),
+    Five: new Decimal(1),
+    CG: new Decimal(1),
+    div1: new Decimal(1),
     
-    color: '#301934',
+    color: '#FF00FF',
     layerShown() {
         if (player.N.resets.gte(1)) return true
         if (player.C.Levelptm >= 100 && player.C.Levelftm >= 100 && player.C.LevelM >= 100 && player.C.LevelE >= 100 && player.C.LevelC >= 100 && player.C.Levelp >= 100 && player.C.LevelG >= 100 && player.C.LevelJ >= 100 && player.C.LevelB >= 100 && player.C.Levelf >= 100 && player.C.LevelJB >= 100 && player.C.Levelpe >= 100 && player.C.LevelR >= 100 && player.C.LevelD >= 100 && player.C.Levelt >= 100 && player.C.LevelW >= 100) return true
@@ -5899,44 +6232,355 @@ addLayer("N", {
     },
 
     onPrestige() {
-        player.N.resets = player.N.resets.add(1)
+        player.N.resets = player.N.resets.add(1), player.N.complete = new Decimal(0), player.N.ticks = new Decimal(0), player.C.Xpptm = new Decimal(5), player.C.Xpskill = new Decimal(5), tmp.C.eptm = 1, tmp.C.eftm = 1, tmp.C.eM = 1, tmp.C.eE = 1, tmp.C.eC = 1, tmp.C.ep = 1, tmp.C.eG = 1, tmp.C.eJ = 1, tmp.C.eB = 1, tmp.C.ef = 1, tmp.C.eJB = 1, tmp.C.epe = 1, tmp.C.eR = 1, tmp.C.eD = 1, tmp.C.et = 1, tmp.C.eW = 1
+        if (player.N.timer == 3) tmp.N.medal = new Decimal(3)
+        if (player.N.timer == 2) tmp.N.medal = new Decimal(2)
+        if (player.N.timer == 1) tmp.N.medal = new Decimal(1)
+        player.N.timer = new Decimal(3)
     },
 
     requires: new Decimal(1), // Can be a function that takes requirement increases into account
     resource: "Nitrogen", // Name of prestige currency
-    baseResource: "complete", // Name of resource prestige is based on
-    baseAmount() { return tmp.N.complete }, // Get the current amount of baseResource
-    requires: new Decimal(100000),
-    type: "static", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
+    baseResource: "completion(s)", // Name of resource prestige is based on
+    baseAmount() { return player.N.complete }, // Get the current amount of baseResource
+    requires: new Decimal(1),
+    type: "normal", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
     exponent: new Decimal(1), // Prestige currency exponent
     gainMult: new Decimal(1), 
     gainExp: new Decimal(1),
-    row: 1, // Row the layer is in on the tree (0 is the first row)
-    displayRow: 2,
+    row: 2, // Row the layer is in on the tree (0 is the first row)
 
     hotkeys: [
         { key: "n", description: "N: Reset for Nitrogen", onPress() { if (canReset(this.layer)) doReset(this.layer)}, 
         unlocked() { if (hasUpgrade('B', 210)) return false
         else return true}},
+        {key: "d", description: "D: Reset your life", onPress() { if (player.C.Year >= 30 && hasUpgrade('N', 13)){
+            if (player.C.maxptm < player.C.Levelptm) player.C.maxptm = player.C.Levelptm
+            if (player.C.maxftm < player.C.Levelftm) player.C.maxftm = player.C.Levelftm
+            if (player.C.maxM < player.C.LevelM) player.C.maxM = player.C.LevelM
+            if (player.C.maxE < player.C.LevelE) player.C.maxE = player.C.LevelE
+            if (player.C.maxC < player.C.LevelC) player.C.maxC = player.C.LevelC
+            if (player.C.maxp < player.C.Levelp) player.C.maxp = player.C.Levelp
+            if (player.C.maxG < player.C.LevelG) player.C.maxG = player.C.LevelG
+            if (player.C.maxJ < player.C.LevelJ) player.C.maxJ = player.C.LevelJ
+            if (player.C.maxB < player.C.LevelB) player.C.maxB = player.C.LevelB
+            if (player.C.maxf < player.C.Levelf) player.C.maxf = player.C.Levelf
+            if (player.C.maxJB < player.C.LevelJB) player.C.maxJB = player.C.LevelJB
+            if (player.C.maxpe < player.C.Levelpe) player.C.maxpe = player.C.Levelpe
+            if (player.C.maxR < player.C.LevelR) player.C.maxR = player.C.LevelR
+            if (player.C.maxD < player.C.LevelD) player.C.maxD = player.C.LevelD
+            if (player.C.maxt < player.C.Levelt) player.C.maxt = player.C.Levelt
+            if (player.C.maxW < player.C.LevelW) player.C.maxW = player.C.LevelW
+    player.C.points= new Decimal(0)
+    player.C.fragements= new Decimal(0)
+    player.C.Nay= new Decimal(1), 
+    player.C.No= new Decimal(1),
+    player.C.Yes= new Decimal(0),
+    player.C.Lol= 0,
+    player.C.Switch= new Decimal(0),
+    player.C.Switch1= new Decimal(0),
+    player.C.Switch2= new Decimal(1),
+    player.C.Year= new Decimal(1),
+    player.C.Day= new Decimal(0),
+            player.C.Levelptm= 1
+            player.C.Xpmaxptm= 100
+            player.C.Truemaxptm= 100
+            player.C.Xpptm= 5
+            player.C.XpToptm= 0
+            player.C.Carbonptm= 5
+            player.C.Levelftm= 1
+            player.C.Xpmaxftm= 100
+            player.C.Truemaxftm= 100
+            player.C.XpToftm= 0
+            player.C.Carbonftm= 9
+            player.C.LevelM= 1
+            player.C.XpmaxM= 200
+            player.C.TruemaxM= 200
+            player.C.XpToM= 0
+            player.C.CarbonM= 18
+            player.C.LevelE= 1
+            player.C.XpmaxE= 600
+            player.C.TruemaxE= 600
+            player.C.XpToE= 0
+            player.C.CarbonE= 52
+            player.C.LevelC= 1
+            player.C.XpmaxC= 800
+            player.C.TruemaxC= 800
+            player.C.XpToC= 0
+            player.C.CarbonC= 200
+            player.C.Levelp= 1
+            player.C.Xpmaxp= 100
+            player.C.Truemaxp= 100
+            player.C.XpTop= 0
+            player.C.Carbonp= 9
+            player.C.LevelG= 1
+            player.C.XpmaxG= 1000
+            player.C.TruemaxG= 1000
+            player.C.XpToG= 0
+            player.C.CarbonG= 66
+            player.C.LevelJ= 1
+            player.C.XpmaxJ= 10000
+            player.C.TruemaxJ= 10000
+            player.C.XpToJ= 0
+            player.C.CarbonJ= 157
+            player.C.LevelB= 1
+            player.C.XpmaxB= 10000
+            player.C.TruemaxB= 10000
+            player.C.XpToB= 0
+            player.C.CarbonB= 544
+            player.C.Levelf= 1
+            player.C.Xpmaxf= 100
+            player.C.Truemaxf= 100
+            player.C.Xpskill= 5
+            player.C.XpTof= 0
+            player.C.LevelJB= 1
+            player.C.XpmaxJB= 100
+            player.C.TruemaxJB= 100
+            player.C.XpToJB= 0    
+            player.C.Levelpe= 1
+            player.C.Xpmaxpe= 200
+            player.C.Truemaxpe= 200
+            player.C.XpTope= 0
+            player.C.LevelR= 1
+            player.C.XpmaxR= 50
+            player.C.TruemaxR= 50
+            player.C.XpToR= 0
+            player.C.LevelD= 1
+            player.C.XpmaxD= 100
+            player.C.TruemaxD= 100
+            player.C.XpToD= 0
+            player.C.Levelt= 1
+            player.C.Xpmaxt= 200
+            player.C.Truemaxt= 200
+            player.C.XpTot= 0
+            player.C.LevelW= 1
+            player.C.XpmaxW= 100
+            player.C.TruemaxW= 100
+            player.C.XpToW= 0
+            player.C.Mis1= new Decimal(0)
+            player.C.Mis2= new Decimal(0)
+            player.C.Mis3= new Decimal(0)
+            player.C.Mis4 = new Decimal(0)
+            player.C.Mis5 = new Decimal(0)
+            player.C.ME1 = 0
+            player.C.ME2 = 0
+            player.C.ME3 = 0
+            player.C.ME4 = 0
+            player.C.ME5 = 0
+            if (player.C.Res != 3  && player.N.resets == 0) player.C.Res = player.C.Res + 1
+            if (player.N.resets > 0) player.C.Res = player.C.Res + 1}},
+        unlocked() { if (hasUpgrade('N', 210)) return false
+        else return true}},
     ],
 
     tooltip() { return formatWhole(player.N.points) + "  Nitrogen" },
-    tooltipLocked() { return formatWhole(player.N.points) + " Nitrogen (IGNORE THIS, ORGANIC CHEMISTRY IS TO COME)" },
+    tooltipLocked() { return formatWhole(player.N.points) + " Nitrogen" },
     
     milestones: {
         1: {
-            style: { "color": "#ededed" },
-            requirementDescription: "1 Nitrogen",
+            tooltip() {
+                return "Formula is: log1000(Resets) + 1 + Total Nitrogen + Skill/Job / 10"
+            },
+            style: { "color": "#301934" },
+            requirementDescription: "1 Total Nitrogen",
             effectDescription: "Carbon restart multiplier uses a better formula.",
-            done() { return player.N.points.gte(1) },
+            done() { return player.N.total.gte(1) },
             onComplete() { player.E.points = player.E.points.add(1) },
+        },
+        2: {
+            toggles: [["C", "auto1"]],
+            style: { "color": "#301934" },
+            requirementDescription: "2 Total Nitrogen",
+            effectDescription: "Automate 1 Skill per reset. Two resets and onward.",
+            done() { return player.N.total.gte(2) },
+        },
+        3: {
+            style: { "color": "#301934" },
+            requirementDescription: "5 Total Nitrogen",
+            effectDescription: "You can get more than 1 completion. However, completes boost shop costs and Xp Left gain.",
+            done() { return player.N.total.gte(5) },
+        },
+        4: {
+            style: { "color": "#301934" },
+            requirementDescription: "10 Nitrogen Resets",
+            effectDescription: "Automate Jobs.",
+            done() { return player.N.resets.gte(10)},
+        },
+        5: {
+            toggles: [["C", "auto"]],
+            style: { "color": "#301934" },
+            requirementDescription: `Have Upgrade "Thermal Decomposition"`,
+            effectDescription: "Toggle AutoShop.",
+            done() { return hasUpgrade('N', 15)},
+        },
+        6: {
+            style: { "color": "#301934" },
+            requirementDescription: "Reset Nitrogen In Under 10 Minutes",
+            effectDescription: "Bronze Medal/Under 12,000 ticks",
+            done() { return tmp.N.medal.gte(1) },
+        },
+        7: {
+            style: { "color": "#301934" },
+            requirementDescription: "Reset Nitrogen In Under 1 Minute",
+            effectDescription: "Silver Medal/Under 1200 ticks",
+            done() { return tmp.N.medal.gte(2) },
+        },
+        8: {
+            style: { "color": "#301934" },
+            requirementDescription: "Reset Nitrogen In Under 5 Seconds",
+            effectDescription: "Gold Trophy/Under 100 ticks",
+            done() { return tmp.N.medal.gte(3)},
         },
     },
 
-onClick(){
-    options.forceOneTab = true
-},
+    clickables: {
+        11: {
+            style: {color: "#301934", 'border-radius': '0%', 'min-height': '50px', width: '80px', position: 'relative', top: '-245px', right: '-255px'},
+            title() {
+                if (tmp.N.swap == 0 && player.N.total > 0) return "Health"
+                if (tmp.N.swap == 1 && player.N.total > 0) return "Carbon"
+                else return "Nothing"},
+            tooltip() {
+                if (tmp.N.swap == 0 && player.N.total > 0) return "Boosting Health"
+                if (tmp.N.swap == 1 && player.N.total > 0) return "Boosting Carbon"
+                else return "Boosting Nothing"
+            },
+            effect() {
+                if (tmp.N.swap == 0 && player.N.total > 0) tmp.N.HB = player.N.total * 2
+                else tmp.N.HB = new Decimal(1)
+                if (tmp.N.swap == 1 && player.N.total > 0) tmp.N.CB = player.N.total * 3
+                else tmp.N.CB = new Decimal(1)
+            },
+            canClick() { return true},
+            onClick() {
+             if (tmp.N.swap == 0) tmp.N.swap = 1
+             else tmp.N.swap = 0
+            },
+        },
+    },
+    infoboxes: {
+        lore: {
+            titleStyle: { "color": "#301934" },
+            title: "Nitrogen",
+            body() { return "This one is big, you can't push me over again like last time man. You gotta name like these organic compounds correctly or you won't get any Nitrogen. The more ya get right, the better this will go. So you better guess right." },
+        },
+        lore1: {
+            titleStyle: { "color": "#301934" },
+            title: "Nitrogen",
+            body() { return "This one is fucking big, so you can't push me over again just like last time man. You gotta name like these organic compounds correctly or you won't get any Nitrogen. The more ya get right, the better this will go. So you better guess right or shit will hit the fan for us real quick." },
+        },
+    },
+
+    upgrades: {
+        11: {
+            style: { "color": "#301934" },
+            title: "Screw You Again",
+            description: "Keep screw you. Keep cost.",
+            cost() { return new Decimal(1)},
+            onPurchase() {return player.N.points = player.N.points.add(1)}
+        },
+        12: {
+            style: { "color": "#301934" },
+            title: "Rapid Decompression",
+            description: "Days happen every tick now.",
+            cost() { return new Decimal(2)},
+            onPurchase() {return player.N.Xp = player.N.Xp.times(5)}
+            
+        },
+        13: {
+            style: { "color": "#301934" },
+            title: "Organic Matter",
+            description: `Live until 70 years. You can "reset" yourself when you choose to do so (past 30 years, hotkey is D).`,
+            cost() { return new Decimal(3)},
+            
+        },
+        14: {
+            style: { "color": "#301934" },
+            title: "Borazine, The Inorganic Benzene.",
+            description: "Days happen twice as fast.",
+            cost() { return new Decimal(5)},
+            onPurchase() {return player.N.days = player.N.days.add(1), player.N.Xp = player.N.Xp.times(2)}
+        },
+        15: {
+            style: { "color": "#301934" },
+            title: "Thermal Decomposition",
+            description: "Shop items costs are divided by 2. Unlock AutoShop (toggle in milestones)",
+            cost() { return new Decimal(8)},
+        },
+        16: {
+            style: { "color": "#301934" },
+            title: "Inert Gas Asphyxiation: Capital Punishment Edition.",
+            description: "Double completion gain. Also, you start playing after Nitrogen reset.",
+            cost() { return new Decimal(13)},
+        },
+   },
+
+    tabFormat: {
+        "MainTab": {
+            content: [
+                ['upgrade', 11],
+                ['row', [
+                ['upgrade', 12],
+                ['upgrade', 13],
+                ['upgrade', 14],
+                ]],
+                ['upgrade', 15],
+                ['upgrade', 16],
+                ['display-text', 
+                function() { if (player.p.Node < 1) return 'You have made a total of ' + formatWhole(player.N.total) + ' Nitrogen and have done ' + formatWhole(player.N.resets) + ' Nitrogen resets.'}],
+                'milestones',
+                () => (options.matureMode == false) ? ['infobox', 'lore'] : ['infobox', 'lore1'],
+                "blank",
+                "main-display",
+                ['display-text',
+                function() {
+                    if (player.p.Node < 1 && tmp.N.swap == 0) return 'Your Total Nitrogen is multiplying your Health by ' + formatWhole(tmp.N.HB)
+                    if (player.p.Node < 1 && tmp.N.swap == 1) return 'Your Total Nitrogen is multiplying Carbon/day by ' + formatWhole(tmp.N.CB)
+                    }],
+                        "blank",
+                    'prestige-button',
+                    "blank",
+                    ['display-text', 
+                    function() { if (player.p.Node < 1) return '<h2>You are ' + formatWhole(player.N.ticks) + ' ticks into the run.</h2>'}],
+                    "blank",
+                ['display-text',
+                function() { if (player.p.Node < 1) return 'You have ' + formatWhole(player.N.complete) + ' completion'}],
+                ['clickables', 11],
+             ["row", function () {
+                    if (hasMilestone('N', 6)) return [ 
+                        ["display-image", 'https://i.postimg.cc/xd40rQgB/bronze-medal-paper-craft.png', { 'height': `400px`, 'width': `300px`, position: 'relative', top: '-200px', right: '-250px'}],
+                ]}],
+                ["row", function () {
+                    if (hasMilestone('N', 7)) return [ 
+                        ["display-image", 'https://i.postimg.cc/MTfzqLFH/silver-medal-paper-craft.png', { 'height': `400px`, 'width': `300px`, position: 'relative', top: '-600px', right: '250px'}],
+                ]}],
+                ["row", function () {
+                    if (hasMilestone('N', 8)) return [ 
+                        ["display-image", 'https://i.postimg.cc/0jgPQCTf/purepng-com-gold-cup-trophygolden-cupgoldtrophymedal-1421526534837pvf6x.png', { 'height': `400px`, 'width': `300px`, position: 'relative', top: '-1000px', 'z-index': '100'}],
+                ]}],
+            ]            
+        }
+    },
+
+    componentStyles:{
+        'prestige-button'() {
+             if (tmp['N'].canReset == false)return {color: "#301934"}
+             if (tmp['N'].canReset == true)return {color: "#DDA0DD", 'background-color': '#301934'}}
+    },
+
     update(){
-        if (needCanvasUpdate = true && player.tab == 'N')   options.forceOneTab = true
+        if (player.N.resets.gte(1)) player.N.ticks = player.N.ticks.add(1)
+        if (player.N.ticks.gte(100) && player.N.ticks.lte(22)) player.N.timer = new Decimal(2)
+        if (player.N.ticks.gte(1200) && player.N.ticks.lte(1210)) player.N.timer = new Decimal(1)
+        if (player.N.ticks.gte(12000) && player.N.ticks.lte(12010)) player.N.timer = new Decimal(0)
+        if (hasUpgrade('N', 11)) player.C.No = 1
+        if (hasUpgrade('N', 15)) tmp.N.div = 2
+        if (needCanvasUpdate = true && player.tab == 'N')  options.forceOneTab = true,  options.theme = themes[2], changeTheme()
+        if(hasUpgrade('N', 12)) tmp.N.Zero = 4
+        if(hasUpgrade('N', 12)) tmp.N.Five = 5
+        if(hasUpgrade('N', 16)) tmp.N.CG = 2
+        if(hasMilestone('N', 4)) player.C.Switch = 1, tmp.N.div1 = new Decimal(9)
+        if (hasUpgrade('N', 15) && player.N.ticks < 50) player.C.Switch2 = 5, player.C.Mis1 = 1, player.C.Mis2 = 1, player.C.Mis3 = 1, player.C.Mis4 = 1, player.C.Mis5 = 1, player.C.ME5 = (player.C.ME5 + 400 * player.N.days * tmp.N.Five * temp['C'].bars['Persuasion'].effect) * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME4 = (player.C.ME4 + 150 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME3 = (player.C.ME3 + 30 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME2 = (player.C.ME2 + 10 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME1 = (player.C.ME1 + 2 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div
+        if (hasUpgrade('N', 16) && player.N.ticks < 10) tmp.C.OnOff = new Decimal(1)
     }
 })

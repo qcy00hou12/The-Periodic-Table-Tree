@@ -176,6 +176,9 @@ var systemComponents = {
                 <td><button class="opt" onclick="toggleOpt('disableParticles'); needsCanvasUpdate = true">Particles: {{ options.disableParticles?"Enabled":"Disabled"}}</button></td>
 				<td><button class="opt" onclick="toggleOpt('toggleButtonAnimations'); needsCanvasUpdate = true">Layer Animations: {{ options.toggleButtonAnimations?"Enabled":"Disabled"}}</button></td>
 				</tr> 
+				<tr>
+				<td><button class="opt" onclick="toggleOpt('matureMode');needsCanvasUpdate = true">Mature Mode: {{ options.matureMode?"Enabled":"Disabled"}}</button></td>
+				</tr> 
         </table>`
     },
 

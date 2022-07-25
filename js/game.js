@@ -128,13 +128,15 @@ function canReset(layer)
 
 function rowReset(row, layer) {
 	for (lr in ROW_LAYERS[row]){
-		if(layers[lr].doReset) {
-			if (!isNaN(row)) Vue.set(player[lr], "activeChallenge", null) // Exit challenges on any row reset on an equal or higher row
+			if (tmp[layer].position > tmp[lr].position){
+				if(layers[lr].doReset) {
+					if (!isNaN(row)) 
+					Vue.set(player[lr], "activeChallenge", null) // Exit challenges on any row reset on an equal or higher row
 			run(layers[lr].doReset, layers[lr], layer)
 		}
-		else
-			if(tmp[layer].row > tmp[lr].row && !isNaN(row)) layerDataReset(lr)
+		else layerDataReset(lr)
 	}
+}
 }
 
 function layerDataReset(layer, keep = []) {
@@ -217,10 +219,8 @@ function doReset(layer, force=false) {
 
 	player.points = (row == 0 ? decimalZero : getStartPoints())
 
-	for (let x = row; x >= 0; x--) rowReset(x, layer)
-	for (r in OTHER_LAYERS){
-		rowReset(r, layer)
-	}
+
+		rowReset(row, layer)
 
 	player[layer].resetTime = 0
 

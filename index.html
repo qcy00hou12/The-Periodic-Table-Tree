@@ -128,7 +128,7 @@
 				<span style="color: #2E662F">Income/day:</span><span style="color: #00e600"><display-text :layer="'tree-tab'" :data="format(tmp.C.Income)" style="text-align: right; min-height: 20px; margin: 4px"></display-text>g</span>
 				</div>
 				<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 55px; margin-right: 12px; z-index: 1; display: inline-flex; align-items: center">
-					<span style="color: #DE2135">Expenses/day:</span><span style="color: #00e600"><display-text :layer="'tree-tab'" :data="format(tmp.C.Expenses * 5)" style="text-align: right; min-height: 20px; margin: 4px"></display-text>g</span>
+					<span style="color: #DE2135">Expenses/day:</span><span style="color: #00e600"><display-text :layer="'tree-tab'" :data="format(tmp.C.Expenses * (5 - tmp.N.Zero))" style="text-align: right; min-height: 20px; margin: 4px"></display-text>g</span>
 					</div>
 					<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 70px; margin-right: 12px; z-index: 1; display: inline-flex; align-items: center">
 						<span style="color: #4690C8">Net/day:</span><span style="color: #00e600"><display-text :layer="'tree-tab'" :data="format(tmp.C.Net)" style="text-align: right; min-height: 20px; margin: 4px"></display-text>g</span>

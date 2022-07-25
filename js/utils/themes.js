@@ -1,5 +1,5 @@
 // ************ Themes ************
-var themes = ["default", "aqua"]
+var themes = ["default", "aqua", "nitrogen"]
 
 var colors = {
 	default: {
@@ -22,6 +22,16 @@ var colors = {
 		background: "#001f3f",
 		background_tooltip: "rgba(0, 15, 31, 0.75)",
 	},
+	nitrogen: {
+		1: "#301934",
+		2: "#8F00FF",
+		3: "#DDA0DD",
+		color: "#DDA0DD",
+		points: "#FF00FF",
+		locked: "#c4a7b3",
+		background: "#301934",
+		background_tooltip: "rgba(0, 0, 0, 0.75)",
+	},
 }
 function changeTheme() {
 
@@ -38,7 +48,7 @@ function getThemeName() {
 
 function switchTheme() {
 	let index = themes.indexOf(options.theme)
-	if (options.theme === null || index >= themes.length-1 || index < 0) {
+	if (options.theme === null || index >= themes.length-2 || index < 0) {
 		options.theme = themes[0];
 	}
 	else {
