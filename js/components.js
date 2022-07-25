@@ -687,7 +687,7 @@ function loadVue() {
 		<bar :layer="layer" :data="'FullMBar'"/>
 		<display-text :layer="layer" :data="(player.C.Levelftm)"/>
 		<span style="color: #00e600"><display-text :layer="layer" :data="format(player.C.Carbonftm * player.N.days)"/>g</span>
-		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eftm * 5)"/>
+		<display-text :layer="layer" :data="formatWhole(player.C.Xpptm * tmp.C.eftm * (5 - tmp.N.Zero))"/>
 		<display-text :layer="layer" :data="formatWhole(player.C.Xpmaxftm)"/>
 		<display-text :layer="layer" :data="formatWhole(player.C.maxftm)"/>
 	</div>
