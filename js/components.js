@@ -576,14 +576,6 @@ function loadVue() {
 	`
 	})
 
-
-	Vue.component('strict-text-input', {
-		props: ['layer', 'data', 'defaultValue'],
-		template: `
-			<input class="instant" :id="'input-' + layer + '-' + data" :value="player[layer][data].toString()" v-on:focus="focused(true)" v-on:blur="focused(false)"
-			v-on:change="player[layer][data] = document.getElementById('input-' + layer + '-' + data).value">
-		`
-	})
 	
 	// Updates the value in player[layer][data]
 	Vue.component('text-input', {
@@ -598,6 +590,14 @@ function loadVue() {
 		props: ['layer', 'data', 'defaultValue'],
 		template: `
 			<input class="instant" :id="'input-' + layer + '-' + data" :value="player[layer][data].toString()" v-on:focus="focused(true)" v-on:blur="focused(false)"
+			v-on:change="player[layer][data] = document.getElementById('input-' + layer + '-' + data).value">
+		`
+	  })
+
+	  Vue.component('strict-text-input1', {
+		props: ['layer', 'data', 'defaultValue'],
+		template: `
+			<input class="instant" :id="'input-' + layer + '-' + data" :value="player[layer][data].toString()" style="font-size:18pt; width: 300px; height: 50px;" v-on:focus="focused(true)" v-on:blur="focused(false)"
 			v-on:change="player[layer][data] = document.getElementById('input-' + layer + '-' + data).value">
 		`
 	  })

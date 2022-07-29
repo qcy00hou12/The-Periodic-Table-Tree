@@ -134,6 +134,10 @@ td {
 	transition-duration: 0s !important
 }
 
+.instant1 {
+	transition-duration: 0s !important
+}
+
 .fast {
 	transition:color none
 }

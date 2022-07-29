@@ -6130,6 +6130,7 @@ addLayer("N", {
             days: new Decimal(1),
             ticks: new Decimal(0),
             Xp: new Decimal(2),
+            Otext: 'Enter Organic Compound Nomenclature',
         }
     },
 
@@ -6481,7 +6482,7 @@ addLayer("N", {
                         ["display-image", 'https://i.postimg.cc/0jgPQCTf/purepng-com-gold-cup-trophygolden-cupgoldtrophymedal-1421526534837pvf6x.png', { 'height': `400px`, 'width': `300px`, position: 'relative', top: '-800px', 'z-index': '100'}],
                 ]}],
             ]            
-        }
+        },
     },
 
     componentStyles:{
