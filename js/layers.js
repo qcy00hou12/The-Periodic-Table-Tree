@@ -5788,7 +5788,7 @@ player.C.Day= new Decimal(0),
         "MainTab": {
             content: [
                 () => (options.matureMode == false) ? ['infobox', 'lore'] : ['infobox', 'lore1'],
-                    ['clickabe', 32],
+                    ['clickable', 32],
                     ['clickable', 41],  
                     ['display-text',
                     function() { if (hasMilestone('N', 3)) return '<h2>You have ' + formatWhole(player.N.complete) + ' completon(s) and need ' + formatWhole(100 * (player.N.complete.times(player.N.complete).times(3).add(1))) + ' of all Jobs and Skills for ' + formatWhole(tmp.N.CG) +' more completion(s).</h2>'}],                 
@@ -5907,7 +5907,7 @@ player.C.Day= new Decimal(0),
                     ['display-text', 
                         function() { if (player.C.Levelt >= 40 && player.C.LevelG >= 10 || player.N.resets >= 10) return '<u style="color: #70716B">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>'}],
                     ['display-text',
-                        function() { if (player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelD < 100 && player.N.resets < 10 || player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelJ < 10 ) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/100 and Jewelry Store level ' + formatWhole(player.C.LevelJ) + '/10</span>'}],
+                        function() { if (player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelD < 100 && player.N.resets < 10 || player.C.Levelt >= 40 && player.C.LevelG >= 10 && player.C.LevelJ < 10 && player.N.resets < 10) return '<span style="color: #70716B">Required: Dummy level ' + formatWhole(player.C.LevelD) + '/100 and Jewelry Store level ' + formatWhole(player.C.LevelJ) + '/10</span>'}],
                         () => (player.C.LevelD >= 100 && player.C.LevelJ >= 10 || player.N.resets >= 10) ? "blank" : "",
                         () => (player.C.LevelD >= 100 && player.C.LevelJ >= 10 || player.N.resets >= 10) ? 'Job9-grid' : "",
                         ['display-text', 
@@ -6151,11 +6151,12 @@ addLayer("N", {
     },
 
     onPrestige() {
-        player.N.resets = player.N.resets.add(1), player.N.complete = new Decimal(0), player.N.ticks = new Decimal(0), player.C.Xpptm = new Decimal(5), player.C.Xpskill = new Decimal(5), tmp.C.eptm = 1, tmp.C.eftm = 1, tmp.C.eM = 1, tmp.C.eE = 1, tmp.C.eC = 1, tmp.C.ep = 1, tmp.C.eG = 1, tmp.C.eJ = 1, tmp.C.eB = 1, tmp.C.ef = 1, tmp.C.eJB = 1, tmp.C.epe = 1, tmp.C.eR = 1, tmp.C.eD = 1, tmp.C.et = 1, tmp.C.eW = 1
-        if (player.N.timer == 3) tmp.N.medal = new Decimal(3)
-        if (player.N.timer == 2) tmp.N.medal = new Decimal(2)
         if (player.N.timer == 1) tmp.N.medal = new Decimal(1)
+        if (player.N.timer == 2) tmp.N.medal = new Decimal(2)
+        if (player.N.timer == 3) tmp.N.medal = new Decimal(3)
         player.N.timer = new Decimal(3)
+        player.N.resets = player.N.resets.add(1), player.N.complete = new Decimal(0), player.N.ticks = new Decimal(0), player.C.Xpptm = new Decimal(5), player.C.Xpskill = new Decimal(5), tmp.C.eptm = 1, tmp.C.eftm = 1, tmp.C.eM = 1, tmp.C.eE = 1, tmp.C.eC = 1, tmp.C.ep = 1, tmp.C.eG = 1, tmp.C.eJ = 1, tmp.C.eB = 1, tmp.C.ef = 1, tmp.C.eJB = 1, tmp.C.epe = 1, tmp.C.eR = 1, tmp.C.eD = 1, tmp.C.et = 1, tmp.C.eW = 1
+        
     },
 
     requires: new Decimal(1), // Can be a function that takes requirement increases into account
@@ -6316,7 +6317,7 @@ addLayer("N", {
         3: {
             style: { "color": "#301934" },
             requirementDescription: "5 Total Nitrogen",
-            effectDescription: "You can get more than 1 completion. However, completes boost shop costs and Xp Left gain.",
+            effectDescription: "You can get more than 1 completion. However, completions boost shop costs and Xp Left gain.",
             done() { return player.N.total.gte(5) },
         },
         4: {
@@ -6356,12 +6357,12 @@ addLayer("N", {
         11: {
             style: {color: "#301934", 'border-radius': '0%', 'min-height': '50px', width: '80px', position: 'relative', top: '-245px', right: '-255px'},
             title() {
-                if (tmp.N.swap == 0 && player.N.total > 0) return "Health"
-                if (tmp.N.swap == 1 && player.N.total > 0) return "Carbon"
+                if (tmp.N.swap == 0 && player.N.total > 0 && !hasUpgrade('N', 14)) return "Health"
+                if (tmp.N.swap == 1 && player.N.total > 0 && !hasUpgrade('N', 14)) return "Carbon"
                 else return "Nothing"},
             tooltip() {
-                if (tmp.N.swap == 0 && player.N.total > 0) return "Boosting Health"
-                if (tmp.N.swap == 1 && player.N.total > 0) return "Boosting Carbon"
+                if (tmp.N.swap == 0 && player.N.total > 0 && !hasUpgrade('N', 14)) return "Boosting Health"
+                if (tmp.N.swap == 1 && player.N.total > 0 && !hasUpgrade('N', 14)) return "Boosting Carbon/day"
                 else return "Boosting Nothing"
             },
             effect() {
@@ -6369,6 +6370,7 @@ addLayer("N", {
                 else tmp.N.HB = new Decimal(1)
                 if (tmp.N.swap == 1 && player.N.total > 0) tmp.N.CB = player.N.total * 3
                 else tmp.N.CB = new Decimal(1)
+                if (hasUpgrade('N', 14)) tmp.N.HB = player.N.total * 2, tmp.N.CB = player.N.total * 3
             },
             canClick() { return true},
             onClick() {
@@ -6416,7 +6418,7 @@ addLayer("N", {
         14: {
             style: { "color": "#301934" },
             title: "Borazine, The Inorganic Benzene.",
-            description: "Days happen twice as fast.",
+            description: "Days happen twice as fast and your Nitrogen boosts your Health and Carbon/day.",
             cost() { return new Decimal(5)},
             onPurchase() {return player.N.days = player.N.days.add(1), player.N.Xp = player.N.Xp.times(2)}
         },
@@ -6453,8 +6455,9 @@ addLayer("N", {
                 "main-display",
                 ['display-text',
                 function() {
-                    if (player.p.Node < 1 && tmp.N.swap == 0) return 'Your Total Nitrogen is multiplying your Health by ' + formatWhole(tmp.N.HB)
-                    if (player.p.Node < 1 && tmp.N.swap == 1) return 'Your Total Nitrogen is multiplying Carbon/day by ' + formatWhole(tmp.N.CB)
+                    if (player.p.Node < 1 && tmp.N.swap == 0 && !hasUpgrade('N', 14)) return 'Your Total Nitrogen is multiplying your Health by ' + formatWhole(tmp.N.HB)
+                    if (player.p.Node < 1 && tmp.N.swap == 1 && !hasUpgrade('N', 14)) return 'Your Total Nitrogen is multiplying Carbon/day by ' + formatWhole(tmp.N.CB)
+                    if (player.p.Node < 1 && hasUpgrade('N', 14)) return 'Your Total Nitrogen is multiplying Carbon/day by ' + formatWhole(tmp.N.CB) + ' and your Health by ' + formatWhole(tmp.N.HB)
                     }],
                         "blank",
                     'prestige-button',
@@ -6464,18 +6467,18 @@ addLayer("N", {
                     "blank",
                 ['display-text',
                 function() { if (player.p.Node < 1) return 'You have ' + formatWhole(player.N.complete) + ' completion'}],
-                ['clickables', 11],
+                () => (hasUpgrade('N', 14)) ? '' : ['clickables', 11],
              ["row", function () {
                     if (hasMilestone('N', 6)) return [ 
-                        ["display-image", 'https://i.postimg.cc/xd40rQgB/bronze-medal-paper-craft.png', { 'height': `400px`, 'width': `300px`, position: 'relative', top: '-200px', right: '-250px'}],
+                        ["display-image", 'https://i.postimg.cc/xd40rQgB/bronze-medal-paper-craft.png', { 'height': `400px`, 'width': `300px`, position: 'relative', right: '-250px'}],
                 ]}],
                 ["row", function () {
                     if (hasMilestone('N', 7)) return [ 
-                        ["display-image", 'https://i.postimg.cc/MTfzqLFH/silver-medal-paper-craft.png', { 'height': `400px`, 'width': `300px`, position: 'relative', top: '-600px', right: '250px'}],
+                        ["display-image", 'https://i.postimg.cc/MTfzqLFH/silver-medal-paper-craft.png', { 'height': `400px`, 'width': `300px`, position: 'relative', top: '-400px', right: '250px'}],
                 ]}],
                 ["row", function () {
                     if (hasMilestone('N', 8)) return [ 
-                        ["display-image", 'https://i.postimg.cc/0jgPQCTf/purepng-com-gold-cup-trophygolden-cupgoldtrophymedal-1421526534837pvf6x.png', { 'height': `400px`, 'width': `300px`, position: 'relative', top: '-1000px', 'z-index': '100'}],
+                        ["display-image", 'https://i.postimg.cc/0jgPQCTf/purepng-com-gold-cup-trophygolden-cupgoldtrophymedal-1421526534837pvf6x.png', { 'height': `400px`, 'width': `300px`, position: 'relative', top: '-800px', 'z-index': '100'}],
                 ]}],
             ]            
         }
@@ -6489,7 +6492,7 @@ addLayer("N", {
 
     update(){
         if (player.N.resets.gte(1)) player.N.ticks = player.N.ticks.add(1)
-        if (player.N.ticks.gte(100) && player.N.ticks.lte(22)) player.N.timer = new Decimal(2)
+        if (player.N.ticks.gte(103)) player.N.timer = new Decimal(2)
         if (player.N.ticks.gte(1200) && player.N.ticks.lte(1210)) player.N.timer = new Decimal(1)
         if (player.N.ticks.gte(12000) && player.N.ticks.lte(12010)) player.N.timer = new Decimal(0)
         if (hasUpgrade('N', 11)) player.C.No = 1
@@ -6499,7 +6502,7 @@ addLayer("N", {
         if(hasUpgrade('N', 12)) tmp.N.Five = 5
         if(hasUpgrade('N', 16)) tmp.N.CG = 2
         if(hasMilestone('N', 4)) player.C.Switch = new Decimal(1), tmp.N.div1 = new Decimal(9)
-        if (hasUpgrade('N', 15) && player.N.ticks < 50) player.C.Switch2 = 5, player.C.Mis1 = 1, player.C.Mis2 = 1, player.C.Mis3 = 1, player.C.Mis4 = 1, player.C.Mis5 = 1, player.C.ME5 = (player.C.ME5 + 400 * player.N.days * tmp.N.Five * temp['C'].bars['Persuasion'].effect) * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME4 = (player.C.ME4 + 150 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME3 = (player.C.ME3 + 30 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME2 = (player.C.ME2 + 10 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME1 = (player.C.ME1 + 2 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div
-        if (hasUpgrade('N', 16) && player.N.ticks < 10) tmp.C.OnOff = new Decimal(1)
+        if (hasUpgrade('N', 15) && player.C.auto && tmp.C.Income > ((200 * player.N.days * ((player.N.complete * 20.5) + 1) * tmp.N.Five * temp['C'].bars['Persuasion'].effect) / tmp.N.div) + ((player.C.ME1 + 2 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div) + ((player.C.ME2 + 10 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div) + ((player.C.ME3 + 30 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div) + ((player.C.ME4 + 150 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div) + ((player.C.ME5 + 400 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div)) player.C.Switch2 = 5, player.C.Mis1 = 1, player.C.Mis2 = 1, player.C.Mis3 = 1, player.C.Mis4 = 1, player.C.Mis5 = 1, player.C.ME5 = (player.C.ME5 + 400 * player.N.days * tmp.N.Five * temp['C'].bars['Persuasion'].effect) * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME4 = (player.C.ME4 + 150 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME3 = (player.C.ME3 + 30 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME2 = (player.C.ME2 + 10 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div, player.C.ME1 = (player.C.ME1 + 2 * tmp.N.Five * player.N.days * temp['C'].bars['Persuasion'].effect)  * ((player.N.complete * 20.5) + 1) / tmp.N.div
+        if (hasUpgrade('N', 16) && player.N.ticks < 10) tmp.C.OnOff = new Decimal(1) 
     }
 })
