@@ -126,11 +126,11 @@ function canReset(layer)
 		return false
 }
 
-function rowReset(row, layer) {
-	for (lr in ROW_LAYERS[row]){
+function rowReset(row, layer){
+const rowArray = Object.keys(ROW_LAYERS[row]).sort((a,b) => tmp[b].position - tmp[a].position)
+	for (lr of rowArray){
 			if (tmp[layer].position > tmp[lr].position){
 				if(layers[lr].doReset) {
-					if (!isNaN(row)) 
 					Vue.set(player[lr], "activeChallenge", null) // Exit challenges on any row reset on an equal or higher row
 			run(layers[lr].doReset, layers[lr], layer)
 		}
