@@ -2,26 +2,6 @@ function Timer() {
   if (tmp.N.start == 1) tmp.N.level = tmp.N.level.add(1), tmp.N.start = new Decimal(1), tmp.N.Start = setTimeout(Timer, 10000)
   }
 
-
-
-const PartL = {
-    image() {   
-       return 'https://i.postimg.cc/SQTdJZVM/lightning-bolt-transparent-background-lightning-transparent-11562918534vgs0gehr9q.png'},
-       onClick(){
-        
-     },
-    onMouseOver(){
-        if (tmp.N.BA.lt(1000)) tmp.N.BA = tmp.N.BA.add(10)
-     },
-
-    style: { "background-size": "100% 100%", color: '#ffa07a', 'text-shadow': '0 0 40px #fff'},
-    gravity: 0,
-    time: 1,
-    speed() { // Randomize speed a bit
-        return 0 
-    },
-},
-
 IMAGE_STRING =`https://i.postimg.cc/mDNWZK0v/Methylamine-svg.png
 https://i.postimg.cc/k463KBRd/Propane-2-D-flat.png
 https://i.postimg.cc/J7pYM1sN/istockphoto-1065479358-170667a-removebg-preview-2.png
@@ -6894,6 +6874,25 @@ addLayer("N", {
             return (Math.random() + 1.2) * 8  
         },
     },
+    
+    const: PartL = {
+        image() {   
+           return 'https://i.postimg.cc/SQTdJZVM/lightning-bolt-transparent-background-lightning-transparent-11562918534vgs0gehr9q.png'},
+           onClick(){
+            
+         },
+        onMouseOver(){
+            if (tmp.N.BA.lt(1000)) tmp.N.BA = tmp.N.BA.add(10)
+         },
+    
+        style: { "background-size": "100% 100%", color: '#ffa07a', 'text-shadow': '0 0 40px #fff'},
+        gravity: 0,
+        time: 1,
+        speed() { // Randomize speed a bit
+            return 0 
+        },
+    },
+    
 
     update(){ 
         if(tmp.N.level.gt(player.N.HLevel)) player.N.HLevel = tmp.N.level
