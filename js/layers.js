@@ -48,7 +48,8 @@ function getRandomWordfi(){
 }
 
 function getRandomWord(){
-    if (player.N.Otext != player.N.word) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), makeShinies(PartNN, 10), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1), player.N.Otext = 'Answer will input if mouse clicks off the input box or on enter'
+    if (player.N.Otext != player.N.word && options.disableParticles == true) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), makeShinies(PartNN, 10), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1), player.N.Otext = 'Answer will input if mouse clicks off the input box or on enter'
+    if (player.N.Otext != player.N.word && options.disableParticles == false) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1), player.N.Otext = 'Answer will input if mouse clicks off the input box or on enter'
     if (player.N.Otext == player.N.word && options.disableParticles == true) player.N.Otext = '', player.N.combo = player.N.combo.add(new Decimal(1).times(tmp.N.mult)), makeShinies(PartN, 10), player.N.points = player.N.points.add(tmp.N.add)
     if (player.N.Otext == player.N.word && options.disableParticles == false) player.N.Otext = '', player.N.combo = player.N.combo.add(1), player.N.points = player.N.points.add(tmp.N.add)
     let id = Math.floor(Math.random()*WORD_LIST.length)
@@ -6874,7 +6875,7 @@ addLayer("N", {
             return (Math.random() + 1.2) * 8  
         },
     },
-    
+
     const: PartL = {
         image() {   
            return 'https://i.postimg.cc/SQTdJZVM/lightning-bolt-transparent-background-lightning-transparent-11562918534vgs0gehr9q.png'},
