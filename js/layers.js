@@ -90,6 +90,12 @@ addLayer("R", {
 
     tabFormat: [
         ['display-text', '<h1>Reviews Of The Periodic Table Tree</h1><div>Link To Create A Review: <a href="https://forums.moddingtree.com/t/reviews-for-the-periodic-table-tree/702" target="_blank" rel="noopener noreferrer">The Periodic Table Tree: Save Files</a>'],
+        "blank", "blank", "blank", "blank",
+        ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
+        "blank",
+        ['display-image', 'https://i.postimg.cc/yNpdYhP7/Screenshot-2022-07-31-015607.jpg'],
+        ['display-text', 'Rating: ★☆☆☆☆'],
+        ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
     ]
 })
 
