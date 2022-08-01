@@ -2,60 +2,100 @@ function Timer() {
   if (tmp.N.start == 1) tmp.N.level = tmp.N.level.add(1), tmp.N.start = new Decimal(1), tmp.N.Start = setTimeout(Timer, 10000)
   }
 
-IMAGE_STRING =`https://i.postimg.cc/mDNWZK0v/Methylamine-svg.png
-https://i.postimg.cc/k463KBRd/Propane-2-D-flat.png
-https://i.postimg.cc/J7pYM1sN/istockphoto-1065479358-170667a-removebg-preview-2.png
-https://i.postimg.cc/kXxcDq4Y/industrial-chemicals4-250x250-250x250-250x250-removebg-preview.png
-https://i.postimg.cc/QMfgRZk6/Fenyloaceton-svg.png
-https://i.postimg.cc/N0r1szck/Acetone-2-D-skeletal-svg.png
-https://i.postimg.cc/6qDKXqL0/1920px-Ethanol-2-D-flat-svg.png
-https://i.postimg.cc/tCjy2ZJq/Difference-Between-Phenylamine-and-Aminobenzene-Figure-1.png
-https://i.postimg.cc/2jxVf3G2/molecular-structure-PROD0000094.png
-https://i.postimg.cc/J077hcxK/Butane-2-D-flat.png
-https://i.postimg.cc/XqDWYMp7/003-methane-formula.png
-https://i.postimg.cc/4NqZCTDW/octane01.png
-https://i.postimg.cc/TY7sFqDG/1-Bromo-2-methylpropane-removebg-preview.png
-https://i.postimg.cc/hPkLXXFT/image-removebg-preview.png
-https://i.postimg.cc/jd4fSZX0/generate-image-removebg-preview.png
-https://i.postimg.cc/gk2z3spP/chemical-structure-cas-624-16-8-jpg-650-removebg-preview.png`
+IMAGE_STRING =`https://i.postimg.cc/gJyyHjs7/Methylamine-svg-removebg-preview.png
+https://i.postimg.cc/157GHL0y/Propane-2-D-flat-removebg-preview.png
+https://i.postimg.cc/9M2Z0V2Y/istockphoto-1065479358-170667a-removebg-preview-2-removebg-preview.png
+https://i.postimg.cc/1X5F0Hfg/industrial-chemicals4-250x250-250x250-250x250-removebg-preview-removebg-preview.png
+https://i.postimg.cc/BnDjKyMY/Fenyloaceton-svg-removebg-preview.png
+https://i.postimg.cc/N0kLNXhR/Acetone-2-D-skeletal-svg-removebg-preview.png
+https://i.postimg.cc/tRMJmycv/1920px-Ethanol-2-D-flat-svg-removebg-preview.png
+https://i.postimg.cc/t40Tpkph/Difference-Between-Phenylamine-and-Aminobenzene-Figure-1-removebg-preview.png
+https://i.postimg.cc/Y2Z2zR4J/molecular-structure-PROD0000094-removebg-preview.png
+https://i.postimg.cc/xjMMw6rS/Butane-2-D-flat-removebg-preview.png
+https://i.postimg.cc/vHSn9kff/003-methane-formula-removebg-preview.png
+https://i.postimg.cc/KYmgyb2X/octane01-removebg-preview.png
+https://i.postimg.cc/QdQ0bjbv/1-Bromo-2-methylpropane-removebg-preview-removebg-preview.png
+https://i.postimg.cc/qMk55ht4/image-removebg-preview-removebg-preview.png
+https://i.postimg.cc/CLk65GWG/generate-image-removebg-preview-removebg-preview.png
+https://i.postimg.cc/MTyvvK8K/chemical-structure-cas-624-16-8-jpg-650-removebg-preview-removebg-preview.png`
 
 IMAGE_LIST = IMAGE_STRING.split("\n")
 
-WORD_STRING =`methanamine
-propane
-pentane
-trichloromethane
-phenyl-2-propanone
-propanone
-ethanol
-phenylamine
-2-chlorophenol
-butane
-methane
-octane
-1-bromo-2-methylpropane
-1-fluoropentane
-1-chloro-2-fluoropentane
-4-decanone`
+WORD_STRING =`Methanamine
+Propane
+Pentane
+Trichloromethane
+Phenyl-2-propanone
+Propanone
+Ethanol
+Phenylamine
+2-Chlorophenol
+Butane
+Methane
+Octane
+1-Bromo-2-methylpropane
+1-Fluoropentane
+1-Chloro-1-fluoro-pentane
+4-Decanone`
 
 WORD_LIST = WORD_STRING.split("\n")
 
+ALT_STRING =`Methylamine
+Tricarbane
+Quintane
+1-Trichloro-methane
+1-Phenyl-2-propanone
+Propan-2-one
+Ethylol
+Benzenamine
+2-Hydroxychlorobenzene
+Tetracarbane
+Carbane
+Octane
+1-Bromo-2-methyl-propane
+1-Fluoro-pentane
+1-Chlorofluoropentane
+Decanone`
+
+ALT_LIST = ALT_STRING.split("\n")
+
+HINT_STRING =`HINT FOR FAILED WORD: Methan_ _ _ _ _
+HINT FOR FAILED WORD: Prop_ _ _
+HINT FOR FAILED WORD: Pent_ _ _
+HINT FOR FAILED WORD: Tri_ _ _ _ _ _methane
+HINT FOR FAILED WORD: Ph_ _ _ _-2-propan_ _ _
+HINT FOR FAILED WORD: Propan_ _ _
+HINT FOR FAILED WORD: Ethan_ _
+HINT FOR FAILED WORD: _ _ _ _ _ _amine
+HINT FOR FAILED WORD: 2-_ _ _ _ _ _phen_ _
+HINT FOR FAILED WORD: _ _ _ane
+HINT FOR FAILED WORD: _ _ _ _ane
+HINT FOR FAILED WORD: _ _ _ane
+HINT FOR FAILED WORD: 1-_ _ _ _ _-2-me_ _ _ _propane
+HINT FOR FAILED WORD: 1-_ _ _ _ _ _pent_ _ _
+HINT FOR FAILED WORD: 1-_ _ _ _ _ _-1-_ _ _ _ _ _-pent_ _ _
+HINT FOR FAILED WORD: _-Decan_ _ _`
+
+HINT_LIST = HINT_STRING.split("\n")
+
 function getRandomWordfi(){
-    let id = Math.floor(Math.random()*WORD_LIST.length)
-    player.N.word = WORD_LIST[id]
-    player.N.image = IMAGE_LIST[id] 
+    player.N.id = Math.floor(Math.random()*WORD_LIST.length)
+    player.N.word = WORD_LIST[player.N.id]
+    player.N.alt = ALT_LIST[player.N.id]
+    player.N.image = IMAGE_LIST[player.N.id] 
 
 }
 
 function getRandomWord(){
-    if (player.N.Otext != player.N.word && options.disableParticles == true) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), makeShinies(PartNN, 10), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1), player.N.Otext = 'Answer will input if mouse clicks off the input box or on enter'
-    if (player.N.Otext != player.N.word && options.disableParticles == false) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1), player.N.Otext = 'Answer will input if mouse clicks off the input box or on enter'
-    if (player.N.Otext == player.N.word && options.disableParticles == true) player.N.Otext = '', player.N.combo = player.N.combo.add(new Decimal(1).times(tmp.N.mult)), makeShinies(PartN, 10), player.N.points = player.N.points.add(tmp.N.add)
-    if (player.N.Otext == player.N.word && options.disableParticles == false) player.N.Otext = '', player.N.combo = player.N.combo.add(1), player.N.points = player.N.points.add(tmp.N.add)
-    let id = Math.floor(Math.random()*WORD_LIST.length)
-    player.N.word = WORD_LIST[id]
-    player.N.image = IMAGE_LIST[id] 
-
+    if(player.N.Otext != player.N.word && player.N.Otext != player.N.alt) player.N.Otext = HINT_LIST[player.N.id]
+    if(player.N.Otext != player.N.word && options.disableParticles == true && player.N.Otext != player.N.alt) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), makeShinies(PartNN, 10), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1)
+    if(player.N.Otext != player.N.word && options.disableParticles == false && player.N.Otext != player.N.alt) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1), player.N.Otext = 'Answer will input if mouse clicks off the input box or on enter'
+    if(player.N.Otext == player.N.word && options.disableParticles == true || player.N.Otext == player.N.alt && options.disableParticles == true) player.N.Otext = '', player.N.combo = player.N.combo.add(new Decimal(1).times(tmp.N.mult)), makeShinies(PartN, 10), player.N.points = player.N.points.add(tmp.N.add)
+    if(player.N.Otext == player.N.word && options.disableParticles == false || player.N.Otext == player.N.alt && options.disableParticles == false) player.N.Otext = '', player.N.combo = player.N.combo.add(1), player.N.points = player.N.points.add(tmp.N.add)
+    player.N.id = Math.floor(Math.random()*WORD_LIST.length)
+    player.N.word = WORD_LIST[player.N.id]
+    player.N.alt = ALT_LIST[player.N.id]
+    player.N.image = IMAGE_LIST[player.N.id]
 }
 
 function getBaseLog(x, y) {
@@ -100,18 +140,23 @@ addLayer("R", {
     layerShown() {
        return true
     },
-
     tooltip() {
        return "Reviews"
     },
 
     tabFormat: [
-        ['display-text', '<h1>Reviews Of The Periodic Table Tree</h1><div>Link To Create A Review: <a href="https://forums.moddingtree.com/t/reviews-for-the-periodic-table-tree/702" target="_blank" rel="noopener noreferrer">The Periodic Table Tree: Save Files</a>'],
+        ['display-text', '<h1>Reviews Of The Periodic Table Tree</h1><div>Link To Create A Review: <a href="https://forums.moddingtree.com/t/reviews-for-the-periodic-table-tree/702" target="_blank" rel="noopener noreferrer">Reviews</a>'],
         "blank", "blank", "blank", "blank",
         ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
         "blank",
         ['display-image', 'https://i.postimg.cc/yNpdYhP7/Screenshot-2022-07-31-015607.jpg'],
-        ['display-text', 'Rating: ★☆☆☆☆'],
+        ['display-text', 'Rating: ★✰✰✰✰'],
+        ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
+        "blank",
+        ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
+        "blank",
+        ['display-image', 'https://i.postimg.cc/5yh12Qmy/Screenshot-2022-07-31-174637.jpg', { width: '600px'}],
+        ['display-text', 'Rating: ★★★★✫'],
         ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
     ]
 })
@@ -6254,6 +6299,7 @@ addLayer("N", {
     startData() {
         return {
             unlocked: true,
+            id: new Decimal(0),
             total: new Decimal(0),
             points: new Decimal(0),
             resets: new Decimal(0),  
@@ -6264,10 +6310,12 @@ addLayer("N", {
             Xp: new Decimal(2),
             Otext: 'Enter Organic Compound Nomenclature',
             word: '',
+            alt: '',
             image: '',
             combo: new Decimal(0),
             HLevel: new Decimal(0),
             failed: new Decimal(0),
+            Ntext: 'This is your note pad, you can make it whatever size you want by dragging the thing in the bottom right. You can even copy hints in here *wink* *wink*',
         }
     },
 
@@ -6711,6 +6759,20 @@ addLayer("N", {
         },
    },
 
+   clickables: {
+   11: {
+    style: {color: "#301934", 'border-radius': '0%', 'min-height': '10px', width: '100px'},
+    title: "Submit",
+    tooltip() {
+        return 'Submit Your Answer.'
+    },
+    canClick() { return true},
+    onClick() {
+    getRandomWord()
+    },
+  },
+},
+
     tabFormat: {
         "MainTab": {
             content: [
@@ -6761,10 +6823,11 @@ addLayer("N", {
         },
         "Organic": {
             content: [
+                ['clickable', 11],
                 ["strict-text-input1", "Otext"],
-                "blank",
+                ['strict-text-box', "Ntext"],
                 ['display-text', 
-                function() { if (player.p.Node == 1) return 'What is this organic chemical compound? Put the answer in the Helium Textbox.'}],
+                function() { if (player.p.Node == 1) return 'What is this organic chemical compound? Put the answer in the Helium Inputbox.'}],
                 ["display-image",
                 function() { if (player.p.Node == 1) return 'https://i.postimg.cc/yxQBnL35/Racemic-methamphetamine-svg.png'}],
                 ["display-image1", function(){
@@ -6792,28 +6855,29 @@ addLayer("N", {
         "Help": {
             content: [
                 ['display-text', 
-                function() { if (player.p.Node < 1) return '1. Identify and count the longest chain of carbon atoms. In this case it is 7. Reminder: ONLY USE LOWERCASE.'}],
+                function() { return '1. Identify and count the longest chain of carbon atoms. In this case it is 7. Reminder: ONLY THE FIRST LETTER IS IN UPPERCASE.'}],
                 ["display-image", 'https://i.postimg.cc/ht0RQrYg/Screenshot-2022-07-29-204808-removebg-preview.png'],
                 ['display-text', 
-                function() { if (player.p.Node < 1) return '2. Name the longest carbon chain. Since the number of carbon atoms in our chain is 7, our corresponding root is hept.'}],
+                function() { return '2. Name the longest carbon chain. Since the number of carbon atoms in our chain is 7, our corresponding root is hept.'}],
                 "blank",
                 ["display-image", 'https://i.postimg.cc/MK7pt1L3/Screenshot-2022-07-29-210244.jpg', { 'height': `400px`, 'width': `300px`}],
                 "blank",
                 ['display-text', 
-                function() { if (player.p.Node < 1) return '3. Find the suffix based on the functional group (a specific group of molecules you can easily spot in a compound). In this chemical compound the functional group alkane is present. We take the suffix of that (-ane) and add it to hept giving us heptane. If it was -ol, it would be heptanol.'}],
+                function() { return '3. Find the suffix based on the functional group (a specific group of molecules you can easily spot in a compound). In this chemical compound the functional group alkyl/alkane is present. We take the suffix of that (-ane) and add it to hept giving us heptane. If it was -ol, it would be heptanol. If it was -al, it would be heptanal. The first chart is in order from what should be listed first to last. The second chart is for further aid on what suffix to use based on the functional group.'}],
                 "blank",
+                ["display-image", 'https://i.postimg.cc/5yWWcYqm/8de018dfc766430399fbcebc6a9ea556.jpg', { 'height': `600px`, 'width': `500px`}],
                 ["display-image", 'https://i.postimg.cc/NFhr2ByK/Screenshot-2022-07-29-210949.jpg', { 'height': `400px`, 'width': `300px`}],
                 "blank",
                 ['display-text', 
-                function() { if (player.p.Node < 1) return '4. Number the longest carbon atom chain by which side aproaches the side group(s) the first. In this case both sides reach the side group on 4. Keep 4- in mind.'}],
+                function() {  return '4. Number the longest carbon atom chain by which side aproaches the side group(s) the first. In this case both sides reach the side group on 4. Keep 4- in mind.'}],
                 ["display-image", 'https://i.postimg.cc/FHqPCk88/naming-compounds-step5.png'],
                 ['display-text', 
-                function() { if (player.p.Node < 1) return '5. Name the side group(s). In this side group, we have a bromine atom bonded to a carbon atom. Check the chart below for the prefixes or suffixes. If there is two identical side groups then put the prefix -di, -tri, ect. Based on this and the previous step we get 4-bromomethyl. Overall, our organic chemical compound is 4-bromomethyl heptane'}],
+                function() { return '5. Name the side group(s). In this side group, we have a bromine atom bonded to a carbon atom. Check the chart below for the prefixes or suffixes. If there is two identical side groups then put the prefix -di, -tri, ect. Since -bromo comes before -methyl on the chart, we get 4-bromomethyl. Overall, our organic chemical compound is 4-(Bromomethyl)heptane, the side group coming before the main group and in brackets to avoid a space such as 4-Bromomethyl heptane. There can also not be a side group. If there are more than one side group then order them based on how high they are on the chart. For example if we add a Cl to the first carbon atom, our organic chemical compound is now 4-(Bromomethyl)-1-chloro-heptane. Seperate it with a "-". If the Cl is replaced with another CH bonded to a Br then the organic chemical compound becomes 1,4-(Dibromomethyl)heptane. The Br bonded to a CH are both present and on the first and fourth carbon atom in the chain. You order it from least to greatest and since there is two, add Di to the bromomethyl. For the benzene ring, if it is the main group add the prefix phenyl. For example, if we had a bezene ring conded to a OH the functional group is a alcohol so phenyl becomes phenol. If we add a Cl one edge away from the OH then the organic chemical compound becomes 2-chlorophenol as we count from the origin of the functional group being OH.'}],
                 "blank",
                     ["display-image", 'https://i.postimg.cc/sgcWS25x/Screenshot-2022-07-29-215108.jpg'],
                     "blank",
                     ['display-text', 
-                    function() { if (player.p.Node < 1) return '6. There is another form of displaying the structure. In the diagram below, the edges/ends of the lines are assumed to be carbon atoms. A bezene ring is the hexagon with three lines in it. Here the organic chemical compound is butyl phenyl ether'}],
+                    function() { return '6. There is another form of displaying the structure. In the diagram below, the edges/ends of the lines are assumed to be carbon atoms. A bezene ring is the hexagon with three lines in it. Here the organic chemical compound is butyl phenyl ether. If all else fails use the hints.'}],
                     ["display-image", 'https://i.postimg.cc/yNKj9TvH/mfcd00009438-large-removebg-preview.png'],
                     ['display-text', 
                     function(){ '', tmp.N.start = new Decimal(0), tmp.N.BA = new Decimal(1000), tmp.N.level = new Decimal(1), clearTimeout(tmp.N.Start)}],

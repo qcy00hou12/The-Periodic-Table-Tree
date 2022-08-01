@@ -43,7 +43,7 @@
 <body onload="load()" onmousemove="updateMouse(event)">
 	<div id="app">
 		<canvas id="treeCanvas" class="canvas" v-if="!(tmp.gameEnded && !player.keepGoing)"></canvas>
-
+		
 		<div v-if="false" id="loadingSection" class="fullWidth">
 			<h1>Loading... (If this takes too long it means there was a serious error!)←</h1>
 		</div>
@@ -140,7 +140,6 @@
 							<div v-if="player.tab == 'C' && tmp.gameEnded == false" style="position: absolute; right: 4px; top: 108px; margin-right: 12px; z-index: 1; display: inline-flex; align-items: center">
 								<span style="color: #70716B">Health multiplies <div>all forms of xp</div></span>
 								</div>
-			
 		<!-- Popups -->
 		<div class="popup-container">
 			<transition-group name="fade">
