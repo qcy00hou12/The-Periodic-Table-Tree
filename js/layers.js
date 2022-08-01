@@ -156,6 +156,10 @@ addLayer("R", {
         ['display-image', 'https://i.postimg.cc/5yh12Qmy/Screenshot-2022-07-31-174637.jpg', { width: '600px'}],
         ['display-text', 'Rating: ★★★★✫'],
         ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
+        "blank",
+        ['display-image', 'https://i.postimg.cc/sDdQBXKd/Screenshot-2022-08-01-014926.jpg', { width: '600px'}],
+        ['display-text', 'Rating: ★★★★✰'],
+        ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
     ]
 })
 
