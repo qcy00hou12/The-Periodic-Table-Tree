@@ -87,11 +87,11 @@ function getRandomWordfi(){
 }
 
 function getRandomWord(){
-    if(player.N.Otext != player.N.word && player.N.Otext != player.N.alt) player.N.Otext = HINT_LIST[player.N.id]
-    if(player.N.Otext != player.N.word && options.disableParticles == true && player.N.Otext != player.N.alt) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), makeShinies(PartNN, 10), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1)
-    if(player.N.Otext != player.N.word && options.disableParticles == false && player.N.Otext != player.N.alt) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1), player.N.Otext = 'Answer will input if mouse clicks off the input box or on enter'
-    if(player.N.Otext == player.N.word && options.disableParticles == true || player.N.Otext == player.N.alt && options.disableParticles == true) player.N.Otext = '', player.N.combo = player.N.combo.add(new Decimal(1).times(tmp.N.mult)), makeShinies(PartN, 10), player.N.points = player.N.points.add(tmp.N.add)
-    if(player.N.Otext == player.N.word && options.disableParticles == false || player.N.Otext == player.N.alt && options.disableParticles == false) player.N.Otext = '', player.N.combo = player.N.combo.add(1), player.N.points = player.N.points.add(tmp.N.add)
+    if(player.N.Otext.toLowerCase() != player.N.word.toLowerCase() && player.N.Otext.toLowerCase() != player.N.alt.toLowerCase()) player.N.Otext = HINT_LIST[player.N.id]
+    if(player.N.Otext.toLowerCase() != player.N.word.toLowerCase() && options.disableParticles == true && player.N.Otext.toLowerCase() != player.N.alt.toLowerCase()) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), makeShinies(PartNN, 10), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1)
+    if(player.N.Otext.toLowerCase() != player.N.word.toLowerCase() && options.disableParticles == false && player.N.Otext.toLowerCase() != player.N.alt.toLowerCase()) player.N.points = player.N.points.sub(player.N.points.times(tmp.N.PMM)), player.N.combo = player.N.combo.times(tmp.N.CM), player.N.failed = player.N.failed.add(1)
+    if(player.N.Otext.toLowerCase() == player.N.word.toLowerCase() && options.disableParticles == true || player.N.Otext.toLowerCase() == player.N.alt.toLowerCase() && options.disableParticles == true) player.N.Otext = '', player.N.combo = player.N.combo.add(new Decimal(1).times(tmp.N.mult)), makeShinies(PartN, 10), player.N.points = player.N.points.add(tmp.N.add)
+    if(player.N.Otext.toLowerCase() == player.N.word.toLowerCase() && options.disableParticles == false || player.N.Otext.toLowerCase() == player.N.alt.toLowerCase() && options.disableParticles == false) player.N.Otext = '', player.N.combo = player.N.combo.add(1), player.N.points = player.N.points.add(tmp.N.add)
     player.N.id = Math.floor(Math.random()*WORD_LIST.length)
     player.N.word = WORD_LIST[player.N.id]
     player.N.alt = ALT_LIST[player.N.id]
@@ -159,6 +159,10 @@ addLayer("R", {
         "blank",
         ['display-image', 'https://i.postimg.cc/sDdQBXKd/Screenshot-2022-08-01-014926.jpg', { width: '600px'}],
         ['display-text', 'Rating: ★★★★✰'],
+        ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
+        "blank",
+        ['display-image', 'https://i.postimg.cc/FHn8r8bz/Screenshot-2022-08-01-110018.jpg', { width: '600px'}],
+        ['display-text', 'Rating: ★★★★★'],
         ['display-text', '<u>' + '&nbsp'.repeat(70) + '</u>'],
     ]
 })
@@ -1164,8 +1168,8 @@ addLayer("p", {
         11: {
             title: "Hydrogen Gas",
             display() {
-                if(options.mobileMode == true) return "Produce Hydrogen Gas on hold."
-                if(options.mobileMode == false) return "Produce Hydrogen Gas on hover."
+                if(options.mobileMode == true) return "Produce Hydrogen Gas on hold"
+                if(options.mobileMode == false) return "Produce Hydrogen Gas on hover. IF YOU'RE ON MOBILE, SWITCH TO LOW QUALITY MODE IN SETTINGS."
             },
             style: { "background-color": "#0000ff" },
             canClick() {
@@ -1564,7 +1568,7 @@ addLayer("He", {
     upgrades: {
         11: {
             title: "Knock Knock",
-            description: "Unlock Hydrogen button automation. Gain 1 Helium from Jules Janssen.",
+            description: "Unlock Hydrogen prestige button automation. Gain 1L of Helium from Jules Janssen.",
             cost() { return new Decimal(5) },
             onPurchase() { return player.He.points = player.He.points.add(1) },
             unlocked() {
@@ -1663,7 +1667,7 @@ addLayer("He", {
         },
         24: {
             title: "I'm Floatingggg.",
-            description: "Float.",
+            description: "Float. (Balloon gets wider)",
             currencyDisplayName: "Helium Gas Expunged",
             currencyInternalName: "HeliumExpunged",
             currencyLocation() { return player.He },
@@ -1675,7 +1679,7 @@ addLayer("He", {
         },
         25: {
             title: "Going 1355.633077 miles an hour.",
-            description: "Gas Gas Gas.",
+            description: "Gas Gas Gas. (Balloon gets mega wide mega quick)",
             currencyDisplayName: "Helium Gas Expunged",
             currencyInternalName: "HeliumExpunged",
             currencyLocation() { return player.He },
@@ -6857,7 +6861,7 @@ addLayer("N", {
         "Help": {
             content: [
                 ['display-text', 
-                function() { return '1. Identify and count the longest chain of carbon atoms. In this case it is 7. Reminder: ONLY THE FIRST LETTER IS IN UPPERCASE.'}],
+                function() { return '1. Identify and count the longest chain of carbon atoms. In this case it is 7. NOT CASE SENSITIVE.'}],
                 "blank",
                 ["display-image", 'https://i.postimg.cc/250pzSmv/Screenshot-2022-07-29-204808-removebg-preview-removebg-preview.png'],
                 "blank",
