@@ -1,0 +1,3 @@
+git remote add origin https://github.com/qcy00hou12/C-Users-Desktop.git
+git branch -M main
+git push -u origin main
